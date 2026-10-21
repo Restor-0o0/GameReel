@@ -1,0 +1,79 @@
+pixel art	Пиксель-арт: изображение из крупных пикселей.	Stardew Valley
+high-res pixel art	Детальный пиксель-арт: много пикселей и цветов.	Owlboy
+1-bit pixel art	Однобитный пиксель-арт: только два цвета.	Return of the Obra Dinn
+2D	2D: плоская двумерная графика.	Hollow Knight
+2.5D	2.5D: трёхмерная графика при двумерном игровом процессе.	Inside
+3D	3D: объёмный трёхмерный мир.	Minecraft; Portal 2
+low-poly 3D	Low-poly: простые модели с малым числом полигонов.	Lethal Company
+voxel 3D	Воксельная графика: мир из объёмных кубиков.	Teardown
+voxel/blocky 3D	Блочный мир: всё построено из кубов.	Minecraft
+stylized	Стилизация: выразительный, нереалистичный стиль.	Genshin Impact
+cartoon stylized	Мультяшный стиль.	Fortnite
+anime stylized	Аниме-стиль.	Genshin Impact
+hand-drawn	Рисованная графика: кадры нарисованы вручную.	Cuphead
+ink-drawn	Рисунок тушью: чёткие чернильные линии.	Sekiro: Shadows Die Twice
+comic-book	Стиль комикса.	Borderlands 3
+cel-shaded	Сел-шейдинг: плоские тени, как в мультфильме.	Hi-Fi RUSH
+watercolor	Акварель: мягкие размытые цвета.	Gris
+oil-painting look	Стиль масляной живописи.	Disco Elysium; The Last Spell
+paper cutout	Бумажная аппликация: мир вырезан из бумаги.	Bug Fables: The Everlasting Sapling
+clay-like	Пластилин: мир будто вылеплен из глины.	Harold Halibut
+plastic toy-like	Игрушечный пластик: всё выглядит как игрушки.	LEGO Star Wars: The Skywalker Saga; Tiny Tina's Wonderlands
+miniature diorama	Миниатюрная диорама: мир как макет на столе.	Tunic
+PS1-style 3D	Стиль PS1: дрожащие полигоны и мутные текстуры.	Crow Country
+PS2-era 3D	Графика эпохи PS2.	Crow Country; Signalis
+N64-style 3D	Стиль N64: размытые текстуры и простые формы.	A Short Hike; Buckshot Roulette
+retro 3D	Ретро-3D: графика ранних трёхмерных игр.	Crow Country
+low-resolution 3D	3D в низком разрешении.	Lethal Company; Buckshot Roulette
+pixelated 3D	Пикселизированное 3D.	Lethal Company; A Short Hike
+realistic	Реализм.	Red Dead Redemption 2
+realistic 3D	Реалистичное 3D.	Red Dead Redemption 2
+photorealistic	Фотореализм: картинку трудно отличить от съёмки.	Unrecord
+cinematic presentation	Кинематографичность: подача как в фильме.	The Last of Us Part I
+minimalist	Минимализм: только самое необходимое.	Mini Metro
+flat-shaded	Плоская заливка: без сложного освещения.	Superhot; Firewatch
+vector art	Векторная графика: чёткие линии и заливки.	Mini Metro; Geometry Wars
+silhouette art	Силуэты: персонажи и мир как тёмные контуры.	Limbo
+monochrome	Монохром: один цвет и его оттенки.	Return of the Obra Dinn; Limbo
+limited palette	Ограниченная палитра: мало цветов.	Return of the Obra Dinn; Downwell
+noir	Нуар: тени, контраст, мрачная атмосфера.	Disco Elysium; L.A. Noire
+neon	Неон: яркие светящиеся цвета.	Cyberpunk 2077
+vaporwave	Вейпорвейв: пастельный неон и эстетика 80–90-х.	Hotline Miami; Katana ZERO
+synthwave	Синтвейв: неоновые закаты и ретро-80-е.	Hotline Miami; Neon White
+cassette-futurist	Кассетный футуризм: громоздкая аналоговая техника.	Alien: Isolation
+industrial grime	Индустриальная грязь.	Satisfactory; Half-Life 2
+rusty industrial	Ржавая индустрия.	Rust; Pacific Drive
+clean sci-fi	Чистая научная фантастика: гладкие белые поверхности.	Mirror’s Edge Catalyst
+retro sci-fi	Ретро-фантастика.	SIGNALIS
+dieselpunk	Дизельпанк.	Iron Harvest; Wolfenstein: The New Order
+steampunk visual	Стимпанк.	Dishonored
+biopunk visual	Биопанк.	Scorn; BioShock
+solarpunk visual	Солярпанк.	Terra Nil
+gothic	Готика.	Lies of P
+dark fantasy visual	Тёмное фэнтези.	Dark Souls III
+storybook	Книжная иллюстрация.	Child of Light; Ori and the Blind Forest
+cute/chibi	Милый чиби-стиль.	Stardew Valley
+surreal	Сюрреализм.	Psychonauts 2
+psychedelic	Психоделика.	Superliminal; Thumper
+dreamlike	Сновидческий стиль.	Superliminal; Little Nightmares
+liminal	Лиминальный стиль.	Superliminal; The Exit 8
+text-based	Текстовая игра.	A Dark Room; Dwarf Fortress
+ASCII-like	Графика из символов.	Caves of Qud
+full-motion video	FMV: игра из видеозаписей.	Her Story
+mixed 2D/3D	Смешение 2D и 3D.	Octopath Traveler; Don't Starve Together
+pre-rendered backgrounds	Пререндеренные фоны.	Resident Evil
+isometric diorama	Изометрическая диорама.	Monument Valley; Townscaper
+hand-painted 3D	3D с рисованными текстурами.	Hades; Sea of Thieves
+photogrammetry-inspired	Фотограмметрия: модели из реальных фото.	Microsoft Flight Simulator; Battlefield 1
+comic halftone	Растровые точки комикса.	Borderlands 2; Hi-Fi Rush
+CRT-filtered	Эффект ЭЛТ-экрана.	SIGNALIS
+VHS-filtered	Эффект VHS.	Buckshot Roulette; Content Warning
+black-and-white	Чёрно-белая графика.	Limbo
+high-contrast lighting	Контрастное освещение.	Inside; Superhot
+soft cozy lighting	Мягкий уютный свет.	Unpacking; A Short Hike
+fog-heavy	Много тумана.	Silent Hill 2
+dark low-visibility	Темнота и плохая видимость.	Amnesia: The Dark Descent; Lethal Company
+bright colorful	Яркие цвета.	Hi-Fi RUSH
+dirty utilitarian	Грязный утилитарный стиль.	Lethal Company; Hardspace: Shipbreaker
+modular industrial	Модульная индустрия.	Satisfactory; Space Engineers
+retro	Ретро-стиль.	Shovel Knight; Stardew Valley

@@ -1,0 +1,925 @@
+{
+  "library": {
+    "id": "itch_selected",
+    "name": "itch.io · Selected",
+    "version": 4
+  },
+  "source": "https://itch.io/ — creator pages checked 2026-09-27 and 2026-10-06; editorial selection, not a ranking",
+  "games": [
+    {
+      "externalId": "dicey-dungeons",
+      "title": "Dicey Dungeons",
+      "store_url": "https://terrycavanagh.itch.io/dicey-dungeons",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "deckbuilding",
+          "description": "Сбор набора боевых действий под текущую попытку."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "dice allocation",
+          "description": "Распределение выпавших кубиков между действиями."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "roguelike runs",
+          "description": "Повторные прохождения меняющегося подземелья."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "procedural generation",
+          "description": "Содержание забега меняется между попытками."
+        }
+      ]
+    },
+    {
+      "externalId": "celeste",
+      "title": "Celeste",
+      "store_url": "https://maddymakesgamesinc.itch.io/celeste",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "precision platforming",
+          "description": "Точное прохождение препятствий с быстрыми повторными попытками."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "air dash",
+          "description": "Рывок в воздухе расширяет доступные траектории."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "climbing",
+          "description": "Подъём по стенам как часть маршрута."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "handcrafted levels",
+          "description": "Заранее спроектированные испытания."
+        },
+        {
+          "category": "MULTIPLAYER",
+          "name": "single-player",
+          "description": "Прохождение одним игроком."
+        }
+      ]
+    },
+    {
+      "externalId": "a-short-hike",
+      "title": "A Short Hike",
+      "store_url": "https://adamgryu.itch.io/a-short-hike",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "exploration",
+          "description": "Свободный поиск маршрута по острову."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "climbing",
+          "description": "Преодоление высоты при исследовании."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "gliding",
+          "description": "Планирование с высоты между участками местности."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "fishing",
+          "description": "Рыбалка как необязательное занятие."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "dialogue interaction",
+          "description": "Разговоры со встреченными путешественниками."
+        },
+        {
+          "category": "LOCATION",
+          "name": "island",
+          "description": "Остров как пространство исследования."
+        }
+      ]
+    },
+    {
+      "externalId": "vvvvvv",
+      "title": "VVVVVV",
+      "store_url": "https://terrycavanagh.itch.io/vvvvvv",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "platforming",
+          "description": "Прохождение препятствий на платформах."
+        },
+        {
+          "category": "INTERACTION",
+          "name": "gravity reversal",
+          "description": "Смена направления гравитации вместо обычного прыжка."
+        },
+        {
+          "category": "TWIST",
+          "name": "gravity replaces jumping",
+          "description": "Основной способ преодоления высоты — переворот гравитации."
+        }
+      ]
+    },
+    {
+      "externalId": "baba-is-you-jam",
+      "title": "Baba Is You (Jam Build)",
+      "store_url": "https://hempuli.itch.io/baba-is-you",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "puzzles",
+          "description": "Решение головоломок с блоками и правилами."
+        },
+        {
+          "category": "INTERACTION",
+          "name": "block pushing",
+          "description": "Перестановка блоков на поле."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "undo",
+          "description": "Возврат предыдущего действия при поиске решения."
+        }
+      ]
+    },
+    {
+      "externalId": "one-night-stand",
+      "title": "One Night Stand",
+      "store_url": "https://kinmoku.itch.io/one-night-stand",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "investigation",
+          "description": "Поиск улик в ограниченном пространстве."
+        },
+        {
+          "category": "INTERACTION",
+          "name": "point-and-click",
+          "description": "Выбор объектов для осмотра и взаимодействия."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "multiple endings",
+          "description": "Решения ведут к нескольким вариантам завершения."
+        },
+        {
+          "category": "VISUAL",
+          "name": "hand-drawn",
+          "description": "Рисованная графика."
+        }
+      ]
+    },
+    {
+      "externalId": "slice-dice",
+      "title": "Slice & Dice",
+      "store_url": "https://tann.itch.io/slice-dice",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "dice rolling",
+          "description": "Броски кубиков определяют доступные действия."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "roguelike runs",
+          "description": "Каждая попытка предлагает новое прохождение."
+        },
+        {
+          "category": "SETTING",
+          "name": "fantasy",
+          "description": "Приключение в фантастическом мире."
+        },
+        {
+          "category": "VISUAL",
+          "name": "pixel art 2d",
+          "description": "Пиксельная графика с небольшими спрайтами."
+        }
+      ]
+    },
+    {
+      "externalId": "backpack-hero",
+      "title": "Backpack Hero",
+      "store_url": "https://thejaspel.itch.io/backpack-hero",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "inventory management",
+          "description": "Размещение находок в ограниченном пространстве рюкзака."
+        },
+        {
+          "category": "INTERACTION",
+          "name": "item rotation",
+          "description": "Поворот предметов помогает разместить их в сумке."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "roguelike runs",
+          "description": "Повторные вылазки за добычей в подземелье."
+        },
+        {
+          "category": "LOCATION",
+          "name": "dungeon",
+          "description": "Подземелье с противниками и полезными находками."
+        }
+      ]
+    },
+    {
+      "externalId": "a-monsters-expedition",
+      "title": "A Monster's Expedition",
+      "store_url": "https://draknek.itch.io/a-monsters-expedition",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "puzzles",
+          "description": "Поиск способа пройти между участками суши."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "exploration",
+          "description": "Исследование островов в свободном порядке."
+        },
+        {
+          "category": "INTERACTION",
+          "name": "log pushing",
+          "description": "Деревья превращаются в мосты для новых маршрутов."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "open world",
+          "description": "При затруднении можно исследовать другое направление."
+        },
+        {
+          "category": "LOCATION",
+          "name": "island",
+          "description": "Множество островов образуют единое пространство."
+        }
+      ]
+    },
+    {
+      "externalId": "a-good-snowman",
+      "title": "A Good Snowman Is Hard To Build",
+      "store_url": "https://draknek.itch.io/a-good-snowman",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "puzzles",
+          "description": "Поиск правильной последовательности действий."
+        },
+        {
+          "category": "INTERACTION",
+          "name": "snowman building",
+          "description": "Сборка снеговиков становится основной задачей."
+        },
+        {
+          "category": "THEME",
+          "name": "winter whimsy",
+          "description": "Милая история о монстре и снеговиках задаёт настроение головоломок."
+        }
+      ]
+    },
+    {
+      "externalId": "cosmic-express",
+      "title": "Cosmic Express",
+      "store_url": "https://draknek.itch.io/cosmic-express",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "puzzles",
+          "description": "Решение задач на организацию пути."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "route planning",
+          "description": "Прокладка маршрута поезда с учётом устройства колонии."
+        },
+        {
+          "category": "SETTING",
+          "name": "space colony",
+          "description": "Транспортная сеть внутри космической колонии."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "handcrafted levels",
+          "description": "Отдельные уровни с новыми маршрутными задачами."
+        }
+      ]
+    },
+    {
+      "externalId": "sokobond",
+      "title": "Sokobond",
+      "store_url": "https://draknek.itch.io/sokobond",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "puzzles",
+          "description": "Логические задачи на построение молекул."
+        },
+        {
+          "category": "INTERACTION",
+          "name": "molecule assembly",
+          "description": "Соединение элементов в нужную структуру."
+        },
+        {
+          "category": "THEME",
+          "name": "chemistry",
+          "description": "Химия задаёт тему головоломок."
+        },
+        {
+          "category": "VISUAL",
+          "name": "minimalist",
+          "description": "Лаконичное отображение элементов и связей."
+        }
+      ]
+    },
+    {
+      "externalId": "vampire-survivors-demo",
+      "title": "Vampire Survivors (Web Demo)",
+      "store_url": "https://poncle.itch.io/vampire-survivors",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "survival",
+          "description": "Выживание под натиском множества чудовищ."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "roguelike runs",
+          "description": "Новые попытки после гибели персонажа."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "collecting",
+          "description": "Сбор самоцветов, золота и полезных предметов."
+        },
+        {
+          "category": "PROGRESSION",
+          "name": "weapon upgrades",
+          "description": "Усиление выбранного оружия во время попытки."
+        },
+        {
+          "category": "SETTING",
+          "name": "gothic horror",
+          "description": "Ночное противостояние с чудовищами."
+        }
+      ]
+    },
+    {
+      "externalId": "stacklands",
+      "title": "Stacklands",
+      "store_url": "https://sokpop.itch.io/stacklands",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "building",
+          "description": "Развитие поселения через создание новых построек."
+        },
+        {
+          "category": "INTERACTION",
+          "name": "card stacking",
+          "description": "Стопки карт задают действия и рецепты."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "crafting",
+          "description": "Комбинации ресурсов и жителей создают новые карты."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "resource management",
+          "description": "Баланс запасов еды, материалов и монет."
+        },
+        {
+          "category": "PRESSURE",
+          "name": "hunger",
+          "description": "К концу цикла нужно накормить жителей."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "automatic combat",
+          "description": "Столкнувшиеся карты жителей и врагов сражаются автоматически."
+        }
+      ]
+    },
+    {
+      "externalId": "a-year-of-springs",
+      "title": "A YEAR OF SPRINGS",
+      "store_url": "https://npckc.itch.io/a-year-of-springs",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "visual novel",
+          "description": "Истории трёх подруг раскрываются через текст и иллюстрации."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "multiple endings",
+          "description": "Истории допускают разные завершения."
+        },
+        {
+          "category": "THEME",
+          "name": "friendship",
+          "description": "Дружба и поиск взаимопонимания связывают истории."
+        }
+      ]
+    },
+    {
+      "externalId": "cloud-gardens",
+      "title": "Cloud Gardens",
+      "store_url": "https://noio.itch.io/cloud-gardens",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "puzzles",
+          "description": "Нужно покрыть размещённые объекты растительностью."
+        },
+        {
+          "category": "INTERACTION",
+          "name": "planting",
+          "description": "Посадка семян запускает рост растений."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "building",
+          "description": "Размещение предметов формирует будущую диораму."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "sandbox",
+          "description": "Свободное создание композиций без заданной цели."
+        },
+        {
+          "category": "ENVIRONMENT",
+          "name": "urban decay",
+          "description": "Заброшенные городские объекты зарастают растениями."
+        }
+      ]
+    },
+    {
+      "externalId": "dorfromantik-prototype",
+      "title": "Dorfromantik (Prototype)",
+      "store_url": "https://toukana.itch.io/dorfromantik-prototype",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "building",
+          "description": "Постепенное расширение деревенского ландшафта."
+        },
+        {
+          "category": "INTERACTION",
+          "name": "tile placement",
+          "description": "Новые участки мира добавляются размещением плиток."
+        },
+        {
+          "category": "CORE",
+          "name": "puzzles",
+          "description": "Подбор расположения элементов ландшафта."
+        },
+        {
+          "category": "SETTING",
+          "name": "countryside",
+          "description": "Деревни и природные участки образуют сельский пейзаж."
+        }
+      ]
+    },
+    {
+      "externalId": "caves-of-qud",
+      "title": "Caves of Qud",
+      "store_url": "https://freeholdgames.itch.io/cavesofqud",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "exploration",
+          "description": "Исследование мира с древними культурами и необычной жизнью."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "procedural generation",
+          "description": "Регионы и часть истории создаются для нового мира."
+        },
+        {
+          "category": "PROGRESSION",
+          "name": "mutations",
+          "description": "Мутации меняют тело персонажа и доступные способности."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "destruction",
+          "description": "Стены можно разрушать, растворять или плавить."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "faction reputation",
+          "description": "Отношения с фракциями влияют на взаимодействие с миром."
+        },
+        {
+          "category": "SETTING",
+          "name": "science fantasy",
+          "description": "Технологии соседствуют с фантастическими существами."
+        }
+      ]
+    },
+    {
+      "externalId": "overland",
+      "title": "Overland",
+      "store_url": "https://finji.itch.io/overland",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "survival",
+          "description": "Группа путешественников пытается пережить опасную поездку."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "turn-based combat",
+          "description": "Каждое действие требует учитывать ответ противников."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "resource management",
+          "description": "Топливо, лекарства и снаряжение приходится экономить."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "procedural generation",
+          "description": "Карта поездки, уровни и персонажи меняются."
+        },
+        {
+          "category": "SETTING",
+          "name": "post-apocalyptic",
+          "description": "Путешествие по миру после катастрофы."
+        },
+        {
+          "category": "PRESSURE",
+          "name": "noise attracts enemies",
+          "description": "Громкие действия привлекают опасных существ."
+        }
+      ]
+    },
+    {
+      "externalId": "night-in-the-woods",
+      "title": "Night in the Woods",
+      "store_url": "https://finji.itch.io/night-in-the-woods",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "narrative",
+          "description": "Возвращение домой раскрывает изменения в жизни знакомых."
+        },
+        {
+          "category": "THEME",
+          "name": "friendship",
+          "description": "Восстановление отношений со старыми друзьями."
+        },
+        {
+          "category": "LOCATION",
+          "name": "small town",
+          "description": "Бывший шахтёрский город становится местом действия."
+        }
+      ]
+    },
+    {
+      "externalId": "slay-the-princess",
+      "title": "Slay the Princess",
+      "store_url": "https://blacktabbygames.itch.io/slay-the-princess",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "choice-driven narrative",
+          "description": "Реплики и убеждения игрока меняют развитие истории."
+        },
+        {
+          "category": "INTERACTION",
+          "name": "dialogue choices",
+          "description": "Выбор ответа определяет отношения и дальнейшие события."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "branching narrative",
+          "description": "Решения открывают разные сюжетные пути."
+        },
+        {
+          "category": "SETTING",
+          "name": "horror",
+          "description": "Разговоры и неизвестность поддерживают чувство угрозы."
+        },
+        {
+          "category": "VISUAL",
+          "name": "hand-drawn",
+          "description": "Иллюстрации выполнены карандашом."
+        }
+      ]
+    },
+    {
+      "externalId": "we-become-what-we-behold",
+      "title": "We Become What We Behold",
+      "store_url": "https://ncase.itch.io/wbwwb",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "photography",
+          "description": "Игрок выбирает события для снимков, влияющих на новостной цикл."
+        },
+        {
+          "category": "THEME",
+          "name": "media influence",
+          "description": "Игра исследует влияние новостных циклов."
+        },
+        {
+          "category": "TWIST",
+          "name": "feedback loops",
+          "description": "Повторяющиеся циклы усиливают происходящие события."
+        }
+      ]
+    },
+    {
+      "externalId": "coming-out-simulator",
+      "title": "Coming Out Simulator 2014",
+      "store_url": "https://ncase.itch.io/coming-out-simulator-2014",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "choice-driven narrative",
+          "description": "История меняется в зависимости от сказанных слов."
+        },
+        {
+          "category": "INTERACTION",
+          "name": "dialogue choices",
+          "description": "Выбор реплик в непростом семейном разговоре."
+        },
+        {
+          "category": "TWIST",
+          "name": "characters remember choices",
+          "description": "Собеседники запоминают как ответы, так и молчание."
+        },
+        {
+          "category": "THEME",
+          "name": "family relationships",
+          "description": "Разговор с родителями определяет центральный конфликт."
+        }
+      ]
+    },
+    {
+      "externalId": "hellgineers",
+      "title": "Hellgineers",
+      "store_url": "https://johanpeitz.itch.io/hellgineers",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "building",
+          "description": "Создание переправ из разных строительных материалов."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "physics",
+          "description": "Проверка устойчивости конструкции при прохождении."
+        },
+        {
+          "category": "PRESSURE",
+          "name": "limited budget",
+          "description": "Экономная постройка повышает оценку решения."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "handcrafted levels",
+          "description": "Отдельные испытания с растущей сложностью."
+        },
+        {
+          "category": "SETTING",
+          "name": "underworld",
+          "description": "Демоны преодолевают пропасти и лаву."
+        }
+      ]
+    },
+    {
+      "externalId": "superhot",
+      "title": "SUPERHOT",
+      "store_url": "https://superhot.itch.io/superhot",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "shooting",
+          "description": "Стрельба и выбор позиции под огнём противников."
+        },
+        {
+          "category": "CAMERA",
+          "name": "first-person",
+          "description": "Наблюдение за боем глазами персонажа."
+        },
+        {
+          "category": "TWIST",
+          "name": "time follows movement",
+          "description": "Темп времени связан с движением игрока."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "weapon scavenging",
+          "description": "Оружие поверженных врагов помогает продолжать бой."
+        },
+        {
+          "category": "VISUAL",
+          "name": "minimalist",
+          "description": "Простые формы и ограниченная палитра выделяют угрозы."
+        }
+      ]
+    },
+    {
+      "externalId": "minit",
+      "title": "Minit",
+      "store_url": "https://devolverdigital.itch.io/minit",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "exploration",
+          "description": "Поиск секретов и помощь встреченным персонажам."
+        },
+        {
+          "category": "PRESSURE",
+          "name": "time limit",
+          "description": "На действия в пределах одного дня отведена минута."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "time loop",
+          "description": "Проклятие обрывает день и запускает новую попытку."
+        }
+      ]
+    },
+    {
+      "externalId": "nuclear-throne",
+      "title": "Nuclear Throne",
+      "store_url": "https://vlambeer.itch.io/nuclear-throne",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "shooting",
+          "description": "Использование разнообразного оружия против врагов."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "roguelike runs",
+          "description": "Повторные попытки добраться до цели."
+        },
+        {
+          "category": "PROGRESSION",
+          "name": "mutations",
+          "description": "Новые мутации меняют возможности персонажа."
+        },
+        {
+          "category": "SECONDARY_MECHANIC",
+          "name": "character abilities",
+          "description": "Персонажи обладают разными активными и пассивными умениями."
+        },
+        {
+          "category": "SETTING",
+          "name": "post-apocalyptic",
+          "description": "Борьба мутантов в мире после катастрофы."
+        }
+      ]
+    },
+    {
+      "externalId": "bonfire-peaks",
+      "title": "Bonfire Peaks",
+      "store_url": "https://draknek.itch.io/bonfire-peaks",
+      "tags": [
+        {
+          "category": "CORE",
+          "name": "puzzles",
+          "description": "Решение отдельных пространственных задач."
+        },
+        {
+          "category": "INTERACTION",
+          "name": "burning belongings",
+          "description": "Предметы нужно доставить к огню и сжечь."
+        },
+        {
+          "category": "STRUCTURE",
+          "name": "hub world",
+          "description": "Общее пространство связывает головоломки."
+        },
+        {
+          "category": "VISUAL",
+          "name": "voxel 3d",
+          "description": "Объёмная графика из вокселей."
+        },
+        {
+          "category": "LOCATION",
+          "name": "island",
+          "description": "Остров объединяет пространство исследования."
+        }
+      ]
+    },
+    {
+      "externalId": "unreal-world",
+      "title": "UnReal World",
+      "store_url": "https://enormous-elk.itch.io/unreal-world",
+      "tags": [
+        {"category":"CORE","name":"survival"},
+        {"category":"STRUCTURE","name":"open world"},
+        {"category":"SECONDARY_MECHANIC","name":"procedural generation"},
+        {"category":"INTERACTION","name":"fishing"},
+        {"category":"INTERACTION","name":"hunting"},
+        {"category":"SETTING","name":"iron age","description":"Железный век задаёт быт, инструменты и способы выживания."},
+        {"category":"ENVIRONMENT","name":"northern wilderness","description":"Северные леса, болота и водоёмы образуют открытый мир."},
+        {"category":"PRESSURE","name":"harsh environment","description":"Суровая природа требует планировать добычу ресурсов и укрытие."}
+      ]
+    },
+    {
+      "externalId": "odd-realm",
+      "title": "Odd Realm",
+      "store_url": "https://unknownorigingames.itch.io/oddrealm",
+      "tags": [
+        {"category":"CORE","name":"colony management"},
+        {"category":"SECONDARY_MECHANIC","name":"building","description":"Поселенцы возводят и обустраивают поселение."},
+        {"category":"SECONDARY_MECHANIC","name":"survival"},
+        {"category":"PRESSURE","name":"hunger and thirst","description":"Потребности поселенцев в еде и воде требуют снабжения."},
+        {"category":"ENVIRONMENT","name":"seasons","description":"Смена сезонов влияет на жизнь поселения."},
+        {"category":"STRUCTURE","name":"sandbox"},
+        {"category":"VISUAL","name":"pixel art 2d","description":"Двумерная пиксельная графика показывает поселение и его жителей."},
+        {"category":"MULTIPLAYER","name":"single-player","description":"Поселением управляет один игрок."}
+      ]
+    },
+    {
+      "externalId": "last-campfire-vicksonzero",
+      "title": "Last Campfire",
+      "store_url": "https://vicksonzero.itch.io/last-campfire",
+      "tags": [
+        {"category":"CORE","name":"survival"},
+        {"category":"INTERACTION","name":"campfire fueling","description":"Костры нужно поддерживать дровами и ветками."},
+        {"category":"PRESSURE","name":"limited fuel","description":"Запас топлива определяет, как долго горит безопасный костёр."},
+        {"category":"TWIST","name":"light grants safety but attracts enemies","description":"Свет отпугивает врагов вблизи, но выдаёт положение издалека."},
+        {"category":"STRUCTURE","name":"checkpoints","description":"Активные костры служат точками возрождения."},
+        {"category":"ENVIRONMENT","name":"darkness","description":"Темнота скрывает игрока от врагов, но осложняет путь."},
+        {"category":"SETTING","name":"forest","description":"Лес связывает путь между кострами."}
+      ]
+    },
+    {
+      "externalId": "keep-moving-forward",
+      "title": "Keep Moving Forward",
+      "store_url": "https://karbuncles.itch.io/keep-moving-forward",
+      "tags": [
+        {"category":"CORE","name":"survival"},
+        {"category":"SECONDARY_MECHANIC","name":"fishing"},
+        {"category":"SECONDARY_MECHANIC","name":"farming"},
+        {"category":"INTERACTION","name":"cooking"},
+        {"category":"PRESSURE","name":"feeding companion","description":"Друга нужно кормить, чтобы он мог двигаться дальше."},
+        {"category":"THEME","name":"cozy journey","description":"Тёплое путешествие строится вокруг заботы о спутнике."},
+        {"category":"VISUAL","name":"pixel art 2d","description":"Мир и персонажи нарисованы в пиксельной графике."}
+      ]
+    },
+    {
+      "externalId": "ash-frontier-survival",
+      "title": "Ash Frontier Survival",
+      "store_url": "https://scalequake-interactive.itch.io/ash-frontier-survival",
+      "tags": [
+        {"category":"CORE","name":"survival"},
+        {"category":"SECONDARY_MECHANIC","name":"base building","description":"Игрок строит и улучшает собственную базу."},
+        {"category":"SECONDARY_MECHANIC","name":"crafting"},
+        {"category":"INTERACTION","name":"fishing"},
+        {"category":"INTERACTION","name":"hunting"},
+        {"category":"STRUCTURE","name":"open world"},
+        {"category":"SETTING","name":"wild west"},
+        {"category":"ENVIRONMENT","name":"dynamic weather","description":"Погода меняет условия выживания в открытом мире."},
+        {"category":"MULTIPLAYER","name":"co-op"}
+      ]
+    },
+    {"externalId":"mindustry","title":"Mindustry","store_url":"https://anuke.itch.io/mindustry","tags":[
+      {"category":"CORE","name":"tower defense","description":"Игрок защищает сооружения от волн врагов."},
+      {"category":"SECONDARY_MECHANIC","name":"factory automation","description":"Производственные цепочки снабжают защиту ресурсами."},
+      {"category":"INTERACTION","name":"conveyor building","description":"Конвейеры доставляют боеприпасы к турелям."},
+      {"category":"PRESSURE","name":"enemy waves","description":"Последовательные атаки проверяют прочность базы."},
+      {"category":"STRUCTURE","name":"sandbox","description":"Карты позволяют строить разные производственные схемы."},
+      {"category":"MULTIPLAYER","name":"cross-platform multiplayer","description":"Игроки разных платформ могут участвовать в сетевых битвах."}]},
+    {"externalId":"world-of-horror","title":"WORLD OF HORROR","store_url":"https://panstasz.itch.io/world-of-horror","tags":[
+      {"category":"CORE","name":"investigation","description":"Игрок исследует тайны прибрежного города."},
+      {"category":"SECONDARY_MECHANIC","name":"turn-based combat","description":"Схватки с существами проходят пошагово."},
+      {"category":"PRESSURE","name":"dwindling sanity","description":"Запас рассудка сокращается во время расследования."},
+      {"category":"SETTING","name":"cosmic horror","description":"Мир вдохновлён ужасами о древних богах."},
+      {"category":"LOCATION","name":"seaside town","description":"Расследования разворачиваются в небольшом приморском городе."},
+      {"category":"VISUAL","name":"1-bit","description":"Изображение использует монохромную эстетику ранних компьютеров."}]},
+    {"externalId":"loopathero-demo","title":"LooPatHerO (alpha of Loop Hero)","store_url":"https://fourquarters.itch.io/loopathero-demo","tags":[
+      {"category":"CORE","name":"expedition","description":"Герой отправляется в повторяющиеся экспедиции."},
+      {"category":"STRUCTURE","name":"roguelike runs","description":"Новые попытки приносят другие события и добычу."},
+      {"category":"SECONDARY_MECHANIC","name":"camp building","description":"Между экспедициями ресурсы идут на строительство лагеря."},
+      {"category":"PRESSURE","name":"retreat risk","description":"Отступление и гибель могут лишить части добычи."},
+      {"category":"SETTING","name":"fantasy","description":"Приключение происходит в фантастическом мире."},
+      {"category":"VISUAL","name":"pixel art 2d","description":"Графика выполнена в двумерном пиксельном стиле."}]},
+    {"externalId":"industrio","title":"Industrio","store_url":"https://kwameopareasiedu.itch.io/industrio","tags":[
+      {"category":"CORE","name":"factory automation","description":"Игрок строит линии производства форм и цветов."},
+      {"category":"SECONDARY_MECHANIC","name":"route planning","description":"Конвейеры связывают станки в рабочую цепочку."},
+      {"category":"INTERACTION","name":"color mixing","description":"Смешивание цветов создаёт нужные заготовки."},
+      {"category":"STRUCTURE","name":"handcrafted levels","description":"Каждый уровень задаёт отдельный производственный заказ."},
+      {"category":"VISUAL","name":"colorful","description":"Яркие цвета помогают различать материалы и задачи."},
+      {"category":"MULTIPLAYER","name":"single-player","description":"Производственные задачи решает один игрок."}]},
+    {"externalId":"we-remain","title":"We Remain","store_url":"https://sandramoen.itch.io/we-remain","tags":[
+      {"category":"CORE","name":"deckbuilding","description":"Игрок собирает колоду для сражений и исследования."},
+      {"category":"SECONDARY_MECHANIC","name":"auto battler","description":"Персонажи сражаются автоматически во время цикла."},
+      {"category":"INTERACTION","name":"tile placement","description":"Игрок размещает плитки, меняя мир и риск."},
+      {"category":"STRUCTURE","name":"roguelike runs","description":"Экспедиции проходят через создаваемый заново мир."},
+      {"category":"SETTING","name":"sci-fi","description":"Действие происходит в научно-фантастическом мире."},
+      {"category":"VISUAL","name":"hand-drawn","description":"Мир и существа нарисованы вручную."}]}
+  ]
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "category": "SCOPE",
+    "name": "single-room prototype",
+    "description": "Прототип в одной комнате: Одна комната и один законченный игровой цикл: проверить механику без производства большого мира."
+  },
+  {
+    "category": "SCOPE",
+    "name": "one mechanic with variations",
+    "description": "Вариации одной механики: Одна основная механика раскрывается через несколько сочетаний правил и препятствий."
+  },
+  {
+    "category": "SCOPE",
+    "name": "reusable modular levels",
+    "description": "Модульные уровни: Небольшой набор модулей повторно используется для сборки уровней и испытаний."
+  },
+  {
+    "category": "SCOPE",
+    "name": "short self-contained experience",
+    "description": "Короткая законченная игра: Короткая игра с началом и концом, без обязательного продолжения и постоянного выпуска контента."
+  },
+  {
+    "category": "SCOPE",
+    "name": "small cast of characters",
+    "description": "Небольшой состав персонажей: Несколько персонажей с различимыми ролями ограничивают объём диалогов, анимаций и портретов."
+  },
+  {
+    "category": "SCOPE",
+    "name": "single environment with changing rules",
+    "description": "Одна изменяющаяся локация: Одна локация меняется за счёт правил, освещения и состояния объектов, а не новых наборов декораций."
+  },
+  {
+    "category": "SCOPE",
+    "name": "compact handcrafted challenge set",
+    "description": "Набор авторских испытаний: Небольшая конечная подборка вручную созданных испытаний с общей механикой."
+  },
+  {
+    "category": "SCOPE",
+    "name": "limited tool set with systemic depth",
+    "description": "Несколько гибких инструментов: Несколько инструментов взаимодействуют с общими правилами мира и дают разнообразные решения."
+  },
+  {
+    "category": "PLATFORM_TRAIT",
+    "name": "one-button input",
+    "description": "Одна кнопка: Основное действие управляется одной кнопкой; значение имеют момент нажатия и длительность удержания."
+  },
+  {
+    "category": "PLATFORM_TRAIT",
+    "name": "touch-first controls",
+    "description": "Сенсорное управление: Интерфейс и действия рассчитаны на прямые касания, крупные цели и отсутствие наведения курсора."
+  },
+  {
+    "category": "PLATFORM_TRAIT",
+    "name": "portrait orientation",
+    "description": "Вертикальный экран: Вертикальный экран определяет композицию сцены, расположение интерфейса и видимую область."
+  },
+  {
+    "category": "PLATFORM_TRAIT",
+    "name": "landscape orientation",
+    "description": "Горизонтальный экран: Горизонтальный экран оставляет пространство для сцены и элементов управления по краям."
+  },
+  {
+    "category": "PLATFORM_TRAIT",
+    "name": "interruptible short sessions",
+    "description": "Короткие сессии с паузой: Состояние можно сохранить и продолжить после короткого перерыва без потери попытки."
+  },
+  {
+    "category": "PLATFORM_TRAIT",
+    "name": "remappable controls",
+    "description": "Переназначение управления: Игрок может переназначать действия на удобные кнопки и устройства ввода."
+  },
+  {
+    "category": "PLATFORM_TRAIT",
+    "name": "playable without sound",
+    "description": "Игра без звука: Важные звуковые сигналы продублированы визуально, чтобы игра оставалась понятной без звука."
+  },
+  {
+    "category": "PLATFORM_TRAIT",
+    "name": "offline-first play",
+    "description": "Игра без обязательной сети: Основной игровой цикл доступен без подключения к сети; сетевые функции необязательны."
+  },
+  {
+    "category": "MONETIZATION",
+    "name": "one-time purchase",
+    "description": "Разовая покупка: Оплата открывает полную базовую игру без повторной платы за основной игровой цикл."
+  },
+  {
+    "category": "MONETIZATION",
+    "name": "free complete game",
+    "description": "Полностью бесплатная игра: Полная игра доступна бесплатно, без обязательных покупок и рекламы."
+  },
+  {
+    "category": "MONETIZATION",
+    "name": "free demo with full-game unlock",
+    "description": "Демо и покупка полной версии: Бесплатная демоверсия знакомит с механикой; отдельная покупка открывает оставшуюся игру."
+  },
+  {
+    "category": "MONETIZATION",
+    "name": "optional cosmetic purchases",
+    "description": "Покупка косметики: Дополнительные покупки меняют оформление, не давая преимущества в прохождении."
+  },
+  {
+    "category": "MONETIZATION",
+    "name": "optional content expansions",
+    "description": "Дополнительные главы и уровни: Дополнения расширяют законченную базовую игру новыми уровнями или историями."
+  },
+  {
+    "category": "MONETIZATION",
+    "name": "pay what you want",
+    "description": "Свободная цена: Игрок выбирает сумму поддержки; минимальная цена может быть нулевой."
+  }
+]

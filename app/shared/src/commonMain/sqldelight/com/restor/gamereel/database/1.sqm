@@ -1,0 +1,15 @@
+ALTER TABLE generator_state ADD COLUMN preferences_json TEXT NOT NULL DEFAULT '{}';
+ALTER TABLE generator_state ADD COLUMN history_json TEXT NOT NULL DEFAULT '[]';
+
+CREATE TABLE libraries (
+    id TEXT NOT NULL PRIMARY KEY,
+    metadata_json TEXT NOT NULL
+);
+CREATE TABLE games (
+    id TEXT NOT NULL PRIMARY KEY,
+    library_id TEXT NOT NULL,
+    title TEXT NOT NULL,
+    snapshot_json TEXT NOT NULL
+);
+CREATE INDEX games_library ON games(library_id);
+CREATE INDEX games_title ON games(title COLLATE NOCASE);

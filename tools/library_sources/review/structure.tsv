@@ -1,0 +1,82 @@
+linear campaign	Линейная кампания: уровни идут друг за другом в заданном порядке.	Portal 2
+branching campaign	Ветвящаяся кампания: решения и результаты миссий меняют дальнейший путь.	Detroit: Become Human
+mission-based campaign	Кампания из миссий: отдельные задания с целями, между которыми игрок готовится.	Hitman: World of Assassination
+episodic campaign	Эпизодическая кампания: история разбита на эпизоды, которые выходят или проходятся по очереди.	Life is Strange
+open world	Открытый мир: большая карта, по которой можно свободно путешествовать и выбирать занятия.	The Elder Scrolls V: Skyrim
+semi-open hubs	Полуоткрытые хабы: несколько крупных зон, связанных сюжетом.	Deus Ex: Mankind Divided
+hub-and-mission	Хаб и миссии: база, откуда игрок отправляется на задания и куда возвращается.	Deep Rock Galactic
+sandbox	Песочница: игра даёт инструменты и мир, а цели игрок ставит сам.	Minecraft
+persistent world	Постоянный мир: изменения сохраняются, и мир продолжает жить между сессиями.	RimWorld
+persistent online world	Постоянный онлайн-мир: общий мир для многих игроков, который живёт без перерывов.	The Elder Scrolls Online
+roguelike runs	Рогалик: каждый забег начинается с нуля, смерть обнуляет прогресс.	Spelunky 2
+roguelite runs	Роглайт: забеги короткие, но между ними сохраняется часть прогресса.	Hades
+extraction runs	Экстракшен: зайти, собрать ценное и успеть выбраться, иначе всё потеряно.	Escape from Tarkov
+dungeon runs	Забеги по подземелью: вылазка, добыча и возвращение с трофеями.	Moonlighter
+expedition runs	Экспедиции: подготовка, долгий выход в опасную зону и возвращение.	Darkest Dungeon
+short contract runs	Короткие контракты: быстрые задания на одну сессию с чёткой целью.	Lethal Company
+work shifts	Рабочие смены: игра делится на смены с задачами и итогом в конце.	Papers, Please
+daily cycle	Суточный цикл: каждый игровой день — отдельный круг дел и решений.	Stardew Valley
+weekly cycle	Недельный цикл: планирование строится по дням недели и календарю.	Persona 5 Royal
+seasonal cycle	Сезонный цикл: контент и цели обновляются с каждым новым сезоном.	Fortnite
+road-trip structure	Дорожное путешествие: игрок едет от точки к точке, делая остановки по пути.	Jalopy
+journey across map	Путешествие по карте: история движется вместе с долгим переходом через мир.	The Banner Saga
+caravan journey	Караван: игрок ведёт группу через опасный путь, заботясь о запасах и людях.	The Banner Saga
+island hopping	Прыжки по островам: мир состоит из островов, которые открываются по очереди.	Sea of Thieves
+planet hopping	Полёты по планетам: каждая планета — отдельная зона со своими условиями.	No Man’s Sky
+floor-by-floor descent	Спуск по этажам: каждый уровень глубже и опаснее предыдущего.	Spelunky 2
+tower ascent	Восхождение на башню: этаж за этажом вверх к вершине.	Slay the Spire
+room-by-room crawl	Проход по комнатам: уровень — цепочка комнат, каждая со своим испытанием.	The Binding of Isaac: Rebirth
+procedurally varied content	Процедурное разнообразие: карты и события каждый раз собираются по-новому.	Deep Rock Galactic
+handcrafted levels	Уровни ручной работы: каждый уровень спроектирован дизайнером вручную.	Celeste
+level-based progression	Прохождение по уровням: игрок открывает уровни по одному.	Angry Birds
+short arcade stages	Короткие аркадные этапы: быстрые уровни на пару минут.	Super Meat Boy
+wave-based sessions	Волны: сессия — серия всё более сложных волн врагов.	Vampire Survivors
+arena matches	Матчи на арене: короткие схватки против других игроков.	Brawlhalla
+battle-royale matches	Королевская битва: много игроков, сужающаяся зона и один победитель.	Fortnite
+score-attack sessions	Погоня за очками: цель — набрать максимальный счёт за сессию.	Tetris Effect: Connected
+time-trial sessions	Заезды на время: нужно пройти маршрут быстрее всех.	Trackmania
+short party rounds	Короткие раунды для компании: быстрые мини-игры для нескольких игроков.	Stumble Guys
+round-based matches	Матчи из раундов: победа складывается из серии коротких раундов.	Counter-Strike 2
+asymmetric rounds	Асимметричные раунды: у сторон разные роли, силы и цели.	Dead by Daylight
+co-op missions	Кооперативные миссии: задания рассчитаны на команду игроков.	Deep Rock Galactic
+boss-rush structure	Босс-раш: игра состоит из череды сражений с боссами.	Cuphead
+survival endurance	Выживание на время: продержаться как можно дольше.	Vampire Survivors
+endless mode	Бесконечный режим: игра не заканчивается, пока игрок не проиграет.	Subway Surfers
+idle sessions	Idle-сессии: короткие заходы проверить прогресс и вложить накопленное.	AdVenture Capitalist
+open-ended life loop	Открытый жизненный цикл: у игры нет финала, игрок сам выбирает, чем заниматься.	Stardew Valley
+narrative campaign	Сюжетная кампания: игра ведёт игрока по истории от начала до конца.	The Last of Us Part I
+branching narrative	Ветвящийся сюжет: выборы ведут к разным событиям и концовкам.	Detroit: Become Human
+chapter structure	Главы: история разбита на главы с отдельными событиями.	Alan Wake
+day/job/day loop	День — работа — день: игрок выполняет смену, получает оплату и готовится к следующей.	Lethal Company
+prepare-execute-return loop	Подготовка — выполнение — возвращение: снарядиться, выполнить задание, вернуться на базу.	Monster Hunter: World
+prepare-extract-upgrade loop	Подготовка — вылазка — улучшение: добытое тратится на усиление перед следующим заходом.	Escape from Tarkov
+build-defend-expand loop	Строй — защищай — расширяйся: развитие базы чередуется с отражением атак.	They Are Billions
+explore-gather-build loop	Исследуй — собирай — строй: находки из вылазок превращаются в постройки.	Valheim
+investigate-decide-consequence loop	Расследуй — реши — отвечай: собранная информация ведёт к решению с последствиями.	Return of the Obra Dinn
+travel-stop-travel loop	Путь — остановка — путь: переходы чередуются со стоянками, где принимаются решения.	The Banner Saga
+shop open/close loop	Открытие и закрытие магазина: смена работы, затем подготовка к следующему дню.	PlateUp!
+factory shift loop	Смена на заводе: работа на линии, итог и улучшения между сменами.	Lethal Company; Supermarket Simulator
+delivery route loop	Цикл доставок: взять заказ, проложить маршрут, доставить и взять следующий.	Death Stranding
+heist planning/execution loop	Подготовка и исполнение ограбления: разведка, план, налёт и отход.	PAYDAY 2
+management calendar	Календарь управления: решения привязаны к датам, событиям и срокам.	Football Manager 26
+seasonal management	Сезонное управление: планирование под сезоны и их особенности.	Stardew Valley
+turn-based days	Пошаговые дни: каждый день — ход, в который нужно успеть главное.	Persona 5 Royal
+real-time continuous simulation	Непрерывная симуляция: мир живёт в реальном времени, но его можно ускорить или поставить на паузу.	RimWorld
+multiple parallel objectives	Параллельные цели: несколько задач одновременно, порядок выбирает игрок.	The Witcher 3: Wild Hunt
+one central base plus excursions	Центральная база и вылазки: всё добытое свозится в один дом.	Subnautica
+mobile base progression	Передвижная база: дом едет или летит вместе с игроком и улучшается.	Pacific Drive
+single-location evolving map	Одна локация, которая меняется: игрок возвращается в то же место, открывая новые пути.	Prey (2017)
+interconnected gated world	Связанный мир с барьерами: области открываются по мере получения способностей.	Dark Souls
+metroidvania world	Метроидвания: большая связанная карта, новые умения открывают старые двери.	Hollow Knight
+procedural labyrinth	Процедурный лабиринт: запутанная сеть проходов, каждый раз новая.	Deep Rock Galactic
+semi-random map sectors	Полуслучайные секторы: карта собирается из готовых кусков в разном порядке.	FTL: Faster Than Light
+player-built world	Мир, построенный игроком: окружение создаётся самим игроком.	Minecraft
+campaign with New Game+	Кампания с «Новой игрой+»: после финала можно пройти заново с сохранённым прогрессом.	Elden Ring
+run-based meta progression	Забеги с мета-прогрессом: каждый забег делает следующие немного легче.	Hades
+persistent colony timeline	Долгая история колонии: поселение живёт годами, и игрок видит его развитие.	RimWorld
+generational progression	Смена поколений: персонажи стареют и передают дело наследникам.	Crusader Kings III
+branching outcomes	Ветвящиеся исходы: результат зависит от решений игрока.	Detroit: Become Human
+campaign	Кампания: последовательность миссий или глав, объединённых сюжетом.	Age of Empires II: Definitive Edition; Half-Life 2
+endless score run	Бесконечный забег на очки: играть до проигрыша, стараясь побить рекорд.	Subway Surfers
+persistent multiplayer	Постоянный мультиплеер: общий прогресс и мир для многих игроков.	The Elder Scrolls Online
+run-based sessions	Сессии-забеги: игра состоит из законченных забегов.	Hades

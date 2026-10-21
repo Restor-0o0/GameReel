@@ -1,0 +1,210 @@
+factory	Завод: производственные цеха и конвейеры.	Satisfactory
+abandoned factory	Заброшенный завод: остановившееся производство и пустые цеха.	Poppy Playtime
+automated factory	Автоматизированный завод: машины работают без людей.	Factorio
+steel mill	Сталелитейный завод: доменные печи и раскалённый металл.	Satisfactory; Half-Life 2
+foundry	Литейный цех: плавка и отливка металла.	Satisfactory; Factorio
+power plant	Электростанция: источник энергии для всего вокруг.	Chernobylite; Satisfactory
+nuclear-style power complex	Атомная электростанция: реакторы и радиационная опасность.	Chernobylite
+hydroelectric dam	Гидроэлектростанция: плотина и турбины.	Timberborn; Fallout: New Vegas
+gas plant	Газовый завод: трубы, резервуары и давление.	Satisfactory; Lethal Company
+oil refinery	Нефтеперерабатывающий завод: колонны, трубы и огонь.	Factorio; Satisfactory
+chemical plant	Химический завод: реакторы и опасные вещества.	Factorio; Half-Life
+water treatment plant	Очистные сооружения: резервуары и фильтры.	Half-Life 2; Oxygen Not Included
+pumping station	Насосная станция: насосы и трубопроводы.	Half-Life 2; Timberborn
+recycling plant	Завод переработки: сортировка и переработка отходов.	Recycling Center Simulator; Hardspace: Shipbreaker
+warehouse	Склад: стеллажи, коробки и погрузчики.	Supermarket Simulator; Lethal Company
+distribution center	Распределительный центр: сортировка и отправка грузов.	Supermarket Simulator; Death Stranding
+container port	Контейнерный порт: краны и штабеля контейнеров.	HITMAN World of Assassination; Just Cause 3
+shipyard	Верфь: постройка кораблей.	Hardspace: Shipbreaker; Ship Graveyard Simulator
+dry dock	Сухой док: ремонт кораблей вне воды.	Hardspace: Shipbreaker; Ship Graveyard Simulator
+mine	Шахта: добыча полезных ископаемых.	Deep Rock Galactic
+underground mine	Подземная шахта: штольни глубоко под землёй.	Deep Rock Galactic
+open-pit quarry	Карьер: открытая выработка горной породы.	Satisfactory; Hydroneer
+oil rig	Нефтяная вышка: платформа посреди моря.	Far Cry 3; Battlefield 4
+offshore platform	Морская платформа: сооружение вдали от берега.	Subnautica; Battlefield 4
+construction site	Стройка: леса, краны и техника.	Construction Simulator
+laboratory	Лаборатория: эксперименты и исследования.	Portal 2
+research station	Исследовательская станция: научный пост в изоляции.	Prey (2017)
+observatory	Обсерватория: телескопы и наблюдение за небом.	Outer Wilds; The Witness
+particle accelerator	Ускоритель частиц: огромная научная установка.	Half-Life
+data center	Дата-центр: ряды серверов.	Watch_Dogs 2; Cyberpunk 2077
+server farm	Серверная ферма: огромные залы вычислительных машин.	Watch_Dogs 2; Deus Ex: Mankind Divided
+office tower	Офисная башня: этажи кабинетов и переговорных.	Control
+corporate campus	Корпоративный кампус: офисный городок компании.	Control; The Stanley Parable: Ultra Deluxe
+shopping mall	Торговый центр: магазины, эскалаторы и фудкорт.	Dead Rising Deluxe Remaster
+supermarket	Супермаркет: полки, кассы и покупатели.	Supermarket Simulator
+restaurant	Ресторан: кухня и зал для гостей.	Overcooked! 2
+hotel	Отель: номера, коридоры и лобби.	Silent Hill 2
+motel	Мотель: придорожная гостиница.	Silent Hill 2; Lethal Company
+hospital	Больница: палаты, операционные и коридоры.	Two Point Hospital
+clinic	Клиника: небольшое медицинское учреждение.	Two Point Hospital; Project Hospital
+school	Школа: классы, коридоры и спортзал.	Bully
+university campus	Университетский кампус: корпуса и общежития.	Two Point Campus; Bully
+museum	Музей: экспонаты и выставочные залы.	Two Point Museum
+library	Библиотека: стеллажи книг и читальные залы.	Control; Dishonored
+theater	Театр: сцена, зал и закулисье.	HITMAN World of Assassination; Bendy and the Ink Machine
+cinema	Кинотеатр: залы и экраны.	HITMAN World of Assassination; Five Nights at Freddy's: Security Breach
+nightclub	Ночной клуб: музыка, свет и танцпол.	HITMAN World of Assassination; Cyberpunk 2077
+casino	Казино: игровые столы и автоматы.	Payday 2; Fallout: New Vegas
+stadium	Стадион: поле, трибуны и толпа.	EA SPORTS FC 24; Rocket League
+sports center	Спортивный центр: залы и площадки.	Two Point Campus; NBA 2K25
+amusement park	Парк развлечений: аттракционы и толпы посетителей.	Planet Coaster
+water park	Аквапарк: горки и бассейны.	Planet Coaster; RollerCoaster Tycoon 3
+zoo	Зоопарк: вольеры и животные.	Planet Zoo
+aquarium	Аквариум: морские обитатели за стеклом.	Megaquarium; Subnautica
+prison	Тюрьма: камеры, охрана и режим.	The Escapists 2
+police station	Полицейский участок.	Resident Evil 2
+fire station	Пожарная часть.	Firefighting Simulator: Ignite
+military base	Военная база: казармы, техника и охрана.	Metal Gear Solid V: The Phantom Pain
+airbase	Авиабаза: аэродром и ангары.	Battlefield 4; Metal Gear Solid V: The Phantom Pain
+bunker	Бункер: подземное укрытие.	Fallout 4
+missile silo	Ракетная шахта: пусковая установка под землёй.	Fallout 4; Call of Duty: Modern Warfare
+fortress	Крепость: укреплённое сооружение для обороны.	Stronghold Crusader HD; Dark Souls III
+castle	Замок: стены, башни и залы.	Bloodstained: Ritual of the Night
+monastery	Монастырь: кельи и тишина.	Kingdom Come: Deliverance; Assassin's Creed 2
+temple	Храм: святилище и ритуалы.	Tomb Raider; UNCHARTED: Legacy of Thieves Collection
+cathedral	Собор: огромный храм со сводами.	Blasphemous
+cemetery	Кладбище: могилы и склепы.	Graveyard Keeper; Phasmophobia
+subway station	Станция метро: платформы и тоннели.	Metro Exodus; Half-Life 2
+train station	Вокзал: платформы и поезда.	Half-Life 2; Metro Exodus
+moving train	Движущийся поезд: действие в едущем составе.	Metro Exodus; Red Dead Redemption 2
+freight train	Товарный поезд: вагоны с грузом.	Red Dead Redemption 2; Metro Exodus
+metro tunnels	Тоннели метро: тёмные подземные ходы.	Metro Exodus
+rail yard	Сортировочная станция: пути и вагоны.	Derail Valley; Train Sim World 4
+airport	Аэропорт: терминалы и самолёты.	Airport CEO; HITMAN World of Assassination
+airplane	Самолёт: действие на борту.	Microsoft Flight Simulator; Microsoft Flight Simulator 2024
+airship	Дирижабль: летучий корабль.	BioShock Infinite; Airborne Kingdom
+bus depot	Автобусный парк.	Bus Simulator 21 Next Stop; Cities: Skylines
+highway rest stop	Придорожная стоянка на трассе.	American Truck Simulator; Euro Truck Simulator 2
+gas station	Заправка: колонки и магазинчик.	Gas Station Simulator
+parking garage	Парковка: многоуровневый гараж.	Grand Theft Auto V; Firewatch
+bridge	Мост: переправа над рекой или пропастью.	Poly Bridge 2; Death Stranding
+highway interchange	Развязка: переплетение дорог.	Cities: Skylines; Mini Motorways
+tunnel network	Сеть тоннелей: подземные ходы.	Metro Exodus; Deep Rock Galactic
+sewer system	Канализация: сточные тоннели под городом.	Half-Life 2; Resident Evil 2
+storm drains	Ливнёвки: подземные водостоки.	Half-Life 2; Teenage Mutant Ninja Turtles: Shredder's Revenge
+underground utility tunnels	Технические тоннели: коммуникации под городом.	Half-Life 2; Metro Exodus
+apartment block	Многоквартирный дом.	Metro Exodus; This War of Mine
+suburban neighborhood	Пригород: частные дома и тихие улицы.	Untitled Goose Game; Phasmophobia
+small town	Маленький город.	Alan Wake
+village	Деревня.	Stardew Valley
+megacity block	Квартал мегаполиса: плотная застройка огромного города.	Cyberpunk 2077
+skyscraper	Небоскрёб.	Cyberpunk 2077; Mirror's Edge Catalyst
+rooftop district	Район крыш: движение по крышам города.	Mirror’s Edge Catalyst
+slum	Трущобы.	Cyberpunk 2077; Dishonored
+industrial district	Промзона: склады, заводы и дым.	Cyberpunk 2077; Half-Life 2
+abandoned city	Заброшенный город: опустевшие улицы.	The Last of Us Part I
+buried city	Погребённый город: улицы под песком или землёй.	Sable; Heaven's Vault
+flooded city	Затопленный город: улицы под водой.	BioShock; Dredge
+coastal town	Прибрежный городок.	Dredge
+mountain town	Горный городок.	Life is Strange; Kingdom Come: Deliverance
+desert town	Городок в пустыне.	Fallout: New Vegas; Red Dead Redemption 2
+ghost town	Город-призрак: покинутое поселение.	Red Dead Redemption 2; Fallout 4
+island	Остров.	A Short Hike
+archipelago	Архипелаг: цепочка островов.	Dredge
+lighthouse	Маяк.	Dredge; Stranded Deep
+harbor	Гавань: причалы и корабли.	Dredge; Sea of Thieves
+fishing port	Рыбацкий порт.	Dredge
+cargo ship	Грузовое судно.	HITMAN World of Assassination
+cruise ship	Круизный лайнер.	HITMAN World of Assassination; The Dark Pictures Anthology: Man of Medan
+submarine	Подводная лодка.	Barotrauma
+underwater base	Подводная база.	Subnautica
+underwater city	Подводный город.	BioShock
+space station	Космическая станция.	Prey (2017)
+orbital station	Орбитальная станция.	Prey (2017)
+moon base	Лунная база.	Prey; Astroneer
+Mars base	База на Марсе.	Surviving Mars
+asteroid mine	Добыча на астероиде.	Deep Rock Galactic; Space Engineers
+spacecraft	Космический корабль.	FTL: Faster Than Light
+generation ship	Корабль поколений.	Dead Space; Starfield
+colony ship	Корабль колонистов.	Dead Space; Starfield
+derelict spaceship	Заброшенный космический корабль.	Dead Space
+alien megastructure	Инопланетная мегаструктура.	Outer Wilds; Halo: The Master Chief Collection
+planetary colony	Колония на планете.	RimWorld
+forest camp	Лагерь в лесу.	Sons of the Forest
+logging camp	Лесозаготовительный лагерь.	Farming Simulator 22; Firewatch
+sawmill	Лесопилка.	Lumberjack's Dynasty; Farming Simulator 22
+farm	Ферма.	Stardew Valley
+ranch	Ранчо.	Red Dead Redemption 2
+greenhouse complex	Тепличный комплекс.	Grounded; Stardew Valley
+vineyard	Виноградник.	Hundred Days; The Witcher 3: Wild Hunt
+cave system	Система пещер.	Deep Rock Galactic
+deep cave	Глубокая пещера.	Deep Rock Galactic; Hollow Knight
+mountain facility	Объект в горах.	Half-Life 2; Metal Gear Solid V: The Phantom Pain
+volcano facility	Объект в вулкане.	HITMAN World of Assassination; Evil Genius 2: World Domination
+glacier station	Станция на леднике.	Subnautica: Below Zero; The Long Dark
+arctic outpost	Арктический пост.	The Long Dark; Frostpunk
+desert research camp	Исследовательский лагерь в пустыне.	Kenshi; Sable
+jungle ruins	Руины в джунглях.	UNCHARTED: Legacy of Thieves Collection
+swamp settlement	Поселение на болоте.	The Witcher 3: Wild Hunt; Valheim
+wetland station	Станция в болотах.	Dredge; Pacific Drive
+canyon facility	Объект в каньоне.	Half-Life; Fallout: New Vegas
+damaged coastal complex	Повреждённый прибрежный комплекс.	Subnautica; Dredge
+weather station	Метеостанция.	The Long Dark; Firewatch
+radio tower complex	Комплекс радиовышек.	Far Cry 3; Firewatch
+satellite station	Станция спутниковой связи.	Metal Gear Solid V: The Phantom Pain; Starfield
+archaeological dig	Раскопки.	Heaven's Vault; Tomb Raider
+ancient ruins	Древние руины.	UNCHARTED: Legacy of Thieves Collection
+underground city	Подземный город.	Metro Exodus; Dwarf Fortress
+catacombs	Катакомбы.	Diablo IV; Darkest Dungeon
+dungeon	Подземелье.	Darkest Dungeon
+wizard tower	Башня волшебника.	Noita; The Elder Scrolls V: Skyrim Special Edition
+magic academy	Магическая академия.	Hogwarts Legacy
+moving caravan	Движущийся караван.	The Banner Saga
+mobile fortress	Передвижная крепость.	Frostpunk; Airborne Kingdom
+giant vehicle	Гигантская машина.	Pacific Drive; Metro Exodus
+train-city	Город-поезд.	Metro Exodus; Train Valley 2
+floating city	Парящий город.	BioShock Infinite
+floating platform	Парящая платформа.	Raft; Subnautica
+cloud city	Город в облаках.	BioShock Infinite; Airborne Kingdom
+treehouse settlement	Поселение на деревьях.	Grounded; Sons Of The Forest
+giant tree interior	Внутри гигантского дерева.	Grounded; Ori and the Blind Forest
+inside a machine	Внутри машины.	Portal 2; The Talos Principle
+inside a creature	Внутри существа.	Scorn; Enter the Gungeon
+inside a computer	Внутри компьютера.	Superhot; The Talos Principle
+dream hotel	Отель из снов.	Superliminal; Little Nightmares
+liminal office complex	Лиминальный офис: бесконечные пустые коридоры.	The Exit 8
+backstage complex	Закулисье.	Five Nights at Freddy's: Security Breach; Bendy and the Ink Machine
+film studio	Киностудия.	Bendy and the Ink Machine; HITMAN World of Assassination
+TV station	Телестанция.	Control; Alan Wake
+radio station	Радиостанция.	Firewatch; Fallout 4
+newsroom	Редакция новостей.	Papers, Please; Not For Broadcast
+courthouse	Здание суда.	Phoenix Wright: Ace Attorney Trilogy; Disco Elysium
+bank	Банк.	PAYDAY 2
+vault	Хранилище.	Fallout 4; Payday 2
+post office	Почта.	Death Stranding; Papers, Please
+delivery hub	Центр доставки.	Death Stranding
+laundromat	Прачечная.	Stardew Valley; Unpacking
+workshop	Мастерская.	Car Mechanic Simulator 2021; House Flipper
+garage	Гараж.	Car Mechanic Simulator 2021
+scrapyard	Площадка металлолома.	Hardspace: Shipbreaker; Rust
+junkyard	Свалка.	Pacific Drive; My Summer Car
+salvage yard	Разборка: место, где техника идёт на детали.	Hardspace: Shipbreaker
+repair depot	Ремонтное депо.	Car Mechanic Simulator 2021; Pacific Drive
+fleet depot	Автопарк.	Bus Simulator 21 Next Stop; Transport Fever 2
+food processing plant	Пищевой комбинат.	Satisfactory; Lethal Company
+bakery plant	Хлебозавод.	Cooking Simulator; Overcooked! 2
+brewery	Пивоварня.	Brewmaster: Beer Brewing Simulator; Stardew Valley
+distillery	Винокурня.	Brewmaster: Beer Brewing Simulator; Potion Craft: Alchemist Simulator
+cold storage facility	Холодильный склад.	Lethal Company; The Thing
+underground shelter	Подземное убежище.	Fallout Shelter
+disaster shelter	Укрытие от катастрофы.	Fallout Shelter; This War of Mine
+quarantine facility	Карантинный объект.	The Last of Us Part I; Contagion
+border checkpoint	Пограничный пункт.	Papers, Please
+customs terminal	Таможенный терминал.	Papers, Please; Contraband Police
+spaceport	Космопорт.	Starfield; Cyberpunk 2077
+teleport hub	Телепорт-узел.	Portal 2; Destiny 2
+portal facility	Комплекс порталов.	Portal 2
+abandoned resort	Заброшенный курорт.	Dead Island 2; Lethal Company
+ski resort	Горнолыжный курорт.	Steep; HITMAN World of Assassination
+beach resort	Пляжный курорт.	Dead Island 2; HITMAN World of Assassination
+summer camp	Летний лагерь.	Friday the 13th: The Game; Until Dawn
+theme hotel	Тематический отель.	HITMAN World of Assassination; Resident Evil Village
+luxury mansion	Роскошный особняк.	Hitman: World of Assassination
+apartment tower	Жилая башня.	Metro Exodus; This War of Mine
+old manor	Старая усадьба.	Resident Evil
+farmhouse	Фермерский дом.	Stardew Valley; Farming Simulator 22
+research vessel	Исследовательское судно.	Dredge; Subnautica
+icebreaker	Ледокол.	The Long Dark; Frostpunk
+desert convoy stop	Стоянка каравана в пустыне.	Kenshi; Mad Max
+roadside diner	Придорожная закусочная.	American Truck Simulator; Pacific Drive

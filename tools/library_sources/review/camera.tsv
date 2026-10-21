@@ -1,0 +1,25 @@
+first-person	Вид от первого лица: игрок смотрит глазами героя.	Half-Life 2
+third-person	Вид от третьего лица: камера показывает героя со стороны.	Grand Theft Auto V
+over-the-shoulder	Из-за плеча: камера висит сразу за героем.	Resident Evil 4
+top-down	Вид сверху: мир виден сверху вниз.	Hotline Miami
+isometric	Изометрия: наклонный вид сверху под углом.	Hades
+side-view	Вид сбоку.	Inside
+fixed camera	Фиксированная камера: ракурс задаёт игра.	Resident Evil
+fixed cinematic angles	Кинематографичные ракурсы: камера выбирает эффектные углы.	Resident Evil 2; Signalis
+2D side scrolling	Сайд-скроллер: мир прокручивается вбок.	Celeste
+3D side-on	3D сбоку: трёхмерный мир видно сбоку.	Little Nightmares
+bird-eye strategy view	Стратегический вид сверху.	Company of Heroes 2; Age of Empires II: Definitive Edition
+free RTS camera	Свободная камера стратегии.	Age of Empires II: Definitive Edition
+orbital strategy camera	Вращаемая камера стратегии.	Cities: Skylines
+close-follow camera	Камера следует близко за героем.	Ghost of Tsushima; God of War
+vehicle cockpit	Вид из кабины.	Euro Truck Simulator 2
+vehicle chase camera	Камера позади машины.	Forza Horizon 5
+helmet/body camera	Нагрудная камера: вид с камеры на теле.	Unrecord
+security-camera view	Вид с камер наблюдения.	Five Nights at Freddy’s
+multi-camera surveillance	Несколько камер наблюдения сразу.	Five Nights at Freddy’s
+screen/terminal-only view	Только экран или терминал.	Her Story
+map-only interface	Только карта.	Mini Metro; DEFCON
+split perspective	Разделённый экран: у каждого игрока своя камера.	It Takes Two
+picture-in-picture drone camera	Картинка в картинке: дополнительный вид с дрона.	Tom Clancy's Rainbow Six Siege; Ready or Not
+switchable first/third person	Переключение от первого к третьему лицу.	Grand Theft Auto V
+cinematic room camera	Кинематографичная камера по комнатам.	Resident Evil; Signalis

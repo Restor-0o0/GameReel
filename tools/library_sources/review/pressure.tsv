@@ -1,0 +1,100 @@
+time pressure	Давление времени: задачу нужно успеть до истечения срока.	Overcooked! 2
+countdown timer	Обратный отсчёт: видимый таймер показывает, сколько осталось.	Outer Wilds
+limited moves	Ограниченные ходы: у игрока фиксированное число действий на уровень.	Candy Crush Saga
+limited turns	Ограниченные ходы партии: цель нужно выполнить за заданное число ходов.	Into the Breach
+resource scarcity	Нехватка ресурсов: всего не хватает, каждый расход приходится обдумывать.	This War of Mine
+ammo scarcity	Нехватка патронов: каждый выстрел на счету, иногда лучше избежать боя.	Resident Evil 2
+fuel scarcity	Нехватка топлива: запас топлива ограничивает, куда можно добраться.	FTL: Faster Than Light
+oxygen scarcity	Нехватка кислорода: запас воздуха ограничивает время вылазки.	Subnautica
+food scarcity	Нехватка еды: нужно постоянно искать или производить пропитание.	Don’t Starve
+water scarcity	Нехватка воды: питьевая вода — редкий и важный ресурс.	Frostpunk
+inventory pressure	Давление инвентаря: мест мало, приходится выбирать, что взять.	Resident Evil 2
+weight pressure	Давление веса: тяжёлый груз замедляет и ограничивает.	Death Stranding
+limited carry slots	Ограниченные слоты: можно нести лишь несколько предметов.	Resident Evil 4
+limited crew capacity	Ограниченный экипаж: людей мало, и каждого нужно распределить с умом.	FTL: Faster Than Light
+limited power	Ограниченная энергия: питания хватает не на все системы сразу.	Five Nights at Freddy’s
+battery drain	Разряд батареи: фонарик или устройство быстро садятся.	Outlast
+heat buildup	Перегрев: активное использование нагревает системы до отказа.	Hardspace: Shipbreaker
+cold exposure	Холод: мороз постепенно убивает, нужно искать тепло.	The Long Dark
+radiation exposure	Радиация: заражённые зоны постепенно отравляют персонажа.	Fallout 4
+toxic atmosphere	Токсичная атмосфера: воздух опасен без защиты.	Subnautica
+infection spread	Распространение заражения: инфекция расходится и её нужно сдерживать.	Plague Inc.
+disease risk	Риск болезней: персонажи могут заболеть, и это ослабляет их.	RimWorld
+injury accumulation	Накопление травм: ранения копятся и мешают действовать.	Project Zomboid
+fatigue	Усталость: персонажу нужен отдых, иначе он слабеет.	The Long Dark
+hunger/thirst	Голод и жажда: нужно регулярно есть и пить.	The Long Dark
+sanity/stress	Рассудок и стресс: страх и напряжение подтачивают психику героев.	Darkest Dungeon
+noise attracts danger	Шум привлекает опасность: громкие действия выдают игрока.	A Quiet Place: The Road Ahead
+visibility/detection pressure	Риск обнаружения: игрок должен оставаться незамеченным.	Metal Gear Solid V: The Phantom Pain
+stealth detection	Обнаружение в стелсе: враги замечают игрока по шуму и свету.	Hitman: World of Assassination
+horror threat	Угроза ужаса: страшная опасность, от которой не всегда можно отбиться.	Resident Evil 2
+stalking enemy	Преследующий враг: неубиваемый противник охотится за игроком.	Alien: Isolation
+pursuer pressure	Давление погони: за игроком гонятся, останавливаться нельзя.	Outlast
+escalating enemy presence	Нарастающая угроза: врагов становится больше, чем дольше игрок остаётся.	Risk of Rain 2
+wave defense	Оборона от волн: нужно отбивать атаки, приходящие волнами.	Plants vs. Zombies
+escalating waves	Нарастающие волны: каждая следующая волна сильнее.	They Are Billions
+dense projectile pressure	Плотный огонь: экран заполнен снарядами, от которых нужно уворачиваться.	Enter the Gungeon
+projectile avoidance	Уклонение от снарядов: выживание зависит от точных движений.	Cuphead
+precision execution	Точное исполнение: ошибка в движении стоит попытки.	Celeste
+high difficulty	Высокая сложность: игра требует мастерства и терпения.	Dark Souls III
+high punishment	Высокая цена ошибки: провал откатывает далеко назад.	Getting Over It with Bennett Foddy
+hardcore punishment	Хардкор: одна ошибка может стоить всего прогресса.	Project Zomboid
+permadeath	Перманентная смерть: погибший персонаж потерян навсегда.	XCOM 2
+risk/reward extraction	Риск и награда: чем дольше в зоне, тем больше добычи и выше шанс её потерять.	Escape from Tarkov
+lose carried loot on death	Потеря добычи при смерти: всё, что было при себе, пропадает.	Escape from Tarkov
+body recovery risk	Возврат к телу: после смерти нужно добраться до места гибели за потерянным.	Hollow Knight
+shrinking safe zone	Сужающаяся зона: безопасная область уменьшается, заставляя двигаться.	Fortnite
+last-player pressure	Давление последнего выжившего: побеждает тот, кто продержится дольше всех.	Stumble Guys
+player competition	Соперничество игроков: другие игроки борются за те же цели.	Rocket League
+score decay	Угасание очков: счёт снижается, если не действовать.	Neon White; Hotline Miami
+combo decay	Угасание комбо: серия обрывается, если сделать паузу.	Hotline Miami
+deadline/contracts	Сроки контрактов: заказы нужно выполнить до дедлайна.	Euro Truck Simulator 2
+customer queue	Очередь клиентов: посетители ждут, и их терпение кончается.	PlateUp!
+production backlog	Отставание производства: заказы копятся быстрее, чем выполняются.	Factorio
+machine breakdown risk	Риск поломок: техника выходит из строя в неподходящий момент.	Pacific Drive
+overheating systems	Перегрев систем: оборудование нужно охлаждать или давать ему отдых.	Hardspace: Shipbreaker
+unstable power grid	Нестабильная энергосеть: сбои питания ломают работу систем.	Oxygen Not Included
+rising water	Поднимающаяся вода: уровень воды растёт и затапливает локацию.	Raft; Dredge
+spreading fire	Распространяющийся огонь: пожар расходится и уничтожает всё вокруг.	Far Cry 2
+structural collapse risk	Риск обрушения: конструкция может рухнуть под нагрузкой.	Teardown
+storm approaching	Надвигающаяся буря: нужно успеть до прихода непогоды.	Frostpunk
+nightfall danger	Опасность ночи: с наступлением темноты становится намного опаснее.	Dying Light
+day/night danger shift	Смена дня и ночи: ночью правила меняются и угроза растёт.	Don’t Starve
+weather deterioration	Ухудшение погоды: условия постепенно становятся тяжелее.	The Long Dark
+limited safe areas	Мало безопасных мест: укрытий немного, между ними опасно.	Resident Evil 2
+moving hazard zone	Движущаяся опасная зона: угроза перемещается по карте.	Fortnite
+patrol routes	Маршруты патрулей: враги ходят по схемам, которые нужно изучить.	Mark of the Ninja
+wanted level	Уровень розыска: чем больше нарушений, тем сильнее погоня.	Grand Theft Auto V
+law enforcement response	Реакция полиции: нарушения вызывают приезд полиции.	Grand Theft Auto V
+suspicion meter	Шкала подозрения: окружающие постепенно начинают подозревать игрока.	Hitman: World of Assassination
+reputation risk	Риск для репутации: поступки могут настроить против игрока других.	Fallout: New Vegas
+morale collapse	Падение морали: подавленные персонажи перестают слушаться.	Frostpunk
+crew conflict	Конфликт в команде: члены экипажа ссорятся и мешают друг другу.	RimWorld
+debt/quota pressure	Долг и квоты: нужно заработать достаточно к сроку.	Lethal Company
+economic upkeep	Расходы на содержание: всё построенное требует постоянных трат.	Two Point Hospital
+rent/taxes	Аренда и налоги: регулярные выплаты давят на бюджет.	Stardew Valley
+maintenance costs	Затраты на обслуживание: технику нужно чинить и обслуживать.	Transport Fever 2
+market fluctuations	Колебания рынка: цены меняются, и выгода зависит от момента.	Anno 1800
+limited storage	Ограниченный склад: хранить можно не всё.	Anno 1800
+spoilage	Порча: продукты и ресурсы портятся со временем.	Don’t Starve
+contamination	Загрязнение: грязь или зараза портят ресурсы и помещения.	Oxygen Not Included
+quality degradation	Падение качества: небрежность снижает качество результата.	Supermarket Simulator; Cooking Simulator
+delivery deadlines	Сроки доставки: груз нужно доставить вовремя.	Death Stranding
+traffic congestion	Пробки: транспортные заторы тормозят всю систему.	Cities: Skylines
+route uncertainty	Неясный маршрут: путь заранее неизвестен и может оказаться опасным.	Pacific Drive
+unknown map	Неизвестная карта: игрок не знает, что ждёт впереди.	Darkest Dungeon
+fog of war	Туман войны: видно только то, что рядом с юнитами игрока.	Age of Empires II: Definitive Edition
+information scarcity	Нехватка информации: решения приходится принимать вслепую.	Return of the Obra Dinn
+communication limits	Ограниченная связь: игрокам трудно передать друг другу важное.	Keep Talking and Nobody Explodes
+separation risk	Риск разделения: отбившийся от группы игрок в опасности.	Lethal Company
+friendly fire	Огонь по своим: можно ранить союзников.	Helldivers 2
+revive timer	Таймер воскрешения: упавшего союзника нужно успеть поднять.	Left 4 Dead 2
+objective escalation	Нарастающие задачи: цели становятся сложнее по ходу миссии.	PAYDAY 2
+optional greed vs safety	Жадность против безопасности: можно рискнуть ради лишней добычи.	Deep Rock Galactic
+one-way progression	Путь без возврата: пройденное нельзя переиграть.	Limbo; Journey
+no-save sections	Участки без сохранений: провал отбрасывает к началу.	Resident Evil
+save-point scarcity	Редкие сохранения: точки сохранения встречаются нечасто.	Resident Evil
+detection avoidance	Избегание обнаружения: главное — не попасться на глаза.	Metal Gear Solid V: The Phantom Pain
+scarce resources	Скудные ресурсы: ресурсов мало, и каждый выбор важен.	This War of Mine
+shrinking/last-player pressure	Сужение и последний выживший: зона сжимается, пока не останется один.	Fortnite
+survival needs	Потребности выживания: еда, вода, тепло и отдых.	The Long Dark

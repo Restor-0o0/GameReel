@@ -1,0 +1,28 @@
+CREATE TABLE libraries (
+    id TEXT NOT NULL PRIMARY KEY,
+    metadata_json TEXT NOT NULL
+);
+
+CREATE TABLE games (
+    id TEXT NOT NULL PRIMARY KEY,
+    library_id TEXT NOT NULL,
+    title TEXT NOT NULL,
+    snapshot_json TEXT NOT NULL
+);
+CREATE INDEX games_library ON games(library_id);
+CREATE INDEX games_title ON games(title COLLATE NOCASE);
+
+selectLibraries:
+SELECT * FROM libraries ORDER BY id;
+
+selectGames:
+SELECT snapshot_json FROM games WHERE library_id = ? ORDER BY title COLLATE NOCASE;
+
+writeLibrary:
+INSERT OR REPLACE INTO libraries(id, metadata_json) VALUES (?, ?);
+
+deleteLibraryGames:
+DELETE FROM games WHERE library_id = ?;
+
+writeGame:
+INSERT INTO games(id, library_id, title, snapshot_json) VALUES (?, ?, ?, ?);

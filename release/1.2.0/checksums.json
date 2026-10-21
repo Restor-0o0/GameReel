@@ -1,0 +1,20 @@
+[
+  {
+    "file": "GameReel-1.2.0-local-art.apk",
+    "bytes": 24588587,
+    "sha256": "859706aa851e8fb605f54b71915b213792f45706de9fefa9347ddbc4b50e6c13",
+    "artwork_files": 2809
+  },
+  {
+    "file": "GameReel-1.2.0-preview.apk",
+    "bytes": 3471469,
+    "sha256": "d670681faefc632d8c494780ee0d8a681e83de9acb391ec90d59a8629da33d8a",
+    "artwork_files": 0
+  },
+  {
+    "file": "GameReel-1.2.0-play-unsigned.aab",
+    "bytes": 4371791,
+    "sha256": "3ae7697d4069417070797feaaaca6b14f38de8e0eea2196f7320a4b6270e76ce",
+    "artwork_files": 0
+  }
+]

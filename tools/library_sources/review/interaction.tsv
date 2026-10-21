@@ -1,0 +1,112 @@
+physics manipulation	Физическое взаимодействие: предметы подчиняются физике, их можно двигать и комбинировать.	Half-Life 2
+direct object grabbing	Прямой захват предметов: игрок берёт предметы руками.	Half-Life: Alyx
+drag and carry	Перетаскивание: тяжёлые предметы можно тащить и переносить.	Human: Fall Flat
+two-player carry	Совместная переноска: тяжёлый предмет несут двое.	Moving Out
+throwing objects	Бросание предметов: предметы можно швырять во врагов или в цель.	Half-Life 2
+stacking objects	Складывание предметов: предметы ставятся друг на друга.	Tetris Effect; Unpacking
+placing objects precisely	Точная расстановка: предмет нужно поставить в нужное место.	Unpacking
+manual tool use	Работа инструментами: игрок сам орудует отвёрткой, пилой или молотком.	Car Mechanic Simulator 2021
+rotational tightening	Закручивание: болты и гайки завинчиваются вращением.	Car Mechanic Simulator 2021
+lever operation	Рычаги: механизмы управляются рычагами.	Hardspace: Shipbreaker; Portal 2
+valve turning	Вентили: игрок крутит вентили, управляя потоками.	Half-Life 2; PowerWash Simulator
+button/switch panels	Панели кнопок и тумблеров: управление через пульты.	Keep Talking and Nobody Explodes
+cable connection	Подключение кабелей: устройства соединяются проводами.	Pacific Drive; Lethal Company
+hose connection	Подключение шлангов: трубки и шланги соединяют системы.	PowerWash Simulator; Satisfactory
+plug-and-socket connection	Штекеры и разъёмы: устройства подключаются вручную.	Pacific Drive; Keep Talking and Nobody Explodes
+wiring circuits	Сборка схем: провода и компоненты соединяются в работающую цепь.	Keep Talking and Nobody Explodes; Oxygen Not Included
+pipe routing	Прокладка труб: трубы проводятся от источника к цели.	Satisfactory
+fluid pumping	Перекачка жидкостей: насосы перегоняют воду, топливо и другие жидкости.	Oxygen Not Included
+manual cranking	Ручное вращение: механизм приводится в действие рукояткой.	Pacific Drive; The Long Drive
+manual pumping	Ручная накачка: насос качается вручную.	Raft; Subnautica
+machine calibration	Калибровка: машину нужно точно настроить.	Barotrauma
+gauge balancing	Балансировка по приборам: держать показатели в безопасном диапазоне.	Hardspace: Shipbreaker; FTL: Faster Than Light
+aimed shooting	Прицельная стрельба: попадание зависит от точности игрока.	Counter-Strike 2
+free-aim melee	Ближний бой со свободным прицелом: удар идёт туда, куда смотрит игрок.	Mordhau
+lock-on melee	Ближний бой с захватом цели: камера фиксируется на противнике.	Elden Ring
+parry/dodge timing	Парирование и уклонение: защита зависит от точного момента.	Sekiro: Shadows Die Twice
+combo inputs	Комбо-ввод: последовательности нажатий складываются в приёмы.	Street Fighter 6
+rhythm timing	Ритм: действия выполняются в такт музыке.	Beat Saber
+gesture input	Ввод жестами: заклинания и действия рисуются движением.	Black & White
+drawing shapes	Рисование фигур: игрок рисует линии или формы, влияющие на игру.	Scribblenauts Unlimited
+typing commands	Ввод команд: игрок печатает текст для управления.	The Typing of the Dead: Overkill
+conversation choices	Выбор реплик: игрок выбирает, что сказать.	Baldur’s Gate 3
+dialogue wheel	Колесо диалогов: реплики выбираются из круга вариантов.	Mass Effect 2
+drag-and-drop UI	Перетаскивание в интерфейсе: предметы и карты переносятся курсором.	Papers, Please; Stacklands
+grid inventory decisions	Сеточный инвентарь: предметы разных размеров размещаются в сетке.	Resident Evil 4
+inventory tetris	Инвентарь-тетрис: предметы нужно уложить плотно, как фигуры.	Backpack Hero
+card placement	Выкладывание карт: карты разыгрываются на поле.	Slay the Spire
+board placement	Размещение на поле: фигуры и юниты расставляются по клеткам.	Into the Breach
+tile placement	Выкладывание тайлов: плитки выкладываются, составляя карту.	Dorfromantik
+construction	Строительство: игрок возводит здания и сооружения.	Construction Simulator
+freeform building	Свободное строительство: строить можно как угодно, без жёсткой сетки.	Townscaper
+snap-grid building	Строительство по сетке: детали защёлкиваются по сетке.	Valheim
+terrain editing	Редактирование ландшафта: игрок меняет форму земли.	Planet Coaster
+voxel digging	Копание вокселей: мир можно разбирать по блокам.	Minecraft
+mining	Добыча: игрок раскапывает породу ради ресурсов.	Deep Rock Galactic
+destructible environment	Разрушаемое окружение: стены и постройки можно ломать.	Teardown
+destructible objects	Разрушаемые предметы: объекты разлетаются от ударов.	Red Faction Guerrilla Re-Mars-tered
+cutting materials	Резка материалов: игрок разрезает конструкции на части.	Hardspace: Shipbreaker
+welding	Сварка: детали соединяются сварочным аппаратом.	Car Mechanic Simulator 2021; Space Engineers
+painting surfaces	Покраска поверхностей: стены и предметы окрашиваются.	House Flipper
+cleaning surfaces	Очистка поверхностей: грязь смывается слой за слоем.	PowerWash Simulator
+repairing components	Ремонт деталей: сломанные части чинятся или заменяются.	Car Mechanic Simulator 2021
+disassembly	Разборка: объект разбирается на детали.	Hardspace: Shipbreaker
+assembly	Сборка: из деталей собирается целое.	Car Mechanic Simulator 2021
+crafting	Крафт: из ресурсов создаются предметы.	Minecraft
+recipe mixing	Смешивание рецептов: ингредиенты комбинируются для результата.	Potion Craft: Alchemist Simulator
+cooking manipulation	Готовка: игрок режет, жарит и собирает блюда.	Overcooked! 2
+sorting objects	Сортировка: предметы раскладываются по категориям.	Unpacking; Papers, Please
+packing objects	Упаковка: предметы нужно уложить в коробки или контейнеры.	Unpacking
+scanning/inspection	Сканирование и осмотр: игрок изучает объекты в поисках деталей.	Subnautica
+photography	Фотография: игрок снимает кадры, которые оцениваются игрой.	Umurangi Generation
+detective evidence linking	Связывание улик: найденные факты соединяются в выводы.	The Case of the Golden Idol
+map annotation	Пометки на карте: игрок сам отмечает важное.	Outer Wilds
+manual navigation	Ручная навигация: путь прокладывается по карте и ориентирам.	Sea of Thieves
+vehicle control	Управление транспортом: вождение как основа игры.	Forza Horizon 5
+steering heavy vehicles	Управление тяжёлой техникой: инерция и габариты грузовика.	Euro Truck Simulator 2
+flight controls	Управление полётом: пилотирование самолёта или корабля.	Microsoft Flight Simulator 2024
+sailing controls	Управление парусами: ветер, паруса и штурвал.	Sea of Thieves
+train controls	Управление поездом: скорость, торможение и сигналы.	Train Sim World 4
+crane controls	Управление краном: груз поднимается и перемещается краном.	Construction Simulator
+forklift controls	Управление погрузчиком: паллеты перевозятся вилочным погрузчиком.	Forklift Simulator; Farming Simulator 22
+remote drone control	Управление дроном: игрок дистанционно ведёт дрон.	Watch Dogs 2
+robot programming	Программирование роботов: роботы учатся выполнять задачи.	Autonauts
+automation logic	Логика автоматизации: условия и сигналы управляют машинами.	Factorio
+logic gates	Логические элементы: схемы из И, ИЛИ, НЕ.	Turing Complete
+terminal commands	Команды терминала: управление через текстовую консоль.	Hacknet
+hacking minigames	Мини-игры взлома: отдельная головоломка для взлома.	Cyberpunk 2077
+code breaking	Взлом кодов: подбор комбинаций и шифров.	Keep Talking and Nobody Explodes; Return of the Obra Dinn
+stealth takedowns	Скрытные устранения: враги устраняются без шума.	Dishonored
+pickpocketing	Карманная кража: предметы незаметно крадутся у персонажей.	Thief
+lockpicking	Взлом замков: замки открываются отмычкой.	The Elder Scrolls V: Skyrim
+climbing	Лазание: игрок взбирается по стенам и скалам.	Jusant
+vertical traversal	Вертикальное перемещение: движение вверх и вниз важно не меньше горизонтального.	Deep Rock Galactic
+parkour movement	Паркур: бег по крышам, прыжки и забеги по стенам.	Dying Light
+momentum traversal	Движение на инерции: скорость накапливается и сохраняется.	Sonic Mania
+grappling traversal	Крюк-кошка: перемещение с помощью троса.	Just Cause 3
+rope interaction	Верёвки: верёвки используются для подъёма, спуска и крепления.	Death Stranding; Peak
+swimming	Плавание: перемещение по воде.	Subnautica
+diving	Ныряние: погружение под воду.	Subnautica
+gliding	Планирование: полёт на крыльях или параплане.	Genshin Impact
+skiing/skating	Лыжи и коньки: скольжение по снегу или льду.	Steep
+telekinesis	Телекинез: предметы двигаются силой мысли.	Control
+spell combination	Комбинирование заклинаний: эффекты магии смешиваются.	Magicka
+spell aiming	Прицеливание заклинаний: магия направляется вручную.	Magicka; Noita
+summon placement	Размещение призванных существ: союзники вызываются в выбранной точке.	Clash Royale; Diablo IV
+trap placement	Расстановка ловушек: ловушки ставятся на пути врагов.	Orcs Must Die! 3
+turret placement	Установка турелей: турели защищают ключевые точки.	Sanctum 2
+resource allocation	Распределение ресурсов: ограниченные ресурсы направляются туда, где они нужнее.	FTL: Faster Than Light
+worker assignment	Назначение работников: люди распределяются по задачам.	RimWorld
+production scheduling	Планирование производства: что и когда производить.	Anno 1800
+route planning	Планирование маршрута: путь выбирается заранее.	Death Stranding
+traffic planning	Планирование движения: транспорт направляется без заторов.	Mini Motorways
+buy/sell decisions	Покупка и продажа: выгода зависит от решений на рынке.	Moonlighter; Recettear: An Item Shop's Tale
+bartering	Бартер: обмен товаров без денег.	Fallout 4; Kenshi
+auction bidding	Аукцион: игроки делают ставки за товары.	Storage Hunter Simulator; Moonlighter
+hidden-role communication	Общение со скрытыми ролями: игроки выясняют, кто предатель.	Among Us
+proximity voice interaction	Голосовой чат по близости: слышно только тех, кто рядом.	Lethal Company
+multiple-solution interactions	Несколько решений: задачу можно решить разными способами.	Dishonored
+environmental puzzle interaction	Головоломки окружения: решение спрятано в устройстве уровня.	Portal 2
+user-generated content	Пользовательский контент: игроки создают уровни и режимы для других.	Roblox
+inventory decisions	Решения в инвентаре: что взять, а что оставить.	Resident Evil 4
+movement mastery	Мастерство передвижения: игра вознаграждает точное и стильное движение.	Titanfall 2

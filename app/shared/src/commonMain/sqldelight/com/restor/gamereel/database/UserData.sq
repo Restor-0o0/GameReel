@@ -1,0 +1,29 @@
+-- user data only, imports never write here
+CREATE TABLE generator_state (
+    id INTEGER NOT NULL PRIMARY KEY CHECK (id = 1),
+    reels_json TEXT NOT NULL,
+    next_id INTEGER NOT NULL,
+    preferences_json TEXT NOT NULL DEFAULT '{}',
+    history_json TEXT NOT NULL DEFAULT '[]'
+);
+
+CREATE TABLE saved_ideas (
+    id TEXT NOT NULL PRIMARY KEY,
+    position INTEGER NOT NULL,
+    snapshot_json TEXT NOT NULL
+);
+
+selectGenerator:
+SELECT * FROM generator_state WHERE id = 1;
+
+selectIdeas:
+SELECT snapshot_json FROM saved_ideas ORDER BY position;
+
+writeGenerator:
+INSERT OR REPLACE INTO generator_state(id, reels_json, next_id, preferences_json, history_json) VALUES (1, ?, ?, ?, ?);
+
+clearIdeas:
+DELETE FROM saved_ideas;
+
+writeIdea:
+INSERT INTO saved_ideas(id, position, snapshot_json) VALUES (?, ?, ?);
