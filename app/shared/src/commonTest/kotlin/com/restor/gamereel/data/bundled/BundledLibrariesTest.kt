@@ -37,7 +37,7 @@ class BundledLibrariesTest {
             google.games.all { it.sourceLibraryId == google.library.id && it.tags.isNotEmpty() }
         )
         assertTrue(google.games.flatMap { it.tags }.any { it.category == Category.MONETIZATION })
-        assertEquals(7, google.library.version)
+        assertEquals(8, google.library.version)
         if (Res.readBytes("files/art-policy.txt").decodeToString().trim() != "no-store-art") {
             assertTrue(
                 google.games
@@ -56,7 +56,7 @@ class BundledLibrariesTest {
                     mapOf(
                         "steam_broad" to 7,
                         "steam_alltime_owners" to 7,
-                        google.library.id to 7,
+                        google.library.id to 8,
                         "curated_v5" to 10,
                         "itch_selected" to 4,
                         "steam_selected" to 1,
@@ -86,6 +86,7 @@ class BundledLibrariesTest {
                         "curated_v5" -> 10
                         "itch_selected" -> 4
                         "steam_selected" -> 1
+                        "google_play_alltime_like" -> 8
                         else -> 7
                     }
             }
@@ -135,7 +136,7 @@ class BundledLibrariesTest {
                 mapOf(
                     "steam_broad" to 7,
                     "steam_alltime_owners" to 7,
-                    "google_play_alltime_like" to 7,
+                    "google_play_alltime_like" to 8,
                     "curated_v5" to 9,
                     "itch_selected" to 4,
                     "steam_selected" to 1,
@@ -167,7 +168,7 @@ class BundledLibrariesTest {
                 mapOf(
                     "steam_broad" to 7,
                     "steam_alltime_owners" to 7,
-                    "google_play_alltime_like" to 7,
+                    "google_play_alltime_like" to 8,
                     "curated_v5" to 10,
                     "itch_selected" to 1,
                     "steam_selected" to 1,

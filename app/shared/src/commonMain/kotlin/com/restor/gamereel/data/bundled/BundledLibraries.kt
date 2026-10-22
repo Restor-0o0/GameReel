@@ -10,7 +10,7 @@ private val bundled =
     listOf(
         Triple(LibraryIds.STEAM_BROAD, "steam_broad.json", 7),
         Triple(LibraryIds.STEAM_ALLTIME, "steam_alltime.json", 7),
-        Triple(LibraryIds.GOOGLE_PLAY, "google_play.json", 7),
+        Triple(LibraryIds.GOOGLE_PLAY, "google_play.json", 8),
         Triple(LibraryIds.CURATED, "curated.json", 10),
         Triple(LibraryIds.ITCH_SELECTED, "itch_selected.json", 4),
         Triple(LibraryIds.STEAM_SELECTED, "steam_selected.json", 1),

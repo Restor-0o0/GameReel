@@ -202,15 +202,34 @@ def main():
                 if category == 'SCOPE':
                     continue
                 popular.setdefault(category + ':' + tag.strip().lower(), []).append(title)
+    reference_file = presentation / 'CuratedReferences.kt'
+    titles_now = {game['title'] for name in LIBRARY_ORDER for game in library_games[name]}
+    # keep old picks while the games are still there
+    unquote = lambda value: json.loads(value.replace('\\$', '$'))
+    previous = {unquote(key): unquote(value).split('\n')
+        for key, value in re.findall(r'^    ("(?:[^"\\]|\\.)*") to ("(?:[^"\\]|\\.)*"),$', reference_file.read_text(encoding='utf-8'), re.M)} \
+        if reference_file.exists() else {}
+    renamed = {}
+    play_backup = SOURCES / 'google_play/data/games_1000.2021.json'
+    if play_backup.exists():
+        current = {game['app_id']: game['title'] for game in library_games['google_play']}
+        renamed = {game['title']: current[game['app_id']]
+            for game in json.loads(play_backup.read_text(encoding='utf-8'))['games'] if game['app_id'] in current}
     for key, titles in popular.items():
         chosen = games.setdefault(key, [])
+        if key in previous:
+            for title in previous[key]:
+                title = title if title in titles_now else renamed.get(title)
+                if title in titles_now and len(chosen) < 3 and not any(same_game(title, existing) for existing in chosen):
+                    chosen.append(title)
+            continue
         for title in titles:
             if len(chosen) >= 3:
                 break
             if not any(same_game(title, existing) for existing in chosen):
                 chosen.append(title)
     reference_lines = [f'    {quote(key)} to {quote(chr(10).join(titles))},' for key, titles in games.items() if titles]
-    (presentation / 'CuratedReferences.kt').write_text(header + 'internal val tagReferences = mapOf(\n' + '\n'.join(reference_lines) + '\n)\n', encoding='utf-8')
+    reference_file.write_text(header + 'internal val tagReferences = mapOf(\n' + '\n'.join(reference_lines) + '\n)\n', encoding='utf-8')
     for title, tag in sorted(unused if '--curated-only' not in sys.argv else []):
         print(f'unused fix: {title} / {tag}')
     pack = {'library': {'id': 'curated_v5', 'name': 'Теги GameReel', 'version': 10, 'standaloneTags': tags},

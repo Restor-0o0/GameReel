@@ -26,7 +26,6 @@ callofcthulhu
 catsorganizedneatly
 chefarestauranttycoongame
 chernobylite
-chessplayandlearnonline
 childoflight
 contagion
 control
@@ -86,6 +85,7 @@ megaquarium
 mergemansion
 microsoftflightsimulator
 microsoftsolitairecollection
+minecraft
 minimetro
 minimotorways
 mirrorsedgecatalyst
@@ -103,7 +103,6 @@ pathologic2
 pbaprobowling2023
 perception
 phoenixwrightaceattorneytrilogy
-plantsvszombies
 polybridge2
 potioncraft
 potioncraftalchemistsimulator
@@ -164,6 +163,7 @@ trainsimworld4
 trainvalley2
 transportfever2
 trickytowers
+triviacrack
 tronidentity
 tunic
 turingcomplete
