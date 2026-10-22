@@ -1,0 +1,22 @@
+Название (title):
+GameReel
+
+Краткое описание (short description, до 80 символов):
+Genera ideas de juegos: mecánicas, ambientaciones, combinaciones y rodillos.
+
+Полное описание (full description):
+Encuentra el punto de partida de tu próximo juego. Gira los rodillos para combinar mecánicas, estilos visuales, restricciones y ambientaciones. Conserva lo prometedor y vuelve a tirar el resto.
+
+• Bibliotecas de etiquetas con explicaciones y una selección editorial de juegos de referencia.
+• Rodillos personalizables y ajustes guardados.
+• Sugerencias de mecánicas compatibles y parejas poco comunes en las bibliotecas elegidas.
+• Idea del día: una combinación diaria, la misma para todos.
+• Comparte una idea con un enlace con tus amigos o tu equipo.
+• Ideas y notas guardadas con estados de prototipo, game jam y publicado, y un enlace al resultado.
+• Paquetes de juego que convierten los rodillos en un aleatorizador, como héroe, objetos y talentos para Dota 2.
+• Importa tus propias bibliotecas y ajustes en JSON, catálogo de la comunidad en GitHub.
+• 14 idiomas, ajustes de animación y sonido.
+
+Las funciones principales funcionan sin conexión y sin cuenta. Los enlaces a fuentes se abren en el navegador.
+La rareza solo se refiere a las bibliotecas elegidas y no demuestra que una idea sea única.
+GameReel es una herramienta independiente sin relación con los juegos, editores o tiendas mencionados.

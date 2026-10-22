@@ -1,0 +1,22 @@
+Название (title):
+GameReel
+
+Краткое описание (short description, до 80 символов):
+Generator pomysłów na gry: mechaniki, światy, połączenia i bębny.
+
+Полное описание (full description):
+Znajdź punkt wyjścia dla swojej następnej gry. Zakręć bębnami, by łączyć mechaniki, style graficzne, ograniczenia i światy. Zatrzymaj obiecujące elementy, a resztę losuj od nowa.
+
+• Biblioteki tagów z objaśnieniami i redakcyjny wybór gier referencyjnych.
+• Konfigurowalne bębny i zapisane presety.
+• Podpowiedzi zgodnych mechanik i rzadkich par w wybranych bibliotekach.
+• Pomysł dnia: jedno połączenie na dobę, wspólne dla wszystkich.
+• Udostępnij pomysł linkiem znajomym lub zespołowi.
+• Zapisane pomysły i notatki ze statusami prototyp, game jam i wydana oraz linkiem do efektu.
+• Pakiety gier zamieniające bębny w losowarkę, np. bohater, przedmioty i talenty do Dota 2.
+• Import własnych bibliotek i presetów JSON, katalog społeczności na GitHubie.
+• 14 języków, ustawienia animacji i dźwięku.
+
+Główne funkcje działają offline i bez konta. Linki do źródeł otwierają się w przeglądarce.
+Rzadkość dotyczy tylko wybranych bibliotek i nie dowodzi, że pomysł jest unikalny.
+GameReel to niezależne narzędzie, niepowiązane z wymienionymi grami, wydawcami ani sklepami.

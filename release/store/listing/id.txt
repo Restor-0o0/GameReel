@@ -1,0 +1,22 @@
+Название (title):
+GameReel
+
+Краткое описание (short description, до 80 символов):
+Buat ide game: mekanik, latar, kombinasyon, dan preset gulungan.
+
+Полное описание (full description):
+Temukan titik awal untuk game berikutnya. Putar gulungan untuk memadukan mekanik, gaya visual, batasan, dan latar. Simpan bagian yang menjanjikan dan acak ulang sisanya.
+
+• Pustaka tag dengan penjelasan dan pilihan editorial game referensi.
+• Gulungan yang bisa diatur dan preset tersimpan.
+• Saran mekanik yang cocok dan pasangan langka dalam pustaka pilihan.
+• Ide hari ini: satu kombinasi per hari, sama untuk semua orang.
+• Bagikan ide lewat tautan ke teman atau tim.
+• Ide dan catatan tersimpan dengan status prototipe, game jam, dan rilis, serta tautan hasil.
+• Paket game yang mengubah gulungan menjadi pengacak, misalnya hero, item, dan talent untuk Dota 2.
+• Impor pustaka dan preset JSON sendiri, katalog komunitas di GitHub.
+• 14 bahasa antarmuka, pengaturan animasi dan suara.
+
+Fitur utama berjalan offline tanpa akun. Tautan sumber terbuka di browser.
+Kelangkaan hanya berlaku untuk pustaka yang dipilih dan tidak membuktikan ide itu unik.
+GameReel adalah alat independen dan tidak berafiliasi dengan game, penerbit, atau toko yang disebut.

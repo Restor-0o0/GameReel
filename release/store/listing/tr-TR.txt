@@ -1,0 +1,22 @@
+Название (title):
+GameReel
+
+Краткое описание (short description, до 80 символов):
+Oyun fikri üret: mekanikler, dünyalar, kombinasyonlar ve makara ön ayarları.
+
+Полное описание (full description):
+Bir sonraki oyunun için başlangıç noktası bul. Makaraları çevirerek mekanikleri, görsel stilleri, kısıtları ve dünyaları birleştir. Umut vadeden parçaları tut, gerisini yeniden çevir.
+
+• Açıklamalı etiket kütüphaneleri ve seçilmiş örnek oyunlar.
+• Özelleştirilebilir makaralar ve kayıtlı ön ayarlar.
+• Seçili kütüphanelerde uyumlu mekanik ve nadir eşleşme önerileri.
+• Günün fikri: herkes için aynı, günde bir kombinasyon.
+• Bir fikri bağlantıyla arkadaşlarınla veya ekibinle paylaş.
+• Prototip, game jam ve yayınlandı durumları ve sonuç bağlantısıyla kayıtlı fikirler ve notlar.
+• Makaraları rastgele seçiciye çeviren oyun paketleri; örneğin Dota 2 için kahraman, eşya ve yetenekler.
+• Kendi JSON kütüphanelerini ve ön ayarlarını içe aktar, GitHub’da topluluk kataloğu.
+• 14 arayüz dili, animasyon ve ses ayarları.
+
+Temel özellikler çevrimdışı ve hesapsız çalışır. Kaynak bağlantıları tarayıcıda açılır.
+Nadirlik yalnızca seçili kütüphanelere göredir ve bir fikrin benzersiz olduğunu kanıtlamaz.
+GameReel bağımsız bir araçtır; anılan oyunlar, yayıncılar veya mağazalarla bağlantısı yoktur.
