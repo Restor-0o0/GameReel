@@ -89,7 +89,7 @@ class GeneratorPresetTest {
     }
 
     @Test
-    fun openModeJamRespectsGameOnlySourcesWithoutTwist() {
+    fun gameOnlySourcesBorrowEditorialTagsOnlyForUncoveredCategories() {
         val gameTag = Tag("game:core", "Puzzle", Category.CORE, "games", "game:1")
         val games = LibraryPack(Library("games", "Games"),
             listOf(GameReference("game:1", "1", "games", "Game", listOf(gameTag))))
@@ -99,28 +99,18 @@ class GeneratorPresetTest {
             preferences = Preferences(enabledLibraryIds = setOf("games")))
 
         val jam = gameEditor.applyPreset(workspace, "builtin:jam")
-        assertNull(jam.reels.single { it.category == Category.TWIST }.tag)
+        assertTrue(gameEditor.missingReelCategories(jam).isEmpty())
         assertEquals(gameTag, jam.reels.single { it.category == Category.CORE }.tag)
-        assertEquals(listOf(Category.STRUCTURE, Category.VISUAL, Category.TWIST),
-            gameEditor.missingReelCategories(jam))
-        val repaired = gameEditor.spin(gameEditor.enableAllLibraries(jam))
-        assertTrue(gameEditor.missingReelCategories(repaired).isEmpty())
-        assertNotNull(repaired.reels.single { it.category == Category.TWIST }.tag)
+        assertTrue(jam.reels.filter { it.category != Category.CORE }.all { it.tag?.sourceLibraryId == LibraryIds.FIXTURE })
 
-        val filtered = gameEditor.saveCustomIdeaFilter(workspace,
+        val filtered = gameEditor.saveCustomIdeaFilter(gameEditor.enableAllLibraries(workspace),
             CustomIdeaFilter("", "Any game", sourceIds = setOf("games")))
         val filteredJam = gameEditor.applyPreset(filtered, "builtin:jam")
-        assertNull(filteredJam.reels.single { it.category == Category.TWIST }.tag)
-        val allEnabledButGameFiltered = gameEditor.applyPreset(
-            gameEditor.enableAllLibraries(filtered), "builtin:jam")
-        assertNull(allEnabledButGameFiltered.reels.single { it.category == Category.TWIST }.tag)
-        assertEquals(gameTag, allEnabledButGameFiltered.reels.single { it.category == Category.CORE }.tag)
-        assertEquals(listOf(Category.STRUCTURE, Category.VISUAL, Category.TWIST),
-            gameEditor.missingReelCategories(allEnabledButGameFiltered))
-        val withPrompts = gameEditor.enableCreativeTwists(filteredJam)
-        val withTwist = gameEditor.spin(withPrompts)
+        assertTrue(gameEditor.missingReelCategories(filteredJam).isEmpty())
+        assertEquals(gameTag, filteredJam.reels.single { it.category == Category.CORE }.tag)
+        assertNotNull(filteredJam.reels.single { it.category == Category.TWIST }.tag)
+        val withTwist = gameEditor.spin(gameEditor.enableCreativeTwists(filteredJam))
         assertTrue(withTwist.preferences.customIdeaFilters.single().includeCreativeTwists)
-        assertNotNull(withTwist.reels.single { it.category == Category.TWIST }.tag)
         assertEquals(gameTag, withTwist.reels.single { it.category == Category.CORE }.tag)
 
         val tagSet = gameEditor.saveCustomPreset(withTwist, "Core only", emptyList(),

@@ -51,15 +51,19 @@ class WorkspaceEditor(
         else emptyList()
         // Materialize even an empty selection: an empty sourceIds set means
         // unrestricted sources to GeneratorEngine's legacy API.
-        val pool = (selectedPool ?: (sourcePool + creativeTwists).distinctBy { it.id })
+        val allowed = { tag: Tag -> mode.allows(tag) && excludedTerms.none { it in tag.name.lowercase() } }
+        val filtered = (selectedPool ?: (sourcePool + creativeTwists).distinctBy { it.id })
                 .filter { tag ->
-                    mode.allows(tag) &&
+                    allowed(tag) &&
                         (customFilter?.sourceIds == null || tag.sourceLibraryId in sourceIds ||
-                            tag in creativeTwists) &&
-                        excludedTerms.none { term ->
-                            term in tag.name.lowercase()
-                        }
+                            tag in creativeTwists)
                 }
+        // categories the chosen sources never cover borrow editorial tags instead of staying empty
+        val covered = filtered.map { it.category }.toSet()
+        val fallback = if (selectedPool != null || sourceIds.isEmpty()) emptyList()
+        else (BuiltinCatalog.tags + libraries.filter { it.library.id == LibraryIds.CURATED }.flatMap { it.allTags })
+            .filter { it.category !in covered && allowed(it) }
+        val pool = (filtered + fallback).distinctBy { it.id }
         return GeneratorConfig(
             sourceIds = sourceIds,
             maxAutoAtomsFromSameGame = if (preset == null) 2 else Int.MAX_VALUE,

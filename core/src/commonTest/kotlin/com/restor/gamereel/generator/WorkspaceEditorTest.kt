@@ -33,7 +33,7 @@ class WorkspaceEditorTest {
     }
 
     @Test
-    fun resetRespectsDisabledLibrariesAndLimitsHistory() {
+    fun resetPrefersEnabledLibrariesAndLimitsHistory() {
         val custom = Tag("custom:tag", "Custom", Category.CORE, "custom")
         val library =
             LibraryPack(
@@ -51,7 +51,7 @@ class WorkspaceEditorTest {
         val reset = local.resetReels(original)
         assertEquals(100, reset.history.size)
         assertEquals(custom, reset.reels.first().tag)
-        assertTrue(reset.reels.drop(1).all { it.tag == null })
+        assertTrue(reset.reels.drop(1).all { it.tag?.sourceLibraryId == LibraryIds.FIXTURE })
     }
 
     @Test

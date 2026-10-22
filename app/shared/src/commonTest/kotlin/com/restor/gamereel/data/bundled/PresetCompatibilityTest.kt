@@ -6,6 +6,7 @@ import com.restor.gamereel.model.*
 import gamereel.app.shared.generated.resources.Res
 import kotlin.random.Random
 import kotlin.test.*
+import kotlin.time.Duration.Companion.minutes
 import kotlinx.coroutines.test.runTest
 import kotlinx.serialization.json.*
 
@@ -49,6 +50,29 @@ class PresetCompatibilityTest {
                     assertTrue(tag.sourceLibraryId in sources, context)
                     assertTrue(mode.allows(tag), context)
                 }
+            }
+        }
+    }
+
+    @Test
+    fun everySourceSelectionFillsEveryBuiltinLayout() = runTest(timeout = 3.minutes) {
+        val packs = loadBundledLibraries(emptyMap())
+        val ids = listOf(LibraryIds.FIXTURE) + packs.map { it.library.id }
+        val tags = BuiltinCatalog.tags + packs.flatMap { it.allTags }
+        val random = Random(20261022)
+        val editor = WorkspaceEditor(GeneratorEngine(tags, object : RandomProvider {
+            override fun nextInt(bound: Int) = random.nextInt(bound)
+        }), packs)
+        val layouts = PresetCatalog.templates.map { it.id } + "initial"
+        val selections = ids.map { setOf(it) } + setOf((ids - LibraryIds.CURATED).toSet()) + setOf(ids.toSet())
+        for (sources in selections) {
+            for (mode in IdeaMode.entries) for (layout in layouts) {
+                val initial = Workspace(BuiltinCatalog.initialWorkspace().reels,
+                    preferences = Preferences(enabledLibraryIds = sources, ideaMode = mode))
+                val workspace = if (layout == "initial") editor.spin(initial) else editor.applyPreset(initial, layout)
+                val context = "$layout, $mode, $sources"
+                assertTrue(editor.missingReelCategories(workspace).isEmpty(), context)
+                workspace.reels.forEach { assertNotNull(it.tag, "$context: ${it.category}") }
             }
         }
     }
