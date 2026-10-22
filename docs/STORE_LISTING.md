@@ -23,7 +23,8 @@ GameReel помогает придумать отправную точку дл�
 - Ссылки на идеи: отправьте сочетание другу или команде.
 - Сохранение идей и заметок, статусы «прототип», «геймджем», «выпущена» и ссылка на результат.
 - Импорт собственных библиотек и пресетов в JSON, каталог пресетов сообщества на GitHub.
-- Пять языков интерфейса, настройка анимации и звука.
+- Игровые пакеты-рандомайзеры: например, герой, предметы и таланты для Dota 2.
+- 14 языков интерфейса, настройка анимации и звука.
 
 Основные функции работают без регистрации и подключения к интернету.
 Внешние ссылки на источники открываются в браузере.
@@ -50,7 +51,8 @@ visual styles, constraints and settings. Keep promising components and reroll th
 - Share an idea as a link with friends or your team.
 - Saved ideas and notes with prototype, game jam and released statuses and a result link.
 - Import your own JSON libraries and presets, community presets on GitHub.
-- Five interface languages, animation and sound settings.
+- Game packs that turn the reels into a randomizer, such as a hero, items and talents for Dota 2.
+- 14 interface languages, animation and sound settings.
 
 Core features work offline without an account. Source links open in your browser.
 Rarity reflects the selected annotated libraries; it does not prove an idea is unique.
