@@ -34,6 +34,25 @@ class AppLanguageTest {
         assertEquals("es", getString(spanish, Res.string.language_code))
         assertEquals("fr", getString(french, Res.string.language_code))
         assertEquals("de", getString(german, Res.string.language_code))
+        val added = mapOf(
+            AppLanguage.PORTUGUESE to "pt",
+            AppLanguage.ITALIAN to "it",
+            AppLanguage.POLISH to "pl",
+            AppLanguage.TURKISH to "tr",
+            AppLanguage.UKRAINIAN to "uk",
+            AppLanguage.INDONESIAN to "id",
+            AppLanguage.JAPANESE to "ja",
+            AppLanguage.KOREAN to "ko",
+            AppLanguage.CHINESE to "zh",
+        ).map { (language, code) ->
+            val environment = localizedEnvironment(system, language)
+            assertEquals(code, getString(environment, Res.string.language_code))
+            assertNotEquals(
+                getString(english, Res.string.nav_settings),
+                getString(environment, Res.string.nav_settings),
+            )
+            environment
+        }
         assertEquals("2 tags", getPluralString(english, Res.plurals.tags_count, 2, 2))
         assertEquals("2 тега", getPluralString(russian, Res.plurals.tags_count, 2, 2))
         assertEquals("2 etiquetas", getPluralString(spanish, Res.plurals.tags_count, 2, 2))
@@ -51,7 +70,7 @@ class AppLanguageTest {
             getString(russian, Res.string.fixture_destruction),
             BuiltinCatalog.tags.first().loadLabel(russian),
         )
-        listOf(spanish, french, german).forEach { environment ->
+        (listOf(spanish, french, german) + added).forEach { environment ->
             assertEquals(
                 getString(environment, Res.string.fixture_destruction),
                 BuiltinCatalog.tags.first().loadLabel(environment),

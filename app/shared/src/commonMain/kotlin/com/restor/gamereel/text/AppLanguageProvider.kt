@@ -43,6 +43,15 @@ internal fun localizedEnvironment(
             AppLanguage.SPANISH -> "es"
             AppLanguage.FRENCH -> "fr"
             AppLanguage.GERMAN -> "de"
+            AppLanguage.PORTUGUESE -> "pt"
+            AppLanguage.ITALIAN -> "it"
+            AppLanguage.POLISH -> "pl"
+            AppLanguage.TURKISH -> "tr"
+            AppLanguage.UKRAINIAN -> "uk"
+            AppLanguage.INDONESIAN -> "id"
+            AppLanguage.JAPANESE -> "ja"
+            AppLanguage.KOREAN -> "ko"
+            AppLanguage.CHINESE -> "zh"
             AppLanguage.ENGLISH, AppLanguage.SYSTEM -> "en"
         }),
         ScriptQualifier(""),

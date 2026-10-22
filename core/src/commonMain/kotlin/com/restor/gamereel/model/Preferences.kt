@@ -20,6 +20,15 @@ enum class AppLanguage {
     SPANISH,
     FRENCH,
     GERMAN,
+    PORTUGUESE,
+    ITALIAN,
+    POLISH,
+    TURKISH,
+    UKRAINIAN,
+    INDONESIAN,
+    JAPANESE,
+    KOREAN,
+    CHINESE,
 }
 
 enum class IdeaMode { OPEN, SOLO, JAM, MOBILE, OFFLINE }

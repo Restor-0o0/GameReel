@@ -14,7 +14,8 @@ def resources(path):
 
 base = resources(root / "values/strings.xml")
 errors = []
-for directory in sorted(root.glob("values-*")):
+directories = sorted(root.glob("values-*"))
+for directory in directories:
     translated = resources(directory / "strings.xml")
     missing = base.keys() - translated.keys()
     extra = translated.keys() - base.keys()
@@ -29,4 +30,4 @@ for directory in sorted(root.glob("values-*")):
 if errors:
     print("\n".join(errors))
     sys.exit(1)
-print(f"Localization keys and format arguments match: {len(base)} resources, 5 translations")
+print(f"Localization keys and format arguments match: {len(base)} resources, {len(directories)} translations")

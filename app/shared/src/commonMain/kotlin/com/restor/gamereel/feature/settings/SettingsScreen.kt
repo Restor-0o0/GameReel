@@ -115,6 +115,15 @@ internal fun PreferencesContent(
                                             AppLanguage.SPANISH -> Res.string.language_spanish
                                             AppLanguage.FRENCH -> Res.string.language_french
                                             AppLanguage.GERMAN -> Res.string.language_german
+                                            AppLanguage.PORTUGUESE -> Res.string.language_portuguese
+                                            AppLanguage.ITALIAN -> Res.string.language_italian
+                                            AppLanguage.POLISH -> Res.string.language_polish
+                                            AppLanguage.TURKISH -> Res.string.language_turkish
+                                            AppLanguage.UKRAINIAN -> Res.string.language_ukrainian
+                                            AppLanguage.INDONESIAN -> Res.string.language_indonesian
+                                            AppLanguage.JAPANESE -> Res.string.language_japanese
+                                            AppLanguage.KOREAN -> Res.string.language_korean
+                                            AppLanguage.CHINESE -> Res.string.language_chinese
                                         }
                                     )
                                 )
