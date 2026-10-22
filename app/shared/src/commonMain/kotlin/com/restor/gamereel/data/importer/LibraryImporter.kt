@@ -25,10 +25,11 @@ class JsonLibraryImporter : LibraryImporter {
             } catch (_: Exception) {
                 fail(Res.string.import_bad_json)
             }
-        val rows = root["games"] as? JsonArray ?: fail(Res.string.import_no_games)
+        val canonical = root["library"] as? JsonObject
+        val rows = root["games"] as? JsonArray
+            ?: if (canonical != null) JsonArray(emptyList()) else fail(Res.string.import_no_games)
         if (rows.size > MAX_GAMES) fail(Res.string.import_too_many_games, MAX_GAMES)
 
-        val canonical = root["library"] as? JsonObject
         val first = rows.firstOrNull() as? JsonObject ?: JsonObject(emptyMap())
         val legacyId =
             first.string("library").ifBlank {
@@ -46,13 +47,34 @@ class JsonLibraryImporter : LibraryImporter {
                 ?: 1
         if (version <= 0) fail(Res.string.import_bad_version)
 
+        val slots = parseSlots(id, canonical)
+        val reels = (canonical?.get("reels") as? JsonArray).orEmpty().map { element ->
+            val local = (element as? JsonPrimitive)?.contentOrNull.orEmpty()
+            slots.firstOrNull { it.id == "$id:slot:$local" }?.id ?: fail(Res.string.import_unknown_slot, local)
+        }
+        if (reels.size > ContentLimits.MAX_REELS) fail(Res.string.error_reel_limit)
+
+        val slotTags = mutableMapOf<String, Tag>()
+        val slotRequires = mutableMapOf<String, MutableSet<String>>()
         val standaloneTags =
             (canonical?.get("standaloneTags") as? JsonArray)
                 .orEmpty()
-                .map { atom ->
+                .mapNotNull { atom ->
                     val tag = atom as? JsonObject ?: fail(Res.string.import_bad_tag)
                     val label = tag.string("name").trim()
                     if (label.isBlank()) fail(Res.string.import_empty_tag_name)
+                    val slotName = tag.string("slot")
+                    if (slotName.isNotBlank()) {
+                        val slot = "$id:slot:$slotName"
+                        val declared = slots.firstOrNull { it.id == slot } ?: fail(Res.string.import_unknown_slot, slotName)
+                        val normalized = label.lowercase().replace(Regex("\\s+"), " ")
+                        val tagId = "$slot:${identity(normalized)}"
+                        slotRequires.getOrPut(tagId) { mutableSetOf() } += tag.strings("requires")
+                        if (tagId !in slotTags) slotTags[tagId] = Tag(tagId, label, Category.OTHER, id,
+                            description = tag.string("description"),
+                            icon = tag.string("icon").ifBlank { declared.icon }, slot = slot)
+                        return@mapNotNull null
+                    }
                     val category =
                         Category.entries.find { it.name == tag.string("category") }
                             ?: fail(Res.string.import_unknown_tag_category)
@@ -66,7 +88,7 @@ class JsonLibraryImporter : LibraryImporter {
                         icon = tag.string("icon"),
                     )
                 }
-                .distinctBy { it.id }
+                .distinctBy { it.id } + resolveRequires(slots, slotTags, slotRequires)
         if (rows.isEmpty() && standaloneTags.isEmpty()) fail(Res.string.import_no_content)
         if (standaloneTags.size > ContentLimits.MAX_TAGS)
             fail(Res.string.import_too_many_tags, ContentLimits.MAX_TAGS)
@@ -178,11 +200,60 @@ class JsonLibraryImporter : LibraryImporter {
                     version,
                     root.string("source_url").ifBlank { root.string("source") },
                     standaloneTags,
+                    slots,
+                    reels,
                 ),
                 games,
             ),
             warnings.toList(),
         )
+    }
+
+    private fun parseSlots(id: String, canonical: JsonObject?): List<ReelSlot> {
+        val rows = (canonical?.get("slots") as? JsonArray).orEmpty()
+        if (rows.size > 50) fail(Res.string.import_bad_slot)
+        val slots = rows.map { element ->
+            val row = element as? JsonObject ?: fail(Res.string.import_bad_slot)
+            val local = row.string("id")
+            val name = row.string("name").trim()
+            if (!local.matches(Regex("[A-Za-z0-9_.-]{1,60}")) || name.isBlank()) fail(Res.string.import_bad_slot)
+            ReelSlot(
+                "$id:slot:$local",
+                name.take(60),
+                row.string("icon").take(16),
+                row.string("parent").ifBlank { null }?.let { "$id:slot:$it" },
+                (row["unique"] as? JsonPrimitive)?.booleanOrNull ?: true,
+            )
+        }
+        val ids = slots.map { it.id }
+        if (ids.size != ids.toSet().size) fail(Res.string.import_bad_slot)
+        slots.forEach { slot ->
+            var parent = slot.parent
+            var steps = 0
+            while (parent != null) {
+                if (parent !in ids || ++steps > slots.size) fail(Res.string.import_bad_slot)
+                parent = slots.first { it.id == parent }.parent
+            }
+        }
+        return slots
+    }
+
+    // requires lists parent tag names; a tag whose parents are all unknown is dropped
+    private fun resolveRequires(
+        slots: List<ReelSlot>,
+        tags: Map<String, Tag>,
+        requires: Map<String, Set<String>>,
+    ): List<Tag> {
+        val idsByName = tags.values.groupBy { it.slot }.mapValues { (_, group) ->
+            group.associate { it.name.trim().lowercase() to it.id }
+        }
+        return tags.values.mapNotNull { tag ->
+            val names = requires[tag.id].orEmpty()
+            val parent = slots.first { it.id == tag.slot }.parent
+            if (names.isEmpty() || parent == null) return@mapNotNull tag
+            val ids = names.mapNotNull { idsByName[parent]?.get(it.trim().lowercase()) }
+            if (ids.isEmpty()) null else tag.copy(requires = ids.distinct())
+        }
     }
 
     private fun JsonObject.string(key: String) =

@@ -200,7 +200,7 @@ private fun PresetListItem(
         Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Text(label, style = MaterialTheme.typography.titleMedium)
             description?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
-            Text(preset.reels.map { stringResource(it.category.title) }.joinToString(" · "),
+            Text(preset.reels.map { it.title() }.joinToString(" · "),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 maxLines = 2, overflow = TextOverflow.Ellipsis)

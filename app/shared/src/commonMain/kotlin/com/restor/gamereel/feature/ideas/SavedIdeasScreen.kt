@@ -67,7 +67,7 @@ internal fun SavedContent(
             if (idea.outcome.stage != IdeaStage.IDEA) appendLine("$stageLabel: ${stageLabels[idea.outcome.stage]}")
             if (idea.outcome.url.isNotBlank()) appendLine("$resultLabel: ${idea.outcome.url}")
             idea.reels.forEach { reel -> reel.tag?.let {
-                appendLine("${categoryLabels[reel.category]}: ${it.name}")
+                appendLine("${reel.slot?.name ?: categoryLabels[reel.category]}: ${it.name}")
             } }
             if (idea.concept.pitch.isNotBlank()) appendLine("$pitchLabel: ${idea.concept.pitch}")
             if (idea.concept.coreLoop.isNotBlank()) appendLine("$loopLabel: ${idea.concept.coreLoop}")
@@ -186,7 +186,7 @@ internal fun SavedContent(
                             Surface(shape = RoundedCornerShape(10.dp),
                                 color = MaterialTheme.colorScheme.surfaceVariant) {
                                 Text(stringResource(Res.string.labeled_value,
-                                    stringResource(reel.category.title), reel.tag!!.label()),
+                                    reel.title(), reel.tag!!.label()),
                                     Modifier.widthIn(max = 240.dp)
                                         .padding(horizontal = 9.dp, vertical = 6.dp),
                                     maxLines = 1, overflow = TextOverflow.Ellipsis,

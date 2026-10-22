@@ -47,5 +47,15 @@
       "games": 4,
       "standaloneTags": 1
     }
+  ],
+  "packs": [
+    {
+      "file": "packs/dota2.json",
+      "name": "Dota 2",
+      "id": "dota2",
+      "version": 1,
+      "reels": 11,
+      "tags": 1246
+    }
   ]
 }

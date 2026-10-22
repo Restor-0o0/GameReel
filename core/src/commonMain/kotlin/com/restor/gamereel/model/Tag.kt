@@ -11,4 +11,6 @@ data class Tag(
     val sourceGameId: String? = null,
     val description: String = "",
     val icon: String = "",
+    val slot: String? = null,
+    val requires: List<String> = emptyList(),
 )

@@ -75,7 +75,7 @@ internal fun SlotReel(
         }
 
         Text(
-            stringResource(reel.category.title),
+            reel.title(),
             fontSize = if (large) 11.sp else 9.sp,
             maxLines = 1,
             overflow = TextOverflow.Ellipsis,

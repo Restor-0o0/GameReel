@@ -29,7 +29,7 @@ object IdeaShareCode {
         return input.substring(start).takeWhile { it.isLetterOrDigit() || it in "._-" }
     }
 
-    fun decode(input: String, known: List<Tag>): SharedIdea? {
+    fun decode(input: String, known: List<Tag>, slots: List<ReelSlot> = emptyList()): SharedIdea? {
         val code = extract(input) ?: return null
         val text = runCatching { base64.decode(code.removePrefix(PREFIX)).decodeToString() }
             .getOrNull() ?: return null
@@ -40,7 +40,7 @@ object IdeaShareCode {
             val category = Category.entries.firstOrNull { it.name == parts[0] } ?: return@mapIndexedNotNull null
             val tag = if (parts.size < 3 || parts[2].isBlank()) null
             else resolve(category, parts[1].take(MAX_TEXT), parts[2].take(MAX_TEXT), byId, known)
-            Reel("shared:$index", category, tag)
+            Reel("shared:$index", category, tag, slot = tag?.slot?.let { id -> slots.firstOrNull { it.id == id } })
         }
         if (reels.none { it.tag != null }) return null
         return SharedIdea(lines.first().take(MAX_TEXT), reels)

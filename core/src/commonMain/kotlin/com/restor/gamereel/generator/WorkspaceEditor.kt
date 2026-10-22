@@ -25,6 +25,8 @@ class WorkspaceEditor(
         const val HISTORY_LIMIT = 100
     }
 
+    private val slots = libraries.flatMap { it.library.slots }.associateBy { it.id }
+
     private fun config(workspace: Workspace): GeneratorConfig {
         val preset = workspace.preferences.activePresetId
             ?.let { id -> workspace.preferences.presets.firstOrNull { it.id == id && it.isTagSet } }
@@ -51,7 +53,9 @@ class WorkspaceEditor(
         else emptyList()
         // Materialize even an empty selection: an empty sourceIds set means
         // unrestricted sources to GeneratorEngine's legacy API.
-        val allowed = { tag: Tag -> mode.allows(tag) && excludedTerms.none { it in tag.name.lowercase() } }
+        val allowed = { tag: Tag ->
+            tag.slot == null && mode.allows(tag) && excludedTerms.none { it in tag.name.lowercase() }
+        }
         val filtered = (selectedPool ?: (sourcePool + creativeTwists).distinctBy { it.id })
                 .filter { tag ->
                     allowed(tag) &&
@@ -63,7 +67,10 @@ class WorkspaceEditor(
         val fallback = if (selectedPool != null || sourceIds.isEmpty()) emptyList()
         else (BuiltinCatalog.tags + libraries.filter { it.library.id == LibraryIds.CURATED }.flatMap { it.allTags })
             .filter { it.category !in covered && allowed(it) }
-        val pool = (filtered + fallback).distinctBy { it.id }
+        // pack reels ignore idea filters and tag sets, they only need their library enabled
+        val packTags = libraries.filter { it.library.slots.isNotEmpty() && it.library.id in enabledSources }
+            .flatMap { it.allTags }.filter { it.slot != null }
+        val pool = (filtered + fallback + packTags).distinctBy { it.id }
         return GeneratorConfig(
             sourceIds = sourceIds,
             maxAutoAtomsFromSameGame = if (preset == null) 2 else Int.MAX_VALUE,
@@ -77,7 +84,7 @@ class WorkspaceEditor(
             .filter { it.sourceLibraryId in config.sourceIds }
         val available = pool.map { it.category }.toSet()
         return workspace.reels.asSequence()
-            .filter { it.state == ReelState.RANDOM && it.category !in available }
+            .filter { it.state == ReelState.RANDOM && it.slot == null && it.category !in available }
             .map { it.category }.distinct().toList()
     }
 
@@ -150,8 +157,31 @@ class WorkspaceEditor(
                 )
         )
 
-    fun savePreset(workspace: Workspace, name: String): Workspace =
-        saveReelPreset(workspace, name, workspace.reels.map { it.category })
+    fun savePreset(workspace: Workspace, name: String): Workspace {
+        if (name.isBlank() || workspace.reels.isEmpty()) return workspace
+        val reels = workspace.reels.mapIndexed { index, reel -> Reel("template:$index", reel.category, slot = reel.slot) }
+        val preset = GeneratorPreset("preset:${workspace.nextId}", name.trim().take(80), reels)
+        return workspace.copy(
+            nextId = workspace.nextId + 1,
+            preferences = workspace.preferences.copy(presets = workspace.preferences.presets + preset),
+        )
+    }
+
+    fun installPack(workspace: Workspace, pack: LibraryPack): Workspace {
+        val library = pack.library
+        val byId = library.slots.associateBy { it.id }
+        val reels = library.reels.mapNotNull(byId::get).take(ContentLimits.MAX_REELS)
+        if (reels.isEmpty()) return workspace
+        val presetId = "pack:${library.id}"
+        val preset = GeneratorPreset(presetId, library.name.take(80),
+            reels.mapIndexed { index, slot -> Reel("template:$index", Category.OTHER, slot = slot) })
+        val enabled = workspace.copy(preferences = workspace.preferences.copy(
+            disabledLibraryIds = workspace.preferences.disabledLibraryIds - library.id,
+            enabledLibraryIds = workspace.preferences.enabledLibraryIds?.plus(library.id),
+            presets = workspace.preferences.presets.filterNot { it.id == presetId } + preset,
+        ))
+        return applyPreset(enabled, presetId)
+    }
 
     fun saveReelPreset(workspace: Workspace, name: String, categories: List<Category>): Workspace {
         if (name.isBlank() || categories.isEmpty()) return workspace
@@ -237,7 +267,7 @@ class WorkspaceEditor(
         if (!preset.isReelPreset) return workspace
         val before = checkpoint(workspace)
         val reels = preset.reels.mapIndexed { index, reel ->
-            Reel(id = "reel:${workspace.nextId + index}", category = reel.category)
+            Reel(id = "reel:${workspace.nextId + index}", category = reel.category, slot = reel.slot)
         }
         return before.copy(
             reels = engine.spin(reels, config(before)),
@@ -485,15 +515,15 @@ class WorkspaceEditor(
     }
 
     fun pinTag(workspace: Workspace, tag: Tag): Workspace {
-        val reels = engine.pin(workspace.reels, tag, "reel:${workspace.nextId}")
+        val reels = engine.pin(workspace.reels, tag, "reel:${workspace.nextId}", tag.slot?.let(slots::get))
         ensure(reels != workspace.reels, EditorError.ALREADY_PINNED)
         ensure(reels.size <= ContentLimits.MAX_REELS, EditorError.TOO_MANY_REELS)
         return workspace.copy(reels = reels, nextId = workspace.nextId + 1)
     }
 
-    fun addReel(workspace: Workspace, category: Category): Workspace {
+    fun addReel(workspace: Workspace, category: Category, slot: ReelSlot? = null): Workspace {
         ensure(workspace.reels.size < ContentLimits.MAX_REELS, EditorError.TOO_MANY_REELS)
-        val reel = Reel("reel:${workspace.nextId}", category)
+        val reel = Reel("reel:${workspace.nextId}", if (slot == null) category else Category.OTHER, slot = slot)
         return workspace.copy(
             reels = engine.spin(workspace.reels + reel, config(workspace), onlyId = reel.id),
             nextId = workspace.nextId + 1,
@@ -508,12 +538,17 @@ class WorkspaceEditor(
             EditorError.ALREADY_PINNED,
         )
 
-        return workspace.copy(
-            reels =
-                workspace.reels.map {
-                    if (it.id == id) it.copy(category = tag.category, tag = tag) else it
-                }
-        )
+        val reels = workspace.reels.map {
+            if (it.id != id) it
+            else if (it.slot != null) it.copy(tag = tag)
+            else it.copy(category = tag.category, tag = tag)
+        }
+        val dependents = engine.dependentsOf(reels, id)
+        if (dependents.isEmpty()) return workspace.copy(reels = reels)
+        val config = config(workspace)
+        return workspace.copy(reels = dependents.fold(reels) { current, dependent ->
+            engine.spin(current, config, dependent)
+        })
     }
 
     fun saveIdea(workspace: Workspace, title: String, notes: String): Workspace =

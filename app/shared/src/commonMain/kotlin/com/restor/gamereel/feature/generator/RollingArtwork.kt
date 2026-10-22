@@ -40,10 +40,11 @@ internal fun RollingArtwork(
     height: Dp,
 ) {
     val pool =
-        remember(reel.category) {
-            BuiltinCatalog.tags.filter { it.category == reel.category }.map { it.displayIcon }
+        remember(reel.category, reel.slot) {
+            if (reel.slot != null) emptyList()
+            else BuiltinCatalog.tags.filter { it.category == reel.category }.map { it.displayIcon }
         }
-    val finalIcon = reel.tag?.displayIcon ?: reel.category.symbol
+    val finalIcon = reel.tag?.displayIcon ?: reel.symbol
     val measurer = rememberTextMeasurer()
     val style =
         LocalTextStyle.current.copy(
@@ -71,7 +72,7 @@ internal fun RollingArtwork(
     val description =
         stringResource(
             Res.string.labeled_value,
-            stringResource(reel.category.title),
+            reel.title(),
             reel.tag?.label() ?: stringResource(Res.string.no_result),
         )
 

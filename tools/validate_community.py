@@ -1,4 +1,4 @@
-"""Validate community presets, tag sets and libraries and rebuild community/index.json.
+"""Validate community presets, tag sets, libraries and game packs and rebuild community/index.json.
 
 Usage: python tools/validate_community.py [--check]
 --check fails when index.json is out of date instead of rewriting it.
@@ -111,7 +111,57 @@ def check_library(data, errors):
     return {"id": library_id, "version": library.get("version"), "games": len(games), "standaloneTags": len(standalone)}
 
 
-KINDS = {"presets": check_preset, "tag-sets": check_tag_set, "libraries": check_library}
+SLOT_ID = re.compile(r"[A-Za-z0-9_.-]{1,60}")
+
+
+def check_pack(data, errors):
+    library = data.get("library")
+    if not isinstance(library, dict):
+        errors.append("library object is required")
+        return {}
+    library_id = library.get("id")
+    if not isinstance(library_id, str) or not LIBRARY_ID.fullmatch(library_id) or library_id in RESERVED_LIBRARIES:
+        errors.append(f"library id {library_id!r} is invalid or reserved")
+    if not text(library.get("name"), 80):
+        errors.append("library name is required")
+    slots = library.get("slots")
+    if not isinstance(slots, list) or not 1 <= len(slots) <= 50:
+        errors.append("slots must hold 1..50 entries")
+        return {}
+    parents = {}
+    for slot in slots:
+        if not isinstance(slot, dict) or not isinstance(slot.get("id"), str) or not SLOT_ID.fullmatch(slot["id"])                 or not text(slot.get("name"), 60) or slot["id"] in parents:
+            errors.append(f"bad slot {slot!r}")
+            return {}
+        parents[slot["id"]] = slot.get("parent")
+    for slot_id in parents:
+        seen, current = set(), parents[slot_id]
+        while current:
+            if current not in parents or current in seen:
+                errors.append(f"slot {slot_id} has a missing or cyclic parent")
+                break
+            seen.add(current)
+            current = parents[current]
+    reels = library.get("reels")
+    if not isinstance(reels, list) or not 1 <= len(reels) <= MAX_REELS or any(r not in parents for r in reels):
+        errors.append(f"reels must hold 1..{MAX_REELS} declared slot ids")
+    tags = library.get("standaloneTags", [])
+    if not isinstance(tags, list) or len(tags) > MAX_ITEMS:
+        errors.append(f"standaloneTags must hold up to {MAX_ITEMS} entries")
+        return {}
+    counts = {}
+    for tag in tags:
+        if not isinstance(tag, dict) or not text(tag.get("name"), 120) or tag.get("slot") not in parents:
+            errors.append(f"bad pack tag {tag!r}")
+        else:
+            counts[tag["slot"]] = counts.get(tag["slot"], 0) + 1
+    for slot_id in reels or []:
+        if not counts.get(slot_id):
+            errors.append(f"slot {slot_id} has no tags")
+    return {"id": library_id, "version": library.get("version"), "reels": len(reels), "tags": len(tags)}
+
+
+KINDS = {"presets": check_preset, "tag-sets": check_tag_set, "libraries": check_library, "packs": check_pack}
 
 
 def main():
@@ -136,7 +186,7 @@ def main():
                 continue
             summary = check(data, errors)
             failures += [f"{name}: {error}" for error in errors]
-            title = data.get("library", {}).get("name") if kind == "libraries" else data.get("name")
+            title = data.get("library", {}).get("name") if kind in ("libraries", "packs") else data.get("name")
             entries.append({"file": name, "name": title, **summary})
         index[kind] = entries
 

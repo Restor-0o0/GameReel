@@ -525,4 +525,8 @@
     <string name="market_rank">Peringkat tag</string>
     <string name="market_rank_any">Apa saja</string>
     <string name="market_rank_note">Peringkat 1 adalah tag utama game: tag Steam diurutkan berdasarkan suara pemain.</string>
+    <string name="import_bad_slot">Gulungan tidak valid dalam paket</string>
+    <string name="import_unknown_slot">Gulungan tidak dikenal “%1$s”</string>
+    <string name="msg_pack_installed">Paket “%1$s” terpasang dan gulungannya diterapkan. ↶ di atas mengembalikan yang sebelumnya</string>
+    <string name="packs_download">Unduh paket game ↗</string>
 </resources>

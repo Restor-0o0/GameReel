@@ -20,6 +20,8 @@ data class Library(
     val version: Int = 1,
     val source: String = "",
     val standaloneTags: List<Tag> = emptyList(),
+    val slots: List<ReelSlot> = emptyList(),
+    val reels: List<String> = emptyList(),
 )
 
 @Serializable
@@ -34,6 +36,8 @@ data class GameReference(
 )
 
 @Serializable data class LibraryPack(val library: Library, val games: List<GameReference>)
+
+val LibraryPack.isGamePack: Boolean get() = library.reels.isNotEmpty()
 
 val LibraryPack.allTags: List<Tag>
     get() = library.standaloneTags + games.flatMap { it.tags }

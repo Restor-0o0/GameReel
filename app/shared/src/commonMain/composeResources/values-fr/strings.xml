@@ -507,4 +507,8 @@
     <string name="market_rank">Rang du tag</string>
     <string name="market_rank_any">Tous</string>
     <string name="market_rank_note">Le rang 1 est le tag principal du jeu : les tags Steam sont classés selon les votes des joueurs.</string>
+    <string name="import_bad_slot">Rouleau invalide dans le pack</string>
+    <string name="import_unknown_slot">Rouleau inconnu « %1$s »</string>
+    <string name="msg_pack_installed">Pack « %1$s » installé, ses rouleaux sont appliqués. ↶ en haut rétablit les précédents</string>
+    <string name="packs_download">Télécharger des packs de jeux ↗</string>
 </resources>

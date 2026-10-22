@@ -525,4 +525,8 @@
     <string name="market_rank">태그 순위</string>
     <string name="market_rank_any">전체</string>
     <string name="market_rank_note">1위는 게임의 메인 태그입니다. Steam 태그는 플레이어 투표순으로 정렬됩니다.</string>
+    <string name="import_bad_slot">팩에 잘못된 릴이 있습니다</string>
+    <string name="import_unknown_slot">알 수 없는 릴 “%1$s”</string>
+    <string name="msg_pack_installed">“%1$s” 팩을 설치하고 릴을 적용했습니다. 상단의 ↶로 이전 릴을 되돌릴 수 있습니다</string>
+    <string name="packs_download">게임 팩 다운로드 ↗</string>
 </resources>

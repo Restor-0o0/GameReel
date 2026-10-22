@@ -141,26 +141,33 @@ class GameReelViewModel(
                                 fail(Res.string.error_older_version)
                             }
 
-                            val afterWorkspace = if (imported.pack.library.id == LibraryIds.PERSONAL)
-                                before.withPersonalLibraryEnabled() else before
                             val replacement = if (imported.pack.library.id == LibraryIds.PERSONAL)
                                     PersonalGames.merge(existing, imported.pack)
                                 else imported.pack
+                            val nextLibraries = libraries.filterNot { it.library.id == replacement.library.id } + replacement
+                            val nextEngine = GeneratorEngine(
+                                BuiltinCatalog.tags + nextLibraries.flatMap { it.allTags },
+                                KotlinRandomProvider(),
+                            )
+                            val nextEditor = WorkspaceEditor(nextEngine, nextLibraries)
+                            val afterWorkspace = when {
+                                replacement.library.id == LibraryIds.PERSONAL -> before.withPersonalLibraryEnabled()
+                                replacement.isGamePack -> nextEditor.installPack(before, replacement)
+                                else -> before
+                            }
                             repository.saveWithLibraries(afterWorkspace, listOf(replacement))
-                            libraries = libraries.filterNot { it.library.id == replacement.library.id } + replacement
-                            engine =
-                                GeneratorEngine(
-                                    BuiltinCatalog.tags + libraries.flatMap { it.allTags },
-                                    KotlinRandomProvider(),
-                                )
-                            editor = WorkspaceEditor(engine, libraries)
+                            libraries = nextLibraries
+                            engine = nextEngine
+                            editor = nextEditor
 
                             mutableState.value =
                                 mutableState.value.copy(
                                     workspace = afterWorkspace,
                                     libraries = libraries,
                                     importing = false,
-                                    message = importedText(imported),
+                                    message = if (replacement.isGamePack)
+                                        uiText(Res.string.msg_pack_installed, replacement.library.name)
+                                    else importedText(imported),
                                 )
 
                             continue
@@ -408,6 +415,8 @@ class GameReelViewModel(
 
     fun addReel(category: Category) = update { editor.addReel(it, category) }
 
+    fun addReel(slot: ReelSlot) = update { editor.addReel(it, Category.OTHER, slot) }
+
     fun selectTag(id: String, tag: Tag) = update { editor.selectTag(it, id, tag) }
 
     fun saveIdea(title: String, notes: String) =
@@ -423,7 +432,8 @@ class GameReelViewModel(
 
     fun openSharedIdea(text: String): Boolean {
         val shared = IdeaShareCode.decode(text,
-            BuiltinCatalog.tags + state.value.libraries.flatMap { it.allTags }) ?: return false
+            BuiltinCatalog.tags + state.value.libraries.flatMap { it.allTags },
+            state.value.libraries.flatMap { it.library.slots }) ?: return false
         update(Res.string.msg_shared_opened) { editor.openReels(it, shared.reels) }
         return true
     }

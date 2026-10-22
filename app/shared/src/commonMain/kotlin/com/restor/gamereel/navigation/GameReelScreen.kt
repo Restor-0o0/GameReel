@@ -283,7 +283,21 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
             onDismissRequest = { addReel = false },
             title = { Text(stringResource(Res.string.add_reel)) },
             text = {
+                val packSlots = state.libraries
+                    .filter { state.workspace?.preferences?.includesLibrary(it.library.id) == true }
+                    .flatMap { it.library.slots }
                 LazyColumn {
+                    items(packSlots, key = { it.id }) { slot ->
+                        TextButton(
+                            onClick = {
+                                model.addReel(slot)
+                                addReel = false
+                            },
+                            modifier = Modifier.fillMaxWidth(),
+                        ) {
+                            Text("${slot.icon.ifBlank { "🎲" }} ${slot.name}")
+                        }
+                    }
                     items(Category.entries.toList()) { category ->
                         TextButton(
                             onClick = {
@@ -322,15 +336,21 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
             model.finishWelcome()
         })
     selecting?.let { reel ->
+        val parentTag = reel.slot?.parent?.let { parent ->
+            state.workspace?.reels?.firstOrNull { it.slot?.id == parent }?.tag
+        }
         val options =
-            remember(allTags, reel.category) {
-                allTags.filter { it.category == reel.category }.distinctBy { it.name.lowercase() }
+            remember(allTags, reel.kind, parentTag) {
+                allTags
+                    .filter { it.kind == reel.kind }
+                    .filter { parentTag == null || it.requires.isEmpty() || parentTag.id in it.requires }
+                    .distinctBy { it.name.lowercase() }
             }
         AlertDialog(
             onDismissRequest = { selecting = null },
             title = {
                 Text(
-                    stringResource(Res.string.pick_value_title, stringResource(reel.category.title))
+                    stringResource(Res.string.pick_value_title, reel.title())
                 )
             },
             text = {

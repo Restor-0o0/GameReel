@@ -20,7 +20,11 @@ import com.restor.gamereel.ui.theme.GameReelTheme
 import gamereel.app.shared.generated.resources.Res
 
 @Composable
-fun App(repositoryFactory: () -> WorkspaceRepository, incomingLink: String? = null) {
+fun App(
+    repositoryFactory: () -> WorkspaceRepository,
+    incomingLink: String? = null,
+    incomingFile: IncomingFile? = null,
+) {
     val model = viewModel {
         GameReelViewModel(repositoryFactory, bundledLoader = ::loadBundledLibraries)
     }
@@ -29,6 +33,9 @@ fun App(repositoryFactory: () -> WorkspaceRepository, incomingLink: String? = nu
     val loaded = state.workspace != null && !state.loading
     LaunchedEffect(incomingLink, loaded) {
         if (loaded && incomingLink != null) model.openSharedIdea(incomingLink)
+    }
+    LaunchedEffect(incomingFile, loaded) {
+        if (loaded && incomingFile != null) model.importLibrary(incomingFile.read)
     }
     val allowStoreArt by
         produceState(false) {
@@ -46,3 +53,5 @@ fun App(repositoryFactory: () -> WorkspaceRepository, incomingLink: String? = nu
         }
     }
 }
+
+class IncomingFile(val key: String, val read: suspend () -> String)

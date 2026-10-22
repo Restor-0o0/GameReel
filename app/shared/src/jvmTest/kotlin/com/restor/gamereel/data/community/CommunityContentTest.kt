@@ -2,6 +2,8 @@ package com.restor.gamereel.data.community
 
 import com.restor.gamereel.data.importer.JsonLibraryImporter
 import com.restor.gamereel.model.GeneratorPreset
+import com.restor.gamereel.model.allTags
+import com.restor.gamereel.model.isGamePack
 import com.restor.gamereel.model.isReelPreset
 import com.restor.gamereel.model.isTagSet
 import java.io.File
@@ -37,6 +39,16 @@ class CommunityContentTest {
         files("libraries").forEach {
             val pack = JsonLibraryImporter().parse(it.readText()).pack
             assertTrue(pack.games.isNotEmpty() || pack.library.standaloneTags.isNotEmpty(), it.name)
+        }
+    }
+
+    @Test
+    fun packsPassTheImporterAsGamePacks() {
+        assertTrue(files("packs").isNotEmpty())
+        files("packs").forEach {
+            val pack = JsonLibraryImporter().parse(it.readText()).pack
+            assertTrue(pack.isGamePack, it.name)
+            assertTrue(pack.library.reels.all { reel -> pack.allTags.any { tag -> tag.slot == reel } }, it.name)
         }
     }
 }

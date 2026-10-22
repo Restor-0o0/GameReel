@@ -525,4 +525,8 @@
     <string name="market_rank">Posizione del tag</string>
     <string name="market_rank_any">Qualsiasi</string>
     <string name="market_rank_note">La posizione 1 è il tag principale del gioco: i tag di Steam sono ordinati per voti dei giocatori.</string>
+    <string name="import_bad_slot">Rullo non valido nel pacchetto</string>
+    <string name="import_unknown_slot">Rullo sconosciuto “%1$s”</string>
+    <string name="msg_pack_installed">Pacchetto “%1$s” installato e rulli applicati. ↶ in alto ripristina i precedenti</string>
+    <string name="packs_download">Scarica pacchetti di giochi ↗</string>
 </resources>

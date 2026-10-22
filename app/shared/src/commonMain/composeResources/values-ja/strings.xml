@@ -525,4 +525,8 @@
     <string name="market_rank">タグの順位</string>
     <string name="market_rank_any">すべて</string>
     <string name="market_rank_note">順位 1 はそのゲームのメインタグです。Steam のタグはプレイヤーの投票順に並んでいます。</string>
+    <string name="import_bad_slot">パック内のリールが不正です</string>
+    <string name="import_unknown_slot">不明なリール「%1$s」</string>
+    <string name="msg_pack_installed">パック「%1$s」をインストールし、リールを適用しました。上部の ↶ で元に戻せます</string>
+    <string name="packs_download">ゲームパックをダウンロード ↗</string>
 </resources>

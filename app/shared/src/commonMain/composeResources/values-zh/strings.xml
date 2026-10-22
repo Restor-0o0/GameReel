@@ -525,4 +525,8 @@
     <string name="market_rank">标签排名</string>
     <string name="market_rank_any">任意</string>
     <string name="market_rank_note">排名 1 是游戏的主标签：Steam 标签按玩家投票排序。</string>
+    <string name="import_bad_slot">包中的转轮无效</string>
+    <string name="import_unknown_slot">未知转轮“%1$s”</string>
+    <string name="msg_pack_installed">已安装包“%1$s”并应用其转轮。顶部的 ↶ 可恢复之前的转轮</string>
+    <string name="packs_download">下载游戏包 ↗</string>
 </resources>

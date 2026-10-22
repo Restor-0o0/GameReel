@@ -155,3 +155,35 @@ class LibraryImporterTest {
         assertTrue(result.warnings.isNotEmpty())
     }
 }
+
+class PackImporterTest {
+    private val importer = JsonLibraryImporter()
+
+    @Test
+    fun parsesSlotsReelsAndRequires() {
+        val pack = importer.parse("""{"library":{"id":"dota2","name":"Dota 2","version":1,
+            "slots":[{"id":"hero","name":"Hero","icon":"H"},{"id":"talent10","name":"Talent","parent":"hero"},{"id":"item","name":"Item","unique":false}],
+            "reels":["hero","item","talent10"],
+            "standaloneTags":[{"name":"Anti-Mage","slot":"hero"},{"name":"+20 Agility","slot":"talent10","requires":["anti-mage"]},
+            {"name":"+20 Agility","slot":"talent10","requires":["Axe"]},{"name":"Orphan","slot":"talent10","requires":["Nobody"]},
+            {"name":"Blink","slot":"item"}]}}""").pack
+        assertTrue(pack.isGamePack)
+        assertEquals(listOf("dota2:slot:hero", "dota2:slot:item", "dota2:slot:talent10"), pack.library.reels)
+        assertEquals("dota2:slot:hero", pack.library.slots[1].parent)
+        assertFalse(pack.library.slots[2].unique)
+        val hero = pack.allTags.single { it.name == "Anti-Mage" }
+        assertEquals("H", hero.icon)
+        assertEquals(listOf(hero.id), pack.allTags.single { it.name == "+20 Agility" }.requires)
+        assertTrue(pack.allTags.none { it.name == "Orphan" })
+    }
+
+    @Test
+    fun rejectsBrokenSlots() {
+        fun parse(slots: String, reels: String = "[]") = importer.parse(
+            """{"library":{"id":"p","name":"P","slots":$slots,"reels":$reels,"standaloneTags":[{"name":"X","category":"CORE"}]}}""")
+        assertFails { parse("""[{"id":"a","name":"A","parent":"b"}]""") }
+        assertFails { parse("""[{"id":"a","name":"A","parent":"b"},{"id":"b","name":"B","parent":"a"}]""") }
+        assertFails { parse("""[{"id":"a b","name":"A"}]""") }
+        assertFails { parse("""[{"id":"a","name":"A"}]""", """["c"]""") }
+    }
+}

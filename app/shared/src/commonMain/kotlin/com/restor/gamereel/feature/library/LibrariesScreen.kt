@@ -9,6 +9,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.unit.dp
 import com.restor.gamereel.catalog.BuiltinCatalog
 import com.restor.gamereel.data.importer.JsonLibraryImporter
@@ -31,6 +32,8 @@ import kotlinx.serialization.json.Json
 import org.jetbrains.compose.resources.pluralStringResource
 import org.jetbrains.compose.resources.stringResource
 
+private const val PACKS_URL = "https://github.com/Restor-0o0/GameReel/tree/main/community/packs"
+
 private val tagSetJson = Json { ignoreUnknownKeys = true; prettyPrint = true }
 
 @Composable
@@ -51,6 +54,7 @@ internal fun LibrariesContent(
     onDeletePersonalGame: (String) -> Unit,
     onImportPersonalGames: (suspend () -> String) -> Unit,
 ) {
+    val uriHandler = LocalUriHandler.current
     var creatingTagSet by remember { mutableStateOf(false) }
     var tagSetError by remember { mutableStateOf<String?>(null) }
     var exportingTagSet by remember { mutableStateOf<GeneratorPreset?>(null) }
@@ -234,10 +238,15 @@ internal fun LibrariesContent(
             }
 
         item {
-            Button(onClick = { picker.launch() }, enabled = !importing) {
-                Text(
-                    stringResource(if (importing) Res.string.importing else Res.string.import_json)
-                )
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Button(onClick = { picker.launch() }, enabled = !importing) {
+                    Text(
+                        stringResource(if (importing) Res.string.importing else Res.string.import_json)
+                    )
+                }
+                TextButton(onClick = { runCatching { uriHandler.openUri(PACKS_URL) } }) {
+                    Text(stringResource(Res.string.packs_download))
+                }
             }
         }
 

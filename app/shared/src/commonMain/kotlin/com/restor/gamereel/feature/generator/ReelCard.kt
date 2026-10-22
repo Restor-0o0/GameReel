@@ -43,7 +43,7 @@ internal fun ReelCard(
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically) {
                 Text(
-                    stringResource(reel.category.title).uppercase(),
+                    reel.title().uppercase(),
                     style = MaterialTheme.typography.labelMedium,
                     color = MaterialTheme.colorScheme.primary,
                 )
@@ -75,7 +75,7 @@ internal fun ReelCard(
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     TagArt(
                         reel.tag?.takeIf { motion.settled(reel) },
-                        reel.category.symbol,
+                        reel.symbol,
                         26.sp,
                         Modifier.padding(end = 10.dp)
                             .size(artWidth, artWidth * ArtRatio)

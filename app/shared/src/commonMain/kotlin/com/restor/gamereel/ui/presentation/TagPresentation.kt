@@ -272,6 +272,12 @@ fun gameTitle(id: String?, gameNames: Map<String, String>): String? = id?.let {
     gameNames[it] ?: BuiltinCatalog.gameNames[it]
 }
 
+val Reel.symbol: String
+    get() = slot?.let { it.icon.ifBlank { "🎲" } } ?: category.symbol
+
+@Composable
+fun Reel.title(): String = slot?.name ?: stringResource(category.title)
+
 val Category.title: StringResource
     get() =
         when (this) {

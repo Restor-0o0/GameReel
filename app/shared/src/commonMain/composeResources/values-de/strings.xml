@@ -507,4 +507,8 @@
     <string name="market_rank">Tag-Platz</string>
     <string name="market_rank_any">Beliebig</string>
     <string name="market_rank_note">Platz 1 ist der Haupt-Tag des Spiels: Steam-Tags sind nach Spielerstimmen sortiert.</string>
+    <string name="import_bad_slot">Ungültige Walze im Paket</string>
+    <string name="import_unknown_slot">Unbekannte Walze „%1$s“</string>
+    <string name="msg_pack_installed">Paket „%1$s“ installiert, seine Walzen sind aktiv. ↶ oben holt die vorherigen zurück</string>
+    <string name="packs_download">Spielpakete herunterladen ↗</string>
 </resources>

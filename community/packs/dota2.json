@@ -1,0 +1,8101 @@
+{
+ "library": {
+  "id": "dota2",
+  "name": "Dota 2",
+  "version": 1,
+  "slots": [
+   {
+    "id": "hero",
+    "name": "Hero",
+    "icon": "🦸"
+   },
+   {
+    "id": "position",
+    "name": "Position",
+    "icon": "🧭"
+   },
+   {
+    "id": "boots",
+    "name": "Boots",
+    "icon": "👢"
+   },
+   {
+    "id": "item",
+    "name": "Item",
+    "icon": "🗡️"
+   },
+   {
+    "id": "talent10",
+    "name": "Talent 10",
+    "icon": "⭐",
+    "parent": "hero"
+   },
+   {
+    "id": "talent15",
+    "name": "Talent 15",
+    "icon": "⭐",
+    "parent": "hero"
+   },
+   {
+    "id": "talent20",
+    "name": "Talent 20",
+    "icon": "⭐",
+    "parent": "hero"
+   },
+   {
+    "id": "talent25",
+    "name": "Talent 25",
+    "icon": "⭐",
+    "parent": "hero"
+   }
+  ],
+  "reels": [
+   "hero",
+   "boots",
+   "item",
+   "item",
+   "item",
+   "item",
+   "item",
+   "talent10",
+   "talent15",
+   "talent20",
+   "talent25"
+  ],
+  "standaloneTags": [
+   {
+    "name": "Abaddon",
+    "slot": "hero"
+   },
+   {
+    "name": "Alchemist",
+    "slot": "hero"
+   },
+   {
+    "name": "Ancient Apparition",
+    "slot": "hero"
+   },
+   {
+    "name": "Anti-Mage",
+    "slot": "hero"
+   },
+   {
+    "name": "Arc Warden",
+    "slot": "hero"
+   },
+   {
+    "name": "Axe",
+    "slot": "hero"
+   },
+   {
+    "name": "Bane",
+    "slot": "hero"
+   },
+   {
+    "name": "Batrider",
+    "slot": "hero"
+   },
+   {
+    "name": "Beastmaster",
+    "slot": "hero"
+   },
+   {
+    "name": "Bloodseeker",
+    "slot": "hero"
+   },
+   {
+    "name": "Bounty Hunter",
+    "slot": "hero"
+   },
+   {
+    "name": "Brewmaster",
+    "slot": "hero"
+   },
+   {
+    "name": "Bristleback",
+    "slot": "hero"
+   },
+   {
+    "name": "Broodmother",
+    "slot": "hero"
+   },
+   {
+    "name": "Centaur Warrunner",
+    "slot": "hero"
+   },
+   {
+    "name": "Chaos Knight",
+    "slot": "hero"
+   },
+   {
+    "name": "Chen",
+    "slot": "hero"
+   },
+   {
+    "name": "Clinkz",
+    "slot": "hero"
+   },
+   {
+    "name": "Clockwerk",
+    "slot": "hero"
+   },
+   {
+    "name": "Crystal Maiden",
+    "slot": "hero"
+   },
+   {
+    "name": "Dark Seer",
+    "slot": "hero"
+   },
+   {
+    "name": "Dark Willow",
+    "slot": "hero"
+   },
+   {
+    "name": "Dawnbreaker",
+    "slot": "hero"
+   },
+   {
+    "name": "Dazzle",
+    "slot": "hero"
+   },
+   {
+    "name": "Death Prophet",
+    "slot": "hero"
+   },
+   {
+    "name": "Disruptor",
+    "slot": "hero"
+   },
+   {
+    "name": "Doom",
+    "slot": "hero"
+   },
+   {
+    "name": "Dragon Knight",
+    "slot": "hero"
+   },
+   {
+    "name": "Drow Ranger",
+    "slot": "hero"
+   },
+   {
+    "name": "Earth Spirit",
+    "slot": "hero"
+   },
+   {
+    "name": "Earthshaker",
+    "slot": "hero"
+   },
+   {
+    "name": "Elder Titan",
+    "slot": "hero"
+   },
+   {
+    "name": "Ember Spirit",
+    "slot": "hero"
+   },
+   {
+    "name": "Enchantress",
+    "slot": "hero"
+   },
+   {
+    "name": "Enigma",
+    "slot": "hero"
+   },
+   {
+    "name": "Faceless Void",
+    "slot": "hero"
+   },
+   {
+    "name": "Grimstroke",
+    "slot": "hero"
+   },
+   {
+    "name": "Gyrocopter",
+    "slot": "hero"
+   },
+   {
+    "name": "Hoodwink",
+    "slot": "hero"
+   },
+   {
+    "name": "Huskar",
+    "slot": "hero"
+   },
+   {
+    "name": "Invoker",
+    "slot": "hero"
+   },
+   {
+    "name": "Io",
+    "slot": "hero"
+   },
+   {
+    "name": "Jakiro",
+    "slot": "hero"
+   },
+   {
+    "name": "Juggernaut",
+    "slot": "hero"
+   },
+   {
+    "name": "Keeper of the Light",
+    "slot": "hero"
+   },
+   {
+    "name": "Kez",
+    "slot": "hero"
+   },
+   {
+    "name": "Kunkka",
+    "slot": "hero"
+   },
+   {
+    "name": "Largo",
+    "slot": "hero"
+   },
+   {
+    "name": "Legion Commander",
+    "slot": "hero"
+   },
+   {
+    "name": "Leshrac",
+    "slot": "hero"
+   },
+   {
+    "name": "Lich",
+    "slot": "hero"
+   },
+   {
+    "name": "Lifestealer",
+    "slot": "hero"
+   },
+   {
+    "name": "Lina",
+    "slot": "hero"
+   },
+   {
+    "name": "Lion",
+    "slot": "hero"
+   },
+   {
+    "name": "Lone Druid",
+    "slot": "hero"
+   },
+   {
+    "name": "Luna",
+    "slot": "hero"
+   },
+   {
+    "name": "Lycan",
+    "slot": "hero"
+   },
+   {
+    "name": "Magnus",
+    "slot": "hero"
+   },
+   {
+    "name": "Marci",
+    "slot": "hero"
+   },
+   {
+    "name": "Mars",
+    "slot": "hero"
+   },
+   {
+    "name": "Medusa",
+    "slot": "hero"
+   },
+   {
+    "name": "Meepo",
+    "slot": "hero"
+   },
+   {
+    "name": "Mirana",
+    "slot": "hero"
+   },
+   {
+    "name": "Monkey King",
+    "slot": "hero"
+   },
+   {
+    "name": "Morphling",
+    "slot": "hero"
+   },
+   {
+    "name": "Muerta",
+    "slot": "hero"
+   },
+   {
+    "name": "Naga Siren",
+    "slot": "hero"
+   },
+   {
+    "name": "Nature's Prophet",
+    "slot": "hero"
+   },
+   {
+    "name": "Necrophos",
+    "slot": "hero"
+   },
+   {
+    "name": "Night Stalker",
+    "slot": "hero"
+   },
+   {
+    "name": "Nyx Assassin",
+    "slot": "hero"
+   },
+   {
+    "name": "Ogre Magi",
+    "slot": "hero"
+   },
+   {
+    "name": "Omniknight",
+    "slot": "hero"
+   },
+   {
+    "name": "Oracle",
+    "slot": "hero"
+   },
+   {
+    "name": "Outworld Devourer",
+    "slot": "hero"
+   },
+   {
+    "name": "Pangolier",
+    "slot": "hero"
+   },
+   {
+    "name": "Phantom Assassin",
+    "slot": "hero"
+   },
+   {
+    "name": "Phantom Lancer",
+    "slot": "hero"
+   },
+   {
+    "name": "Phoenix",
+    "slot": "hero"
+   },
+   {
+    "name": "Primal Beast",
+    "slot": "hero"
+   },
+   {
+    "name": "Puck",
+    "slot": "hero"
+   },
+   {
+    "name": "Pudge",
+    "slot": "hero"
+   },
+   {
+    "name": "Pugna",
+    "slot": "hero"
+   },
+   {
+    "name": "Queen of Pain",
+    "slot": "hero"
+   },
+   {
+    "name": "Razor",
+    "slot": "hero"
+   },
+   {
+    "name": "Riki",
+    "slot": "hero"
+   },
+   {
+    "name": "Ring Master",
+    "slot": "hero"
+   },
+   {
+    "name": "Rubick",
+    "slot": "hero"
+   },
+   {
+    "name": "Sand King",
+    "slot": "hero"
+   },
+   {
+    "name": "Shadow Demon",
+    "slot": "hero"
+   },
+   {
+    "name": "Shadow Fiend",
+    "slot": "hero"
+   },
+   {
+    "name": "Shadow Shaman",
+    "slot": "hero"
+   },
+   {
+    "name": "Silencer",
+    "slot": "hero"
+   },
+   {
+    "name": "Skywrath Mage",
+    "slot": "hero"
+   },
+   {
+    "name": "Slardar",
+    "slot": "hero"
+   },
+   {
+    "name": "Slark",
+    "slot": "hero"
+   },
+   {
+    "name": "Snapfire",
+    "slot": "hero"
+   },
+   {
+    "name": "Sniper",
+    "slot": "hero"
+   },
+   {
+    "name": "Spectre",
+    "slot": "hero"
+   },
+   {
+    "name": "Spirit Breaker",
+    "slot": "hero"
+   },
+   {
+    "name": "Storm Spirit",
+    "slot": "hero"
+   },
+   {
+    "name": "Sven",
+    "slot": "hero"
+   },
+   {
+    "name": "Techies",
+    "slot": "hero"
+   },
+   {
+    "name": "Templar Assassin",
+    "slot": "hero"
+   },
+   {
+    "name": "Terrorblade",
+    "slot": "hero"
+   },
+   {
+    "name": "Tidehunter",
+    "slot": "hero"
+   },
+   {
+    "name": "Timbersaw",
+    "slot": "hero"
+   },
+   {
+    "name": "Tinker",
+    "slot": "hero"
+   },
+   {
+    "name": "Tiny",
+    "slot": "hero"
+   },
+   {
+    "name": "Treant Protector",
+    "slot": "hero"
+   },
+   {
+    "name": "Troll Warlord",
+    "slot": "hero"
+   },
+   {
+    "name": "Tusk",
+    "slot": "hero"
+   },
+   {
+    "name": "Underlord",
+    "slot": "hero"
+   },
+   {
+    "name": "Undying",
+    "slot": "hero"
+   },
+   {
+    "name": "Ursa",
+    "slot": "hero"
+   },
+   {
+    "name": "Vengeful Spirit",
+    "slot": "hero"
+   },
+   {
+    "name": "Venomancer",
+    "slot": "hero"
+   },
+   {
+    "name": "Viper",
+    "slot": "hero"
+   },
+   {
+    "name": "Visage",
+    "slot": "hero"
+   },
+   {
+    "name": "Void Spirit",
+    "slot": "hero"
+   },
+   {
+    "name": "Warlock",
+    "slot": "hero"
+   },
+   {
+    "name": "Weaver",
+    "slot": "hero"
+   },
+   {
+    "name": "Windranger",
+    "slot": "hero"
+   },
+   {
+    "name": "Winter Wyvern",
+    "slot": "hero"
+   },
+   {
+    "name": "Witch Doctor",
+    "slot": "hero"
+   },
+   {
+    "name": "Wraith King",
+    "slot": "hero"
+   },
+   {
+    "name": "Zeus",
+    "slot": "hero"
+   },
+   {
+    "name": "+30 Curse of Avernus DPS",
+    "slot": "talent10",
+    "requires": [
+     "Abaddon"
+    ]
+   },
+   {
+    "name": "Aphotic Shield provides +8 HP Regen",
+    "slot": "talent10",
+    "requires": [
+     "Abaddon"
+    ]
+   },
+   {
+    "name": "-10s Borrowed Time Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Abaddon"
+    ]
+   },
+   {
+    "name": "+35 Mist Coil Damage / Heal",
+    "slot": "talent15",
+    "requires": [
+     "Abaddon"
+    ]
+   },
+   {
+    "name": "+80 Aphotic Shield Barrier Amount",
+    "slot": "talent20",
+    "requires": [
+     "Abaddon"
+    ]
+   },
+   {
+    "name": "100 Borrowed Time Immolation DPS",
+    "slot": "talent20",
+    "requires": [
+     "Abaddon"
+    ]
+   },
+   {
+    "name": "+65 Curse of Avernus Attack Speed Bonus",
+    "slot": "talent25",
+    "requires": [
+     "Abaddon"
+    ]
+   },
+   {
+    "name": "350 AoE Mist Coil",
+    "slot": "talent25",
+    "requires": [
+     "Abaddon"
+    ]
+   },
+   {
+    "name": "+5% Invading Force Movement Bonus/Damage Reduction",
+    "slot": "talent10",
+    "requires": [
+     "Underlord"
+    ]
+   },
+   {
+    "name": "+15s Atrophy Aura Duration",
+    "slot": "talent10",
+    "requires": [
+     "Underlord"
+    ]
+   },
+   {
+    "name": "Pit of Malice Slows by 20%",
+    "slot": "talent15",
+    "requires": [
+     "Underlord"
+    ]
+   },
+   {
+    "name": "-5s Firestorm Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Underlord"
+    ]
+   },
+   {
+    "name": "+0.6% Firestorm Burn Damage",
+    "slot": "talent20",
+    "requires": [
+     "Underlord"
+    ]
+   },
+   {
+    "name": "+10% Atrophy Aura Attack Damage Reduction/Gain",
+    "slot": "talent20",
+    "requires": [
+     "Underlord"
+    ]
+   },
+   {
+    "name": "+0.4s Pit of Malice Root",
+    "slot": "talent25",
+    "requires": [
+     "Underlord"
+    ]
+   },
+   {
+    "name": "160 DPS in 700 Radius Around Fiend's Gate",
+    "slot": "talent25",
+    "requires": [
+     "Underlord"
+    ]
+   },
+   {
+    "name": "+1% Corrosive Weaponry Slow / Damage Reduction Per Stack",
+    "slot": "talent10",
+    "requires": [
+     "Alchemist"
+    ]
+   },
+   {
+    "name": "+150 Unstable Concoction Radius",
+    "slot": "talent10",
+    "requires": [
+     "Alchemist"
+    ]
+   },
+   {
+    "name": "+1 Acid Spray Armor Reduction",
+    "slot": "talent15",
+    "requires": [
+     "Alchemist"
+    ]
+   },
+   {
+    "name": "Greevil's Greed provides +3 Damage per stack",
+    "slot": "talent15",
+    "requires": [
+     "Alchemist"
+    ]
+   },
+   {
+    "name": "-0.1s Chemical Rage Base Attack Time",
+    "slot": "talent20",
+    "requires": [
+     "Alchemist"
+    ]
+   },
+   {
+    "name": "+400 Unstable Concoction Max Damage",
+    "slot": "talent20",
+    "requires": [
+     "Alchemist"
+    ]
+   },
+   {
+    "name": "+50 Chemical Rage Movement Speed",
+    "slot": "talent25",
+    "requires": [
+     "Alchemist"
+    ]
+   },
+   {
+    "name": "+50 Chemical Rage Regeneration",
+    "slot": "talent25",
+    "requires": [
+     "Alchemist"
+    ]
+   },
+   {
+    "name": "+300 Chilling Touch Attack Range",
+    "slot": "talent10",
+    "requires": [
+     "Ancient Apparition"
+    ]
+   },
+   {
+    "name": "+30 Cold Feet Damage Per Second",
+    "slot": "talent10",
+    "requires": [
+     "Ancient Apparition"
+    ]
+   },
+   {
+    "name": "-2s Ice Vortex Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Ancient Apparition"
+    ]
+   },
+   {
+    "name": "+250 Cold Feet Break Distance",
+    "slot": "talent15",
+    "requires": [
+     "Ancient Apparition"
+    ]
+   },
+   {
+    "name": "+4s Ice Blast Frostbitten Duration",
+    "slot": "talent20",
+    "requires": [
+     "Ancient Apparition"
+    ]
+   },
+   {
+    "name": "+100 Chilling Touch Damage",
+    "slot": "talent20",
+    "requires": [
+     "Ancient Apparition"
+    ]
+   },
+   {
+    "name": "450 AoE Cold Feet",
+    "slot": "talent25",
+    "requires": [
+     "Ancient Apparition"
+    ]
+   },
+   {
+    "name": "+4% Ice Blast Kill Threshold",
+    "slot": "talent25",
+    "requires": [
+     "Ancient Apparition"
+    ]
+   },
+   {
+    "name": "+3 Health Regen",
+    "slot": "talent10",
+    "requires": [
+     "Anti-Mage"
+    ]
+   },
+   {
+    "name": "+200 Mana Void Radius",
+    "slot": "talent10",
+    "requires": [
+     "Anti-Mage"
+    ]
+   },
+   {
+    "name": "+9%/18% Persecutor Min/Max Movement Slow",
+    "slot": "talent15",
+    "requires": [
+     "Anti-Mage"
+    ]
+   },
+   {
+    "name": "+0.2 Mana Void Damage Multiplier",
+    "slot": "talent15",
+    "requires": [
+     "Anti-Mage"
+    ]
+   },
+   {
+    "name": "+125 Blink Cast Range",
+    "slot": "talent20",
+    "requires": [
+     "Anti-Mage"
+    ]
+   },
+   {
+    "name": "+0.8s Mana Void Stun",
+    "slot": "talent20",
+    "requires": [
+     "Anti-Mage"
+    ]
+   },
+   {
+    "name": "-1s Blink Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Anti-Mage"
+    ]
+   },
+   {
+    "name": "-50s Mana Void Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Anti-Mage"
+    ]
+   },
+   {
+    "name": "+200 Flux Cast Range",
+    "slot": "talent10",
+    "requires": [
+     "Arc Warden"
+    ]
+   },
+   {
+    "name": "+200 Health",
+    "slot": "talent10",
+    "requires": [
+     "Arc Warden"
+    ]
+   },
+   {
+    "name": "+20% Flux Slow",
+    "slot": "talent15",
+    "requires": [
+     "Arc Warden"
+    ]
+   },
+   {
+    "name": "+25 Magnetic Field Attack Speed",
+    "slot": "talent15",
+    "requires": [
+     "Arc Warden"
+    ]
+   },
+   {
+    "name": "+30s Spark Wraith Duration",
+    "slot": "talent20",
+    "requires": [
+     "Arc Warden"
+    ]
+   },
+   {
+    "name": "-4s Magnetic Field Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Arc Warden"
+    ]
+   },
+   {
+    "name": "+1.0 Runic Infusion All Attributes Bonus",
+    "slot": "talent25",
+    "requires": [
+     "Arc Warden"
+    ]
+   },
+   {
+    "name": "+240 Spark Wraith Damage",
+    "slot": "talent25",
+    "requires": [
+     "Arc Warden"
+    ]
+   },
+   {
+    "name": "+3s Culling Blade Kill Buff Bonus Duration",
+    "slot": "talent10",
+    "requires": [
+     "Axe"
+    ]
+   },
+   {
+    "name": "+8% Movement Speed per active Battle Hunger",
+    "slot": "talent10",
+    "requires": [
+     "Axe"
+    ]
+   },
+   {
+    "name": "+8 Battle Hunger Damage Per Second",
+    "slot": "talent15",
+    "requires": [
+     "Axe"
+    ]
+   },
+   {
+    "name": "+10 Berserker's Call Armor",
+    "slot": "talent15",
+    "requires": [
+     "Axe"
+    ]
+   },
+   {
+    "name": "+15 Strength",
+    "slot": "talent20",
+    "requires": [
+     "Axe"
+    ]
+   },
+   {
+    "name": "+40 Counter Helix Damage",
+    "slot": "talent20",
+    "requires": [
+     "Axe"
+    ]
+   },
+   {
+    "name": "+85 Berserker's Call AoE",
+    "slot": "talent25",
+    "requires": [
+     "Axe"
+    ]
+   },
+   {
+    "name": "+150 Culling Blade Damage",
+    "slot": "talent25",
+    "requires": [
+     "Axe"
+    ]
+   },
+   {
+    "name": "+125 Brain Sap Cast Range",
+    "slot": "talent10",
+    "requires": [
+     "Bane"
+    ]
+   },
+   {
+    "name": "+20% Enfeeble Cast Range Reduction",
+    "slot": "talent10",
+    "requires": [
+     "Bane"
+    ]
+   },
+   {
+    "name": "+13 Enfeeble Damage Per Second",
+    "slot": "talent15",
+    "requires": [
+     "Bane"
+    ]
+   },
+   {
+    "name": "+5% Fiend's Grip Max Mana Drain",
+    "slot": "talent15",
+    "requires": [
+     "Bane"
+    ]
+   },
+   {
+    "name": "-3s Nightmare Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Bane"
+    ]
+   },
+   {
+    "name": "+30 Movement Speed",
+    "slot": "talent20",
+    "requires": [
+     "Bane"
+    ]
+   },
+   {
+    "name": "+275 Brain Sap Damage/Heal",
+    "slot": "talent25",
+    "requires": [
+     "Bane"
+    ]
+   },
+   {
+    "name": "+3s Fiend's Grip Duration",
+    "slot": "talent25",
+    "requires": [
+     "Bane"
+    ]
+   },
+   {
+    "name": "+5% Firefly Max Movement Speed Bonus",
+    "slot": "talent10",
+    "requires": [
+     "Batrider"
+    ]
+   },
+   {
+    "name": "+1s Smoldering Resin Duration",
+    "slot": "talent10",
+    "requires": [
+     "Batrider"
+    ]
+   },
+   {
+    "name": "+30 Firefly Damage Per Second",
+    "slot": "talent15",
+    "requires": [
+     "Batrider"
+    ]
+   },
+   {
+    "name": "+0.75% Sticky Napalm Movement Slow",
+    "slot": "talent15",
+    "requires": [
+     "Batrider"
+    ]
+   },
+   {
+    "name": "Attacks apply 1 Stack of Sticky Napalm",
+    "slot": "talent20",
+    "requires": [
+     "Batrider"
+    ]
+   },
+   {
+    "name": "-6s Flamebreak Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Batrider"
+    ]
+   },
+   {
+    "name": "+0.75s Flaming Lasso Duration",
+    "slot": "talent25",
+    "requires": [
+     "Batrider"
+    ]
+   },
+   {
+    "name": "Flamebreak applies 4 Sticky Napalm Stacks",
+    "slot": "talent25",
+    "requires": [
+     "Batrider"
+    ]
+   },
+   {
+    "name": "+4 Armor",
+    "slot": "talent10",
+    "requires": [
+     "Beastmaster"
+    ]
+   },
+   {
+    "name": "+1.5% Wild Axes Damage Amp Per Stack",
+    "slot": "talent10",
+    "requires": [
+     "Beastmaster"
+    ]
+   },
+   {
+    "name": "+15 Movespeed to Beastmaster and his summons",
+    "slot": "talent15",
+    "requires": [
+     "Beastmaster"
+    ]
+   },
+   {
+    "name": "+200 Primal Roar Cast Range",
+    "slot": "talent15",
+    "requires": [
+     "Beastmaster"
+    ]
+   },
+   {
+    "name": "+25 Damage to Beastmaster and his summons",
+    "slot": "talent20",
+    "requires": [
+     "Beastmaster"
+    ]
+   },
+   {
+    "name": "+250 Health to Beastmaster and his summons",
+    "slot": "talent20",
+    "requires": [
+     "Beastmaster"
+    ]
+   },
+   {
+    "name": "No Wild Axes Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Beastmaster"
+    ]
+   },
+   {
+    "name": "-20s Primal Roar Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Beastmaster"
+    ]
+   },
+   {
+    "name": "+200 Health",
+    "slot": "talent10",
+    "requires": [
+     "Bloodseeker"
+    ]
+   },
+   {
+    "name": "+30 Bloodrage Attack Speed",
+    "slot": "talent10",
+    "requires": [
+     "Bloodseeker"
+    ]
+   },
+   {
+    "name": "-0.7% Bloodrage Max Health DPS",
+    "slot": "talent15",
+    "requires": [
+     "Bloodseeker"
+    ]
+   },
+   {
+    "name": "+100 Blood Rite Damage",
+    "slot": "talent15",
+    "requires": [
+     "Bloodseeker"
+    ]
+   },
+   {
+    "name": "+400 Rupture Cast Range",
+    "slot": "talent20",
+    "requires": [
+     "Bloodseeker"
+    ]
+   },
+   {
+    "name": "+15 Agility",
+    "slot": "talent20",
+    "requires": [
+     "Bloodseeker"
+    ]
+   },
+   {
+    "name": "+3.0s Blood Rite Silence Duration",
+    "slot": "talent25",
+    "requires": [
+     "Bloodseeker"
+    ]
+   },
+   {
+    "name": "+15% Max Thirst Move Speed",
+    "slot": "talent25",
+    "requires": [
+     "Bloodseeker"
+    ]
+   },
+   {
+    "name": "+0.35s Shuriken Toss Slow",
+    "slot": "talent10",
+    "requires": [
+     "Bounty Hunter"
+    ]
+   },
+   {
+    "name": "+30 Damage",
+    "slot": "talent10",
+    "requires": [
+     "Bounty Hunter"
+    ]
+   },
+   {
+    "name": "-30% Damage Taken in Shadow Walk",
+    "slot": "talent15",
+    "requires": [
+     "Bounty Hunter"
+    ]
+   },
+   {
+    "name": "+50 Track Gold",
+    "slot": "talent15",
+    "requires": [
+     "Bounty Hunter"
+    ]
+   },
+   {
+    "name": "+190 Shuriken Toss Damage",
+    "slot": "talent20",
+    "requires": [
+     "Bounty Hunter"
+    ]
+   },
+   {
+    "name": "+50 Jinada Gold Steal",
+    "slot": "talent20",
+    "requires": [
+     "Bounty Hunter"
+    ]
+   },
+   {
+    "name": "Track Grants Shared Vision",
+    "slot": "talent25",
+    "requires": [
+     "Bounty Hunter"
+    ]
+   },
+   {
+    "name": "No Cooldown on Jinada",
+    "slot": "talent25",
+    "requires": [
+     "Bounty Hunter"
+    ]
+   },
+   {
+    "name": "+13 Brewlings Base Damage",
+    "slot": "talent10",
+    "requires": [
+     "Brewmaster"
+    ]
+   },
+   {
+    "name": "+2/1s Drunken Brawler Brew Up / Extend Duration",
+    "slot": "talent10",
+    "requires": [
+     "Brewmaster"
+    ]
+   },
+   {
+    "name": "+40% Cinder Brew Damage/Duration",
+    "slot": "talent15",
+    "requires": [
+     "Brewmaster"
+    ]
+   },
+   {
+    "name": "+600 Brewlings Health",
+    "slot": "talent15",
+    "requires": [
+     "Brewmaster"
+    ]
+   },
+   {
+    "name": "-12s Primal Split Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Brewmaster"
+    ]
+   },
+   {
+    "name": "+110 Attack Speed",
+    "slot": "talent20",
+    "requires": [
+     "Brewmaster"
+    ]
+   },
+   {
+    "name": "1.5x Drunken Brawler Stance Bonuses",
+    "slot": "talent25",
+    "requires": [
+     "Brewmaster"
+    ]
+   },
+   {
+    "name": "Cinder Brew applies Fear when ignited",
+    "slot": "talent25",
+    "requires": [
+     "Brewmaster"
+    ]
+   },
+   {
+    "name": "+25 Attack Speed",
+    "slot": "talent10",
+    "requires": [
+     "Bristleback"
+    ]
+   },
+   {
+    "name": "+1.5 Mana Regen",
+    "slot": "talent10",
+    "requires": [
+     "Bristleback"
+    ]
+   },
+   {
+    "name": "+250 Goo Cast Range",
+    "slot": "talent15",
+    "requires": [
+     "Bristleback"
+    ]
+   },
+   {
+    "name": "+8%/4% Bristleback Back/Side Damage Reduction",
+    "slot": "talent15",
+    "requires": [
+     "Bristleback"
+    ]
+   },
+   {
+    "name": "+25 Health Regen",
+    "slot": "talent20",
+    "requires": [
+     "Bristleback"
+    ]
+   },
+   {
+    "name": "+20 Quill Stack Damage",
+    "slot": "talent20",
+    "requires": [
+     "Bristleback"
+    ]
+   },
+   {
+    "name": "-30 Bristleback Damage Threshold",
+    "slot": "talent25",
+    "requires": [
+     "Bristleback"
+    ]
+   },
+   {
+    "name": "+18 Warpath Damage Per Stack",
+    "slot": "talent25",
+    "requires": [
+     "Bristleback"
+    ]
+   },
+   {
+    "name": "+80 Spawn Spiderlings Damage",
+    "slot": "talent10",
+    "requires": [
+     "Broodmother"
+    ]
+   },
+   {
+    "name": "+20% Insatiable Hunger Lifesteal",
+    "slot": "talent10",
+    "requires": [
+     "Broodmother"
+    ]
+   },
+   {
+    "name": "+5 Incapacitating Bite Attack Bonus",
+    "slot": "talent15",
+    "requires": [
+     "Broodmother"
+    ]
+   },
+   {
+    "name": "+175 Spiderlings Health",
+    "slot": "talent15",
+    "requires": [
+     "Broodmother"
+    ]
+   },
+   {
+    "name": "-6s Spin Web Charge Restore Time",
+    "slot": "talent20",
+    "requires": [
+     "Broodmother"
+    ]
+   },
+   {
+    "name": "+20% Incapacitating Bite Slow/Miss Chance",
+    "slot": "talent20",
+    "requires": [
+     "Broodmother"
+    ]
+   },
+   {
+    "name": "-0.15s BAT during Insatiable Hunger",
+    "slot": "talent25",
+    "requires": [
+     "Broodmother"
+    ]
+   },
+   {
+    "name": "+7% Spin Web Move Speed and Ignore Speed Limit",
+    "slot": "talent25",
+    "requires": [
+     "Broodmother"
+    ]
+   },
+   {
+    "name": "+4 Health Regen",
+    "slot": "talent10",
+    "requires": [
+     "Centaur Warrunner"
+    ]
+   },
+   {
+    "name": "+15 Movement Speed",
+    "slot": "talent10",
+    "requires": [
+     "Centaur Warrunner"
+    ]
+   },
+   {
+    "name": "+10 Strength",
+    "slot": "talent15",
+    "requires": [
+     "Centaur Warrunner"
+    ]
+   },
+   {
+    "name": "+30% Double Edge Strength Damage",
+    "slot": "talent15",
+    "requires": [
+     "Centaur Warrunner"
+    ]
+   },
+   {
+    "name": "+45 Retaliate Damage",
+    "slot": "talent20",
+    "requires": [
+     "Centaur Warrunner"
+    ]
+   },
+   {
+    "name": "-25s Stampede Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Centaur Warrunner"
+    ]
+   },
+   {
+    "name": "Gains Retaliate Aura",
+    "slot": "talent25",
+    "requires": [
+     "Centaur Warrunner"
+    ]
+   },
+   {
+    "name": "+1.0s Hoof Stomp Duration",
+    "slot": "talent25",
+    "requires": [
+     "Centaur Warrunner"
+    ]
+   },
+   {
+    "name": "+30% Chaos Strike Lifesteal",
+    "slot": "talent10",
+    "requires": [
+     "Chaos Knight"
+    ]
+   },
+   {
+    "name": "+225 Reality Rift Pull Distance",
+    "slot": "talent10",
+    "requires": [
+     "Chaos Knight"
+    ]
+   },
+   {
+    "name": "-3s Chaos Bolt Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Chaos Knight"
+    ]
+   },
+   {
+    "name": "+10 Strength",
+    "slot": "talent15",
+    "requires": [
+     "Chaos Knight"
+    ]
+   },
+   {
+    "name": "+0.6 Min/Max Chaos Bolt Duration",
+    "slot": "talent20",
+    "requires": [
+     "Chaos Knight"
+    ]
+   },
+   {
+    "name": "Reality Rift Pierces Spell Immunity",
+    "slot": "talent20",
+    "requires": [
+     "Chaos Knight"
+    ]
+   },
+   {
+    "name": "+10% Chaos Strike Chance",
+    "slot": "talent25",
+    "requires": [
+     "Chaos Knight"
+    ]
+   },
+   {
+    "name": "-125% Phantasm Illusion Incoming Damage",
+    "slot": "talent25",
+    "requires": [
+     "Chaos Knight"
+    ]
+   },
+   {
+    "name": "+75 Penitence Damage",
+    "slot": "talent10",
+    "requires": [
+     "Chen"
+    ]
+   },
+   {
+    "name": "+25% Zealot Health/Damage",
+    "slot": "talent10",
+    "requires": [
+     "Chen"
+    ]
+   },
+   {
+    "name": "+12% Holy Persuasion Damage",
+    "slot": "talent15",
+    "requires": [
+     "Chen"
+    ]
+   },
+   {
+    "name": "+15% Penitence Slow",
+    "slot": "talent15",
+    "requires": [
+     "Chen"
+    ]
+   },
+   {
+    "name": "+15% Divine Favor Heal Amplification",
+    "slot": "talent20",
+    "requires": [
+     "Chen"
+    ]
+   },
+   {
+    "name": "+1300 Holy Persuasion Minimum Health",
+    "slot": "talent20",
+    "requires": [
+     "Chen"
+    ]
+   },
+   {
+    "name": "Hand of God applies a Strong Dispel",
+    "slot": "talent25",
+    "requires": [
+     "Chen"
+    ]
+   },
+   {
+    "name": "Hand of God Fully Heals Chen and His Creeps",
+    "slot": "talent25",
+    "requires": [
+     "Chen"
+    ]
+   },
+   {
+    "name": "+1.0s Strafe Duration",
+    "slot": "talent10",
+    "requires": [
+     "Clinkz"
+    ]
+   },
+   {
+    "name": "-4s Skeleton Walk Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Clinkz"
+    ]
+   },
+   {
+    "name": "+50 Attack Range",
+    "slot": "talent15",
+    "requires": [
+     "Clinkz"
+    ]
+   },
+   {
+    "name": "-10s Death Pact Charge Restore Time",
+    "slot": "talent15",
+    "requires": [
+     "Clinkz"
+    ]
+   },
+   {
+    "name": "+40 Strafe Attack Speed",
+    "slot": "talent20",
+    "requires": [
+     "Clinkz"
+    ]
+   },
+   {
+    "name": "+400 Death Pact Bonus Health",
+    "slot": "talent20",
+    "requires": [
+     "Clinkz"
+    ]
+   },
+   {
+    "name": "-9s Strafe Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Clinkz"
+    ]
+   },
+   {
+    "name": "Searing Arrows Multishot",
+    "slot": "talent25",
+    "requires": [
+     "Clinkz"
+    ]
+   },
+   {
+    "name": "+200 Health",
+    "slot": "talent10",
+    "requires": [
+     "Crystal Maiden"
+    ]
+   },
+   {
+    "name": "+12 Intelligence",
+    "slot": "talent10",
+    "requires": [
+     "Crystal Maiden"
+    ]
+   },
+   {
+    "name": "+100 Frostbite Cast Range",
+    "slot": "talent15",
+    "requires": [
+     "Crystal Maiden"
+    ]
+   },
+   {
+    "name": "-4.5s Crystal Nova Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Crystal Maiden"
+    ]
+   },
+   {
+    "name": "+20% Glacial Guard Mana Spent To Barrier",
+    "slot": "talent20",
+    "requires": [
+     "Crystal Maiden"
+    ]
+   },
+   {
+    "name": "+50 Freezing Field Damage",
+    "slot": "talent20",
+    "requires": [
+     "Crystal Maiden"
+    ]
+   },
+   {
+    "name": "+1.0s Frostbite Duration",
+    "slot": "talent25",
+    "requires": [
+     "Crystal Maiden"
+    ]
+   },
+   {
+    "name": "+300 Crystal Nova Damage",
+    "slot": "talent25",
+    "requires": [
+     "Crystal Maiden"
+    ]
+   },
+   {
+    "name": "+15% Wall of Replica Illusion Damage",
+    "slot": "talent10",
+    "requires": [
+     "Dark Seer"
+    ]
+   },
+   {
+    "name": "+65 Ion Shell Radius",
+    "slot": "talent10",
+    "requires": [
+     "Dark Seer"
+    ]
+   },
+   {
+    "name": "+75 Vacuum AoE",
+    "slot": "talent15",
+    "requires": [
+     "Dark Seer"
+    ]
+   },
+   {
+    "name": "-1.5s Surge Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Dark Seer"
+    ]
+   },
+   {
+    "name": "-40s Wall of Replica Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Dark Seer"
+    ]
+   },
+   {
+    "name": "+50 Ion Shell Damage",
+    "slot": "talent20",
+    "requires": [
+     "Dark Seer"
+    ]
+   },
+   {
+    "name": "2 Ion Shell Charges",
+    "slot": "talent25",
+    "requires": [
+     "Dark Seer"
+    ]
+   },
+   {
+    "name": "350 AoE Surge",
+    "slot": "talent25",
+    "requires": [
+     "Dark Seer"
+    ]
+   },
+   {
+    "name": "+1.0s Bedlam Duration",
+    "slot": "talent10",
+    "requires": [
+     "Dark Willow"
+    ]
+   },
+   {
+    "name": "+12 Intelligence",
+    "slot": "talent10",
+    "requires": [
+     "Dark Willow"
+    ]
+   },
+   {
+    "name": "+30 Bedlam Damage",
+    "slot": "talent15",
+    "requires": [
+     "Dark Willow"
+    ]
+   },
+   {
+    "name": "-20s Terrorize Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Dark Willow"
+    ]
+   },
+   {
+    "name": "+1.5s Shadow Realm Duration",
+    "slot": "talent20",
+    "requires": [
+     "Dark Willow"
+    ]
+   },
+   {
+    "name": "-7s Bramble Maze CD",
+    "slot": "talent20",
+    "requires": [
+     "Dark Willow"
+    ]
+   },
+   {
+    "name": "+2 Bedlam Attack Targets",
+    "slot": "talent25",
+    "requires": [
+     "Dark Willow"
+    ]
+   },
+   {
+    "name": "500 Terrorize Impact Damage",
+    "slot": "talent25",
+    "requires": [
+     "Dark Willow"
+    ]
+   },
+   {
+    "name": "+25% Luminosity Critical Strike Damage",
+    "slot": "talent10",
+    "requires": [
+     "Dawnbreaker"
+    ]
+   },
+   {
+    "name": "Celestial Hammer Trail Grants Movement Speed to Allies",
+    "slot": "talent10",
+    "requires": [
+     "Dawnbreaker"
+    ]
+   },
+   {
+    "name": "+40% Celestial Hammer Trail/Hammer Damage",
+    "slot": "talent15",
+    "requires": [
+     "Dawnbreaker"
+    ]
+   },
+   {
+    "name": "-20s Solar Guardian Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Dawnbreaker"
+    ]
+   },
+   {
+    "name": "+150 Solar Guardian Radius",
+    "slot": "talent20",
+    "requires": [
+     "Dawnbreaker"
+    ]
+   },
+   {
+    "name": "-1 Luminosity Attacks Required",
+    "slot": "talent20",
+    "requires": [
+     "Dawnbreaker"
+    ]
+   },
+   {
+    "name": "-4s Starbreaker Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Dawnbreaker"
+    ]
+   },
+   {
+    "name": "+80% Celestial Hammer Cast Range/Speed",
+    "slot": "talent25",
+    "requires": [
+     "Dawnbreaker"
+    ]
+   },
+   {
+    "name": "+200 Poison Touch Attack Range",
+    "slot": "talent10",
+    "requires": [
+     "Dazzle"
+    ]
+   },
+   {
+    "name": "+1.75 Mana Regen",
+    "slot": "talent10",
+    "requires": [
+     "Dazzle"
+    ]
+   },
+   {
+    "name": "+45 Shadow Wave Heal / Damage",
+    "slot": "talent15",
+    "requires": [
+     "Dazzle"
+    ]
+   },
+   {
+    "name": "+5s Nothl Projection Duration",
+    "slot": "talent15",
+    "requires": [
+     "Dazzle"
+    ]
+   },
+   {
+    "name": "-3s Shallow Grave Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Dazzle"
+    ]
+   },
+   {
+    "name": "+75 Poison Touch DPS",
+    "slot": "talent20",
+    "requires": [
+     "Dazzle"
+    ]
+   },
+   {
+    "name": "+40% Poison Touch Slow",
+    "slot": "talent25",
+    "requires": [
+     "Dazzle"
+    ]
+   },
+   {
+    "name": "+1 Weave Armor Reduction/Increase",
+    "slot": "talent25",
+    "requires": [
+     "Dazzle"
+    ]
+   },
+   {
+    "name": "+75 Silence AoE",
+    "slot": "talent10",
+    "requires": [
+     "Death Prophet"
+    ]
+   },
+   {
+    "name": "+200 Health",
+    "slot": "talent10",
+    "requires": [
+     "Death Prophet"
+    ]
+   },
+   {
+    "name": "+50 Attack Speed",
+    "slot": "talent15",
+    "requires": [
+     "Death Prophet"
+    ]
+   },
+   {
+    "name": "-2.5s Crypt Swarm Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Death Prophet"
+    ]
+   },
+   {
+    "name": "+6 Exorcism Spirits",
+    "slot": "talent20",
+    "requires": [
+     "Death Prophet"
+    ]
+   },
+   {
+    "name": "+30 Spirit Siphon Damage/Heal",
+    "slot": "talent20",
+    "requires": [
+     "Death Prophet"
+    ]
+   },
+   {
+    "name": "-22s Spirit Siphon Replenish Time",
+    "slot": "talent25",
+    "requires": [
+     "Death Prophet"
+    ]
+   },
+   {
+    "name": "Deaths During Exorcism Extend Duration By +8s",
+    "slot": "talent25",
+    "requires": [
+     "Death Prophet"
+    ]
+   },
+   {
+    "name": "+20 Movement Speed",
+    "slot": "talent10",
+    "requires": [
+     "Disruptor"
+    ]
+   },
+   {
+    "name": "+15 Thunder Strike Damage per Strike",
+    "slot": "talent10",
+    "requires": [
+     "Disruptor"
+    ]
+   },
+   {
+    "name": "+15%/300 Glimpse Distance To Damage/Max",
+    "slot": "talent15",
+    "requires": [
+     "Disruptor"
+    ]
+   },
+   {
+    "name": "+60 Static Storm Max DPS",
+    "slot": "talent15",
+    "requires": [
+     "Disruptor"
+    ]
+   },
+   {
+    "name": "+1s Kinetic Field Duration",
+    "slot": "talent20",
+    "requires": [
+     "Disruptor"
+    ]
+   },
+   {
+    "name": "+75 Static Storm Radius",
+    "slot": "talent20",
+    "requires": [
+     "Disruptor"
+    ]
+   },
+   {
+    "name": "2 Glimpse Charges",
+    "slot": "talent25",
+    "requires": [
+     "Disruptor"
+    ]
+   },
+   {
+    "name": "+6 Thunder Strike Strikes",
+    "slot": "talent25",
+    "requires": [
+     "Disruptor"
+    ]
+   },
+   {
+    "name": "+10% Magic Resistance",
+    "slot": "talent10",
+    "requires": [
+     "Doom"
+    ]
+   },
+   {
+    "name": "+0.2s Infernal Blade Stun Duration",
+    "slot": "talent10",
+    "requires": [
+     "Doom"
+    ]
+   },
+   {
+    "name": "+7% Scorched Earth Movement Speed",
+    "slot": "talent15",
+    "requires": [
+     "Doom"
+    ]
+   },
+   {
+    "name": "+1.5% Infernal Blade Max HP As Damage",
+    "slot": "talent15",
+    "requires": [
+     "Doom"
+    ]
+   },
+   {
+    "name": "-10s Doom Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Doom"
+    ]
+   },
+   {
+    "name": "+66 Damage",
+    "slot": "talent20",
+    "requires": [
+     "Doom"
+    ]
+   },
+   {
+    "name": "Doom applies Mute",
+    "slot": "talent25",
+    "requires": [
+     "Doom"
+    ]
+   },
+   {
+    "name": "Permanent Scorched Earth",
+    "slot": "talent25",
+    "requires": [
+     "Doom"
+    ]
+   },
+   {
+    "name": "+15 Damage",
+    "slot": "talent10",
+    "requires": [
+     "Dragon Knight"
+    ]
+   },
+   {
+    "name": "-2s Breathe Fire Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Dragon Knight"
+    ]
+   },
+   {
+    "name": "+0.4s Dragon Tail Stun",
+    "slot": "talent15",
+    "requires": [
+     "Dragon Knight"
+    ]
+   },
+   {
+    "name": "+300 Health",
+    "slot": "talent15",
+    "requires": [
+     "Dragon Knight"
+    ]
+   },
+   {
+    "name": "+150 Elder Dragon Form Attack Range",
+    "slot": "talent20",
+    "requires": [
+     "Dragon Knight"
+    ]
+   },
+   {
+    "name": "+220 Breathe Fire Damage",
+    "slot": "talent20",
+    "requires": [
+     "Dragon Knight"
+    ]
+   },
+   {
+    "name": "+12 Dragon Blood HP Regen/Armor",
+    "slot": "talent25",
+    "requires": [
+     "Dragon Knight"
+    ]
+   },
+   {
+    "name": "+50% Wyrm's Wrath Bonuses",
+    "slot": "talent25",
+    "requires": [
+     "Dragon Knight"
+    ]
+   },
+   {
+    "name": "-18% Frost Arrows Mana Cost",
+    "slot": "talent10",
+    "requires": [
+     "Drow Ranger"
+    ]
+   },
+   {
+    "name": "+1 Multishot Arrow Per Wave",
+    "slot": "talent10",
+    "requires": [
+     "Drow Ranger"
+    ]
+   },
+   {
+    "name": "+75 Attack Range",
+    "slot": "talent15",
+    "requires": [
+     "Drow Ranger"
+    ]
+   },
+   {
+    "name": "-6s Multishot Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Drow Ranger"
+    ]
+   },
+   {
+    "name": "50% Gust Self Movement Speed",
+    "slot": "talent20",
+    "requires": [
+     "Drow Ranger"
+    ]
+   },
+   {
+    "name": "+25% Multishot Damage",
+    "slot": "talent20",
+    "requires": [
+     "Drow Ranger"
+    ]
+   },
+   {
+    "name": "+8% Marksmanship Chance",
+    "slot": "talent25",
+    "requires": [
+     "Drow Ranger"
+    ]
+   },
+   {
+    "name": "+2 Multishot Waves",
+    "slot": "talent25",
+    "requires": [
+     "Drow Ranger"
+    ]
+   },
+   {
+    "name": "-2.0s Boulder Smash Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Earth Spirit"
+    ]
+   },
+   {
+    "name": "+150 Rolling Boulder Distance",
+    "slot": "talent10",
+    "requires": [
+     "Earth Spirit"
+    ]
+   },
+   {
+    "name": "+0.3s Rolling Boulder Stun Duration",
+    "slot": "talent15",
+    "requires": [
+     "Earth Spirit"
+    ]
+   },
+   {
+    "name": "+80 Boulder Smash Damage",
+    "slot": "talent15",
+    "requires": [
+     "Earth Spirit"
+    ]
+   },
+   {
+    "name": "+35 Magnetize Damage Per Second",
+    "slot": "talent20",
+    "requires": [
+     "Earth Spirit"
+    ]
+   },
+   {
+    "name": "+200 Geomagnetic Grip Remnant Damage",
+    "slot": "talent20",
+    "requires": [
+     "Earth Spirit"
+    ]
+   },
+   {
+    "name": "Earth Spirit Magnetizes himself",
+    "slot": "talent25",
+    "requires": [
+     "Earth Spirit"
+    ]
+   },
+   {
+    "name": "+250% Rolling Boulder Damage from Strength",
+    "slot": "talent25",
+    "requires": [
+     "Earth Spirit"
+    ]
+   },
+   {
+    "name": "+25 Base Damage",
+    "slot": "talent10",
+    "requires": [
+     "Earthshaker"
+    ]
+   },
+   {
+    "name": "+75 Fissure Damage",
+    "slot": "talent10",
+    "requires": [
+     "Earthshaker"
+    ]
+   },
+   {
+    "name": "+200 Fissure Range",
+    "slot": "talent15",
+    "requires": [
+     "Earthshaker"
+    ]
+   },
+   {
+    "name": "+50 Aftershock Damage",
+    "slot": "talent15",
+    "requires": [
+     "Earthshaker"
+    ]
+   },
+   {
+    "name": "+50 Echo Damage",
+    "slot": "talent20",
+    "requires": [
+     "Earthshaker"
+    ]
+   },
+   {
+    "name": "+65% Enchant Totem Damage",
+    "slot": "talent20",
+    "requires": [
+     "Earthshaker"
+    ]
+   },
+   {
+    "name": "-50% Echo Slam Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Earthshaker"
+    ]
+   },
+   {
+    "name": "-1.5s Enchant Totem Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Earthshaker"
+    ]
+   },
+   {
+    "name": "+2.5% Astral Spirit Bonus Move Speed Per Hero",
+    "slot": "talent10",
+    "requires": [
+     "Elder Titan"
+    ]
+   },
+   {
+    "name": "+150 Echo Stomp Wake Damage",
+    "slot": "talent10",
+    "requires": [
+     "Elder Titan"
+    ]
+   },
+   {
+    "name": "+75 Echo Stomp Damage",
+    "slot": "talent15",
+    "requires": [
+     "Elder Titan"
+    ]
+   },
+   {
+    "name": "20% of Bonus Movement Speed as Attack Speed",
+    "slot": "talent15",
+    "requires": [
+     "Elder Titan"
+    ]
+   },
+   {
+    "name": "+30 Astral Spirit Bonus Damage per Hero",
+    "slot": "talent20",
+    "requires": [
+     "Elder Titan"
+    ]
+   },
+   {
+    "name": "+150 Natural Order Radius",
+    "slot": "talent20",
+    "requires": [
+     "Elder Titan"
+    ]
+   },
+   {
+    "name": "-60s Earth Splitter Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Elder Titan"
+    ]
+   },
+   {
+    "name": "+100% Cleave",
+    "slot": "talent25",
+    "requires": [
+     "Elder Titan"
+    ]
+   },
+   {
+    "name": "+12 Damage",
+    "slot": "talent10",
+    "requires": [
+     "Ember Spirit"
+    ]
+   },
+   {
+    "name": "+165 Flame Guard Barrier Amount",
+    "slot": "talent10",
+    "requires": [
+     "Ember Spirit"
+    ]
+   },
+   {
+    "name": "+100% Flame Guard Damage Per Second",
+    "slot": "talent15",
+    "requires": [
+     "Ember Spirit"
+    ]
+   },
+   {
+    "name": "+0.8s Searing Chains Duration",
+    "slot": "talent15",
+    "requires": [
+     "Ember Spirit"
+    ]
+   },
+   {
+    "name": "+50 Sleight of Fist Hero Damage",
+    "slot": "talent20",
+    "requires": [
+     "Ember Spirit"
+    ]
+   },
+   {
+    "name": "+50 Searing Chains Damage",
+    "slot": "talent20",
+    "requires": [
+     "Ember Spirit"
+    ]
+   },
+   {
+    "name": "2 Sleight of Fist Charges",
+    "slot": "talent25",
+    "requires": [
+     "Ember Spirit"
+    ]
+   },
+   {
+    "name": "-12s Remnant Charge Restore Time",
+    "slot": "talent25",
+    "requires": [
+     "Ember Spirit"
+    ]
+   },
+   {
+    "name": "+5 Armor for Enchantress and her units",
+    "slot": "talent10",
+    "requires": [
+     "Enchantress"
+    ]
+   },
+   {
+    "name": "+30 Movespeed during Nature's Attendants",
+    "slot": "talent10",
+    "requires": [
+     "Enchantress"
+    ]
+   },
+   {
+    "name": "+30 Attack Speed for Enchantress and her units",
+    "slot": "talent15",
+    "requires": [
+     "Enchantress"
+    ]
+   },
+   {
+    "name": "+8 Nature's Attendants Heal",
+    "slot": "talent15",
+    "requires": [
+     "Enchantress"
+    ]
+   },
+   {
+    "name": "+9 Nature's Attendants Wisps",
+    "slot": "talent20",
+    "requires": [
+     "Enchantress"
+    ]
+   },
+   {
+    "name": "+150 Health / +25 Damage  for Enchantress and her units",
+    "slot": "talent20",
+    "requires": [
+     "Enchantress"
+    ]
+   },
+   {
+    "name": "+6.5% Impetus Damage",
+    "slot": "talent25",
+    "requires": [
+     "Enchantress"
+    ]
+   },
+   {
+    "name": "+80 Untouchable Attack Slow",
+    "slot": "talent25",
+    "requires": [
+     "Enchantress"
+    ]
+   },
+   {
+    "name": "+10 Eidolon Attack Speed",
+    "slot": "talent10",
+    "requires": [
+     "Enigma"
+    ]
+   },
+   {
+    "name": "+50 Black Hole Damage Per Second",
+    "slot": "talent10",
+    "requires": [
+     "Enigma"
+    ]
+   },
+   {
+    "name": "+250 Health",
+    "slot": "talent15",
+    "requires": [
+     "Enigma"
+    ]
+   },
+   {
+    "name": "+100 Event Horizon Radius",
+    "slot": "talent15",
+    "requires": [
+     "Enigma"
+    ]
+   },
+   {
+    "name": "+200 Midnight Pulse Radius",
+    "slot": "talent20",
+    "requires": [
+     "Enigma"
+    ]
+   },
+   {
+    "name": "+30 Eidolon Damage",
+    "slot": "talent20",
+    "requires": [
+     "Enigma"
+    ]
+   },
+   {
+    "name": "+4 Malefice Instances",
+    "slot": "talent25",
+    "requires": [
+     "Enigma"
+    ]
+   },
+   {
+    "name": "+4 Demonic Summoning Eidolons",
+    "slot": "talent25",
+    "requires": [
+     "Enigma"
+    ]
+   },
+   {
+    "name": "+6 Time Dilation DPS Per Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Faceless Void"
+    ]
+   },
+   {
+    "name": "+0.5s Time Walk Backtrack Duration",
+    "slot": "talent10",
+    "requires": [
+     "Faceless Void"
+    ]
+   },
+   {
+    "name": "+35 Time Lock Damage",
+    "slot": "talent15",
+    "requires": [
+     "Faceless Void"
+    ]
+   },
+   {
+    "name": "+125 Time Walk Range",
+    "slot": "talent15",
+    "requires": [
+     "Faceless Void"
+    ]
+   },
+   {
+    "name": "+80 Attack Speed during Chronosphere",
+    "slot": "talent20",
+    "requires": [
+     "Faceless Void"
+    ]
+   },
+   {
+    "name": "-1.0s Time Walk Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Faceless Void"
+    ]
+   },
+   {
+    "name": "+20% Backtrack Chance",
+    "slot": "talent25",
+    "requires": [
+     "Faceless Void"
+    ]
+   },
+   {
+    "name": "+140 Chronosphere AoE",
+    "slot": "talent25",
+    "requires": [
+     "Faceless Void"
+    ]
+   },
+   {
+    "name": "-10s Nature's Call Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Nature's Prophet"
+    ]
+   },
+   {
+    "name": "+25 Wrath of Nature Base Damage",
+    "slot": "talent10",
+    "requires": [
+     "Nature's Prophet"
+    ]
+   },
+   {
+    "name": "+50 Treant Movement Speed",
+    "slot": "talent15",
+    "requires": [
+     "Nature's Prophet"
+    ]
+   },
+   {
+    "name": "+100 Teleportation Barrier",
+    "slot": "talent15",
+    "requires": [
+     "Nature's Prophet"
+    ]
+   },
+   {
+    "name": "-20s Wrath of Nature Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Nature's Prophet"
+    ]
+   },
+   {
+    "name": "+240 Sprout Damage",
+    "slot": "talent20",
+    "requires": [
+     "Nature's Prophet"
+    ]
+   },
+   {
+    "name": "Removed Teleportation Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Nature's Prophet"
+    ]
+   },
+   {
+    "name": "3x Treant HP/Damage",
+    "slot": "talent25",
+    "requires": [
+     "Nature's Prophet"
+    ]
+   },
+   {
+    "name": "+65 Phantom's Embrace DPS",
+    "slot": "talent10",
+    "requires": [
+     "Grimstroke"
+    ]
+   },
+   {
+    "name": "-4s Ink Swell Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Grimstroke"
+    ]
+   },
+   {
+    "name": "+25.0% Soulbind Spell Damage",
+    "slot": "talent15",
+    "requires": [
+     "Grimstroke"
+    ]
+   },
+   {
+    "name": "+15% Ink Swell Movement Speed",
+    "slot": "talent15",
+    "requires": [
+     "Grimstroke"
+    ]
+   },
+   {
+    "name": "+80% Stroke of Fate Damage",
+    "slot": "talent20",
+    "requires": [
+     "Grimstroke"
+    ]
+   },
+   {
+    "name": "+2 Attacks to Destroy Phantom",
+    "slot": "talent20",
+    "requires": [
+     "Grimstroke"
+    ]
+   },
+   {
+    "name": "+150 Ink Swell Radius",
+    "slot": "talent25",
+    "requires": [
+     "Grimstroke"
+    ]
+   },
+   {
+    "name": "+70% Stroke of Fate Speed and Travel Range",
+    "slot": "talent25",
+    "requires": [
+     "Grimstroke"
+    ]
+   },
+   {
+    "name": "+25% Homing Missile Damage",
+    "slot": "talent10",
+    "requires": [
+     "Gyrocopter"
+    ]
+   },
+   {
+    "name": "+150 Health",
+    "slot": "talent10",
+    "requires": [
+     "Gyrocopter"
+    ]
+   },
+   {
+    "name": "+0.3s Homing Missile Stun Duration",
+    "slot": "talent15",
+    "requires": [
+     "Gyrocopter"
+    ]
+   },
+   {
+    "name": "+25 Flak Cannon Damage",
+    "slot": "talent15",
+    "requires": [
+     "Gyrocopter"
+    ]
+   },
+   {
+    "name": "+3 Flak Cannon Attacks",
+    "slot": "talent20",
+    "requires": [
+     "Gyrocopter"
+    ]
+   },
+   {
+    "name": "+14 Rocket Barrage Damage",
+    "slot": "talent20",
+    "requires": [
+     "Gyrocopter"
+    ]
+   },
+   {
+    "name": "-6s Flak Cannon Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Gyrocopter"
+    ]
+   },
+   {
+    "name": "-40s Call Down Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Gyrocopter"
+    ]
+   },
+   {
+    "name": "+50 Bushwhack Damage",
+    "slot": "talent10",
+    "requires": [
+     "Hoodwink"
+    ]
+   },
+   {
+    "name": "+175 Health",
+    "slot": "talent10",
+    "requires": [
+     "Hoodwink"
+    ]
+   },
+   {
+    "name": "+1 Scurry Ability Charge",
+    "slot": "talent15",
+    "requires": [
+     "Hoodwink"
+    ]
+   },
+   {
+    "name": "+10 Agility",
+    "slot": "talent15",
+    "requires": [
+     "Hoodwink"
+    ]
+   },
+   {
+    "name": "Sharpshooter Provides Vision While Charging",
+    "slot": "talent20",
+    "requires": [
+     "Hoodwink"
+    ]
+   },
+   {
+    "name": "+2 Acorn Shot Bounces",
+    "slot": "talent20",
+    "requires": [
+     "Hoodwink"
+    ]
+   },
+   {
+    "name": "+400 Sharpshooter Max Damage",
+    "slot": "talent25",
+    "requires": [
+     "Hoodwink"
+    ]
+   },
+   {
+    "name": "2 Acorn Shot Charges",
+    "slot": "talent25",
+    "requires": [
+     "Hoodwink"
+    ]
+   },
+   {
+    "name": "+0.75s Inner Fire Duration",
+    "slot": "talent10",
+    "requires": [
+     "Huskar"
+    ]
+   },
+   {
+    "name": "+2s Life Break Slow Duration",
+    "slot": "talent10",
+    "requires": [
+     "Huskar"
+    ]
+   },
+   {
+    "name": "+5 Burning Spear Burn Damage",
+    "slot": "talent15",
+    "requires": [
+     "Huskar"
+    ]
+   },
+   {
+    "name": "+12% Lifesteal",
+    "slot": "talent15",
+    "requires": [
+     "Huskar"
+    ]
+   },
+   {
+    "name": "+30% Berserker's Blood Regen",
+    "slot": "talent20",
+    "requires": [
+     "Huskar"
+    ]
+   },
+   {
+    "name": "-5s Life Break Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Huskar"
+    ]
+   },
+   {
+    "name": "+6s Burning Spear Duration",
+    "slot": "talent25",
+    "requires": [
+     "Huskar"
+    ]
+   },
+   {
+    "name": "+22% Life Break Damage",
+    "slot": "talent25",
+    "requires": [
+     "Huskar"
+    ]
+   },
+   {
+    "name": "+50 Ice Wall DPS",
+    "slot": "talent10",
+    "requires": [
+     "Invoker"
+    ]
+   },
+   {
+    "name": "-5s Tornado Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Invoker"
+    ]
+   },
+   {
+    "name": "+25 Alacrity Damage/Speed",
+    "slot": "talent15",
+    "requires": [
+     "Invoker"
+    ]
+   },
+   {
+    "name": "-6s Cold Snap Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Invoker"
+    ]
+   },
+   {
+    "name": "+2 Chaos Meteors",
+    "slot": "talent20",
+    "requires": [
+     "Invoker"
+    ]
+   },
+   {
+    "name": "+50% Forged Spirit Armor Reduction",
+    "slot": "talent20",
+    "requires": [
+     "Invoker"
+    ]
+   },
+   {
+    "name": "Radial Deafening Blast",
+    "slot": "talent25",
+    "requires": [
+     "Invoker"
+    ]
+   },
+   {
+    "name": "2x Quas/Wex/Exort Active Bonuses",
+    "slot": "talent25",
+    "requires": [
+     "Invoker"
+    ]
+   },
+   {
+    "name": "+30 Liquid Fire Attack Speed Slow",
+    "slot": "talent10",
+    "requires": [
+     "Jakiro"
+    ]
+   },
+   {
+    "name": "+100 Ice Path Damage",
+    "slot": "talent10",
+    "requires": [
+     "Jakiro"
+    ]
+   },
+   {
+    "name": "+175 Attack Range",
+    "slot": "talent15",
+    "requires": [
+     "Jakiro"
+    ]
+   },
+   {
+    "name": "-3.5s Dual Breath Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Jakiro"
+    ]
+   },
+   {
+    "name": "+0.4s Ice Path Stun Duration",
+    "slot": "talent20",
+    "requires": [
+     "Jakiro"
+    ]
+   },
+   {
+    "name": "+25 Macropyre Damage",
+    "slot": "talent20",
+    "requires": [
+     "Jakiro"
+    ]
+   },
+   {
+    "name": "+100% Dual Breath Damage and Range",
+    "slot": "talent25",
+    "requires": [
+     "Jakiro"
+    ]
+   },
+   {
+    "name": "+3.5% Liquid Frost and Fire Max Health Damage",
+    "slot": "talent25",
+    "requires": [
+     "Jakiro"
+    ]
+   },
+   {
+    "name": "-12s Healing Ward Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Juggernaut"
+    ]
+   },
+   {
+    "name": "-1.0s Bladeform Stack Gain Interval",
+    "slot": "talent10",
+    "requires": [
+     "Juggernaut"
+    ]
+   },
+   {
+    "name": "-15s Omnislash Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Juggernaut"
+    ]
+   },
+   {
+    "name": "45 Movement Speed During Blade Fury",
+    "slot": "talent15",
+    "requires": [
+     "Juggernaut"
+    ]
+   },
+   {
+    "name": "+15% Blade Dance Crit Damage",
+    "slot": "talent20",
+    "requires": [
+     "Juggernaut"
+    ]
+   },
+   {
+    "name": "+120 Blade Fury Damage Per Second",
+    "slot": "talent20",
+    "requires": [
+     "Juggernaut"
+    ]
+   },
+   {
+    "name": "+1s Omnislash Duration",
+    "slot": "talent25",
+    "requires": [
+     "Juggernaut"
+    ]
+   },
+   {
+    "name": "+40% Blade Dance Lifesteal",
+    "slot": "talent25",
+    "requires": [
+     "Juggernaut"
+    ]
+   },
+   {
+    "name": "+40% Blinding Light Miss",
+    "slot": "talent10",
+    "requires": [
+     "Keeper of the Light"
+    ]
+   },
+   {
+    "name": "-2s Illuminate Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Keeper of the Light"
+    ]
+   },
+   {
+    "name": "+25% Spirit Form Bright Speed Bonus",
+    "slot": "talent15",
+    "requires": [
+     "Keeper of the Light"
+    ]
+   },
+   {
+    "name": "+90 Blinding Light Damage",
+    "slot": "talent15",
+    "requires": [
+     "Keeper of the Light"
+    ]
+   },
+   {
+    "name": "+15s Spirit Form Duration",
+    "slot": "talent20",
+    "requires": [
+     "Keeper of the Light"
+    ]
+   },
+   {
+    "name": "+10% Solar Bind Magic Resistance Reduction",
+    "slot": "talent20",
+    "requires": [
+     "Keeper of the Light"
+    ]
+   },
+   {
+    "name": "Chakra Magic Strong Dispels",
+    "slot": "talent25",
+    "requires": [
+     "Keeper of the Light"
+    ]
+   },
+   {
+    "name": "+200 Illuminate Damage",
+    "slot": "talent25",
+    "requires": [
+     "Keeper of the Light"
+    ]
+   },
+   {
+    "name": "+6% Switch Discipline Swap Bonuses",
+    "slot": "talent10",
+    "requires": [
+     "Kez"
+    ]
+   },
+   {
+    "name": "+50 Raptor Dance Radius",
+    "slot": "talent10",
+    "requires": [
+     "Kez"
+    ]
+   },
+   {
+    "name": "+2.0s Falcon Rush Duration",
+    "slot": "talent15",
+    "requires": [
+     "Kez"
+    ]
+   },
+   {
+    "name": "+1 Raptor Dance Strike",
+    "slot": "talent15",
+    "requires": [
+     "Kez"
+    ]
+   },
+   {
+    "name": "+3.5% Kazurai Katana Damage Per Second",
+    "slot": "talent20",
+    "requires": [
+     "Kez"
+    ]
+   },
+   {
+    "name": "40 Bonus Attack Speed During Falcon Rush",
+    "slot": "talent20",
+    "requires": [
+     "Kez"
+    ]
+   },
+   {
+    "name": "+80% Shodo Sai Critical Strike",
+    "slot": "talent25",
+    "requires": [
+     "Kez"
+    ]
+   },
+   {
+    "name": "+1 Echo Slash Attack",
+    "slot": "talent25",
+    "requires": [
+     "Kez"
+    ]
+   },
+   {
+    "name": "+1s Admiral's Rum Buff Duration",
+    "slot": "talent10",
+    "requires": [
+     "Kunkka"
+    ]
+   },
+   {
+    "name": "Tidebringer applies 60% slow for 1s",
+    "slot": "talent10",
+    "requires": [
+     "Kunkka"
+    ]
+   },
+   {
+    "name": "+25% Torrent Damage/Knock Up Duration",
+    "slot": "talent15",
+    "requires": [
+     "Kunkka"
+    ]
+   },
+   {
+    "name": "+75 Tidebringer Damage",
+    "slot": "talent15",
+    "requires": [
+     "Kunkka"
+    ]
+   },
+   {
+    "name": "-4s Torrent Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Kunkka"
+    ]
+   },
+   {
+    "name": "+80% Tidebringer Cleave Damage",
+    "slot": "talent20",
+    "requires": [
+     "Kunkka"
+    ]
+   },
+   {
+    "name": "+100 Spell Area of Effect",
+    "slot": "talent25",
+    "requires": [
+     "Kunkka"
+    ]
+   },
+   {
+    "name": "Tidebringer Ignores 25% Armor",
+    "slot": "talent25",
+    "requires": [
+     "Kunkka"
+    ]
+   },
+   {
+    "name": "+15 Frogstomp Damage",
+    "slot": "talent10",
+    "requires": [
+     "Largo"
+    ]
+   },
+   {
+    "name": "2.5x Catchy Lick Health Regen",
+    "slot": "talent10",
+    "requires": [
+     "Largo"
+    ]
+   },
+   {
+    "name": "1% Croak of Genius Max Health DPS",
+    "slot": "talent15",
+    "requires": [
+     "Largo"
+    ]
+   },
+   {
+    "name": "+100 Catchy Lick Cast Range / +50 Pull Distance",
+    "slot": "talent15",
+    "requires": [
+     "Largo"
+    ]
+   },
+   {
+    "name": "2 Catchy Lick Charges",
+    "slot": "talent20",
+    "requires": [
+     "Largo"
+    ]
+   },
+   {
+    "name": "50% Groovin' Armor Aura",
+    "slot": "talent20",
+    "requires": [
+     "Largo"
+    ]
+   },
+   {
+    "name": "+30% Amphibian Rhapsody Song Effects",
+    "slot": "talent25",
+    "requires": [
+     "Largo"
+    ]
+   },
+   {
+    "name": "2x Frogstomp Stomps/Interval",
+    "slot": "talent25",
+    "requires": [
+     "Largo"
+    ]
+   },
+   {
+    "name": "-2s Overwhelming Odds Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Legion Commander"
+    ]
+   },
+   {
+    "name": "+1 Outfight Them! Armor",
+    "slot": "talent10",
+    "requires": [
+     "Legion Commander"
+    ]
+   },
+   {
+    "name": "+40 Press The Attack HP Regen",
+    "slot": "talent15",
+    "requires": [
+     "Legion Commander"
+    ]
+   },
+   {
+    "name": "+35 Overwhelming Odds Damage per Hero",
+    "slot": "talent15",
+    "requires": [
+     "Legion Commander"
+    ]
+   },
+   {
+    "name": "+0.75s Duel Duration",
+    "slot": "talent20",
+    "requires": [
+     "Legion Commander"
+    ]
+   },
+   {
+    "name": "-1 Moment of Courage Attacks To Trigger",
+    "slot": "talent20",
+    "requires": [
+     "Legion Commander"
+    ]
+   },
+   {
+    "name": "+100% Moment of Courage Lifesteal",
+    "slot": "talent25",
+    "requires": [
+     "Legion Commander"
+    ]
+   },
+   {
+    "name": "Duel Advances Cooldown by 30s On Victory",
+    "slot": "talent25",
+    "requires": [
+     "Legion Commander"
+    ]
+   },
+   {
+    "name": "+1.5 Mana Regen",
+    "slot": "talent10",
+    "requires": [
+     "Leshrac"
+    ]
+   },
+   {
+    "name": "+4 Armor",
+    "slot": "talent10",
+    "requires": [
+     "Leshrac"
+    ]
+   },
+   {
+    "name": "+80 Lightning Storm Damage",
+    "slot": "talent15",
+    "requires": [
+     "Leshrac"
+    ]
+   },
+   {
+    "name": "+10% Damage Reduction during Pulse Nova",
+    "slot": "talent15",
+    "requires": [
+     "Leshrac"
+    ]
+   },
+   {
+    "name": "Diabolic Edict Hits An Additional Target",
+    "slot": "talent20",
+    "requires": [
+     "Leshrac"
+    ]
+   },
+   {
+    "name": "+30 Pulse Nova Damage",
+    "slot": "talent20",
+    "requires": [
+     "Leshrac"
+    ]
+   },
+   {
+    "name": "+20 Diabolic Edict Explosions",
+    "slot": "talent25",
+    "requires": [
+     "Leshrac"
+    ]
+   },
+   {
+    "name": "Pulse Nova triggers Lightning Storm",
+    "slot": "talent25",
+    "requires": [
+     "Leshrac"
+    ]
+   },
+   {
+    "name": "+10% Frost Shield Damage Reduction",
+    "slot": "talent10",
+    "requires": [
+     "Lich"
+    ]
+   },
+   {
+    "name": "+125 Frost Blast Radius and Area Damage",
+    "slot": "talent10",
+    "requires": [
+     "Lich"
+    ]
+   },
+   {
+    "name": "+0.3s Sinister Gaze Duration",
+    "slot": "talent15",
+    "requires": [
+     "Lich"
+    ]
+   },
+   {
+    "name": "-3.5s Frost Blast Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Lich"
+    ]
+   },
+   {
+    "name": "2 Frost Shield Charges",
+    "slot": "talent20",
+    "requires": [
+     "Lich"
+    ]
+   },
+   {
+    "name": "Chain Frost on Death",
+    "slot": "talent20",
+    "requires": [
+     "Lich"
+    ]
+   },
+   {
+    "name": "Frost Shield Provides +50 HP Regen",
+    "slot": "talent25",
+    "requires": [
+     "Lich"
+    ]
+   },
+   {
+    "name": "Chain Frost Unlimited Bounces",
+    "slot": "talent25",
+    "requires": [
+     "Lich"
+    ]
+   },
+   {
+    "name": "+4 All Attributes",
+    "slot": "talent10",
+    "requires": [
+     "Lifestealer"
+    ]
+   },
+   {
+    "name": "+15 Movement Speed",
+    "slot": "talent10",
+    "requires": [
+     "Lifestealer"
+    ]
+   },
+   {
+    "name": "+175 Infest Damage",
+    "slot": "talent15",
+    "requires": [
+     "Lifestealer"
+    ]
+   },
+   {
+    "name": "50 Attack Speed on Open Wounds Target",
+    "slot": "talent15",
+    "requires": [
+     "Lifestealer"
+    ]
+   },
+   {
+    "name": "+12% Infest Target Movespeed/Health",
+    "slot": "talent20",
+    "requires": [
+     "Lifestealer"
+    ]
+   },
+   {
+    "name": "+25% Open Wounds Lifesteal",
+    "slot": "talent20",
+    "requires": [
+     "Lifestealer"
+    ]
+   },
+   {
+    "name": "+1.0% Feast Heal and Damage",
+    "slot": "talent25",
+    "requires": [
+     "Lifestealer"
+    ]
+   },
+   {
+    "name": "+1.0s Rage Duration",
+    "slot": "talent25",
+    "requires": [
+     "Lifestealer"
+    ]
+   },
+   {
+    "name": "+25 Damage",
+    "slot": "talent10",
+    "requires": [
+     "Lina"
+    ]
+   },
+   {
+    "name": "-3s Dragon Slave Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Lina"
+    ]
+   },
+   {
+    "name": "5% Fiery Soul Magic Resist Per Stack",
+    "slot": "talent15",
+    "requires": [
+     "Lina"
+    ]
+   },
+   {
+    "name": "+110 Light Strike Array Damage",
+    "slot": "talent15",
+    "requires": [
+     "Lina"
+    ]
+   },
+   {
+    "name": "-20s Laguna Blade Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Lina"
+    ]
+   },
+   {
+    "name": "+10/1% Fiery Soul Per Stack",
+    "slot": "talent20",
+    "requires": [
+     "Lina"
+    ]
+   },
+   {
+    "name": "+1s Slow Burn Duration",
+    "slot": "talent25",
+    "requires": [
+     "Lina"
+    ]
+   },
+   {
+    "name": "150% Attack Crit On Targets Affected By Slow Burn",
+    "slot": "talent25",
+    "requires": [
+     "Lina"
+    ]
+   },
+   {
+    "name": "+10% Mana Drain Slow",
+    "slot": "talent10",
+    "requires": [
+     "Lion"
+    ]
+   },
+   {
+    "name": "+20 Movement Speed",
+    "slot": "talent10",
+    "requires": [
+     "Lion"
+    ]
+   },
+   {
+    "name": "-2.0s Hex Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Lion"
+    ]
+   },
+   {
+    "name": "+15% To Hell And Back Debuff/Spell Amp",
+    "slot": "talent15",
+    "requires": [
+     "Lion"
+    ]
+   },
+   {
+    "name": "+20 Finger of Death Damage Per Kill",
+    "slot": "talent20",
+    "requires": [
+     "Lion"
+    ]
+   },
+   {
+    "name": "Earth Spike affects a 30 degree cone",
+    "slot": "talent20",
+    "requires": [
+     "Lion"
+    ]
+   },
+   {
+    "name": "+250 AoE Hex",
+    "slot": "talent25",
+    "requires": [
+     "Lion"
+    ]
+   },
+   {
+    "name": "+600 Earth Spike cast range/travel distance",
+    "slot": "talent25",
+    "requires": [
+     "Lion"
+    ]
+   },
+   {
+    "name": "+5s True Form Duration",
+    "slot": "talent10",
+    "requires": [
+     "Lone Druid"
+    ]
+   },
+   {
+    "name": "+20 Entangle Root Damage Per Second",
+    "slot": "talent10",
+    "requires": [
+     "Lone Druid"
+    ]
+   },
+   {
+    "name": "-4s Savage Roar Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Lone Druid"
+    ]
+   },
+   {
+    "name": "+12 Agility",
+    "slot": "talent15",
+    "requires": [
+     "Lone Druid"
+    ]
+   },
+   {
+    "name": "+125 Savage Roar Radius",
+    "slot": "talent20",
+    "requires": [
+     "Lone Druid"
+    ]
+   },
+   {
+    "name": "+55 Attack Speed",
+    "slot": "talent20",
+    "requires": [
+     "Lone Druid"
+    ]
+   },
+   {
+    "name": "True Form provides 70% Slow Resistance",
+    "slot": "talent25",
+    "requires": [
+     "Lone Druid"
+    ]
+   },
+   {
+    "name": "+0.6s Entangle Root Duration",
+    "slot": "talent25",
+    "requires": [
+     "Lone Druid"
+    ]
+   },
+   {
+    "name": "-5% Moon Glaives Damage Reduction",
+    "slot": "talent10",
+    "requires": [
+     "Luna"
+    ]
+   },
+   {
+    "name": "+0.5s Lucent Beam Ministun",
+    "slot": "talent10",
+    "requires": [
+     "Luna"
+    ]
+   },
+   {
+    "name": "+1 Lunar Orbit Glaive",
+    "slot": "talent15",
+    "requires": [
+     "Luna"
+    ]
+   },
+   {
+    "name": "+80 Lucent Beam Damage",
+    "slot": "talent15",
+    "requires": [
+     "Luna"
+    ]
+   },
+   {
+    "name": "-40.0s Eclipse Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Luna"
+    ]
+   },
+   {
+    "name": "1.5x Lunar Orbit Damage / Speed",
+    "slot": "talent20",
+    "requires": [
+     "Luna"
+    ]
+   },
+   {
+    "name": "+25/50 Lunar Blessing Allied/Self Damage",
+    "slot": "talent25",
+    "requires": [
+     "Luna"
+    ]
+   },
+   {
+    "name": "Lucent Beam Hits An Additional Target",
+    "slot": "talent25",
+    "requires": [
+     "Luna"
+    ]
+   },
+   {
+    "name": "+3 Howl Armor Reduction",
+    "slot": "talent10",
+    "requires": [
+     "Lycan"
+    ]
+   },
+   {
+    "name": "+14 Wolves Damage",
+    "slot": "talent10",
+    "requires": [
+     "Lycan"
+    ]
+   },
+   {
+    "name": "+375 Summon Wolves Health",
+    "slot": "talent15",
+    "requires": [
+     "Lycan"
+    ]
+   },
+   {
+    "name": "-15s Shapeshift Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Lycan"
+    ]
+   },
+   {
+    "name": "+7s Shapeshift Duration",
+    "slot": "talent20",
+    "requires": [
+     "Lycan"
+    ]
+   },
+   {
+    "name": "+25% Feral Impulse Damage",
+    "slot": "talent20",
+    "requires": [
+     "Lycan"
+    ]
+   },
+   {
+    "name": "-25% Summon Wolves BAT",
+    "slot": "talent25",
+    "requires": [
+     "Lycan"
+    ]
+   },
+   {
+    "name": "Howl Reduces Total Attack Damage",
+    "slot": "talent25",
+    "requires": [
+     "Lycan"
+    ]
+   },
+   {
+    "name": "+1.5 Mana Regen",
+    "slot": "talent10",
+    "requires": [
+     "Magnus"
+    ]
+   },
+   {
+    "name": "+1.25s Skewer Slow Duration",
+    "slot": "talent10",
+    "requires": [
+     "Magnus"
+    ]
+   },
+   {
+    "name": "+14 All Attributes per hero hit with Reverse Polarity",
+    "slot": "talent15",
+    "requires": [
+     "Magnus"
+    ]
+   },
+   {
+    "name": "-5s Skewer Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Magnus"
+    ]
+   },
+   {
+    "name": "+125 Shockwave Damage",
+    "slot": "talent20",
+    "requires": [
+     "Magnus"
+    ]
+   },
+   {
+    "name": "+15% Skewer Damage Per Distance Travelled",
+    "slot": "talent20",
+    "requires": [
+     "Magnus"
+    ]
+   },
+   {
+    "name": "Shockwave Returns to Magnus",
+    "slot": "talent25",
+    "requires": [
+     "Magnus"
+    ]
+   },
+   {
+    "name": "+0.8s Reverse Polarity Stun Duration",
+    "slot": "talent25",
+    "requires": [
+     "Magnus"
+    ]
+   },
+   {
+    "name": "+1.5s Dispose Slow Duration",
+    "slot": "talent10",
+    "requires": [
+     "Marci"
+    ]
+   },
+   {
+    "name": "+50 Rebound Landing Radius",
+    "slot": "talent10",
+    "requires": [
+     "Marci"
+    ]
+   },
+   {
+    "name": "+115 Dispose Damage",
+    "slot": "talent15",
+    "requires": [
+     "Marci"
+    ]
+   },
+   {
+    "name": "+12% Bodyguard Damage",
+    "slot": "talent15",
+    "requires": [
+     "Marci"
+    ]
+   },
+   {
+    "name": "+0.75s Rebound Stun Duration",
+    "slot": "talent20",
+    "requires": [
+     "Marci"
+    ]
+   },
+   {
+    "name": "+15% Unleash Movement Speed",
+    "slot": "talent20",
+    "requires": [
+     "Marci"
+    ]
+   },
+   {
+    "name": "Unleash Duration Extended By 6s On Kill",
+    "slot": "talent25",
+    "requires": [
+     "Marci"
+    ]
+   },
+   {
+    "name": "Bodyguard Strong Dispels",
+    "slot": "talent25",
+    "requires": [
+     "Marci"
+    ]
+   },
+   {
+    "name": "+100 God's Rebuke Distance",
+    "slot": "talent10",
+    "requires": [
+     "Mars"
+    ]
+   },
+   {
+    "name": "+1.5 Mana Regen",
+    "slot": "talent10",
+    "requires": [
+     "Mars"
+    ]
+   },
+   {
+    "name": "-2.5s God's Rebuke Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Mars"
+    ]
+   },
+   {
+    "name": "+100 Spear Of Mars Damage",
+    "slot": "talent15",
+    "requires": [
+     "Mars"
+    ]
+   },
+   {
+    "name": "+70 Arena Of Blood Spear Damage",
+    "slot": "talent20",
+    "requires": [
+     "Mars"
+    ]
+   },
+   {
+    "name": "+0.5s Spear of Mars Stun",
+    "slot": "talent20",
+    "requires": [
+     "Mars"
+    ]
+   },
+   {
+    "name": "God's Rebuke +65% Crit",
+    "slot": "talent25",
+    "requires": [
+     "Mars"
+    ]
+   },
+   {
+    "name": "Arena Of Blood Grants Team +180 HP Regen",
+    "slot": "talent25",
+    "requires": [
+     "Mars"
+    ]
+   },
+   {
+    "name": "+20% Gorgon's Grasp Radius",
+    "slot": "talent10",
+    "requires": [
+     "Medusa"
+    ]
+   },
+   {
+    "name": "+12% Stone Gaze Bonus Physical Damage",
+    "slot": "talent10",
+    "requires": [
+     "Medusa"
+    ]
+   },
+   {
+    "name": "+1 Gorgon's Grasp Volley",
+    "slot": "talent15",
+    "requires": [
+     "Medusa"
+    ]
+   },
+   {
+    "name": "-4s Mystic Snake Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Medusa"
+    ]
+   },
+   {
+    "name": "+40% Mystic Snake Damage / Mana Gain",
+    "slot": "talent20",
+    "requires": [
+     "Medusa"
+    ]
+   },
+   {
+    "name": "+12% Split Shot Outgoing Damage",
+    "slot": "talent20",
+    "requires": [
+     "Medusa"
+    ]
+   },
+   {
+    "name": "+2.5s Stone Gaze Duration",
+    "slot": "talent25",
+    "requires": [
+     "Medusa"
+    ]
+   },
+   {
+    "name": "+40 Intelligence",
+    "slot": "talent25",
+    "requires": [
+     "Medusa"
+    ]
+   },
+   {
+    "name": "+7 Strength",
+    "slot": "talent10",
+    "requires": [
+     "Meepo"
+    ]
+   },
+   {
+    "name": "-1.5s Earthbind Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Meepo"
+    ]
+   },
+   {
+    "name": "+15% Evasion",
+    "slot": "talent15",
+    "requires": [
+     "Meepo"
+    ]
+   },
+   {
+    "name": "+40 Poof Damage",
+    "slot": "talent15",
+    "requires": [
+     "Meepo"
+    ]
+   },
+   {
+    "name": "Earthbind grants True Strike on Targets",
+    "slot": "talent20",
+    "requires": [
+     "Meepo"
+    ]
+   },
+   {
+    "name": "+6 Ransack Health Steal",
+    "slot": "talent20",
+    "requires": [
+     "Meepo"
+    ]
+   },
+   {
+    "name": "+400 Health",
+    "slot": "talent25",
+    "requires": [
+     "Meepo"
+    ]
+   },
+   {
+    "name": "-.75s Poof Cast Duration",
+    "slot": "talent25",
+    "requires": [
+     "Meepo"
+    ]
+   },
+   {
+    "name": "-2s Starstorm Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Mirana"
+    ]
+   },
+   {
+    "name": "+150 Leap Distance",
+    "slot": "talent10",
+    "requires": [
+     "Mirana"
+    ]
+   },
+   {
+    "name": "Moonlight Shadow gives +20% Evasion",
+    "slot": "talent15",
+    "requires": [
+     "Mirana"
+    ]
+   },
+   {
+    "name": "+100 Leap Attack Speed",
+    "slot": "talent15",
+    "requires": [
+     "Mirana"
+    ]
+   },
+   {
+    "name": "+200 Starstorm Damage",
+    "slot": "talent20",
+    "requires": [
+     "Mirana"
+    ]
+   },
+   {
+    "name": "+50 Celestial Quiver Damage",
+    "slot": "talent20",
+    "requires": [
+     "Mirana"
+    ]
+   },
+   {
+    "name": "+2 Multishot Sacred Arrows",
+    "slot": "talent25",
+    "requires": [
+     "Mirana"
+    ]
+   },
+   {
+    "name": "-30s Moonlight Shadow Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Mirana"
+    ]
+   },
+   {
+    "name": "+300 Tree Dance Cast Range",
+    "slot": "talent10",
+    "requires": [
+     "Monkey King"
+    ]
+   },
+   {
+    "name": "+0.2s Boundless Strike Stun Duration",
+    "slot": "talent10",
+    "requires": [
+     "Monkey King"
+    ]
+   },
+   {
+    "name": "0 Cooldown Primal Spring",
+    "slot": "talent15",
+    "requires": [
+     "Monkey King"
+    ]
+   },
+   {
+    "name": "+110 Jingu Mastery Damage",
+    "slot": "talent15",
+    "requires": [
+     "Monkey King"
+    ]
+   },
+   {
+    "name": "Jingu Mastery Undispellable",
+    "slot": "talent20",
+    "requires": [
+     "Monkey King"
+    ]
+   },
+   {
+    "name": "+60% Boundless Strike Critical Damage",
+    "slot": "talent20",
+    "requires": [
+     "Monkey King"
+    ]
+   },
+   {
+    "name": "-1 Jingu Mastery Required Hits",
+    "slot": "talent25",
+    "requires": [
+     "Monkey King"
+    ]
+   },
+   {
+    "name": "Additional Wukong's Command Ring",
+    "slot": "talent25",
+    "requires": [
+     "Monkey King"
+    ]
+   },
+   {
+    "name": "+15% Magic Resistance",
+    "slot": "talent10",
+    "requires": [
+     "Morphling"
+    ]
+   },
+   {
+    "name": "+12s Morph Duration",
+    "slot": "talent10",
+    "requires": [
+     "Morphling"
+    ]
+   },
+   {
+    "name": "+250 Waveform Range",
+    "slot": "talent15",
+    "requires": [
+     "Morphling"
+    ]
+   },
+   {
+    "name": "+75 Attack Range",
+    "slot": "talent15",
+    "requires": [
+     "Morphling"
+    ]
+   },
+   {
+    "name": "-3s Adaptive Strike Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Morphling"
+    ]
+   },
+   {
+    "name": "+15 Agility",
+    "slot": "talent20",
+    "requires": [
+     "Morphling"
+    ]
+   },
+   {
+    "name": "-40% Waveform Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Morphling"
+    ]
+   },
+   {
+    "name": "+35 Strength",
+    "slot": "talent25",
+    "requires": [
+     "Morphling"
+    ]
+   },
+   {
+    "name": "+300 Dead Shot Cast Range",
+    "slot": "talent10",
+    "requires": [
+     "Muerta"
+    ]
+   },
+   {
+    "name": "+20 Attack Speed",
+    "slot": "talent10",
+    "requires": [
+     "Muerta"
+    ]
+   },
+   {
+    "name": "+3.0% Max HP Regen while inside The Calling",
+    "slot": "talent15",
+    "requires": [
+     "Muerta"
+    ]
+   },
+   {
+    "name": "+15 Intelligence",
+    "slot": "talent15",
+    "requires": [
+     "Muerta"
+    ]
+   },
+   {
+    "name": "+2s Pierce the Veil Duration",
+    "slot": "talent20",
+    "requires": [
+     "Muerta"
+    ]
+   },
+   {
+    "name": "The Calling summons 2 additional revenants",
+    "slot": "talent20",
+    "requires": [
+     "Muerta"
+    ]
+   },
+   {
+    "name": "+20% Gunslinger chance",
+    "slot": "talent25",
+    "requires": [
+     "Muerta"
+    ]
+   },
+   {
+    "name": "2 Dead Shot Charges",
+    "slot": "talent25",
+    "requires": [
+     "Muerta"
+    ]
+   },
+   {
+    "name": "+125 Reel In Pull Speed",
+    "slot": "talent10",
+    "requires": [
+     "Naga Siren"
+    ]
+   },
+   {
+    "name": "+30% Rip Tide Damage",
+    "slot": "talent10",
+    "requires": [
+     "Naga Siren"
+    ]
+   },
+   {
+    "name": "+10% Mirror Image Damage",
+    "slot": "talent15",
+    "requires": [
+     "Naga Siren"
+    ]
+   },
+   {
+    "name": "-75% Mirror Image Illusion Damage Taken",
+    "slot": "talent15",
+    "requires": [
+     "Naga Siren"
+    ]
+   },
+   {
+    "name": "-25s Song of the Siren Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Naga Siren"
+    ]
+   },
+   {
+    "name": "+1 Mirror Image Illusion",
+    "slot": "talent20",
+    "requires": [
+     "Naga Siren"
+    ]
+   },
+   {
+    "name": "-10s Mirror Image Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Naga Siren"
+    ]
+   },
+   {
+    "name": "+25 Agility",
+    "slot": "talent25",
+    "requires": [
+     "Naga Siren"
+    ]
+   },
+   {
+    "name": "-2.5s Ghost Shroud Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Necrophos"
+    ]
+   },
+   {
+    "name": "+2s Sadist Stack Duration",
+    "slot": "talent10",
+    "requires": [
+     "Necrophos"
+    ]
+   },
+   {
+    "name": "+15% Ghost Shroud Movement Slow",
+    "slot": "talent15",
+    "requires": [
+     "Necrophos"
+    ]
+   },
+   {
+    "name": "+60 Death Pulse Heal",
+    "slot": "talent15",
+    "requires": [
+     "Necrophos"
+    ]
+   },
+   {
+    "name": "+75 Spell Area of Effect",
+    "slot": "talent20",
+    "requires": [
+     "Necrophos"
+    ]
+   },
+   {
+    "name": "+20% Heartstopper Regen Reduction",
+    "slot": "talent20",
+    "requires": [
+     "Necrophos"
+    ]
+   },
+   {
+    "name": "+0.3 Reaper's Scythe Damage Per Missing HP",
+    "slot": "talent25",
+    "requires": [
+     "Necrophos"
+    ]
+   },
+   {
+    "name": "-2.5s Death Pulse Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Necrophos"
+    ]
+   },
+   {
+    "name": "+30 Shadowraze Stack Damage",
+    "slot": "talent10",
+    "requires": [
+     "Shadow Fiend"
+    ]
+   },
+   {
+    "name": "+30 Feast of Souls Attack Speed",
+    "slot": "talent10",
+    "requires": [
+     "Shadow Fiend"
+    ]
+   },
+   {
+    "name": "+1.5 Presence Armor Reduction",
+    "slot": "talent15",
+    "requires": [
+     "Shadow Fiend"
+    ]
+   },
+   {
+    "name": "+2 Feast of Souls Souls Collected Per Hero",
+    "slot": "talent15",
+    "requires": [
+     "Shadow Fiend"
+    ]
+   },
+   {
+    "name": "+5 Necromastery Max Souls",
+    "slot": "talent20",
+    "requires": [
+     "Shadow Fiend"
+    ]
+   },
+   {
+    "name": "+0.2s Requiem Fear per line",
+    "slot": "talent20",
+    "requires": [
+     "Shadow Fiend"
+    ]
+   },
+   {
+    "name": "Feast of Souls Grants +30% Cast Speed",
+    "slot": "talent25",
+    "requires": [
+     "Shadow Fiend"
+    ]
+   },
+   {
+    "name": "Shadowraze Applies Attack Damage",
+    "slot": "talent25",
+    "requires": [
+     "Shadow Fiend"
+    ]
+   },
+   {
+    "name": "-1s Void Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Night Stalker"
+    ]
+   },
+   {
+    "name": "+10 Crippling Fear DPS",
+    "slot": "talent10",
+    "requires": [
+     "Night Stalker"
+    ]
+   },
+   {
+    "name": "+25 Dark Ascension Damage",
+    "slot": "talent15",
+    "requires": [
+     "Night Stalker"
+    ]
+   },
+   {
+    "name": "20% Hunter in the Night Status Resistance",
+    "slot": "talent15",
+    "requires": [
+     "Night Stalker"
+    ]
+   },
+   {
+    "name": "+75 Crippling Fear Radius",
+    "slot": "talent20",
+    "requires": [
+     "Night Stalker"
+    ]
+   },
+   {
+    "name": "+15 Strength",
+    "slot": "talent20",
+    "requires": [
+     "Night Stalker"
+    ]
+   },
+   {
+    "name": "+100 Midnight Feast Lifesteal",
+    "slot": "talent25",
+    "requires": [
+     "Night Stalker"
+    ]
+   },
+   {
+    "name": "-35s Dark Ascension Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Night Stalker"
+    ]
+   },
+   {
+    "name": "+25% Spiked Carapace Damage Reflect",
+    "slot": "talent10",
+    "requires": [
+     "Nyx Assassin"
+    ]
+   },
+   {
+    "name": "+0.2s Impale Stun Duration",
+    "slot": "talent10",
+    "requires": [
+     "Nyx Assassin"
+    ]
+   },
+   {
+    "name": "+50 Vendetta Damage",
+    "slot": "talent15",
+    "requires": [
+     "Nyx Assassin"
+    ]
+   },
+   {
+    "name": "-3s Mind Flare Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Nyx Assassin"
+    ]
+   },
+   {
+    "name": "+0.6s Spiked Carapace Stun Duration",
+    "slot": "talent20",
+    "requires": [
+     "Nyx Assassin"
+    ]
+   },
+   {
+    "name": "+140 Impale Damage",
+    "slot": "talent20",
+    "requires": [
+     "Nyx Assassin"
+    ]
+   },
+   {
+    "name": "600 Mind Flare Radius",
+    "slot": "talent25",
+    "requires": [
+     "Nyx Assassin"
+    ]
+   },
+   {
+    "name": "+80 Agility",
+    "slot": "talent25",
+    "requires": [
+     "Nyx Assassin"
+    ]
+   },
+   {
+    "name": "+100 Astral Imprisonment Cast Range",
+    "slot": "talent10",
+    "requires": [
+     "Outworld Devourer"
+    ]
+   },
+   {
+    "name": "+200 Mana",
+    "slot": "talent10",
+    "requires": [
+     "Outworld Devourer"
+    ]
+   },
+   {
+    "name": "+5% Essence Flux Mana Restored",
+    "slot": "talent15",
+    "requires": [
+     "Outworld Devourer"
+    ]
+   },
+   {
+    "name": "+0.8% of Current Mana as Movement Speed",
+    "slot": "talent15",
+    "requires": [
+     "Outworld Devourer"
+    ]
+   },
+   {
+    "name": "-10s Objurgation Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Outworld Devourer"
+    ]
+   },
+   {
+    "name": "+12% Astral Imprisonment Mana Capacity Steal",
+    "slot": "talent20",
+    "requires": [
+     "Outworld Devourer"
+    ]
+   },
+   {
+    "name": "+1.5% Arcane Orb Damage",
+    "slot": "talent25",
+    "requires": [
+     "Outworld Devourer"
+    ]
+   },
+   {
+    "name": "-60s Sanity's Eclipse Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Outworld Devourer"
+    ]
+   },
+   {
+    "name": "+10 Ignite Burn Damage",
+    "slot": "talent10",
+    "requires": [
+     "Ogre Magi"
+    ]
+   },
+   {
+    "name": "+2/0.01 Dumb Luck Mana/Mana Regen Per Strength",
+    "slot": "talent10",
+    "requires": [
+     "Ogre Magi"
+    ]
+   },
+   {
+    "name": "+80 Damage",
+    "slot": "talent15",
+    "requires": [
+     "Ogre Magi"
+    ]
+   },
+   {
+    "name": "+20/35 Bloodlust / Self Attack Speed",
+    "slot": "talent15",
+    "requires": [
+     "Ogre Magi"
+    ]
+   },
+   {
+    "name": "+30 Strength",
+    "slot": "talent20",
+    "requires": [
+     "Ogre Magi"
+    ]
+   },
+   {
+    "name": "+175 Fireblast Damage",
+    "slot": "talent20",
+    "requires": [
+     "Ogre Magi"
+    ]
+   },
+   {
+    "name": "17% Fireblast chance on attack",
+    "slot": "talent25",
+    "requires": [
+     "Ogre Magi"
+    ]
+   },
+   {
+    "name": "+10% Multicast Chance",
+    "slot": "talent25",
+    "requires": [
+     "Ogre Magi"
+    ]
+   },
+   {
+    "name": "+200 Repel Cast Range",
+    "slot": "talent10",
+    "requires": [
+     "Omniknight"
+    ]
+   },
+   {
+    "name": "+30 Base Damage",
+    "slot": "talent10",
+    "requires": [
+     "Omniknight"
+    ]
+   },
+   {
+    "name": "-0.5s Hammer of Purity Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Omniknight"
+    ]
+   },
+   {
+    "name": "-20s Guardian Angel Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Omniknight"
+    ]
+   },
+   {
+    "name": "+150 Degen Aura Radius",
+    "slot": "talent20",
+    "requires": [
+     "Omniknight"
+    ]
+   },
+   {
+    "name": "-3s Purification Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Omniknight"
+    ]
+   },
+   {
+    "name": "+160 Purification Damage/Heal",
+    "slot": "talent25",
+    "requires": [
+     "Omniknight"
+    ]
+   },
+   {
+    "name": "+75% Hammer of Purity Bonus Base Damage",
+    "slot": "talent25",
+    "requires": [
+     "Omniknight"
+    ]
+   },
+   {
+    "name": "+0.5s Fortune's End Duration",
+    "slot": "talent10",
+    "requires": [
+     "Oracle"
+    ]
+   },
+   {
+    "name": "+8 Armor False Promise",
+    "slot": "talent10",
+    "requires": [
+     "Oracle"
+    ]
+   },
+   {
+    "name": "+100 Fortune's End Radius",
+    "slot": "talent15",
+    "requires": [
+     "Oracle"
+    ]
+   },
+   {
+    "name": "+25% Purifying Flames Enemy Damage",
+    "slot": "talent15",
+    "requires": [
+     "Oracle"
+    ]
+   },
+   {
+    "name": "-20s False Promise Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Oracle"
+    ]
+   },
+   {
+    "name": "-1s Purifying Flames Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Oracle"
+    ]
+   },
+   {
+    "name": "Fortune's End constantly Dispels",
+    "slot": "talent25",
+    "requires": [
+     "Oracle"
+    ]
+   },
+   {
+    "name": "+1.5s False Promise Duration",
+    "slot": "talent25",
+    "requires": [
+     "Oracle"
+    ]
+   },
+   {
+    "name": "+2 Lucky Shot Armor Reduction",
+    "slot": "talent10",
+    "requires": [
+     "Pangolier"
+    ]
+   },
+   {
+    "name": "+200 Swashbuckle Slash Range",
+    "slot": "talent10",
+    "requires": [
+     "Pangolier"
+    ]
+   },
+   {
+    "name": "-2s Swashbuckle Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Pangolier"
+    ]
+   },
+   {
+    "name": "+125 Shield Crash Barrier",
+    "slot": "talent15",
+    "requires": [
+     "Pangolier"
+    ]
+   },
+   {
+    "name": "+2s Rolling Thunder Duration",
+    "slot": "talent20",
+    "requires": [
+     "Pangolier"
+    ]
+   },
+   {
+    "name": "-1.5s Shield Crash Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Pangolier"
+    ]
+   },
+   {
+    "name": "+20% Attack Damage as Swashbuckle Damage",
+    "slot": "talent25",
+    "requires": [
+     "Pangolier"
+    ]
+   },
+   {
+    "name": "-15s Rolling Thunder Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Pangolier"
+    ]
+   },
+   {
+    "name": "+0.8s Phantom Strike Duration",
+    "slot": "talent10",
+    "requires": [
+     "Phantom Assassin"
+    ]
+   },
+   {
+    "name": "-2.0s Stifling Dagger Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Phantom Assassin"
+    ]
+   },
+   {
+    "name": "+20% Immaterial Evasion",
+    "slot": "talent15",
+    "requires": [
+     "Phantom Assassin"
+    ]
+   },
+   {
+    "name": "+15% Stifling Dagger Damage",
+    "slot": "talent15",
+    "requires": [
+     "Phantom Assassin"
+    ]
+   },
+   {
+    "name": "+200 Phantom Strike Cast Range",
+    "slot": "talent20",
+    "requires": [
+     "Phantom Assassin"
+    ]
+   },
+   {
+    "name": "+60 Phantom Strike Attack Speed",
+    "slot": "talent20",
+    "requires": [
+     "Phantom Assassin"
+    ]
+   },
+   {
+    "name": "+10% Coup de Grace chance",
+    "slot": "talent25",
+    "requires": [
+     "Phantom Assassin"
+    ]
+   },
+   {
+    "name": "Triple Strike Stifling Dagger",
+    "slot": "talent25",
+    "requires": [
+     "Phantom Assassin"
+    ]
+   },
+   {
+    "name": "+1.0s Spirit Lance Slow Duration",
+    "slot": "talent10",
+    "requires": [
+     "Phantom Lancer"
+    ]
+   },
+   {
+    "name": "+3% Juxtapose Illusion Trigger Chance",
+    "slot": "talent10",
+    "requires": [
+     "Phantom Lancer"
+    ]
+   },
+   {
+    "name": "50% Illusion Spirit Lance Damage",
+    "slot": "talent15",
+    "requires": [
+     "Phantom Lancer"
+    ]
+   },
+   {
+    "name": "+125 Doppelganger Cast Range",
+    "slot": "talent15",
+    "requires": [
+     "Phantom Lancer"
+    ]
+   },
+   {
+    "name": "+100 Spirit Lance Damage",
+    "slot": "talent20",
+    "requires": [
+     "Phantom Lancer"
+    ]
+   },
+   {
+    "name": "-70% Juxtapose Illusion Damage Taken",
+    "slot": "talent20",
+    "requires": [
+     "Phantom Lancer"
+    ]
+   },
+   {
+    "name": "-4s Doppelganger Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Phantom Lancer"
+    ]
+   },
+   {
+    "name": "+2s Illusory Armaments Duration",
+    "slot": "talent25",
+    "requires": [
+     "Phantom Lancer"
+    ]
+   },
+   {
+    "name": "+25% Icarus Dive Slow",
+    "slot": "talent10",
+    "requires": [
+     "Phoenix"
+    ]
+   },
+   {
+    "name": "+1% Dying Light Missing Health as Damage",
+    "slot": "talent10",
+    "requires": [
+     "Phoenix"
+    ]
+   },
+   {
+    "name": "+20 Fire Spirits Damage Per Second",
+    "slot": "talent15",
+    "requires": [
+     "Phoenix"
+    ]
+   },
+   {
+    "name": "+25 Health Regen",
+    "slot": "talent15",
+    "requires": [
+     "Phoenix"
+    ]
+   },
+   {
+    "name": "+1.25% Max Health Sun Ray Damage",
+    "slot": "talent20",
+    "requires": [
+     "Phoenix"
+    ]
+   },
+   {
+    "name": "+0.6s Supernova Stun Duration",
+    "slot": "talent20",
+    "requires": [
+     "Phoenix"
+    ]
+   },
+   {
+    "name": "+2 Supernova Hit Count",
+    "slot": "talent25",
+    "requires": [
+     "Phoenix"
+    ]
+   },
+   {
+    "name": "+1000 Icarus Dive Cast Range",
+    "slot": "talent25",
+    "requires": [
+     "Phoenix"
+    ]
+   },
+   {
+    "name": "+25 Damage",
+    "slot": "talent10",
+    "requires": [
+     "Primal Beast"
+    ]
+   },
+   {
+    "name": "+25% Magic Resistance During Trample",
+    "slot": "talent10",
+    "requires": [
+     "Primal Beast"
+    ]
+   },
+   {
+    "name": "-5s Trample Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Primal Beast"
+    ]
+   },
+   {
+    "name": "+6 Uproar Armor Per Stack",
+    "slot": "talent15",
+    "requires": [
+     "Primal Beast"
+    ]
+   },
+   {
+    "name": "+20% Trample Attack Multiplier",
+    "slot": "talent20",
+    "requires": [
+     "Primal Beast"
+    ]
+   },
+   {
+    "name": "Basic Self-Dispel on Uproar Cast",
+    "slot": "talent20",
+    "requires": [
+     "Primal Beast"
+    ]
+   },
+   {
+    "name": "Colossal 2x Bonuses During Trample",
+    "slot": "talent25",
+    "requires": [
+     "Primal Beast"
+    ]
+   },
+   {
+    "name": "+67% Pulverize Duration",
+    "slot": "talent25",
+    "requires": [
+     "Primal Beast"
+    ]
+   },
+   {
+    "name": "+35 Illusory Orb Damage",
+    "slot": "talent10",
+    "requires": [
+     "Puck"
+    ]
+   },
+   {
+    "name": "+1.25s Waning Rift Silence Duration",
+    "slot": "talent10",
+    "requires": [
+     "Puck"
+    ]
+   },
+   {
+    "name": "+2% Puckish Health and Mana Restoration",
+    "slot": "talent15",
+    "requires": [
+     "Puck"
+    ]
+   },
+   {
+    "name": "+60 Waning Rift Damage",
+    "slot": "talent15",
+    "requires": [
+     "Puck"
+    ]
+   },
+   {
+    "name": "-2.5s Waning Rift Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Puck"
+    ]
+   },
+   {
+    "name": "+200 Initial/Break Dream Coil Damage",
+    "slot": "talent20",
+    "requires": [
+     "Puck"
+    ]
+   },
+   {
+    "name": "-30s Dream Coil Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Puck"
+    ]
+   },
+   {
+    "name": "+350 Waning Rift Radius/Max Distance",
+    "slot": "talent25",
+    "requires": [
+     "Puck"
+    ]
+   },
+   {
+    "name": "+5 Armor",
+    "slot": "talent10",
+    "requires": [
+     "Pudge"
+    ]
+   },
+   {
+    "name": "+10% Rot Slow",
+    "slot": "talent10",
+    "requires": [
+     "Pudge"
+    ]
+   },
+   {
+    "name": "+8% Spell Lifesteal",
+    "slot": "talent15",
+    "requires": [
+     "Pudge"
+    ]
+   },
+   {
+    "name": "+150 Meat Hook Damage",
+    "slot": "talent15",
+    "requires": [
+     "Pudge"
+    ]
+   },
+   {
+    "name": "+0.75s Dismember Duration",
+    "slot": "talent20",
+    "requires": [
+     "Pudge"
+    ]
+   },
+   {
+    "name": "-4s Meat Hook Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Pudge"
+    ]
+   },
+   {
+    "name": "1.5x Dismember Damage/Heal",
+    "slot": "talent25",
+    "requires": [
+     "Pudge"
+    ]
+   },
+   {
+    "name": "1.5x Flesh Heap and Meat Shield bonuses",
+    "slot": "talent25",
+    "requires": [
+     "Pudge"
+    ]
+   },
+   {
+    "name": "-1s Nether Blast Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Pugna"
+    ]
+   },
+   {
+    "name": "+2 Nether Ward Health",
+    "slot": "talent10",
+    "requires": [
+     "Pugna"
+    ]
+   },
+   {
+    "name": "+30% Decrepify Movement Speed To Allies",
+    "slot": "talent15",
+    "requires": [
+     "Pugna"
+    ]
+   },
+   {
+    "name": "+250 Health",
+    "slot": "talent15",
+    "requires": [
+     "Pugna"
+    ]
+   },
+   {
+    "name": "+15% Life Drain Heal",
+    "slot": "talent20",
+    "requires": [
+     "Pugna"
+    ]
+   },
+   {
+    "name": "+1.5s Decrepify Duration",
+    "slot": "talent20",
+    "requires": [
+     "Pugna"
+    ]
+   },
+   {
+    "name": "+200 Nether Blast Damage",
+    "slot": "talent25",
+    "requires": [
+     "Pugna"
+    ]
+   },
+   {
+    "name": "+1.9 Nether Ward Damage Per Mana",
+    "slot": "talent25",
+    "requires": [
+     "Pugna"
+    ]
+   },
+   {
+    "name": "+35 Attack Speed against Shadow Striked units",
+    "slot": "talent10",
+    "requires": [
+     "Queen of Pain"
+    ]
+   },
+   {
+    "name": "+7 Strength",
+    "slot": "talent10",
+    "requires": [
+     "Queen of Pain"
+    ]
+   },
+   {
+    "name": "-1s Shadow Strike Damage Interval",
+    "slot": "talent15",
+    "requires": [
+     "Queen of Pain"
+    ]
+   },
+   {
+    "name": "+30 Damage",
+    "slot": "talent15",
+    "requires": [
+     "Queen of Pain"
+    ]
+   },
+   {
+    "name": "+115 Scream of Pain Damage",
+    "slot": "talent20",
+    "requires": [
+     "Queen of Pain"
+    ]
+   },
+   {
+    "name": "-45s Sonic Wave Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Queen of Pain"
+    ]
+   },
+   {
+    "name": "-2s Blink Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Queen of Pain"
+    ]
+   },
+   {
+    "name": "+250 Sonic Wave Damage",
+    "slot": "talent25",
+    "requires": [
+     "Queen of Pain"
+    ]
+   },
+   {
+    "name": "+1.5 Mana Regen",
+    "slot": "talent10",
+    "requires": [
+     "Clockwerk"
+    ]
+   },
+   {
+    "name": "+75 Hookshot Damage",
+    "slot": "talent10",
+    "requires": [
+     "Clockwerk"
+    ]
+   },
+   {
+    "name": "-8s Hookshot Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Clockwerk"
+    ]
+   },
+   {
+    "name": "+25 Battery Assault Damage",
+    "slot": "talent15",
+    "requires": [
+     "Clockwerk"
+    ]
+   },
+   {
+    "name": "Rocket Flare True Sight",
+    "slot": "talent20",
+    "requires": [
+     "Clockwerk"
+    ]
+   },
+   {
+    "name": "+80 Power Cogs Mana Burn",
+    "slot": "talent20",
+    "requires": [
+     "Clockwerk"
+    ]
+   },
+   {
+    "name": "3 Rocket Flare Charges",
+    "slot": "talent25",
+    "requires": [
+     "Clockwerk"
+    ]
+   },
+   {
+    "name": "-0.25s Battery Assault Interval",
+    "slot": "talent25",
+    "requires": [
+     "Clockwerk"
+    ]
+   },
+   {
+    "name": "+0.75s Plasma Field Slow Duration",
+    "slot": "talent10",
+    "requires": [
+     "Razor"
+    ]
+   },
+   {
+    "name": "+4 Armor",
+    "slot": "talent10",
+    "requires": [
+     "Razor"
+    ]
+   },
+   {
+    "name": "+6 Static Link Damage Steal",
+    "slot": "talent15",
+    "requires": [
+     "Razor"
+    ]
+   },
+   {
+    "name": "+12 Strength",
+    "slot": "talent15",
+    "requires": [
+     "Razor"
+    ]
+   },
+   {
+    "name": "+35% Storm Surge Slow and Damage",
+    "slot": "talent20",
+    "requires": [
+     "Razor"
+    ]
+   },
+   {
+    "name": "-0.1s Eye of the Storm Strike Interval",
+    "slot": "talent20",
+    "requires": [
+     "Razor"
+    ]
+   },
+   {
+    "name": "Creates A Second Plasma Field Delayed By 0.8s",
+    "slot": "talent25",
+    "requires": [
+     "Razor"
+    ]
+   },
+   {
+    "name": "Static Link Steals Attack Speed",
+    "slot": "talent25",
+    "requires": [
+     "Razor"
+    ]
+   },
+   {
+    "name": "+50 Smoke Screen Radius",
+    "slot": "talent10",
+    "requires": [
+     "Riki"
+    ]
+   },
+   {
+    "name": "+10% Cloak and Dagger Movement Speed",
+    "slot": "talent10",
+    "requires": [
+     "Riki"
+    ]
+   },
+   {
+    "name": "15% of Riki's Base damage added to Tricks of the Trade",
+    "slot": "talent15",
+    "requires": [
+     "Riki"
+    ]
+   },
+   {
+    "name": "-3s Smoke Screen Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Riki"
+    ]
+   },
+   {
+    "name": "+0.3 Backstab Multiplier",
+    "slot": "talent20",
+    "requires": [
+     "Riki"
+    ]
+   },
+   {
+    "name": "-1s Blink Strike Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Riki"
+    ]
+   },
+   {
+    "name": "-4s Tricks of the Trade Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Riki"
+    ]
+   },
+   {
+    "name": "+500 Blink Strike Cast Range",
+    "slot": "talent25",
+    "requires": [
+     "Riki"
+    ]
+   },
+   {
+    "name": "+1 Impalement Arts Charge",
+    "slot": "talent10",
+    "requires": [
+     "Ring Master"
+    ]
+   },
+   {
+    "name": "+75 Tame the Beasts Radius",
+    "slot": "talent10",
+    "requires": [
+     "Ring Master"
+    ]
+   },
+   {
+    "name": "Impalement Arts Penetrates One Target",
+    "slot": "talent15",
+    "requires": [
+     "Ring Master"
+    ]
+   },
+   {
+    "name": "Debuff Immunity While Channeling Tame the Beasts",
+    "slot": "talent15",
+    "requires": [
+     "Ring Master"
+    ]
+   },
+   {
+    "name": "+1s Impalement Arts Bleed and Slow Duration",
+    "slot": "talent20",
+    "requires": [
+     "Ring Master"
+    ]
+   },
+   {
+    "name": "+75/+300 Tame the Beasts Min/Max Damage",
+    "slot": "talent20",
+    "requires": [
+     "Ring Master"
+    ]
+   },
+   {
+    "name": "+150 Wheel of Wonder Radius and Range",
+    "slot": "talent25",
+    "requires": [
+     "Ring Master"
+    ]
+   },
+   {
+    "name": "Escape Act Grants Strong Dispel and Flying",
+    "slot": "talent25",
+    "requires": [
+     "Ring Master"
+    ]
+   },
+   {
+    "name": "-2s Telekinesis Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Rubick"
+    ]
+   },
+   {
+    "name": "+200 Health",
+    "slot": "talent10",
+    "requires": [
+     "Rubick"
+    ]
+   },
+   {
+    "name": "-40% Stolen Spells Mana Cost",
+    "slot": "talent15",
+    "requires": [
+     "Rubick"
+    ]
+   },
+   {
+    "name": "-4s Fade Bolt Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Rubick"
+    ]
+   },
+   {
+    "name": "+12% Fade Bolt Damage Reduction",
+    "slot": "talent20",
+    "requires": [
+     "Rubick"
+    ]
+   },
+   {
+    "name": "Telekinesis Landing Deals 300 Damage",
+    "slot": "talent20",
+    "requires": [
+     "Rubick"
+    ]
+   },
+   {
+    "name": "1.5x Curiosity Bonuses",
+    "slot": "talent25",
+    "requires": [
+     "Rubick"
+    ]
+   },
+   {
+    "name": "+40% Spell Amp For Stolen Spells",
+    "slot": "talent25",
+    "requires": [
+     "Rubick"
+    ]
+   },
+   {
+    "name": "+12% Stinger Slow",
+    "slot": "talent10",
+    "requires": [
+     "Sand King"
+    ]
+   },
+   {
+    "name": "+100 Caustic Finale Radius",
+    "slot": "talent10",
+    "requires": [
+     "Sand King"
+    ]
+   },
+   {
+    "name": "+25 Sand Storm Damage Per Second",
+    "slot": "talent15",
+    "requires": [
+     "Sand King"
+    ]
+   },
+   {
+    "name": "+200 Burrowstrike Cast Range",
+    "slot": "talent15",
+    "requires": [
+     "Sand King"
+    ]
+   },
+   {
+    "name": "-3s Burrowstrike Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Sand King"
+    ]
+   },
+   {
+    "name": "+6 Epicenter Pulses",
+    "slot": "talent20",
+    "requires": [
+     "Sand King"
+    ]
+   },
+   {
+    "name": "+125 Stinger Damage",
+    "slot": "talent25",
+    "requires": [
+     "Sand King"
+    ]
+   },
+   {
+    "name": "35% Sand Storm Slow and Blind",
+    "slot": "talent25",
+    "requires": [
+     "Sand King"
+    ]
+   },
+   {
+    "name": "+15% Shadow Poison Damage",
+    "slot": "talent10",
+    "requires": [
+     "Shadow Demon"
+    ]
+   },
+   {
+    "name": "+8 Strength",
+    "slot": "talent10",
+    "requires": [
+     "Shadow Demon"
+    ]
+   },
+   {
+    "name": "+20 Movement Speed",
+    "slot": "talent15",
+    "requires": [
+     "Shadow Demon"
+    ]
+   },
+   {
+    "name": "-1s Shadow Poison Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Shadow Demon"
+    ]
+   },
+   {
+    "name": "+15% Disseminate Shared Damage",
+    "slot": "talent20",
+    "requires": [
+     "Shadow Demon"
+    ]
+   },
+   {
+    "name": "-20s Demonic Purge Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Shadow Demon"
+    ]
+   },
+   {
+    "name": "Demonic Purge Applies Shadow Poison",
+    "slot": "talent25",
+    "requires": [
+     "Shadow Demon"
+    ]
+   },
+   {
+    "name": "2 Charges of Disruption",
+    "slot": "talent25",
+    "requires": [
+     "Shadow Demon"
+    ]
+   },
+   {
+    "name": "+170 Shackles Total Damage",
+    "slot": "talent10",
+    "requires": [
+     "Shadow Shaman"
+    ]
+   },
+   {
+    "name": "+1.75 Mana Regen",
+    "slot": "talent10",
+    "requires": [
+     "Shadow Shaman"
+    ]
+   },
+   {
+    "name": "+160 Serpent Wards Attack Range",
+    "slot": "talent15",
+    "requires": [
+     "Shadow Shaman"
+    ]
+   },
+   {
+    "name": "Hex Breaks",
+    "slot": "talent15",
+    "requires": [
+     "Shadow Shaman"
+    ]
+   },
+   {
+    "name": "+1.5s Shackles Duration",
+    "slot": "talent20",
+    "requires": [
+     "Shadow Shaman"
+    ]
+   },
+   {
+    "name": "+50% Serpent Wards Max HP",
+    "slot": "talent20",
+    "requires": [
+     "Shadow Shaman"
+    ]
+   },
+   {
+    "name": "+250 Ether Shock Damage",
+    "slot": "talent25",
+    "requires": [
+     "Shadow Shaman"
+    ]
+   },
+   {
+    "name": "+1 Ward Attack Targets",
+    "slot": "talent25",
+    "requires": [
+     "Shadow Shaman"
+    ]
+   },
+   {
+    "name": "+0.25 Reactive Armor Regeneration Per Stack",
+    "slot": "talent10",
+    "requires": [
+     "Timbersaw"
+    ]
+   },
+   {
+    "name": "+1.5 Mana Regen",
+    "slot": "talent10",
+    "requires": [
+     "Timbersaw"
+    ]
+   },
+   {
+    "name": "+2% Whirling Death Stat Loss",
+    "slot": "talent15",
+    "requires": [
+     "Timbersaw"
+    ]
+   },
+   {
+    "name": "+6 Max / +1 Hero Attack Reactive Armor Stacks",
+    "slot": "talent15",
+    "requires": [
+     "Timbersaw"
+    ]
+   },
+   {
+    "name": "Exposure Therapy Heals for 12 HP Per Tree Destroyed",
+    "slot": "talent20",
+    "requires": [
+     "Timbersaw"
+    ]
+   },
+   {
+    "name": "+6% Chakram Slow",
+    "slot": "talent20",
+    "requires": [
+     "Timbersaw"
+    ]
+   },
+   {
+    "name": "+75 Whirling Death Tree Bonus Damage",
+    "slot": "talent25",
+    "requires": [
+     "Timbersaw"
+    ]
+   },
+   {
+    "name": "+75% Timber Chain Range/Projectile Speed",
+    "slot": "talent25",
+    "requires": [
+     "Timbersaw"
+    ]
+   },
+   {
+    "name": "+25 Attack Speed",
+    "slot": "talent10",
+    "requires": [
+     "Silencer"
+    ]
+   },
+   {
+    "name": "+7% Suffer In Silence Silenced Target Damage",
+    "slot": "talent10",
+    "requires": [
+     "Silencer"
+    ]
+   },
+   {
+    "name": "-15s Global Silence Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Silencer"
+    ]
+   },
+   {
+    "name": "+2s/+1s Arcane Curse Base/Penalty Duration",
+    "slot": "talent15",
+    "requires": [
+     "Silencer"
+    ]
+   },
+   {
+    "name": "+40s Glaives of Wisdom Int Steal Duration",
+    "slot": "talent20",
+    "requires": [
+     "Silencer"
+    ]
+   },
+   {
+    "name": "250 AoE Last Word",
+    "slot": "talent20",
+    "requires": [
+     "Silencer"
+    ]
+   },
+   {
+    "name": "+30% Glaives of Wisdom Damage",
+    "slot": "talent25",
+    "requires": [
+     "Silencer"
+    ]
+   },
+   {
+    "name": "+2s Global Silence Duration",
+    "slot": "talent25",
+    "requires": [
+     "Silencer"
+    ]
+   },
+   {
+    "name": "+8% Vampiric Spirit Lifesteal",
+    "slot": "talent10",
+    "requires": [
+     "Wraith King"
+    ]
+   },
+   {
+    "name": "+2s Wraithfire Blast Slow Duration",
+    "slot": "talent10",
+    "requires": [
+     "Wraith King"
+    ]
+   },
+   {
+    "name": "+0.75s Wraithfire Blast Stun Duration",
+    "slot": "talent15",
+    "requires": [
+     "Wraith King"
+    ]
+   },
+   {
+    "name": "+300 Health",
+    "slot": "talent15",
+    "requires": [
+     "Wraith King"
+    ]
+   },
+   {
+    "name": "+50 Attack Speed",
+    "slot": "talent20",
+    "requires": [
+     "Wraith King"
+    ]
+   },
+   {
+    "name": "+5 Bone Guard Skeletons Spawned",
+    "slot": "talent20",
+    "requires": [
+     "Wraith King"
+    ]
+   },
+   {
+    "name": "-2s Mortal Strike Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Wraith King"
+    ]
+   },
+   {
+    "name": "Reincarnation Casts Wraithfire Blast",
+    "slot": "talent25",
+    "requires": [
+     "Wraith King"
+    ]
+   },
+   {
+    "name": "+1.5 Mana Regen",
+    "slot": "talent10",
+    "requires": [
+     "Skywrath Mage"
+    ]
+   },
+   {
+    "name": "+125 Arcane Bolt Cast Range",
+    "slot": "talent10",
+    "requires": [
+     "Skywrath Mage"
+    ]
+   },
+   {
+    "name": "-6s Ancient Seal Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Skywrath Mage"
+    ]
+   },
+   {
+    "name": "+20% Concussive Shot Slow",
+    "slot": "talent15",
+    "requires": [
+     "Skywrath Mage"
+    ]
+   },
+   {
+    "name": "Global Concussive Shot",
+    "slot": "talent20",
+    "requires": [
+     "Skywrath Mage"
+    ]
+   },
+   {
+    "name": "+10% Ancient Seal Increased Magic Damage",
+    "slot": "talent20",
+    "requires": [
+     "Skywrath Mage"
+    ]
+   },
+   {
+    "name": "+1.5x Arcane Bolt Int Multiplier",
+    "slot": "talent25",
+    "requires": [
+     "Skywrath Mage"
+    ]
+   },
+   {
+    "name": "+400 Mystic Flare Damage",
+    "slot": "talent25",
+    "requires": [
+     "Skywrath Mage"
+    ]
+   },
+   {
+    "name": "+2s Guardian Sprint Duration",
+    "slot": "talent10",
+    "requires": [
+     "Slardar"
+    ]
+   },
+   {
+    "name": "+30 Bash of the Deep Damage",
+    "slot": "talent10",
+    "requires": [
+     "Slardar"
+    ]
+   },
+   {
+    "name": "+250 Health",
+    "slot": "talent15",
+    "requires": [
+     "Slardar"
+    ]
+   },
+   {
+    "name": "-3 Corrosive Haze Armor",
+    "slot": "talent15",
+    "requires": [
+     "Slardar"
+    ]
+   },
+   {
+    "name": "+125 Slithereen Crush Damage",
+    "slot": "talent20",
+    "requires": [
+     "Slardar"
+    ]
+   },
+   {
+    "name": "+16% Seaborn Sentinel Bonus Attack Damage",
+    "slot": "talent20",
+    "requires": [
+     "Slardar"
+    ]
+   },
+   {
+    "name": "-3s Slithereen Crush Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Slardar"
+    ]
+   },
+   {
+    "name": "Corrosive Haze Undispellable",
+    "slot": "talent25",
+    "requires": [
+     "Slardar"
+    ]
+   },
+   {
+    "name": "-0.75s Dark Pact Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Slark"
+    ]
+   },
+   {
+    "name": "+0.5s Pounce Leash",
+    "slot": "talent10",
+    "requires": [
+     "Slark"
+    ]
+   },
+   {
+    "name": "+70 Dark Pact Damage",
+    "slot": "talent15",
+    "requires": [
+     "Slark"
+    ]
+   },
+   {
+    "name": "+30 Shadow Dance Regen",
+    "slot": "talent15",
+    "requires": [
+     "Slark"
+    ]
+   },
+   {
+    "name": "+20s Essence Shift Duration",
+    "slot": "talent20",
+    "requires": [
+     "Slark"
+    ]
+   },
+   {
+    "name": "+100 Shadow Dance Attack Speed",
+    "slot": "talent20",
+    "requires": [
+     "Slark"
+    ]
+   },
+   {
+    "name": "+1.5s Shadow Dance Duration",
+    "slot": "talent25",
+    "requires": [
+     "Slark"
+    ]
+   },
+   {
+    "name": "+1 Agility gain/stolen per Essence Shift Stack",
+    "slot": "talent25",
+    "requires": [
+     "Slark"
+    ]
+   },
+   {
+    "name": "+70 Scatterblast Damage",
+    "slot": "talent10",
+    "requires": [
+     "Snapfire"
+    ]
+   },
+   {
+    "name": "+30 Mortimer Kisses Burn DPS",
+    "slot": "talent10",
+    "requires": [
+     "Snapfire"
+    ]
+   },
+   {
+    "name": "+2 Lil' Shredder attacks",
+    "slot": "talent15",
+    "requires": [
+     "Snapfire"
+    ]
+   },
+   {
+    "name": "+125 Cast Range",
+    "slot": "talent15",
+    "requires": [
+     "Snapfire"
+    ]
+   },
+   {
+    "name": "+2 Lil' Shredder Targets",
+    "slot": "talent20",
+    "requires": [
+     "Snapfire"
+    ]
+   },
+   {
+    "name": "2 Firesnap Cookie Charges",
+    "slot": "talent20",
+    "requires": [
+     "Snapfire"
+    ]
+   },
+   {
+    "name": "+60% Lil' Shredder Attack Damage",
+    "slot": "talent25",
+    "requires": [
+     "Snapfire"
+    ]
+   },
+   {
+    "name": "+6 Mortimer Kisses Launched",
+    "slot": "talent25",
+    "requires": [
+     "Snapfire"
+    ]
+   },
+   {
+    "name": "+50 Take Aim Passive Attack Range",
+    "slot": "talent10",
+    "requires": [
+     "Sniper"
+    ]
+   },
+   {
+    "name": "+30 Headshot Damage",
+    "slot": "talent10",
+    "requires": [
+     "Sniper"
+    ]
+   },
+   {
+    "name": "+45 Attack Speed During Take Aim",
+    "slot": "talent15",
+    "requires": [
+     "Sniper"
+    ]
+   },
+   {
+    "name": "+150 Assassinate Damage",
+    "slot": "talent15",
+    "requires": [
+     "Sniper"
+    ]
+   },
+   {
+    "name": "+2s Take Aim Duration",
+    "slot": "talent20",
+    "requires": [
+     "Sniper"
+    ]
+   },
+   {
+    "name": "+30% Shrapnel Damage",
+    "slot": "talent20",
+    "requires": [
+     "Sniper"
+    ]
+   },
+   {
+    "name": "-30s Shrapnel Charge Restore Time",
+    "slot": "talent25",
+    "requires": [
+     "Sniper"
+    ]
+   },
+   {
+    "name": "+50 Max Headshot Knockback Distance",
+    "slot": "talent25",
+    "requires": [
+     "Sniper"
+    ]
+   },
+   {
+    "name": "-3s Spectral Dagger Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Spectre"
+    ]
+   },
+   {
+    "name": "+12 Desolate Damage",
+    "slot": "talent10",
+    "requires": [
+     "Spectre"
+    ]
+   },
+   {
+    "name": "+1.0s Shadow Step Duration",
+    "slot": "talent15",
+    "requires": [
+     "Spectre"
+    ]
+   },
+   {
+    "name": "+80 Spectral Dagger Damage",
+    "slot": "talent15",
+    "requires": [
+     "Spectre"
+    ]
+   },
+   {
+    "name": "+300 Health",
+    "slot": "talent20",
+    "requires": [
+     "Spectre"
+    ]
+   },
+   {
+    "name": "+15% Spectral Dagger Slow/Bonus",
+    "slot": "talent20",
+    "requires": [
+     "Spectre"
+    ]
+   },
+   {
+    "name": "+12% All Spectre Illusion Damage",
+    "slot": "talent25",
+    "requires": [
+     "Spectre"
+    ]
+   },
+   {
+    "name": "+4% Dispersion",
+    "slot": "talent25",
+    "requires": [
+     "Spectre"
+    ]
+   },
+   {
+    "name": "+500 Night Vision",
+    "slot": "talent10",
+    "requires": [
+     "Spirit Breaker"
+    ]
+   },
+   {
+    "name": "+4 Armor",
+    "slot": "talent10",
+    "requires": [
+     "Spirit Breaker"
+    ]
+   },
+   {
+    "name": "-3s Bulldoze Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Spirit Breaker"
+    ]
+   },
+   {
+    "name": "+60 Charge of Darkness Bonus Speed",
+    "slot": "talent15",
+    "requires": [
+     "Spirit Breaker"
+    ]
+   },
+   {
+    "name": "+8%/+2% Empowering Haste Movespeed Bonus",
+    "slot": "talent20",
+    "requires": [
+     "Spirit Breaker"
+    ]
+   },
+   {
+    "name": "Bulldoze 375 All Damage Barrier",
+    "slot": "talent20",
+    "requires": [
+     "Spirit Breaker"
+    ]
+   },
+   {
+    "name": "+20% Greater Bash Damage",
+    "slot": "talent25",
+    "requires": [
+     "Spirit Breaker"
+    ]
+   },
+   {
+    "name": "-4s Charge of Darkness Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Spirit Breaker"
+    ]
+   },
+   {
+    "name": "+25.0/25.0% Overload Attack/Movement Speed Slow",
+    "slot": "talent10",
+    "requires": [
+     "Storm Spirit"
+    ]
+   },
+   {
+    "name": "+1.5 Mana Regen",
+    "slot": "talent10",
+    "requires": [
+     "Storm Spirit"
+    ]
+   },
+   {
+    "name": "+250 Health",
+    "slot": "talent15",
+    "requires": [
+     "Storm Spirit"
+    ]
+   },
+   {
+    "name": "+60 Static Remnant Damage",
+    "slot": "talent15",
+    "requires": [
+     "Storm Spirit"
+    ]
+   },
+   {
+    "name": "+0.2s Electric Vortex Duration",
+    "slot": "talent20",
+    "requires": [
+     "Storm Spirit"
+    ]
+   },
+   {
+    "name": "-1.25s Static Remnant Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Storm Spirit"
+    ]
+   },
+   {
+    "name": "2x Overload Attack Bounce",
+    "slot": "talent25",
+    "requires": [
+     "Storm Spirit"
+    ]
+   },
+   {
+    "name": "450 Distance Auto Remnant in Ball Lightning",
+    "slot": "talent25",
+    "requires": [
+     "Storm Spirit"
+    ]
+   },
+   {
+    "name": "+5s Warcry Duration",
+    "slot": "talent10",
+    "requires": [
+     "Sven"
+    ]
+   },
+   {
+    "name": "+20% God's Strength Slow Resistance",
+    "slot": "talent10",
+    "requires": [
+     "Sven"
+    ]
+   },
+   {
+    "name": "-12s God's Strength Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Sven"
+    ]
+   },
+   {
+    "name": "+25% Great Cleave Damage",
+    "slot": "talent15",
+    "requires": [
+     "Sven"
+    ]
+   },
+   {
+    "name": "-25% Storm Hammer Cooldown and Mana Cost",
+    "slot": "talent20",
+    "requires": [
+     "Sven"
+    ]
+   },
+   {
+    "name": "+8 Warcry Armor",
+    "slot": "talent20",
+    "requires": [
+     "Sven"
+    ]
+   },
+   {
+    "name": "+50% God's Strength Damage",
+    "slot": "talent25",
+    "requires": [
+     "Sven"
+    ]
+   },
+   {
+    "name": "+1s Storm Hammer Stun Duration",
+    "slot": "talent25",
+    "requires": [
+     "Sven"
+    ]
+   },
+   {
+    "name": "+15% Magic Resistance",
+    "slot": "talent10",
+    "requires": [
+     "Techies"
+    ]
+   },
+   {
+    "name": "-2s Proximity Mines Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Techies"
+    ]
+   },
+   {
+    "name": "+175 Blast Off! Damage",
+    "slot": "talent15",
+    "requires": [
+     "Techies"
+    ]
+   },
+   {
+    "name": "+25% Reactive Tazer Buff and Disarm Duration",
+    "slot": "talent15",
+    "requires": [
+     "Techies"
+    ]
+   },
+   {
+    "name": "+160 Sticky Bomb Damage",
+    "slot": "talent20",
+    "requires": [
+     "Techies"
+    ]
+   },
+   {
+    "name": "-15s Blast Off! Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Techies"
+    ]
+   },
+   {
+    "name": "+253 Damage",
+    "slot": "talent25",
+    "requires": [
+     "Techies"
+    ]
+   },
+   {
+    "name": "-0.8s Proximity Mines Activation Delay",
+    "slot": "talent25",
+    "requires": [
+     "Techies"
+    ]
+   },
+   {
+    "name": "+1.5s Meld Debuff Duration",
+    "slot": "talent10",
+    "requires": [
+     "Templar Assassin"
+    ]
+   },
+   {
+    "name": "+15% Psionic Trap Slow",
+    "slot": "talent10",
+    "requires": [
+     "Templar Assassin"
+    ]
+   },
+   {
+    "name": "+225 Meld Attack Range",
+    "slot": "talent15",
+    "requires": [
+     "Templar Assassin"
+    ]
+   },
+   {
+    "name": "+3 Psionic Traps",
+    "slot": "talent15",
+    "requires": [
+     "Templar Assassin"
+    ]
+   },
+   {
+    "name": "Refraction Dispels",
+    "slot": "talent20",
+    "requires": [
+     "Templar Assassin"
+    ]
+   },
+   {
+    "name": "+4 Meld Armor Reduction",
+    "slot": "talent20",
+    "requires": [
+     "Templar Assassin"
+    ]
+   },
+   {
+    "name": "0.8s Meld Hit Bash",
+    "slot": "talent25",
+    "requires": [
+     "Templar Assassin"
+    ]
+   },
+   {
+    "name": "+4 Refraction Instances",
+    "slot": "talent25",
+    "requires": [
+     "Templar Assassin"
+    ]
+   },
+   {
+    "name": "+1s Reflection Duration",
+    "slot": "talent10",
+    "requires": [
+     "Terrorblade"
+    ]
+   },
+   {
+    "name": "-2s Conjure Image Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Terrorblade"
+    ]
+   },
+   {
+    "name": "-10s Metamorphosis Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Terrorblade"
+    ]
+   },
+   {
+    "name": "-25% Sunder Minimum HP Swap",
+    "slot": "talent15",
+    "requires": [
+     "Terrorblade"
+    ]
+   },
+   {
+    "name": "+10 All Attributes",
+    "slot": "talent20",
+    "requires": [
+     "Terrorblade"
+    ]
+   },
+   {
+    "name": "+8s Conjure Image Duration",
+    "slot": "talent20",
+    "requires": [
+     "Terrorblade"
+    ]
+   },
+   {
+    "name": "-30s Sunder Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Terrorblade"
+    ]
+   },
+   {
+    "name": "+30s Metamorphosis Duration",
+    "slot": "talent25",
+    "requires": [
+     "Terrorblade"
+    ]
+   },
+   {
+    "name": "+10% Anchor Smash Damage Reduction",
+    "slot": "talent10",
+    "requires": [
+     "Tidehunter"
+    ]
+   },
+   {
+    "name": "+20% Gush Slow",
+    "slot": "talent10",
+    "requires": [
+     "Tidehunter"
+    ]
+   },
+   {
+    "name": "+90 Gush Damage",
+    "slot": "talent15",
+    "requires": [
+     "Tidehunter"
+    ]
+   },
+   {
+    "name": "-15s Ravage Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Tidehunter"
+    ]
+   },
+   {
+    "name": "Kraken Shell Cleanse triggers Anchor Smash",
+    "slot": "talent20",
+    "requires": [
+     "Tidehunter"
+    ]
+   },
+   {
+    "name": "-4 Gush Armor",
+    "slot": "talent20",
+    "requires": [
+     "Tidehunter"
+    ]
+   },
+   {
+    "name": "+1.0s Ravage Stun Duration",
+    "slot": "talent25",
+    "requires": [
+     "Tidehunter"
+    ]
+   },
+   {
+    "name": "Anchor Smash affects buildings",
+    "slot": "talent25",
+    "requires": [
+     "Tidehunter"
+    ]
+   },
+   {
+    "name": "+1.0s March of the Machines Duration",
+    "slot": "talent10",
+    "requires": [
+     "Tinker"
+    ]
+   },
+   {
+    "name": "+10% Manacost/Manaloss Reduction",
+    "slot": "talent10",
+    "requires": [
+     "Tinker"
+    ]
+   },
+   {
+    "name": "+100 Deploy Turrets Tinker Knockback",
+    "slot": "talent15",
+    "requires": [
+     "Tinker"
+    ]
+   },
+   {
+    "name": "+50 Laser Damage",
+    "slot": "talent15",
+    "requires": [
+     "Tinker"
+    ]
+   },
+   {
+    "name": "+60 Deploy Turrets Missile Damage",
+    "slot": "talent20",
+    "requires": [
+     "Tinker"
+    ]
+   },
+   {
+    "name": "-0.5s Keen Conveyance Channel Time",
+    "slot": "talent20",
+    "requires": [
+     "Tinker"
+    ]
+   },
+   {
+    "name": "250 AoE Laser",
+    "slot": "talent25",
+    "requires": [
+     "Tinker"
+    ]
+   },
+   {
+    "name": "-0.25s Time to Rearm",
+    "slot": "talent25",
+    "requires": [
+     "Tinker"
+    ]
+   },
+   {
+    "name": "+150 Avalanche Cast Range",
+    "slot": "talent10",
+    "requires": [
+     "Tiny"
+    ]
+   },
+   {
+    "name": "+2 Tree Grab Attacks",
+    "slot": "talent10",
+    "requires": [
+     "Tiny"
+    ]
+   },
+   {
+    "name": "+10 Strength",
+    "slot": "talent15",
+    "requires": [
+     "Tiny"
+    ]
+   },
+   {
+    "name": "+90 Avalanche Damage",
+    "slot": "talent15",
+    "requires": [
+     "Tiny"
+    ]
+   },
+   {
+    "name": "+60 Tree Grab Base Damage",
+    "slot": "talent20",
+    "requires": [
+     "Tiny"
+    ]
+   },
+   {
+    "name": "Toss Requires No Target",
+    "slot": "talent20",
+    "requires": [
+     "Tiny"
+    ]
+   },
+   {
+    "name": "-8s Avalanche Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Tiny"
+    ]
+   },
+   {
+    "name": "2 Toss Charges",
+    "slot": "talent25",
+    "requires": [
+     "Tiny"
+    ]
+   },
+   {
+    "name": "+3s Living Armor Duration",
+    "slot": "talent10",
+    "requires": [
+     "Treant Protector"
+    ]
+   },
+   {
+    "name": "+50 Base Damage",
+    "slot": "talent10",
+    "requires": [
+     "Treant Protector"
+    ]
+   },
+   {
+    "name": "+10% Leech Seed Damage to Healing",
+    "slot": "talent15",
+    "requires": [
+     "Treant Protector"
+    ]
+   },
+   {
+    "name": "+25 Nature's Grasp Damage",
+    "slot": "talent15",
+    "requires": [
+     "Treant Protector"
+    ]
+   },
+   {
+    "name": "+20 Living Armor Damage Block",
+    "slot": "talent20",
+    "requires": [
+     "Treant Protector"
+    ]
+   },
+   {
+    "name": "+80 Leech Seed Bonus Damage",
+    "slot": "talent20",
+    "requires": [
+     "Treant Protector"
+    ]
+   },
+   {
+    "name": "-3s Leech Seed Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Treant Protector"
+    ]
+   },
+   {
+    "name": "450 AoE Living Armor",
+    "slot": "talent25",
+    "requires": [
+     "Treant Protector"
+    ]
+   },
+   {
+    "name": "+2.5s Whirling Axes Debuff Duration",
+    "slot": "talent10",
+    "requires": [
+     "Troll Warlord"
+    ]
+   },
+   {
+    "name": "+20 Berserker's Rage Movement Speed",
+    "slot": "talent10",
+    "requires": [
+     "Troll Warlord"
+    ]
+   },
+   {
+    "name": "+4 Fervor Attack Speed",
+    "slot": "talent15",
+    "requires": [
+     "Troll Warlord"
+    ]
+   },
+   {
+    "name": "+1s Battle Trance Duration",
+    "slot": "talent15",
+    "requires": [
+     "Troll Warlord"
+    ]
+   },
+   {
+    "name": "Allies Receive Battle Trance Attack Speed",
+    "slot": "talent20",
+    "requires": [
+     "Troll Warlord"
+    ]
+   },
+   {
+    "name": "+160 Whirling Axes Damage",
+    "slot": "talent20",
+    "requires": [
+     "Troll Warlord"
+    ]
+   },
+   {
+    "name": "Whirling Axes Pierce Magic Immunity",
+    "slot": "talent25",
+    "requires": [
+     "Troll Warlord"
+    ]
+   },
+   {
+    "name": "Battle Trance Strong Dispels",
+    "slot": "talent25",
+    "requires": [
+     "Troll Warlord"
+    ]
+   },
+   {
+    "name": "+2s Tag Team Duration",
+    "slot": "talent10",
+    "requires": [
+     "Tusk"
+    ]
+   },
+   {
+    "name": "+0.75s Walrus Punch Stun Duration",
+    "slot": "talent10",
+    "requires": [
+     "Tusk"
+    ]
+   },
+   {
+    "name": "+325 Health",
+    "slot": "talent15",
+    "requires": [
+     "Tusk"
+    ]
+   },
+   {
+    "name": "+120 Snowball Damage",
+    "slot": "talent15",
+    "requires": [
+     "Tusk"
+    ]
+   },
+   {
+    "name": "-6s Snowball Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Tusk"
+    ]
+   },
+   {
+    "name": "+75% Walrus Punch Crit",
+    "slot": "talent20",
+    "requires": [
+     "Tusk"
+    ]
+   },
+   {
+    "name": "Ice Shards slow by 50% and deal 110 DPS",
+    "slot": "talent25",
+    "requires": [
+     "Tusk"
+    ]
+   },
+   {
+    "name": "12% Chance Walrus Punch",
+    "slot": "talent25",
+    "requires": [
+     "Tusk"
+    ]
+   },
+   {
+    "name": "+30 Decay Damage",
+    "slot": "talent10",
+    "requires": [
+     "Undying"
+    ]
+   },
+   {
+    "name": "-15s Tombstone Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Undying"
+    ]
+   },
+   {
+    "name": "+12 Soul Rip Damage/Heal",
+    "slot": "talent15",
+    "requires": [
+     "Undying"
+    ]
+   },
+   {
+    "name": "+20 Zombie Damage",
+    "slot": "talent15",
+    "requires": [
+     "Undying"
+    ]
+   },
+   {
+    "name": "-2s Decay Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Undying"
+    ]
+   },
+   {
+    "name": "+4 Tombstone Attacks to Destroy",
+    "slot": "talent20",
+    "requires": [
+     "Undying"
+    ]
+   },
+   {
+    "name": "+50% Flesh Golem Strength Bonus",
+    "slot": "talent25",
+    "requires": [
+     "Undying"
+    ]
+   },
+   {
+    "name": "Tombstone On Death",
+    "slot": "talent25",
+    "requires": [
+     "Undying"
+    ]
+   },
+   {
+    "name": "+9s Fury Swipes Reset Time",
+    "slot": "talent10",
+    "requires": [
+     "Ursa"
+    ]
+   },
+   {
+    "name": "+1.75 Mana Regen",
+    "slot": "talent10",
+    "requires": [
+     "Ursa"
+    ]
+   },
+   {
+    "name": "+0.5% Maul Health As Damage",
+    "slot": "talent15",
+    "requires": [
+     "Ursa"
+    ]
+   },
+   {
+    "name": "+25% Enrage Status Resistance",
+    "slot": "talent15",
+    "requires": [
+     "Ursa"
+    ]
+   },
+   {
+    "name": "+300 Earthshock Radius",
+    "slot": "talent20",
+    "requires": [
+     "Ursa"
+    ]
+   },
+   {
+    "name": "+6 Fury Swipes Damage",
+    "slot": "talent20",
+    "requires": [
+     "Ursa"
+    ]
+   },
+   {
+    "name": "Earthshock has 2 Charges",
+    "slot": "talent25",
+    "requires": [
+     "Ursa"
+    ]
+   },
+   {
+    "name": "+3 Overpower Attacks",
+    "slot": "talent25",
+    "requires": [
+     "Ursa"
+    ]
+   },
+   {
+    "name": "+150 Nether Swap Enemy Damage",
+    "slot": "talent10",
+    "requires": [
+     "Vengeful Spirit"
+    ]
+   },
+   {
+    "name": "+100 Magic Missile Cast Range",
+    "slot": "talent10",
+    "requires": [
+     "Vengeful Spirit"
+    ]
+   },
+   {
+    "name": "-3 Wave of Terror Armor",
+    "slot": "talent15",
+    "requires": [
+     "Vengeful Spirit"
+    ]
+   },
+   {
+    "name": "+0.3s Magic Missile Stun Duration",
+    "slot": "talent15",
+    "requires": [
+     "Vengeful Spirit"
+    ]
+   },
+   {
+    "name": "Wave Of Terror Steals 25% Of Reduced Damage And Armor",
+    "slot": "talent20",
+    "requires": [
+     "Vengeful Spirit"
+    ]
+   },
+   {
+    "name": "-2s Magic Missile Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Vengeful Spirit"
+    ]
+   },
+   {
+    "name": "+16% Vengeance Aura Base Damage Bonus",
+    "slot": "talent25",
+    "requires": [
+     "Vengeful Spirit"
+    ]
+   },
+   {
+    "name": "-18s Nether Swap Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Vengeful Spirit"
+    ]
+   },
+   {
+    "name": "-5s Venomous Gale CD",
+    "slot": "talent10",
+    "requires": [
+     "Venomancer"
+    ]
+   },
+   {
+    "name": "15% Poison Sting Health Regen Reduction",
+    "slot": "talent10",
+    "requires": [
+     "Venomancer"
+    ]
+   },
+   {
+    "name": "+75 Noxious Plague Spread Radius",
+    "slot": "talent15",
+    "requires": [
+     "Venomancer"
+    ]
+   },
+   {
+    "name": "+10% Poison Sting Slow",
+    "slot": "talent15",
+    "requires": [
+     "Venomancer"
+    ]
+   },
+   {
+    "name": "+100 Snakebite Initial Damage",
+    "slot": "talent20",
+    "requires": [
+     "Venomancer"
+    ]
+   },
+   {
+    "name": "-2s Plague Ward Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Venomancer"
+    ]
+   },
+   {
+    "name": "Snakebite Undispellable",
+    "slot": "talent25",
+    "requires": [
+     "Venomancer"
+    ]
+   },
+   {
+    "name": "2.5x Plague Ward HP/Damage",
+    "slot": "talent25",
+    "requires": [
+     "Venomancer"
+    ]
+   },
+   {
+    "name": "+1s Viper Strike Duration",
+    "slot": "talent10",
+    "requires": [
+     "Viper"
+    ]
+   },
+   {
+    "name": "+15 Corrosive Skin Damage Per Second",
+    "slot": "talent10",
+    "requires": [
+     "Viper"
+    ]
+   },
+   {
+    "name": "+20/40 Nethertoxin Min/Max Damage",
+    "slot": "talent15",
+    "requires": [
+     "Viper"
+    ]
+   },
+   {
+    "name": "+15% Poison Attack Slow / Damage",
+    "slot": "talent15",
+    "requires": [
+     "Viper"
+    ]
+   },
+   {
+    "name": "+70 Viper Strike DPS",
+    "slot": "talent20",
+    "requires": [
+     "Viper"
+    ]
+   },
+   {
+    "name": "+0.35 Predator Damage Per Missing Health",
+    "slot": "talent20",
+    "requires": [
+     "Viper"
+    ]
+   },
+   {
+    "name": "Nethertoxin Radius increases by 25 every 0.5s",
+    "slot": "talent25",
+    "requires": [
+     "Viper"
+    ]
+   },
+   {
+    "name": "-50% Viper Strike Mana Cost / Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Viper"
+    ]
+   },
+   {
+    "name": "-1s Soul Assumption Cooldown",
+    "slot": "talent10",
+    "requires": [
+     "Visage"
+    ]
+   },
+   {
+    "name": "+6 Visage and Familiars Base Damage",
+    "slot": "talent10",
+    "requires": [
+     "Visage"
+    ]
+   },
+   {
+    "name": "+2s Grave Chill Duration",
+    "slot": "talent15",
+    "requires": [
+     "Visage"
+    ]
+   },
+   {
+    "name": "Soul Assumption Hits 3 Targets",
+    "slot": "talent15",
+    "requires": [
+     "Visage"
+    ]
+   },
+   {
+    "name": "+30 Soul Assumption Damage Per Charge",
+    "slot": "talent20",
+    "requires": [
+     "Visage"
+    ]
+   },
+   {
+    "name": "+1 Armor Corruption to Visage and Familiars",
+    "slot": "talent20",
+    "requires": [
+     "Visage"
+    ]
+   },
+   {
+    "name": "-2s Gravekeeper's Cloak Recovery Time",
+    "slot": "talent25",
+    "requires": [
+     "Visage"
+    ]
+   },
+   {
+    "name": "+1 Familiar",
+    "slot": "talent25",
+    "requires": [
+     "Visage"
+    ]
+   },
+   {
+    "name": "+1.5 Mana Regen",
+    "slot": "talent10",
+    "requires": [
+     "Void Spirit"
+    ]
+   },
+   {
+    "name": "+40 Resonant Pulse Damage",
+    "slot": "talent10",
+    "requires": [
+     "Void Spirit"
+    ]
+   },
+   {
+    "name": "+20% Resonant Pulse Barrier",
+    "slot": "talent15",
+    "requires": [
+     "Void Spirit"
+    ]
+   },
+   {
+    "name": "+65 Aether Remnant Damage",
+    "slot": "talent15",
+    "requires": [
+     "Void Spirit"
+    ]
+   },
+   {
+    "name": "Outer Dissimilate Ring",
+    "slot": "talent20",
+    "requires": [
+     "Void Spirit"
+    ]
+   },
+   {
+    "name": "-3s Astral Step Charge Restore Time",
+    "slot": "talent20",
+    "requires": [
+     "Void Spirit"
+    ]
+   },
+   {
+    "name": "140% Astral Step Crit",
+    "slot": "talent25",
+    "requires": [
+     "Void Spirit"
+    ]
+   },
+   {
+    "name": "Dissimilate Roots for 2s",
+    "slot": "talent25",
+    "requires": [
+     "Void Spirit"
+    ]
+   },
+   {
+    "name": "+4% Fatal Bonds Damage",
+    "slot": "talent10",
+    "requires": [
+     "Warlock"
+    ]
+   },
+   {
+    "name": "+50 Upheaval Radius",
+    "slot": "talent10",
+    "requires": [
+     "Warlock"
+    ]
+   },
+   {
+    "name": "+8 Upheaval Attack Speed per second on Allies",
+    "slot": "talent15",
+    "requires": [
+     "Warlock"
+    ]
+   },
+   {
+    "name": "+150 Shadow Word AoE",
+    "slot": "talent15",
+    "requires": [
+     "Warlock"
+    ]
+   },
+   {
+    "name": "25% Damage Resistance for Chaotic Offering Golems",
+    "slot": "talent20",
+    "requires": [
+     "Warlock"
+    ]
+   },
+   {
+    "name": "+45 Upheaval Damage",
+    "slot": "talent20",
+    "requires": [
+     "Warlock"
+    ]
+   },
+   {
+    "name": "Summons a Golem on death",
+    "slot": "talent25",
+    "requires": [
+     "Warlock"
+    ]
+   },
+   {
+    "name": "+5 Fatal Bonds Targets",
+    "slot": "talent25",
+    "requires": [
+     "Warlock"
+    ]
+   },
+   {
+    "name": "+50 Shukuchi Movement Speed",
+    "slot": "talent10",
+    "requires": [
+     "Weaver"
+    ]
+   },
+   {
+    "name": "+7 Strength",
+    "slot": "talent10",
+    "requires": [
+     "Weaver"
+    ]
+   },
+   {
+    "name": "+90 Shukuchi Damage",
+    "slot": "talent15",
+    "requires": [
+     "Weaver"
+    ]
+   },
+   {
+    "name": "+2 Swarm Attacks to Kill",
+    "slot": "talent15",
+    "requires": [
+     "Weaver"
+    ]
+   },
+   {
+    "name": "+60 Bonus Damage On Geminate",
+    "slot": "talent20",
+    "requires": [
+     "Weaver"
+    ]
+   },
+   {
+    "name": "+0.5 Swarm Armor Reduction Per Attack",
+    "slot": "talent20",
+    "requires": [
+     "Weaver"
+    ]
+   },
+   {
+    "name": "-3s Shukuchi Cooldown",
+    "slot": "talent25",
+    "requires": [
+     "Weaver"
+    ]
+   },
+   {
+    "name": "+1 Geminate Attack",
+    "slot": "talent25",
+    "requires": [
+     "Weaver"
+    ]
+   },
+   {
+    "name": "+1s Powershot Slow Duration",
+    "slot": "talent10",
+    "requires": [
+     "Windranger"
+    ]
+   },
+   {
+    "name": "+0.75s Windrun Duration",
+    "slot": "talent10",
+    "requires": [
+     "Windranger"
+    ]
+   },
+   {
+    "name": "+40 Tailwind Max Movespeed",
+    "slot": "talent15",
+    "requires": [
+     "Windranger"
+    ]
+   },
+   {
+    "name": "-15% Powershot Reduction",
+    "slot": "talent15",
+    "requires": [
+     "Windranger"
+    ]
+   },
+   {
+    "name": "+0.75s Shackleshot Duration",
+    "slot": "talent20",
+    "requires": [
+     "Windranger"
+    ]
+   },
+   {
+    "name": "-10% Focus Fire Damage Reduction",
+    "slot": "talent20",
+    "requires": [
+     "Windranger"
+    ]
+   },
+   {
+    "name": "Powershot Executes Enemy Heroes Under 16% Max HP",
+    "slot": "talent25",
+    "requires": [
+     "Windranger"
+    ]
+   },
+   {
+    "name": "Focus Fire Kills Advance Cooldown by 16s",
+    "slot": "talent25",
+    "requires": [
+     "Windranger"
+    ]
+   },
+   {
+    "name": "+15 Cold Embrace Base Heal Per Second",
+    "slot": "talent10",
+    "requires": [
+     "Winter Wyvern"
+    ]
+   },
+   {
+    "name": "+30 Damage",
+    "slot": "talent10",
+    "requires": [
+     "Winter Wyvern"
+    ]
+   },
+   {
+    "name": "+3s Arctic Burn Debuff Duration",
+    "slot": "talent15",
+    "requires": [
+     "Winter Wyvern"
+    ]
+   },
+   {
+    "name": "+175 Splinter Blast Shatter Radius",
+    "slot": "talent15",
+    "requires": [
+     "Winter Wyvern"
+    ]
+   },
+   {
+    "name": "+10% Arctic Burn Slow",
+    "slot": "talent20",
+    "requires": [
+     "Winter Wyvern"
+    ]
+   },
+   {
+    "name": "+100 Splinter Blast Damage",
+    "slot": "talent20",
+    "requires": [
+     "Winter Wyvern"
+    ]
+   },
+   {
+    "name": "+60 Winter's Curse Attack Speed",
+    "slot": "talent25",
+    "requires": [
+     "Winter Wyvern"
+    ]
+   },
+   {
+    "name": "Splinter Blast 1s Stun",
+    "slot": "talent25",
+    "requires": [
+     "Winter Wyvern"
+    ]
+   },
+   {
+    "name": "+1.5s Overcharge Duration",
+    "slot": "talent10",
+    "requires": [
+     "Io"
+    ]
+   },
+   {
+    "name": "+8 Strength",
+    "slot": "talent10",
+    "requires": [
+     "Io"
+    ]
+   },
+   {
+    "name": "+5% Tether Movement Speed",
+    "slot": "talent15",
+    "requires": [
+     "Io"
+    ]
+   },
+   {
+    "name": "+40% Spirits Damage",
+    "slot": "talent15",
+    "requires": [
+     "Io"
+    ]
+   },
+   {
+    "name": "+0.2% Overcharge Max HP Regen Bonus",
+    "slot": "talent20",
+    "requires": [
+     "Io"
+    ]
+   },
+   {
+    "name": "-30s Relocate Cooldown",
+    "slot": "talent20",
+    "requires": [
+     "Io"
+    ]
+   },
+   {
+    "name": "-2.0s Relocate Cast Delay",
+    "slot": "talent25",
+    "requires": [
+     "Io"
+    ]
+   },
+   {
+    "name": "Attack Tethered Ally's Target (50% damage)",
+    "slot": "talent25",
+    "requires": [
+     "Io"
+    ]
+   },
+   {
+    "name": "-25% Voodoo Restoration Mana Per Second",
+    "slot": "talent10",
+    "requires": [
+     "Witch Doctor"
+    ]
+   },
+   {
+    "name": "+200 Health",
+    "slot": "talent10",
+    "requires": [
+     "Witch Doctor"
+    ]
+   },
+   {
+    "name": "-3.0s Paralyzing Cask Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Witch Doctor"
+    ]
+   },
+   {
+    "name": "+4s Maledict Duration",
+    "slot": "talent15",
+    "requires": [
+     "Witch Doctor"
+    ]
+   },
+   {
+    "name": "Maledict bursts deal 75% damage in a 800 AoE",
+    "slot": "talent20",
+    "requires": [
+     "Witch Doctor"
+    ]
+   },
+   {
+    "name": "+1% Target Max Health Voodoo Restoration Heal",
+    "slot": "talent20",
+    "requires": [
+     "Witch Doctor"
+    ]
+   },
+   {
+    "name": "+6 Paralyzing Cask Bounces",
+    "slot": "talent25",
+    "requires": [
+     "Witch Doctor"
+    ]
+   },
+   {
+    "name": "+40 Death Ward Damage",
+    "slot": "talent25",
+    "requires": [
+     "Witch Doctor"
+    ]
+   },
+   {
+    "name": "+1 Heavenly Jump Target",
+    "slot": "talent10",
+    "requires": [
+     "Zeus"
+    ]
+   },
+   {
+    "name": "+200 Health",
+    "slot": "talent10",
+    "requires": [
+     "Zeus"
+    ]
+   },
+   {
+    "name": "+75 Thundergod's Wrath Damage",
+    "slot": "talent15",
+    "requires": [
+     "Zeus"
+    ]
+   },
+   {
+    "name": "-20% Arc Lightning Mana Cost / Cooldown",
+    "slot": "talent15",
+    "requires": [
+     "Zeus"
+    ]
+   },
+   {
+    "name": "+60 Arc Lightning Damage",
+    "slot": "talent20",
+    "requires": [
+     "Zeus"
+    ]
+   },
+   {
+    "name": "+0.5s Lightning Bolt Ministun",
+    "slot": "talent20",
+    "requires": [
+     "Zeus"
+    ]
+   },
+   {
+    "name": "325 AoE Lightning Bolt",
+    "slot": "talent25",
+    "requires": [
+     "Zeus"
+    ]
+   },
+   {
+    "name": "3 Heavenly Jump Charges",
+    "slot": "talent25",
+    "requires": [
+     "Zeus"
+    ]
+   },
+   {
+    "name": "Abyssal Blade",
+    "slot": "item"
+   },
+   {
+    "name": "Aeon Disk",
+    "slot": "item"
+   },
+   {
+    "name": "Aether Lens",
+    "slot": "item"
+   },
+   {
+    "name": "Aghanim's Scepter",
+    "slot": "item"
+   },
+   {
+    "name": "Arcane Blink",
+    "slot": "item"
+   },
+   {
+    "name": "Arcane Boots",
+    "slot": "boots"
+   },
+   {
+    "name": "Armlet of Mordiggian",
+    "slot": "item"
+   },
+   {
+    "name": "Assault Cuirass",
+    "slot": "item"
+   },
+   {
+    "name": "Battle Fury",
+    "slot": "item"
+   },
+   {
+    "name": "Black King Bar",
+    "slot": "item"
+   },
+   {
+    "name": "Blade Mail",
+    "slot": "item"
+   },
+   {
+    "name": "Blink Dagger",
+    "slot": "item"
+   },
+   {
+    "name": "Bloodstone",
+    "slot": "item"
+   },
+   {
+    "name": "Bloodthorn",
+    "slot": "item"
+   },
+   {
+    "name": "Boots of Bearing",
+    "slot": "boots"
+   },
+   {
+    "name": "Boots of Travel",
+    "slot": "boots"
+   },
+   {
+    "name": "Butterfly",
+    "slot": "item"
+   },
+   {
+    "name": "Consecrated Wraps",
+    "slot": "item"
+   },
+   {
+    "name": "Crella's Crozier",
+    "slot": "item"
+   },
+   {
+    "name": "Crimson Guard",
+    "slot": "item"
+   },
+   {
+    "name": "Daedalus",
+    "slot": "item"
+   },
+   {
+    "name": "Dagon",
+    "slot": "item"
+   },
+   {
+    "name": "Desolator",
+    "slot": "item"
+   },
+   {
+    "name": "Diffusal Blade",
+    "slot": "item"
+   },
+   {
+    "name": "Disperser",
+    "slot": "item"
+   },
+   {
+    "name": "Divine Rapier",
+    "slot": "item"
+   },
+   {
+    "name": "Dragon Lance",
+    "slot": "item"
+   },
+   {
+    "name": "Drum of Endurance",
+    "slot": "item"
+   },
+   {
+    "name": "Echo Sabre",
+    "slot": "item"
+   },
+   {
+    "name": "Essence Distiller",
+    "slot": "item"
+   },
+   {
+    "name": "Eternal Shroud",
+    "slot": "item"
+   },
+   {
+    "name": "Ethereal Blade",
+    "slot": "item"
+   },
+   {
+    "name": "Eul's Scepter of Divinity",
+    "slot": "item"
+   },
+   {
+    "name": "Eye of Skadi",
+    "slot": "item"
+   },
+   {
+    "name": "Falcon Blade",
+    "slot": "item"
+   },
+   {
+    "name": "Force Staff",
+    "slot": "item"
+   },
+   {
+    "name": "Gleipnir",
+    "slot": "item"
+   },
+   {
+    "name": "Glimmer Cape",
+    "slot": "item"
+   },
+   {
+    "name": "Guardian Greaves",
+    "slot": "boots"
+   },
+   {
+    "name": "Hand of Midas",
+    "slot": "item"
+   },
+   {
+    "name": "Harpoon",
+    "slot": "item"
+   },
+   {
+    "name": "Heart of Tarrasque",
+    "slot": "item"
+   },
+   {
+    "name": "Heaven's Halberd",
+    "slot": "item"
+   },
+   {
+    "name": "Helm of the Dominator",
+    "slot": "item"
+   },
+   {
+    "name": "Helm of the Overlord",
+    "slot": "item"
+   },
+   {
+    "name": "Holy Locket",
+    "slot": "item"
+   },
+   {
+    "name": "Hurricane Pike",
+    "slot": "item"
+   },
+   {
+    "name": "Hydra's Breath",
+    "slot": "item"
+   },
+   {
+    "name": "Kaya",
+    "slot": "item"
+   },
+   {
+    "name": "Kaya and Sange",
+    "slot": "item"
+   },
+   {
+    "name": "Khanda",
+    "slot": "item"
+   },
+   {
+    "name": "Linken's Sphere",
+    "slot": "item"
+   },
+   {
+    "name": "Lotus Orb",
+    "slot": "item"
+   },
+   {
+    "name": "Maelstrom",
+    "slot": "item"
+   },
+   {
+    "name": "Mage Slayer",
+    "slot": "item"
+   },
+   {
+    "name": "Manta Style",
+    "slot": "item"
+   },
+   {
+    "name": "Mask of Madness",
+    "slot": "item"
+   },
+   {
+    "name": "Mekansm",
+    "slot": "item"
+   },
+   {
+    "name": "Meteor Hammer",
+    "slot": "item"
+   },
+   {
+    "name": "Mjollnir",
+    "slot": "item"
+   },
+   {
+    "name": "Monkey King Bar",
+    "slot": "item"
+   },
+   {
+    "name": "Necronomicon",
+    "slot": "item"
+   },
+   {
+    "name": "Nullifier",
+    "slot": "item"
+   },
+   {
+    "name": "Octarine Core",
+    "slot": "item"
+   },
+   {
+    "name": "Orb of Corrosion",
+    "slot": "item"
+   },
+   {
+    "name": "Orchid Malevolence",
+    "slot": "item"
+   },
+   {
+    "name": "Overwhelming Blink",
+    "slot": "item"
+   },
+   {
+    "name": "Parasma",
+    "slot": "item"
+   },
+   {
+    "name": "Pavise",
+    "slot": "item"
+   },
+   {
+    "name": "Phase Boots",
+    "slot": "boots"
+   },
+   {
+    "name": "Phylactery",
+    "slot": "item"
+   },
+   {
+    "name": "Pipe of Insight",
+    "slot": "item"
+   },
+   {
+    "name": "Power Treads",
+    "slot": "boots"
+   },
+   {
+    "name": "Radiance",
+    "slot": "item"
+   },
+   {
+    "name": "Refresher Orb",
+    "slot": "item"
+   },
+   {
+    "name": "Revenant's Brooch",
+    "slot": "item"
+   },
+   {
+    "name": "Rod of Atos",
+    "slot": "item"
+   },
+   {
+    "name": "Sange",
+    "slot": "item"
+   },
+   {
+    "name": "Sange and Yasha",
+    "slot": "item"
+   },
+   {
+    "name": "Satanic",
+    "slot": "item"
+   },
+   {
+    "name": "Scythe of Vyse",
+    "slot": "item"
+   },
+   {
+    "name": "Shadow Blade",
+    "slot": "item"
+   },
+   {
+    "name": "Shiva's Guard",
+    "slot": "item"
+   },
+   {
+    "name": "Silver Edge",
+    "slot": "item"
+   },
+   {
+    "name": "Skull Basher",
+    "slot": "item"
+   },
+   {
+    "name": "Solar Crest",
+    "slot": "item"
+   },
+   {
+    "name": "Specialist's Array",
+    "slot": "item"
+   },
+   {
+    "name": "Spirit Vessel",
+    "slot": "item"
+   },
+   {
+    "name": "Swift Blink",
+    "slot": "item"
+   },
+   {
+    "name": "Tranquil Boots",
+    "slot": "boots"
+   },
+   {
+    "name": "Vanguard",
+    "slot": "item"
+   },
+   {
+    "name": "Veil of Discord",
+    "slot": "item"
+   },
+   {
+    "name": "Vladmir's Offering",
+    "slot": "item"
+   },
+   {
+    "name": "Wind Waker",
+    "slot": "item"
+   },
+   {
+    "name": "Witch Blade",
+    "slot": "item"
+   },
+   {
+    "name": "Wraith Pact",
+    "slot": "item"
+   },
+   {
+    "name": "Yasha",
+    "slot": "item"
+   },
+   {
+    "name": "Yasha and Kaya",
+    "slot": "item"
+   },
+   {
+    "name": "Position 1 · Carry",
+    "slot": "position"
+   },
+   {
+    "name": "Position 2 · Mid",
+    "slot": "position"
+   },
+   {
+    "name": "Position 3 · Offlane",
+    "slot": "position"
+   },
+   {
+    "name": "Position 4 · Soft support",
+    "slot": "position"
+   },
+   {
+    "name": "Position 5 · Hard support",
+    "slot": "position"
+   }
+  ]
+ },
+ "source_url": "https://github.com/odota/dotaconstants"
+}

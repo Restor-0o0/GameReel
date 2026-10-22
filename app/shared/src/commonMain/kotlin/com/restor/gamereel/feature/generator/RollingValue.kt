@@ -44,7 +44,9 @@ fun RollingValue(
 
     val finalTag = reel.tag
     val pool =
-        remember(reel.category) { BuiltinCatalog.tags.filter { it.category == reel.category } }
+        remember(reel.category, reel.slot) {
+            if (reel.slot != null) emptyList() else BuiltinCatalog.tags.filter { it.category == reel.category }
+        }
     val strip =
         remember(pool, finalTag) {
             val tags = pool.ifEmpty { listOfNotNull(finalTag) }
@@ -61,7 +63,7 @@ fun RollingValue(
     val description =
         stringResource(
             Res.string.labeled_value,
-            stringResource(reel.category.title),
+            reel.title(),
             finalTag?.label() ?: stringResource(Res.string.no_result),
         )
     Box(
