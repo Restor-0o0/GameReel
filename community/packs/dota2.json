@@ -2,7 +2,7 @@
  "library": {
   "id": "dota2",
   "name": "Dota 2",
-  "version": 1,
+  "version": 2,
   "slots": [
    {
     "id": "hero",
@@ -7788,18 +7788,6 @@
     "slot": "item"
    },
    {
-    "name": "Dragon Lance",
-    "slot": "item"
-   },
-   {
-    "name": "Drum of Endurance",
-    "slot": "item"
-   },
-   {
-    "name": "Echo Sabre",
-    "slot": "item"
-   },
-   {
     "name": "Essence Distiller",
     "slot": "item"
    },
@@ -7812,19 +7800,11 @@
     "slot": "item"
    },
    {
-    "name": "Eul's Scepter of Divinity",
-    "slot": "item"
-   },
-   {
     "name": "Eye of Skadi",
     "slot": "item"
    },
    {
     "name": "Falcon Blade",
-    "slot": "item"
-   },
-   {
-    "name": "Force Staff",
     "slot": "item"
    },
    {
@@ -7856,10 +7836,6 @@
     "slot": "item"
    },
    {
-    "name": "Helm of the Dominator",
-    "slot": "item"
-   },
-   {
     "name": "Helm of the Overlord",
     "slot": "item"
    },
@@ -7873,10 +7849,6 @@
    },
    {
     "name": "Hydra's Breath",
-    "slot": "item"
-   },
-   {
-    "name": "Kaya",
     "slot": "item"
    },
    {
@@ -7896,10 +7868,6 @@
     "slot": "item"
    },
    {
-    "name": "Maelstrom",
-    "slot": "item"
-   },
-   {
     "name": "Mage Slayer",
     "slot": "item"
    },
@@ -7909,10 +7877,6 @@
    },
    {
     "name": "Mask of Madness",
-    "slot": "item"
-   },
-   {
-    "name": "Mekansm",
     "slot": "item"
    },
    {
@@ -7944,10 +7908,6 @@
     "slot": "item"
    },
    {
-    "name": "Orchid Malevolence",
-    "slot": "item"
-   },
-   {
     "name": "Overwhelming Blink",
     "slot": "item"
    },
@@ -7956,16 +7916,8 @@
     "slot": "item"
    },
    {
-    "name": "Pavise",
-    "slot": "item"
-   },
-   {
     "name": "Phase Boots",
     "slot": "boots"
-   },
-   {
-    "name": "Phylactery",
-    "slot": "item"
    },
    {
     "name": "Pipe of Insight",
@@ -7988,14 +7940,6 @@
     "slot": "item"
    },
    {
-    "name": "Rod of Atos",
-    "slot": "item"
-   },
-   {
-    "name": "Sange",
-    "slot": "item"
-   },
-   {
     "name": "Sange and Yasha",
     "slot": "item"
    },
@@ -8008,10 +7952,6 @@
     "slot": "item"
    },
    {
-    "name": "Shadow Blade",
-    "slot": "item"
-   },
-   {
     "name": "Shiva's Guard",
     "slot": "item"
    },
@@ -8020,15 +7960,7 @@
     "slot": "item"
    },
    {
-    "name": "Skull Basher",
-    "slot": "item"
-   },
-   {
     "name": "Solar Crest",
-    "slot": "item"
-   },
-   {
-    "name": "Specialist's Array",
     "slot": "item"
    },
    {
@@ -8044,31 +7976,11 @@
     "slot": "boots"
    },
    {
-    "name": "Vanguard",
-    "slot": "item"
-   },
-   {
-    "name": "Veil of Discord",
-    "slot": "item"
-   },
-   {
-    "name": "Vladmir's Offering",
-    "slot": "item"
-   },
-   {
     "name": "Wind Waker",
     "slot": "item"
    },
    {
-    "name": "Witch Blade",
-    "slot": "item"
-   },
-   {
     "name": "Wraith Pact",
-    "slot": "item"
-   },
-   {
-    "name": "Yasha",
     "slot": "item"
    },
    {

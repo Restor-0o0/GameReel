@@ -53,9 +53,9 @@
       "file": "packs/dota2.json",
       "name": "Dota 2",
       "id": "dota2",
-      "version": 1,
+      "version": 2,
       "reels": 11,
-      "tags": 1246
+      "tags": 1224
     }
   ]
 }
