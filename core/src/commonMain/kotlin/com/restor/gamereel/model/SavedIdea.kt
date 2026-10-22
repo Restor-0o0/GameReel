@@ -19,4 +19,14 @@ data class SavedIdea(
     val concept: IdeaConcept = IdeaConcept(),
     val project: String = "",
     val variantOfId: String? = null,
+    val outcome: IdeaOutcome = IdeaOutcome(),
+)
+
+@Serializable
+enum class IdeaStage { IDEA, PROTOTYPE, JAM, RELEASED, SHELVED }
+
+@Serializable
+data class IdeaOutcome(
+    val stage: IdeaStage = IdeaStage.IDEA,
+    val url: String = "",
 )

@@ -1,0 +1,127 @@
+{
+  "library": {
+    "id": "community.jam-born",
+    "name": "Jam-born classics",
+    "version": 1,
+    "standaloneTags": [
+      {
+        "name": "Made in 48 hours",
+        "category": "SCOPE"
+      }
+    ]
+  },
+  "games": [
+    {
+      "externalId": "baba-is-you",
+      "title": "Baba Is You",
+      "storeUrl": "https://store.steampowered.com/app/736260/",
+      "tags": [
+        {
+          "name": "Rule rewriting",
+          "category": "CORE"
+        },
+        {
+          "name": "Level-based puzzles",
+          "category": "STRUCTURE"
+        },
+        {
+          "name": "Pixel art",
+          "category": "VISUAL"
+        },
+        {
+          "name": "Top-down",
+          "category": "CAMERA"
+        },
+        {
+          "name": "Words are objects",
+          "category": "TWIST"
+        }
+      ]
+    },
+    {
+      "externalId": "superhot",
+      "title": "SUPERHOT",
+      "storeUrl": "https://store.steampowered.com/app/322500/",
+      "tags": [
+        {
+          "name": "First-person shooting",
+          "category": "CORE"
+        },
+        {
+          "name": "One-hit death",
+          "category": "PRESSURE"
+        },
+        {
+          "name": "Minimalist low poly",
+          "category": "VISUAL"
+        },
+        {
+          "name": "First person",
+          "category": "CAMERA"
+        },
+        {
+          "name": "Time moves only when you move",
+          "category": "TWIST"
+        }
+      ]
+    },
+    {
+      "externalId": "surgeon-simulator",
+      "title": "Surgeon Simulator",
+      "storeUrl": "https://store.steampowered.com/app/233720/",
+      "tags": [
+        {
+          "name": "Physics-based limb control",
+          "category": "CORE"
+        },
+        {
+          "name": "Clumsy controls",
+          "category": "INTERACTION"
+        },
+        {
+          "name": "Patient blood loss",
+          "category": "PRESSURE"
+        },
+        {
+          "name": "First person",
+          "category": "CAMERA"
+        },
+        {
+          "name": "Comedy",
+          "category": "THEME"
+        }
+      ]
+    },
+    {
+      "externalId": "celeste",
+      "title": "Celeste",
+      "storeUrl": "https://store.steampowered.com/app/504230/",
+      "tags": [
+        {
+          "name": "Precision platforming",
+          "category": "CORE"
+        },
+        {
+          "name": "Air dash",
+          "category": "SECONDARY_MECHANIC"
+        },
+        {
+          "name": "Chapter-based climb",
+          "category": "STRUCTURE"
+        },
+        {
+          "name": "Pixel art",
+          "category": "VISUAL"
+        },
+        {
+          "name": "Mental health",
+          "category": "THEME"
+        },
+        {
+          "name": "Side view",
+          "category": "CAMERA"
+        }
+      ]
+    }
+  ]
+}

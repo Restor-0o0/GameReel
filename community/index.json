@@ -1,0 +1,51 @@
+{
+  "presets": [
+    {
+      "file": "presets/couch-coop.json",
+      "name": "Couch co-op",
+      "reels": 5
+    },
+    {
+      "file": "presets/cozy-mobile.json",
+      "name": "Cozy mobile",
+      "reels": 5
+    },
+    {
+      "file": "presets/narrative-short.json",
+      "name": "Narrative short",
+      "reels": 5
+    },
+    {
+      "file": "presets/roguelite-run.json",
+      "name": "Roguelite run",
+      "reels": 5
+    }
+  ],
+  "tag-sets": [
+    {
+      "file": "tag-sets/solarpunk.json",
+      "name": "Solarpunk",
+      "tags": 23,
+      "categories": [
+        "CAMERA",
+        "CORE",
+        "PRESSURE",
+        "SECONDARY_MECHANIC",
+        "SETTING",
+        "STRUCTURE",
+        "TWIST",
+        "VISUAL"
+      ]
+    }
+  ],
+  "libraries": [
+    {
+      "file": "libraries/jam-born.json",
+      "name": "Jam-born classics",
+      "id": "community.jam-born",
+      "version": 1,
+      "games": 4,
+      "standaloneTags": 1
+    }
+  ]
+}

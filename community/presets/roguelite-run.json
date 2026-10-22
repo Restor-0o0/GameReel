@@ -1,0 +1,26 @@
+{
+  "id": "community:roguelite-run",
+  "name": "Roguelite run",
+  "reels": [
+    {
+      "id": "template:0",
+      "category": "CORE"
+    },
+    {
+      "id": "template:1",
+      "category": "PROGRESSION"
+    },
+    {
+      "id": "template:2",
+      "category": "PRESSURE"
+    },
+    {
+      "id": "template:3",
+      "category": "STRUCTURE"
+    },
+    {
+      "id": "template:4",
+      "category": "TWIST"
+    }
+  ]
+}

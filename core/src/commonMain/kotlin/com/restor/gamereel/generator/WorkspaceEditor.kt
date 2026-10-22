@@ -545,6 +545,22 @@ class WorkspaceEditor(
             preferences = workspace.preferences.copy(activeVariantParentId = source.id))
     }
 
+    fun dailyIdea(workspace: Workspace, epochDay: Long): Workspace =
+        openReels(workspace, DailyIdea.reels(epochDay, BuiltinCatalog.tags + libraries.flatMap { it.allTags }))
+
+    fun openReels(workspace: Workspace, reels: List<Reel>): Workspace {
+        ensure(reels.any { it.tag != null }, EditorError.EMPTY_IDEA)
+        ensure(reels.size <= ContentLimits.MAX_REELS, EditorError.TOO_MANY_REELS)
+        return checkpoint(workspace).let {
+            it.copy(reels = reels, preferences = it.preferences.copy(activeVariantParentId = null))
+        }
+    }
+
+    fun setIdeaOutcome(workspace: Workspace, id: String, outcome: IdeaOutcome): Workspace =
+        workspace.copy(ideas = workspace.ideas.map {
+            if (it.id == id) it.copy(outcome = outcome.copy(url = outcome.url.trim().take(500))) else it
+        })
+
     fun cancelVariant(workspace: Workspace): Workspace =
         workspace.copy(preferences = workspace.preferences.copy(activeVariantParentId = null))
 

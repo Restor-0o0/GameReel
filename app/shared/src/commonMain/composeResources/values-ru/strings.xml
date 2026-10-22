@@ -483,4 +483,23 @@
     <string name="import_reserved_library">Этот ID зарезервирован для встроенной библиотеки. Укажите другой ID для своей библиотеки.</string>
     <string name="error_reel_limit">Можно использовать до 100 барабанов.</string>
     <string name="import_too_many_tags">В игре или библиотеке может быть не больше %1$d тегов.</string>
+    <string name="daily_idea">Идея дня</string>
+    <string name="msg_daily_idea">Идея дня загружена. До полуночи по UTC она одинакова у всех.</string>
+    <string name="share_link">Копировать ссылку</string>
+    <string name="msg_link_copied">Ссылка скопирована</string>
+    <string name="open_shared">Открыть по ссылке…</string>
+    <string name="open_shared_hint">Ссылка или код GR1.</string>
+    <string name="open_shared_invalid">Не удалось прочитать ссылку</string>
+    <string name="msg_shared_opened">Сочетание из ссылки загружено</string>
+    <string name="open">Открыть</string>
+    <string name="idea_stage">Статус</string>
+    <string name="stage_idea">Идея</string>
+    <string name="stage_prototype">Прототип</string>
+    <string name="stage_jam">Геймджем</string>
+    <string name="stage_released">Выпущена</string>
+    <string name="stage_shelved">Отложена</string>
+    <string name="idea_result_url">Ссылка на результат</string>
+    <string name="idea_open_result">Открыть результат</string>
+    <string name="ideas_all_stages">Все статусы</string>
+    <string name="privacy_full">Полная политика</string>
 </resources>

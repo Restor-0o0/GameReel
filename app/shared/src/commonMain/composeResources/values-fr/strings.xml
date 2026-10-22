@@ -453,4 +453,23 @@
     <string name="import_reserved_library">Cet ID est réservé à une bibliothèque intégrée. Utilisez un autre ID pour votre bibliothèque.</string>
     <string name="error_reel_limit">Vous pouvez utiliser jusqu’à 100 rouleaux.</string>
     <string name="import_too_many_tags">Un jeu ou une bibliothèque peut contenir jusqu’à %1$d tags.</string>
+    <string name="daily_idea">Idée du jour</string>
+    <string name="msg_daily_idea">Idée du jour chargée. Tout le monde a les mêmes rouleaux jusqu’à minuit UTC.</string>
+    <string name="share_link">Copier le lien</string>
+    <string name="msg_link_copied">Lien copié</string>
+    <string name="open_shared">Ouvrir depuis un lien…</string>
+    <string name="open_shared_hint">Lien ou code GR1.</string>
+    <string name="open_shared_invalid">Impossible de lire ce lien</string>
+    <string name="msg_shared_opened">Combinaison partagée chargée</string>
+    <string name="open">Ouvrir</string>
+    <string name="idea_stage">Statut</string>
+    <string name="stage_idea">Idée</string>
+    <string name="stage_prototype">Prototype</string>
+    <string name="stage_jam">Game jam</string>
+    <string name="stage_released">Publiée</string>
+    <string name="stage_shelved">En pause</string>
+    <string name="idea_result_url">Lien vers le résultat</string>
+    <string name="idea_open_result">Ouvrir le résultat</string>
+    <string name="ideas_all_stages">Tous les statuts</string>
+    <string name="privacy_full">Politique complète</string>
 </resources>

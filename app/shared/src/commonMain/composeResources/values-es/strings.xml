@@ -453,4 +453,23 @@
     <string name="import_reserved_library">Este ID está reservado para una biblioteca integrada. Usa otro ID para tu biblioteca.</string>
     <string name="error_reel_limit">Puedes usar hasta 100 rodillos.</string>
     <string name="import_too_many_tags">Un juego o biblioteca puede contener hasta %1$d etiquetas.</string>
+    <string name="daily_idea">Idea del día</string>
+    <string name="msg_daily_idea">Idea del día cargada. Todos reciben los mismos rodillos hasta la medianoche UTC.</string>
+    <string name="share_link">Copiar enlace</string>
+    <string name="msg_link_copied">Enlace copiado</string>
+    <string name="open_shared">Abrir desde enlace…</string>
+    <string name="open_shared_hint">Enlace o código GR1.</string>
+    <string name="open_shared_invalid">No se pudo leer el enlace</string>
+    <string name="msg_shared_opened">Combinación compartida cargada</string>
+    <string name="open">Abrir</string>
+    <string name="idea_stage">Estado</string>
+    <string name="stage_idea">Idea</string>
+    <string name="stage_prototype">Prototipo</string>
+    <string name="stage_jam">Game jam</string>
+    <string name="stage_released">Publicada</string>
+    <string name="stage_shelved">Archivada</string>
+    <string name="idea_result_url">Enlace al resultado</string>
+    <string name="idea_open_result">Abrir resultado</string>
+    <string name="ideas_all_stages">Todos los estados</string>
+    <string name="privacy_full">Política completa</string>
 </resources>

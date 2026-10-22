@@ -80,6 +80,9 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
                 clearTagSet = model::clearPreset,
                 enableAllLibraries = model::enableAllLibrariesAndSpin,
                 enableCreativeTwistsAndSpin = model::enableCreativeTwistsAndSpin,
+                dailyIdea = model::dailyIdea,
+                openShared = model::openSharedIdea,
+                linkCopied = { model.showMessage(Res.string.msg_link_copied) },
             )
         }
     val allTags =
@@ -218,6 +221,7 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
                                     },
                                     model::deleteIdea,
                                     { page = Destination.GENERATOR },
+                                    { model.showMessage(Res.string.msg_link_copied) },
                                 )
                             Destination.SETTINGS ->
                                 PreferencesContent(
@@ -293,13 +297,13 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
             stringResource(Res.string.idea_default_title, (state.workspace?.ideas?.size ?: 0) + 1)
         val defaultProject = state.workspace?.preferences?.activeVariantParentId
             ?.let { id -> state.workspace.ideas.firstOrNull { it.id == id }?.project }.orEmpty()
-        IdeaDialog(null, defaultProject, { saveIdea = false }) { title, notes, concept, project ->
+        IdeaDialog(null, defaultProject, { saveIdea = false }) { title, notes, concept, project, _ ->
             model.saveIdea(title.ifBlank { fallback }, notes, concept, project).await()
         }
     }
     editing?.let { idea ->
-        IdeaDialog(idea, onDismiss = { editing = null }) { title, notes, concept, project ->
-            model.editIdea(idea.id, title, notes, concept, project).await()
+        IdeaDialog(idea, onDismiss = { editing = null }) { title, notes, concept, project, outcome ->
+            model.editIdea(idea.id, title, notes, concept, project, outcome).await()
         }
     }
     if ((state.workspace?.preferences?.welcomeComplete == false && !welcomeDismissed) || welcomeOpen)

@@ -8,11 +8,13 @@ import com.restor.gamereel.data.importer.JsonLibraryImporter
 import com.restor.gamereel.data.personal.GameTagDraft
 import com.restor.gamereel.data.personal.PersonalGames
 import com.restor.gamereel.data.storage.WorkspaceBackup
+import com.restor.gamereel.generator.DailyIdea
 import com.restor.gamereel.generator.GeneratorEngine
 import com.restor.gamereel.generator.KotlinRandomProvider
 import com.restor.gamereel.generator.WorkspaceEditor
 import com.restor.gamereel.model.*
 import com.restor.gamereel.repository.WorkspaceRepository
+import com.restor.gamereel.share.IdeaShareCode
 import com.restor.gamereel.text.fail
 import com.restor.gamereel.text.uiText
 import gamereel.app.shared.generated.resources.*
@@ -25,6 +27,8 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.StringResource
+import kotlin.time.Clock
+import kotlin.time.ExperimentalTime
 
 // publish state only after save went through
 class GameReelViewModel(
@@ -248,6 +252,10 @@ class GameReelViewModel(
         return completion
     }
 
+    fun showMessage(message: StringResource) {
+        mutableState.value = mutableState.value.copy(message = uiText(message), error = null)
+    }
+
     fun dismissMessage() {
         mutableState.value = mutableState.value.copy(message = null, error = null)
     }
@@ -407,6 +415,24 @@ class GameReelViewModel(
 
     fun saveIdea(title: String, notes: String, concept: IdeaConcept, project: String) =
         updateIdea(Res.string.msg_idea_saved) { editor.saveIdea(it, title, notes, concept, project) }
+
+    @OptIn(ExperimentalTime::class)
+    fun dailyIdea() = update(Res.string.msg_daily_idea) {
+        editor.dailyIdea(it, DailyIdea.epochDay(Clock.System.now().toEpochMilliseconds()))
+    }
+
+    fun openSharedIdea(text: String): Boolean {
+        val shared = IdeaShareCode.decode(text,
+            BuiltinCatalog.tags + state.value.libraries.flatMap { it.allTags }) ?: return false
+        update(Res.string.msg_shared_opened) { editor.openReels(it, shared.reels) }
+        return true
+    }
+
+    fun editIdea(id: String, title: String, notes: String, concept: IdeaConcept, project: String,
+                 outcome: IdeaOutcome) =
+        updateIdea(Res.string.msg_idea_updated) {
+            editor.setIdeaOutcome(editor.editIdea(it, id, title, notes, concept, project), id, outcome)
+        }
 
     fun loadIdea(id: String) = update(Res.string.msg_idea_loaded) { editor.loadIdea(it, id) }
 

@@ -28,4 +28,7 @@ internal data class GeneratorActions(
     val clearTagSet: () -> Unit,
     val enableAllLibraries: () -> Unit,
     val enableCreativeTwistsAndSpin: () -> Unit,
+    val dailyIdea: () -> Unit,
+    val openShared: (String) -> Boolean,
+    val linkCopied: () -> Unit,
 )

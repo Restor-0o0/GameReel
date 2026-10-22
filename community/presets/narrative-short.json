@@ -1,0 +1,26 @@
+{
+  "id": "community:narrative-short",
+  "name": "Narrative short",
+  "reels": [
+    {
+      "id": "template:0",
+      "category": "INTERACTION"
+    },
+    {
+      "id": "template:1",
+      "category": "SETTING"
+    },
+    {
+      "id": "template:2",
+      "category": "THEME"
+    },
+    {
+      "id": "template:3",
+      "category": "CAMERA"
+    },
+    {
+      "id": "template:4",
+      "category": "TWIST"
+    }
+  ]
+}

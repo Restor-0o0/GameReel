@@ -1,0 +1,145 @@
+{
+  "id": "community:solarpunk",
+  "name": "Solarpunk",
+  "tags": [
+    {
+      "id": "community:solarpunk:CORE:gardening",
+      "name": "Gardening",
+      "category": "CORE",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:CORE:repairing-machines",
+      "name": "Repairing machines",
+      "category": "CORE",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:CORE:trading",
+      "name": "Trading",
+      "category": "CORE",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:SECONDARY_MECHANIC:crafting",
+      "name": "Crafting",
+      "category": "SECONDARY_MECHANIC",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:SECONDARY_MECHANIC:energy-routing",
+      "name": "Energy routing",
+      "category": "SECONDARY_MECHANIC",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:SECONDARY_MECHANIC:weather-forecasting",
+      "name": "Weather forecasting",
+      "category": "SECONDARY_MECHANIC",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:STRUCTURE:seasonal-cycle",
+      "name": "Seasonal cycle",
+      "category": "STRUCTURE",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:STRUCTURE:open-hub-town",
+      "name": "Open hub town",
+      "category": "STRUCTURE",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:STRUCTURE:daily-tasks",
+      "name": "Daily tasks",
+      "category": "STRUCTURE",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:PRESSURE:drought",
+      "name": "Drought",
+      "category": "PRESSURE",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:PRESSURE:power-shortage",
+      "name": "Power shortage",
+      "category": "PRESSURE",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:PRESSURE:community-needs",
+      "name": "Community needs",
+      "category": "PRESSURE",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:CAMERA:isometric",
+      "name": "Isometric",
+      "category": "CAMERA",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:CAMERA:side-view",
+      "name": "Side view",
+      "category": "CAMERA",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:VISUAL:hand-painted",
+      "name": "Hand-painted",
+      "category": "VISUAL",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:VISUAL:pastel-low-poly",
+      "name": "Pastel low poly",
+      "category": "VISUAL",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:VISUAL:art-nouveau",
+      "name": "Art nouveau",
+      "category": "VISUAL",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:SETTING:rooftop-farms",
+      "name": "Rooftop farms",
+      "category": "SETTING",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:SETTING:floating-city",
+      "name": "Floating city",
+      "category": "SETTING",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:SETTING:rewilded-suburb",
+      "name": "Rewilded suburb",
+      "category": "SETTING",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:TWIST:machines-have-opinions",
+      "name": "Machines have opinions",
+      "category": "TWIST",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:TWIST:the-town-moves-every-season",
+      "name": "The town moves every season",
+      "category": "TWIST",
+      "sourceLibraryId": "community.solarpunk"
+    },
+    {
+      "id": "community:solarpunk:TWIST:nothing-can-be-thrown-away",
+      "name": "Nothing can be thrown away",
+      "category": "TWIST",
+      "sourceLibraryId": "community.solarpunk"
+    }
+  ],
+  "includeGameTags": false
+}

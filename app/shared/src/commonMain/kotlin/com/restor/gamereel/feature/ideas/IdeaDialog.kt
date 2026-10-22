@@ -12,9 +12,12 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import com.restor.gamereel.model.IdeaConcept
+import com.restor.gamereel.model.IdeaOutcome
+import com.restor.gamereel.model.IdeaStage
 import com.restor.gamereel.model.SavedIdea
 import com.restor.gamereel.text.UiText
 import com.restor.gamereel.text.resolve
+import com.restor.gamereel.ui.presentation.title
 import kotlinx.coroutines.launch
 import gamereel.app.shared.generated.resources.*
 import org.jetbrains.compose.resources.stringResource
@@ -24,7 +27,7 @@ internal fun IdeaDialog(
     idea: SavedIdea?,
     defaultProject: String = "",
     onDismiss: () -> Unit,
-    onSave: suspend (String, String, IdeaConcept, String) -> UiText?,
+    onSave: suspend (String, String, IdeaConcept, String, IdeaOutcome) -> UiText?,
 ) {
     val scope = rememberCoroutineScope()
     var saving by remember { mutableStateOf(false) }
@@ -36,6 +39,8 @@ internal fun IdeaDialog(
     var coreLoop by rememberSaveable(idea?.id) { mutableStateOf(idea?.concept?.coreLoop.orEmpty()) }
     var playerGoal by rememberSaveable(idea?.id) { mutableStateOf(idea?.concept?.playerGoal.orEmpty()) }
     var hook by rememberSaveable(idea?.id) { mutableStateOf(idea?.concept?.hook.orEmpty()) }
+    var stage by rememberSaveable(idea?.id) { mutableStateOf(idea?.outcome?.stage ?: IdeaStage.IDEA) }
+    var resultUrl by rememberSaveable(idea?.id) { mutableStateOf(idea?.outcome?.url.orEmpty()) }
     var detailsExpanded by rememberSaveable(idea?.id) {
         mutableStateOf(idea?.concept?.let {
             it.pitch.isNotBlank() || it.coreLoop.isNotBlank() ||
@@ -62,6 +67,19 @@ internal fun IdeaDialog(
                     OutlinedTextField(notes, { notes = it },
                         enabled = !saving, label = { Text(stringResource(Res.string.idea_notes)) },
                         minLines = 3, maxLines = 6, modifier = Modifier.fillMaxWidth())
+                    if (idea != null) {
+                        Text(stringResource(Res.string.idea_stage), style = MaterialTheme.typography.labelLarge)
+                        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            IdeaStage.entries.forEach { option ->
+                                FilterChip(stage == option, onClick = { stage = option }, enabled = !saving,
+                                    label = { Text(stringResource(option.title)) })
+                            }
+                        }
+                        OutlinedTextField(resultUrl, { resultUrl = it.take(500) },
+                            enabled = !saving, label = { Text(stringResource(Res.string.idea_result_url)) },
+                            placeholder = { Text("https://") },
+                            singleLine = true, modifier = Modifier.fillMaxWidth())
+                    }
                     HorizontalDivider()
                     OutlinedButton(onClick = { detailsExpanded = !detailsExpanded },
                         modifier = Modifier.fillMaxWidth()) {
@@ -99,7 +117,7 @@ internal fun IdeaDialog(
                                 try {
                                     saveError = onSave(title.trim(), notes.trim(),
                                         IdeaConcept(pitch.trim(), coreLoop.trim(), playerGoal.trim(), hook.trim()),
-                                        project.trim())
+                                        project.trim(), IdeaOutcome(stage, resultUrl.trim()))
                                     if (saveError == null) onDismiss()
                                 } finally { saving = false }
                             }

@@ -1,0 +1,26 @@
+{
+  "id": "community:cozy-mobile",
+  "name": "Cozy mobile",
+  "reels": [
+    {
+      "id": "template:0",
+      "category": "CORE"
+    },
+    {
+      "id": "template:1",
+      "category": "PLATFORM_TRAIT"
+    },
+    {
+      "id": "template:2",
+      "category": "VISUAL"
+    },
+    {
+      "id": "template:3",
+      "category": "THEME"
+    },
+    {
+      "id": "template:4",
+      "category": "MONETIZATION"
+    }
+  ]
+}

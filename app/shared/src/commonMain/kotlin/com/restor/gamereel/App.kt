@@ -17,12 +17,16 @@ import com.restor.gamereel.ui.theme.GameReelTheme
 import gamereel.app.shared.generated.resources.Res
 
 @Composable
-fun App(repositoryFactory: () -> WorkspaceRepository) {
+fun App(repositoryFactory: () -> WorkspaceRepository, incomingLink: String? = null) {
     val model = viewModel {
         GameReelViewModel(repositoryFactory, bundledLoader = ::loadBundledLibraries)
     }
 
     val state by model.state.collectAsState()
+    val loaded = state.workspace != null && !state.loading
+    LaunchedEffect(incomingLink, loaded) {
+        if (loaded && incomingLink != null) model.openSharedIdea(incomingLink)
+    }
     val allowStoreArt by
         produceState(false) {
             value = Res.readBytes("files/art-policy.txt").decodeToString().trim() != "no-store-art"

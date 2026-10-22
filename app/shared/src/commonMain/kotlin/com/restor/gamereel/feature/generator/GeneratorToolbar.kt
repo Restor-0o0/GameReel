@@ -5,12 +5,15 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalClipboardManager
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.restor.gamereel.model.*
+import com.restor.gamereel.share.IdeaShareCode
 import com.restor.gamereel.ui.presentation.title
 import gamereel.app.shared.generated.resources.*
 import org.jetbrains.compose.resources.stringResource
@@ -27,6 +30,8 @@ internal fun GeneratorToolbar(
     onPresets: () -> Unit,
 ) {
     var menuOpen by remember { mutableStateOf(false) }
+    var openingShared by remember { mutableStateOf(false) }
+    val clipboard = LocalClipboardManager.current
     val undoDescription = stringResource(Res.string.undo_description)
     val menuDescription = stringResource(Res.string.generator_menu)
     val presetsDescription = stringResource(Res.string.presets_title)
@@ -62,6 +67,30 @@ internal fun GeneratorToolbar(
             }
 
             DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
+                DropdownMenuItem(
+                    text = { Text(stringResource(Res.string.daily_idea)) },
+                    onClick = {
+                        menuOpen = false
+                        actions.dailyIdea()
+                    },
+                )
+                DropdownMenuItem(
+                    text = { Text(stringResource(Res.string.share_link)) },
+                    enabled = reels.any { it.tag != null },
+                    onClick = {
+                        menuOpen = false
+                        clipboard.setText(AnnotatedString(IdeaShareCode.link(reels)))
+                        actions.linkCopied()
+                    },
+                )
+                DropdownMenuItem(
+                    text = { Text(stringResource(Res.string.open_shared)) },
+                    onClick = {
+                        menuOpen = false
+                        openingShared = true
+                    },
+                )
+                HorizontalDivider()
                 GeneratorView.entries.forEach { view ->
                     DropdownMenuItem(
                         text = {
@@ -134,4 +163,28 @@ internal fun GeneratorToolbar(
         }
     }
     }
+    if (openingShared) OpenSharedDialog(actions.openShared) { openingShared = false }
+}
+
+@Composable
+private fun OpenSharedDialog(open: (String) -> Boolean, onDismiss: () -> Unit) {
+    var text by remember { mutableStateOf("") }
+    var invalid by remember { mutableStateOf(false) }
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(Res.string.open_shared)) },
+        text = {
+            OutlinedTextField(text, { text = it.take(20_000); invalid = false },
+                label = { Text(stringResource(Res.string.open_shared_hint)) },
+                isError = invalid,
+                supportingText = if (invalid) { { Text(stringResource(Res.string.open_shared_invalid)) } } else null,
+                maxLines = 4, modifier = Modifier.fillMaxWidth())
+        },
+        confirmButton = {
+            TextButton(enabled = text.isNotBlank(), onClick = {
+                if (open(text)) onDismiss() else invalid = true
+            }) { Text(stringResource(Res.string.open)) }
+        },
+        dismissButton = { TextButton(onClick = onDismiss) { Text(stringResource(Res.string.cancel)) } },
+    )
 }

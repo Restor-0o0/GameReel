@@ -471,4 +471,23 @@
     <string name="import_reserved_library">This library ID is reserved for bundled content. Use a different ID for your library.</string>
     <string name="error_reel_limit">You can use up to 100 reels.</string>
     <string name="import_too_many_tags">A game or library can contain up to %1$d tags.</string>
+    <string name="daily_idea">Idea of the day</string>
+    <string name="msg_daily_idea">Idea of the day loaded. Everyone gets the same reels until midnight UTC.</string>
+    <string name="share_link">Copy link</string>
+    <string name="msg_link_copied">Link copied</string>
+    <string name="open_shared">Open from link…</string>
+    <string name="open_shared_hint">Link or GR1. code</string>
+    <string name="open_shared_invalid">Could not read this link</string>
+    <string name="msg_shared_opened">Shared combination loaded</string>
+    <string name="open">Open</string>
+    <string name="idea_stage">Status</string>
+    <string name="stage_idea">Idea</string>
+    <string name="stage_prototype">Prototype</string>
+    <string name="stage_jam">Game jam</string>
+    <string name="stage_released">Released</string>
+    <string name="stage_shelved">Shelved</string>
+    <string name="idea_result_url">Result link</string>
+    <string name="idea_open_result">Open result</string>
+    <string name="ideas_all_stages">All stages</string>
+    <string name="privacy_full">Full privacy policy</string>
 </resources>

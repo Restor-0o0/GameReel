@@ -453,4 +453,23 @@
     <string name="import_reserved_library">Diese ID ist für eine integrierte Bibliothek reserviert. Verwende eine andere ID für deine Bibliothek.</string>
     <string name="error_reel_limit">Du kannst bis zu 100 Walzen verwenden.</string>
     <string name="import_too_many_tags">Ein Spiel oder eine Bibliothek kann bis zu %1$d Tags enthalten.</string>
+    <string name="daily_idea">Idee des Tages</string>
+    <string name="msg_daily_idea">Idee des Tages geladen. Bis Mitternacht UTC haben alle dieselben Walzen.</string>
+    <string name="share_link">Link kopieren</string>
+    <string name="msg_link_copied">Link kopiert</string>
+    <string name="open_shared">Aus Link öffnen…</string>
+    <string name="open_shared_hint">Link oder GR1.-Code</string>
+    <string name="open_shared_invalid">Link konnte nicht gelesen werden</string>
+    <string name="msg_shared_opened">Geteilte Kombination geladen</string>
+    <string name="open">Öffnen</string>
+    <string name="idea_stage">Status</string>
+    <string name="stage_idea">Idee</string>
+    <string name="stage_prototype">Prototyp</string>
+    <string name="stage_jam">Game Jam</string>
+    <string name="stage_released">Veröffentlicht</string>
+    <string name="stage_shelved">Zurückgestellt</string>
+    <string name="idea_result_url">Link zum Ergebnis</string>
+    <string name="idea_open_result">Ergebnis öffnen</string>
+    <string name="ideas_all_stages">Alle Status</string>
+    <string name="privacy_full">Vollständige Richtlinie</string>
 </resources>

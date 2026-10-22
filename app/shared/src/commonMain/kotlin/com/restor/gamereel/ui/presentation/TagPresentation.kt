@@ -297,6 +297,15 @@ val AnimationSpeed.title: StringResource
             AnimationSpeed.NORMAL -> Res.string.speed_normal
         }
 
+val IdeaStage.title: StringResource
+    get() = when (this) {
+        IdeaStage.IDEA -> Res.string.stage_idea
+        IdeaStage.PROTOTYPE -> Res.string.stage_prototype
+        IdeaStage.JAM -> Res.string.stage_jam
+        IdeaStage.RELEASED -> Res.string.stage_released
+        IdeaStage.SHELVED -> Res.string.stage_shelved
+    }
+
 val GeneratorView.title: StringResource
     get() =
         when (this) {

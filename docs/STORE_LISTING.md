@@ -1,6 +1,6 @@
 # Карточка Google Play — подготовленный текст
 
-Версия 1.2.0. Текст относится только к публичной сборке без обложек.
+Версия 1.3.0. Текст относится только к публичной сборке без обложек.
 Категория: инструменты (Tools). Приложение генерирует идеи для разработки игр;
 в нём нет денежных ставок, выплат или азартных игр.
 
@@ -19,9 +19,11 @@ GameReel помогает придумать отправную точку дл�
 - Наборы тегов с пояснениями и редакторская подборка игровых примеров.
 - Настраиваемые барабаны и сохранение собственных пресетов.
 - Подсказки о совместимых механиках и редких сочетаниях в выбранных наборах.
-- Сохранение идей и заметок на устройстве.
-- Импорт собственных библиотек в JSON.
-- Русский и английский интерфейс, настройка анимации и звука.
+- Идея дня: одно сочетание на сутки, общее для всех.
+- Ссылки на идеи: отправьте сочетание другу или команде.
+- Сохранение идей и заметок, статусы «прототип», «геймджем», «выпущена» и ссылка на результат.
+- Импорт собственных библиотек и пресетов в JSON, каталог пресетов сообщества на GitHub.
+- Пять языков интерфейса, настройка анимации и звука.
 
 Основные функции работают без регистрации и подключения к интернету.
 Внешние ссылки на источники открываются в браузере.
@@ -44,9 +46,11 @@ visual styles, constraints and settings. Keep promising components and reroll th
 - Tag libraries with explanations and an editorial selection of game references.
 - Customizable reels and saved presets.
 - Suggestions for compatible mechanics and rare pairs within selected libraries.
-- Ideas and notes stored on your device.
-- Import your own JSON libraries.
-- Russian and English interface, animation and sound settings.
+- Idea of the day: one combination per day, the same for everyone.
+- Share an idea as a link with friends or your team.
+- Saved ideas and notes with prototype, game jam and released statuses and a result link.
+- Import your own JSON libraries and presets, community presets on GitHub.
+- Five interface languages, animation and sound settings.
 
 Core features work offline without an account. Source links open in your browser.
 Rarity reflects the selected annotated libraries; it does not prove an idea is unique.
@@ -54,8 +58,9 @@ GameReel is an independent tool and is not affiliated with the referenced games 
 
 ## Перед загрузкой
 
-- Добавить публичный email владельца и URL политики конфиденциальности.
-- Сделать минимум два скриншота именно Preview/Play, не локальной версии с обложками.
+- Политика конфиденциальности: https://restor-0o0.github.io/GameReel/privacy/
+- Публичный email указывается в профиле разработчика Play Console.
+- Скриншоты Play-сборки без обложек: `release/store/screenshots`.
 - Иконка 512×512 и feature graphic 1024×500 готовы в `release/store`;
   воспроизводятся `python tools/build_store_graphics.py` без чужого арта.
   Адаптивная иконка в приложении нарисована векторными примитивами для GameReel.
