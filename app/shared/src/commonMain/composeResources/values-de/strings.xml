@@ -495,4 +495,7 @@
     <string name="market_thousands">%1$s Tsd.</string>
     <string name="market_millions">%1$s Mio.</string>
     <string name="market_billions">%1$s Mrd.</string>
+    <string name="market_rank">Tag-Platz</string>
+    <string name="market_rank_any">Beliebig</string>
+    <string name="market_rank_note">Platz 1 ist der Haupt-Tag des Spiels: Steam-Tags sind nach Spielerstimmen sortiert.</string>
 </resources>

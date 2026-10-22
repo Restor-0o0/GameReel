@@ -116,57 +116,49 @@ def owners(game):
     return sum(bounds) // len(bounds) if bounds else 0
 
 
+def ranked_tags(game):
+    ranked = {}
+    for category, tag in game_tags(game):
+        if category != 'SCOPE':
+            ranked.setdefault(category, []).append(tag.strip())
+    return ranked
+
+
 def write_tag_stats(library_games, references):
     platforms = {'steam': {}, 'play': {}}
     for name in ('steam_broad', 'steam_alltime'):
         for game in library_games[name]:
-            entry = platforms['steam'].setdefault(str(game['appid']), {'t': game['title'], 'a': 0, 'r': None, 'tags': set()})
+            entry = platforms['steam'].setdefault(str(game['appid']), {'t': game['title'], 'a': 0, 'r': None, 'tags': {}})
             entry['a'] = entry['a'] or owners(game)
             score = game.get('review_score_pct')
             if entry['r'] is None and score not in (None, ''):
                 entry['r'] = round(float(score), 1)
-            entry['tags'].update((category, tag.strip()) for category, tag in game_tags(game))
+            for category, ranked in ranked_tags(game).items():
+                entry['tags'].setdefault(category, ranked)
     for game in library_games['google_play']:
         platforms['play'][game['app_id']] = {'t': game['title'], 'a': int(game.get('maximum_installs') or 0),
-            'r': round(float(game['rating']), 2) if game.get('rating') else None,
-            'tags': {(category, tag.strip()) for category, tag in game_tags(game)}}
-    games, index = [], {}
-
-    def ref(platform, entry):
-        key = (platform, entry['t'])
-        if key not in index:
-            index[key] = len(games)
-            games.append({'t': entry['t'], 'p': platform, 'a': entry['a'], 'r': entry['r']})
-        return index[key]
-
-    tags, totals = {}, {}
+            'r': round(float(game['rating']), 2) if game.get('rating') else None, 'tags': ranked_tags(game)}
+    tags, index, games, totals = [], {}, [], {}
     for platform, entries in platforms.items():
-        known = [entry for entry in entries.values() if entry['a']]
+        known = sorted((entry for entry in entries.values() if entry['a']), key=lambda entry: entry['a'], reverse=True)
         totals[platform] = {'g': len(known), 'a': sum(entry['a'] for entry in known)}
-        grouped = {}
         for entry in known:
-            for category, tag in entry['tags']:
-                if category != 'SCOPE':
-                    grouped.setdefault((category, tag.lower()), (tag, []))[1].append(entry)
-        for (category, key), (tag, members) in grouped.items():
-            members.sort(key=lambda entry: entry['a'], reverse=True)
-            audience = [entry['a'] for entry in members]
-            ratings = sorted(entry['r'] for entry in members if entry['r'] is not None)
-            stat = tags.setdefault(category + ':' + key, {'n': tag, 'c': category})
-            stat[platform] = {'g': len(members), 'sum': sum(audience), 'max': audience[0], 'med': audience[len(audience) // 2],
-                'hit': sum(1 for value in audience if value >= HIT_AUDIENCE[platform]), 'r': ratings[len(ratings) // 2] if ratings else None,
-                'top': [ref(platform, entry) for entry in members[:5]]}
+            ranks = []
+            for category, ranked in entry['tags'].items():
+                for position, tag in enumerate(dict.fromkeys(ranked), 1):
+                    key = category + ':' + tag.lower()
+                    if key not in index:
+                        index[key] = len(tags)
+                        tags.append({'n': tag, 'c': category})
+                    ranks += [index[key], position]
+            entry['i'] = len(games)
+            games.append({'t': entry['t'], 'p': platform, 'a': entry['a'], 'r': entry['r'], 'k': ranks})
     best = {}
-    for platform, entries in platforms.items():
+    for entries in platforms.values():
         for entry in entries.values():
             if entry['a'] > best.get(title_key(entry['t']), (0,))[0]:
-                best[title_key(entry['t'])] = (entry['a'], platform, entry)
-    titles = {}
-    for picked in references.values():
-        for title in picked:
-            match = best.get(title_key(title))
-            if match:
-                titles[title] = ref(match[1], match[2])
+                best[title_key(entry['t'])] = (entry['a'], entry['i'])
+    titles = {title: best[title_key(title)][1] for picked in references.values() for title in picked if title_key(title) in best}
     target = DESTINATION.parent / 'stats/tag_stats.json'
     target.parent.mkdir(parents=True, exist_ok=True)
     payload = {'totals': totals, 'games': games, 'references': titles, 'tags': tags}

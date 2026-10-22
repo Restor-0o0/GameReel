@@ -8,12 +8,14 @@ class MarketStatsTest {
     @Test
     fun bundledStatsCoverBothMarkets() = runTest {
         val stats = assertNotNull(loadMarketStats())
-        Market.entries.forEach { market -> assertTrue(assertNotNull(stats.totals(market)).audience > 0) }
         val survival = assertNotNull(stats.tag(Category.CORE, "Survival"))
         Market.entries.forEach { market ->
-            val stat = assertNotNull(survival.on(market))
-            assertTrue(stat.max <= stat.sum && stat.median <= stat.max && stat.hits <= stat.games)
-            assertTrue(stat.top.all { stats.games[it].market == market.key })
+            assertTrue(assertNotNull(stats.totals(market)).audience > 0)
+            val all = assertNotNull(stats.summarize(market)[survival])
+            val main = assertNotNull(stats.summarize(market, 1)[survival])
+            assertTrue(all.max <= all.sum && all.median <= all.max && all.hits <= all.games)
+            assertTrue(main.games < all.games && main.sum <= all.sum)
+            assertTrue(all.top.all { it.market == market.key })
         }
         assertTrue(stats.references.values.all { it in stats.games.indices })
     }

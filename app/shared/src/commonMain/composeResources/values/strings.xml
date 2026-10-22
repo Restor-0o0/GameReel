@@ -513,4 +513,7 @@
     <string name="market_thousands">%1$sK</string>
     <string name="market_millions">%1$sM</string>
     <string name="market_billions">%1$sB</string>
+    <string name="market_rank">Tag place</string>
+    <string name="market_rank_any">Any</string>
+    <string name="market_rank_note">Place 1 is the game\'s main tag: Steam tags are ordered by player votes.</string>
 </resources>

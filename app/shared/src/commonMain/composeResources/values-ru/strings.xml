@@ -525,4 +525,7 @@
     <string name="market_thousands">%1$s тыс.</string>
     <string name="market_millions">%1$s млн</string>
     <string name="market_billions">%1$s млрд</string>
+    <string name="market_rank">Место тега</string>
+    <string name="market_rank_any">Любое</string>
+    <string name="market_rank_note">Место 1 — главный тег игры: теги Steam упорядочены по голосам игроков.</string>
 </resources>

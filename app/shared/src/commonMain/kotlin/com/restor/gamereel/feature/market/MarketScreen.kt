@@ -15,7 +15,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.restor.gamereel.data.stats.Market
-import com.restor.gamereel.data.stats.MarketStats
 import com.restor.gamereel.data.stats.TagMarketStat
 import com.restor.gamereel.model.Category
 import com.restor.gamereel.model.Tag
@@ -48,36 +47,39 @@ internal fun MarketContent() {
     var sort by remember { mutableStateOf(MarketSort.TOTAL) }
     var category by remember { mutableStateOf<Category?>(null) }
     var query by remember { mutableStateOf("") }
+    var rank by remember { mutableStateOf<Int?>(null) }
     var expanded by remember { mutableStateOf<String?>(null) }
 
     val environment = rememberResourceEnvironment()
-    val labelled by produceState(emptyList<Pair<String, Tag>>() to emptyMap<String, String>(), stats, environment) {
-        val tags =
-            stats.tags.mapNotNull { (key, info) ->
-                info.category?.let { key to Tag("market:$key", info.name, it, sourceLibraryId = "market") }
-            }
+    val labelled by produceState(emptyMap<Int, Pair<Tag, String>>(), stats, environment) {
         val categories = Category.entries.associate { it.name to getString(environment, it.title) }
-        value = tags to tags.associate { (key, tag) -> key to tag.loadLabel(environment) + "\n" + categories[tag.category.name] }
+        value =
+            stats.tags.withIndex().mapNotNull { (index, info) ->
+                val tag = Tag("market:${info.key}", info.name, info.category ?: return@mapNotNull null, sourceLibraryId = "market")
+                index to (tag to tag.loadLabel(environment) + "\n" + categories[info.categoryName])
+            }.toMap()
     }
-    val rows by produceState(emptyList<MarketRow>(), labelled, market, sort, category, query) {
+    val summary by produceState(emptyMap<Int, TagMarketStat>(), stats, market, rank) {
+        value = withContext(Dispatchers.Default) { stats.summarize(market, rank) }
+    }
+    val rows by produceState(emptyList<MarketRow>(), labelled, summary, sort, category, query) {
         value =
             withContext(Dispatchers.Default) {
                 val needle = query.trim().lowercase()
-                val (tags, search) = labelled
-                tags
-                    .mapNotNull { (key, tag) ->
-                        val stat = stats.tags[key]?.on(market) ?: return@mapNotNull null
-                        val text = search[key].orEmpty()
+                summary
+                    .mapNotNull { (index, stat) ->
+                        val (tag, text) = labelled[index] ?: return@mapNotNull null
                         if (category != null && tag.category != category) return@mapNotNull null
-                        if (needle.isNotEmpty() && needle !in text.lowercase() && needle !in tag.name) return@mapNotNull null
-                        MarketRow(key, tag, text.substringBefore('\n'), stat)
+                        if (needle.isNotEmpty() && needle !in text.lowercase() && needle !in tag.name.lowercase()) return@mapNotNull null
+                        MarketRow(tag.id, tag, text.substringBefore('\n'), stat)
                     }
                     .sortedWith(compareByDescending<MarketRow> { sort.value(it.stat) }.thenByDescending { it.stat.sum })
             }
     }
     val categories =
-        remember(stats, market) {
-            Category.entries.filter { c -> stats.tags.values.any { it.category == c && it.on(market) != null } }
+        remember(labelled, summary) {
+            val present = summary.keys.mapNotNull { labelled[it]?.first?.category }.toSet()
+            Category.entries.filter { it in present }
         }
     val total = stats.totals(market)
     val best = rows.maxOfOrNull { sort.value(it.stat) }?.takeIf { it > 0 } ?: 1.0
@@ -118,6 +120,20 @@ internal fun MarketContent() {
             }
         }
         ChipRow {
+            Text(
+                stringResource(Res.string.market_rank),
+                style = MaterialTheme.typography.labelLarge,
+                modifier = Modifier.align(Alignment.CenterVertically),
+            )
+            listOf(null, 1, 2, 3).forEach {
+                FilterChip(
+                    rank == it,
+                    { rank = it; expanded = null },
+                    { Text(if (it == null) stringResource(Res.string.market_rank_any) else if (it == 1) "1" else "1–$it") },
+                )
+            }
+        }
+        ChipRow {
             MarketSort.entries.forEach {
                 FilterChip(sort == it, { sort = it }, { Text(stringResource(it.title)) })
             }
@@ -129,7 +145,7 @@ internal fun MarketContent() {
         ) {
             item {
                 Text(
-                    stringResource(Res.string.market_note),
+                    stringResource(Res.string.market_note) + "\n" + stringResource(Res.string.market_rank_note),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -140,7 +156,6 @@ internal fun MarketContent() {
                     index + 1,
                     row,
                     market,
-                    stats,
                     (sort.value(row.stat) / best).toFloat(),
                     total?.audience ?: 0,
                     expanded == row.key,
@@ -167,7 +182,6 @@ private fun MarketTagCard(
     rank: Int,
     row: MarketRow,
     market: Market,
-    stats: MarketStats,
     fraction: Float,
     total: Long,
     expanded: Boolean,
@@ -222,7 +236,7 @@ private fun MarketTagCard(
             )
             if (expanded) {
                 Text(stringResource(Res.string.market_top), style = MaterialTheme.typography.labelLarge)
-                stat.top.mapNotNull(stats.games::getOrNull).forEach { game ->
+                stat.top.forEach { game ->
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         Text(
                             game.title,

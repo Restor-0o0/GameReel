@@ -495,4 +495,7 @@
     <string name="market_thousands">%1$s k</string>
     <string name="market_millions">%1$s M</string>
     <string name="market_billions">%1$s Md</string>
+    <string name="market_rank">Rang du tag</string>
+    <string name="market_rank_any">Tous</string>
+    <string name="market_rank_note">Le rang 1 est le tag principal du jeu : les tags Steam sont classés selon les votes des joueurs.</string>
 </resources>

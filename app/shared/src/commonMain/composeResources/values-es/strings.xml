@@ -495,4 +495,7 @@
     <string name="market_thousands">%1$s mil</string>
     <string name="market_millions">%1$s M</string>
     <string name="market_billions">%1$s mil M</string>
+    <string name="market_rank">Posición</string>
+    <string name="market_rank_any">Cualquiera</string>
+    <string name="market_rank_note">La posición 1 es la etiqueta principal del juego: las etiquetas de Steam se ordenan por votos de los jugadores.</string>
 </resources>
