@@ -1,0 +1,1828 @@
+## CAMERA
+2d side scrolling|➡️
+3d side-on|🎞️
+bird-eye strategy view|🦅
+cinematic room camera|🎬
+close-follow camera|🏃
+fixed camera|📷
+fixed cinematic angles|🎬
+free rts camera|🗺️
+helmet/body camera|⛑️
+map-only interface|🗺️
+multi-camera surveillance|📺
+orbital strategy camera|🛰️
+over-the-shoulder|🧍
+picture-in-picture drone camera|🚁
+screen/terminal-only view|🖥️
+security-camera view|📹
+side-view|↔️
+split perspective|🪟
+switchable first/third person|🔄
+vehicle chase camera|🚓
+vehicle cockpit|🕹️
+first-person|👁️
+isometric|🔷
+side view|↔️
+third-person|🧍
+top-down|🛰️
+## CORE
+3d platforming|🦘
+4x strategy|👑
+action combat|⚔️
+action rpg|🗡️
+alchemy|⚗️
+arcade action|🕹️
+archaeology|🏺
+arena combat|🏟️
+assassination planning|🗡️
+assembly work|🔩
+auto battler|🤖
+automation|🤖
+automation programming|💾
+base building|🏗️
+baseball|⚾
+basketball|🏀
+beat-em-up combat|👊
+blacksmithing|⚒️
+board-game rules|🎲
+board-game strategy|♟️
+boss hunting|👹
+bowling|🎳
+boxing|🥊
+brewing|🍺
+card combat|🃏
+card play|🎴
+cargo handling|📦
+casual short-session loop|☕
+chance-based game loop|🎰
+chess/board strategy|♟️
+choice-driven narrative|🔀
+choice/narrative reading|📖
+circuit building|🔌
+city building|🏙️
+cleaning|🧽
+clicker/incremental|👆
+climbing|🧗
+colony management|🏘️
+coloring|🖍️
+combat|🛡️
+construction work|🚧
+conversation choices|💬
+cooking|🍳
+courier routing|🛵
+courtroom argument|⚖️
+crafting|🔨
+creature collection|🐾
+creature training|🐕
+crime investigation|🕵️
+deliberate melee combat|🤺
+delivery driving|🚚
+demolition|💣
+destruction|💥
+dice rolling|🎲
+disassembly work|🪛
+disaster response|🚨
+diving|🤿
+drawing|✏️
+dress-up/customization|👗
+driving|🚗
+dungeon crawling|🗝️
+economy management|🪙
+ecosystem management|🌿
+endless running|🏃
+escape-room puzzles|🚪
+excavation|⛏️
+expedition|🎒
+exploration|🧭
+exploration/adventure|🧭
+factory automation|🏭
+factory line design|🏭
+factory operation|🏭
+filming|🎥
+firefighting|🚒
+first aid|🩹
+fishing|🎣
+flight|✈️
+football/soccer|⚽
+forensics|🔬
+gardening|🌻
+golf|⛳
+grand strategy|🌍
+grappling traversal|🪝
+hacking|💻
+heist planning|💰
+hidden-object searching|🔍
+hotel management|🏨
+hunting|🏹
+idle progression|💤
+incremental progression|📈
+incremental/clicker|👆
+inventory management|🎒
+investigation|🔎
+learning mechanics|🎓
+life simulation|🏠
+lockpicking|🔓
+logistics|📦
+machine operation|🎛️
+maintenance work|🧰
+management|📊
+management/tycoon|💼
+match-3|💎
+medical diagnosis|🩺
+melee combat|⚔️
+merging|🧬
+mining|⛏️
+monster hunting|🐉
+museum curation|🏛️
+music performance|🎸
+narrative|📜
+negotiation|🤝
+object stacking|🧱
+packing orders|📦
+painting|🎨
+parkour|🤸
+party rpg combat|🧙
+party rpg systems|🛡️
+pet care|🐶
+photography|📸
+physics interaction|⚛️
+physics manipulation|🧲
+pipeline routing|🚰
+platforming|🦘
+political management|🏛️
+power management|🔋
+power-grid restoration|⚡
+precision platforming|🎯
+projectile dodging|💨
+puzzle platforming|🧩
+puzzles|🧩
+quality inspection|🔍
+quiz/knowledge|❓
+racing|🏁
+railway building|🛤️
+real-time strategy|🏰
+relationship choices|💞
+repairing|🔧
+rescue operations|🛟
+resource management|📦
+restaurant management|🍽️
+rhythm|🎵
+rhythm play|🥁
+ritual casting|🕯️
+road building|🛣️
+robot assembly|🦾
+robot programming|🤖
+role-playing systems|🧙
+sailing|⛵
+salvaging|♻️
+sculpting|🗿
+security monitoring|📹
+ship management|🚢
+shooting|🎯
+shopkeeping|🏪
+simulation|🖥️
+skating|⛸️
+skiing|⛷️
+smuggling|🕶️
+social deduction|🕵️
+solitaire/card play|🂡
+sorting|🗂️
+spacecraft operation|🚀
+spell combination|✨
+spell crafting|🪄
+sports mechanics|🏅
+strategy|♟️
+submarine piloting|🛥️
+sudoku|🔢
+summoning|🔮
+surgery|🩻
+survival|🔥
+swimming|🏊
+systemic problem solving|🧠
+tennis|🎾
+terraforming|🌋
+thieving|🦝
+tower defense|🏰
+trading|💱
+traffic management|🚦
+train operation|🚆
+transport planning|🚌
+transport/logistics|🚛
+treasure hunting|🪙
+turn-based combat|♟️
+turn-based strategy|♟️
+turn-based tactics|🎖️
+typing|⌨️
+vehicle customization|🏎️
+vehicle repair|🔧
+vehicular combat|🚙
+visual novel|📖
+water management|💧
+wave defense|🌊
+weapon smithing|⚒️
+word puzzles|🔤
+wrestling|🤼
+building|🏗️
+deckbuilding|🃏
+farming|🌱
+physics destruction|💥
+stealth|🥷
+## ENVIRONMENT
+abandoned infrastructure|🏚️
+alien planet|🪐
+archipelago|🏝️
+arctic|🧊
+ash-covered landscape|🌫️
+asteroid surface|☄️
+badlands|🏜️
+biomes|🌎
+blizzard|🌨️
+buried ruins|🏺
+canyon|🌄
+cave|🕳️
+coast|🏖️
+coral reef|🪸
+darkness|🌑
+deep sea|🐙
+deep underground|⛏️
+dense forest|🌲
+dense urban|🏙️
+desert|🏜️
+digital environment|💾
+dreamscape|💭
+drought landscape|☀️
+dynamic weather|🌦️
+extreme cold|🥶
+extreme heat|🥵
+farmland|🌾
+floating islands|🏝️
+flooded landscape|🌊
+flooded ruins|🏛️
+fog-heavy landscape|🌫️
+forest|🌳
+forest reclaiming city|🌿
+geothermal|♨️
+giant interior space|🏟️
+glacier|🧊
+grasslands|🌾
+heavy rain|🌧️
+highlands|⛰️
+ice reclaiming city|❄️
+industrial|🏭
+island|🏝️
+jungle|🌴
+lake district|🚣
+lava caves|🌋
+liminal spaces|🚪
+low gravity|🪶
+mars-like desert|🔴
+marsh|🐸
+miniature domestic world|🏠
+monsoon|☔
+moon surface|🌕
+mountains|🏔️
+northern wilderness|🌲
+open ocean|🌊
+orbital exterior|🛰️
+overgrown ruins|🌿
+permanent night|🌌
+post-disaster landscape|🏚️
+procedural world|🎲
+radioactive wasteland|☢️
+rainforest|🦜
+river delta|🦩
+river valley|🛶
+rocky coast|🪨
+ruins|🏛️
+rural|🚜
+salt flats|🧂
+sand dunes|🐪
+sand reclaiming city|🏜️
+sandstorm|🌪️
+savanna|🦒
+seasons|🍂
+snowy mountains|🏔️
+space void|🌌
+storm zone|⛈️
+suburban|🏡
+swamp|🐊
+taiga|🌲
+toxic wasteland|☣️
+tropical coast|🌴
+tundra|❄️
+underwater|🐠
+urban|🏙️
+urban decay|🏚️
+volcanic|🌋
+war-torn landscape|💥
+wetlands|🦆
+wilderness|🏕️
+zero gravity|🧑‍🚀
+## INTERACTION
+aimed shooting|🎯
+assembly|🔩
+auction bidding|🔨
+automation logic|🤖
+bartering|🧺
+base building|🏗️
+block pushing|🧱
+board placement|♟️
+building|🏗️
+burning belongings|🔥
+button/switch panels|🎛️
+buy/sell decisions|💱
+cable connection|🔌
+campfire fueling|🪵
+card placement|🃏
+card stacking|🎴
+cleaning surfaces|🧽
+climbing|🧗
+code breaking|🔐
+color mixing|🎨
+combo inputs|🎮
+construction|🚧
+conversation choices|💬
+conveyor building|🏭
+cooking|🍳
+cooking manipulation|🥘
+crafting|🔨
+crane controls|🏗️
+cutting materials|✂️
+destructible environment|💥
+destructible objects|🏺
+detective evidence linking|🧵
+dialogue choices|💬
+dialogue wheel|🗨️
+diplomacy|🕊️
+direct object grabbing|✋
+disassembly|🪛
+divine boons|🙏
+diving|🤿
+drag and carry|🛒
+drag-and-drop ui|🖱️
+drawing shapes|✏️
+environmental puzzle interaction|🧩
+fishing|🎣
+flight controls|✈️
+fluid pumping|💧
+forklift controls|🚜
+free-aim melee|🗡️
+freeform building|🧱
+gauge balancing|⚖️
+gesture input|👋
+gliding|🪂
+grappling traversal|🪝
+gravity reversal|🙃
+grid inventory decisions|🎒
+hacking minigames|💻
+hidden-role communication|🤫
+hose connection|🚿
+hunting|🏹
+inventory decisions|🎒
+inventory tetris|🧳
+item rotation|🔄
+lever operation|🕹️
+lock-on melee|⚔️
+lockpicking|🔓
+log pushing|🪵
+logic gates|🔀
+machine calibration|🎚️
+manual cranking|⚙️
+manual navigation|🧭
+manual pumping|⛽
+manual tool use|🛠️
+map annotation|🗺️
+mining|⛏️
+molecule assembly|🧪
+momentum traversal|💨
+movement mastery|🏃
+multiple-solution interactions|🔀
+packing objects|📦
+painting surfaces|🖌️
+parkour movement|🤸
+parry/dodge timing|🛡️
+photography|📸
+physics manipulation|🧲
+pickpocketing|👛
+pipe routing|🚰
+placing objects precisely|📏
+planting|🌱
+plug-and-socket connection|🔌
+point-and-click|👆
+production scheduling|🗓️
+proximity voice interaction|🎙️
+recipe mixing|🥣
+relationships|💞
+remote drone control|🚁
+repairing components|🔧
+resource allocation|📊
+rhythm timing|🥁
+robot programming|🤖
+rope interaction|🪢
+rotational tightening|🔩
+route planning|🗺️
+sailing controls|⛵
+scanning/inspection|🔍
+scavenging|🗑️
+skiing/skating|⛷️
+snap-grid building|🔲
+snowman building|⛄
+sorting objects|🗂️
+spell aiming|🪄
+spell combination|✨
+stacking objects|🧱
+stealth takedowns|🥷
+steering heavy vehicles|🚛
+summon placement|🔮
+swimming|🏊
+telekinesis|🫳
+terminal commands|⌨️
+terrain editing|⛰️
+throwing objects|🤾
+tile placement|🀄
+traffic planning|🚦
+train controls|🚆
+trap placement|🪤
+turret placement|🗼
+two-player carry|🛋️
+typing commands|⌨️
+user-generated content|🧰
+valve turning|🚰
+vehicle control|🚗
+vertical traversal|🧗
+voxel digging|⛏️
+welding|👨‍🏭
+wiring circuits|🔌
+worker assignment|👷
+## LOCATION
+abandoned city|🏚️
+abandoned factory|🏭
+abandoned resort|🏨
+airbase|🛩️
+airplane|✈️
+airport|🛫
+airship|🎈
+alien megastructure|🛸
+amusement park|🎢
+ancient ruins|🏛️
+apartment block|🏢
+apartment tower|🏢
+aquarium|🐠
+archaeological dig|🏺
+archipelago|🏝️
+arctic outpost|🧊
+asteroid mine|☄️
+automated factory|🏭
+backstage complex|🎭
+bakery plant|🥖
+bank|🏦
+beach resort|🏖️
+border checkpoint|🛂
+brewery|🍺
+bridge|🌉
+bunker|🛡️
+buried city|🏺
+bus depot|🚌
+canyon facility|🏞️
+cargo ship|🚢
+casino|🎰
+castle|🏰
+catacombs|💀
+cathedral|⛪
+cave system|🕳️
+cemetery|🪦
+chemical plant|🧪
+cinema|🎬
+clinic|🏥
+cloud city|☁️
+coastal town|🏘️
+cold storage facility|🥶
+colony ship|🚀
+construction site|🚧
+container port|🚢
+corporate campus|🏢
+courthouse|⚖️
+cruise ship|🛳️
+customs terminal|🛃
+damaged coastal complex|🏚️
+data center|🖥️
+deep cave|🕳️
+delivery hub|📦
+derelict spaceship|🛸
+desert convoy stop|🚚
+desert research camp|⛺
+desert town|🏜️
+disaster shelter|🛡️
+distillery|🥃
+distribution center|📦
+dream hotel|🛌
+dry dock|⚓
+dungeon|🗝️
+factory|🏭
+farm|🚜
+farmhouse|🏡
+film studio|🎬
+fire station|🚒
+fishing port|🎣
+fleet depot|🚛
+floating city|🏙️
+floating platform|🛟
+flooded city|🌊
+food processing plant|🥫
+forest camp|🏕️
+fortress|🏯
+foundry|🔥
+freight train|🚂
+garage|🔧
+gas plant|🏭
+gas station|⛽
+generation ship|🚀
+ghost town|👻
+giant tree interior|🌳
+giant vehicle|🚜
+glacier station|🧊
+greenhouse complex|🪴
+harbor|⚓
+highway interchange|🛣️
+highway rest stop|🅿️
+hospital|🏥
+hotel|🏨
+hydroelectric dam|💧
+icebreaker|🚢
+industrial district|🏭
+inside a computer|💾
+inside a creature|🫀
+inside a machine|⚙️
+island|🏝️
+jungle ruins|🗿
+junkyard|🗑️
+laboratory|🔬
+laundromat|🧺
+library|📚
+lighthouse|🗼
+liminal office complex|🏢
+logging camp|🪓
+luxury mansion|🏛️
+magic academy|🪄
+mars base|🔴
+megacity block|🌆
+metro tunnels|🚇
+military base|🎖️
+mine|⛏️
+missile silo|🚀
+mobile fortress|🏯
+monastery|⛩️
+moon base|🌕
+motel|🛏️
+mountain facility|🏔️
+mountain town|🏘️
+moving caravan|🐫
+moving train|🚆
+museum|🏛️
+newsroom|📰
+nightclub|🪩
+nuclear-style power complex|☢️
+observatory|🔭
+office tower|🏢
+offshore platform|🛢️
+oil refinery|🛢️
+oil rig|🛢️
+old manor|🏚️
+open-pit quarry|⛏️
+orbital station|🛰️
+parking garage|🅿️
+particle accelerator|⚛️
+planetary colony|🪐
+police station|🚓
+portal facility|🌀
+post office|📮
+power plant|⚡
+prison|⛓️
+pumping station|🚰
+quarantine facility|☣️
+radio station|📻
+radio tower complex|📡
+rail yard|🛤️
+ranch|🐄
+recycling plant|♻️
+repair depot|🔧
+research station|🔬
+research vessel|🚢
+restaurant|🍽️
+roadside diner|🍔
+rooftop district|🏙️
+salvage yard|♻️
+satellite station|📡
+sawmill|🪚
+school|🏫
+scrapyard|🗑️
+seaside town|🏖️
+server farm|🖥️
+sewer system|🐀
+shipyard|⚓
+shopping mall|🛍️
+ski resort|🎿
+skyscraper|🏙️
+slum|🏚️
+small town|🏘️
+space station|🛰️
+spacecraft|🚀
+spaceport|🚀
+sports center|🏋️
+stadium|🏟️
+steel mill|🔥
+storm drains|🌧️
+submarine|🛥️
+suburban neighborhood|🏡
+subway station|🚇
+summer camp|⛺
+supermarket|🛒
+swamp settlement|🛖
+teleport hub|🌀
+temple|🛕
+theater|🎭
+theme hotel|🏨
+train station|🚉
+train-city|🚆
+treehouse settlement|🌳
+tunnel network|🚇
+tv station|📺
+underground city|🏙️
+underground mine|⛏️
+underground shelter|🛡️
+underground utility tunnels|🚇
+underwater|🐠
+underwater base|🫧
+underwater city|🐚
+university campus|🎓
+vault|🏦
+village|🏘️
+vineyard|🍇
+volcano facility|🌋
+warehouse|📦
+water park|🛝
+water treatment plant|💧
+weather station|🌡️
+wetland station|🦆
+wizard tower|🧙
+workshop|🛠️
+zoo|🦁
+## MONETIZATION
+ads|📺
+free complete game|🎁
+free demo with full-game unlock|🔓
+free-to-play|🆓
+in-app purchases|💳
+one-time purchase|🏷️
+optional content expansions|➕
+optional cosmetic purchases|👕
+pay what you want|🫙
+premium|👑
+## MULTIPLAYER
+1-vs-many|🎯
+2-player co-op|👫
+3-player co-op|👨‍👩‍👦
+4-player co-op|👨‍👩‍👧‍👦
+4-player local|🛋️
+6-player co-op|6️⃣
+8-player co-op|8️⃣
+asymmetric multiplayer|⚖️
+co-op|🤝
+co-op with friendly fire|💥
+co-op with separate roles|🧩
+co-op with shared resources|🎁
+competitive multiplayer|🏆
+cooperative/ai opposition|🤖
+cross-platform multiplayer|🔗
+drop-in/drop-out co-op|🚪
+free-for-all pvp|💢
+hidden-role multiplayer|🎭
+hot-seat multiplayer|🪑
+local co-op|🛋️
+local multiplayer|🎮
+massively multiplayer|🌐
+multiplayer|🧑‍🤝‍🧑
+offline/singleplayer-friendly|📴
+online co-op|🌐
+online multiplayer|📶
+party multiplayer|🎉
+persistent multiplayer|🌍
+single-player|🧑
+singleplayer|🧑
+social-deduction multiplayer|🕵️
+solo or co-op|🧑‍🤝‍🧑
+solo with ai companions|🤖
+spectator-supported multiplayer|👀
+split-screen multiplayer|🖥️
+team pvp|⚔️
+## OTHER
+1980s|📼
+1990s|💿
+2d fighter|🥋
+2d platformer|🦘
+3d fighter|🥊
+action|💥
+action rts|🏰
+action-adventure|🗡️
+adventure|🧭
+agriculture|🌾
+alternate history|📜
+arcade|🕹️
+artificial intelligence|🤖
+assassin|🗡️
+asynchronous multiplayer|📨
+automobile sim|🚗
+baseball|⚾
+based on a novel|📕
+basketball|🏀
+board game|🎲
+boomer shooter|🔫
+boxing|🥊
+bullet time|⏱️
+capitalism|💵
+card|🃏
+casino|🎰
+casual|☕
+choose your own adventure|🔀
+co-op campaign|🤝
+cold war|☢️
+combat racing|🏎️
+comic book|💬
+competitive|🏆
+conspiracy|👁️
+conversation|💬
+dark comedy|🃏
+demons|😈
+dice|🎲
+diplomacy|🕊️
+dog|🐕
+drama|🎭
+dungeons & dragons|🐉
+dwarf|⛏️
+educational|🎓
+episodic|📺
+escape room|🚪
+esports|🏆
+fast-paced|⚡
+football (american)|🏈
+football (soccer)|⚽
+gambling|🎰
+game development|👾
+games workshop|🎨
+god game|☁️
+golf|⛳
+gothic|🦇
+grid-based movement|🔲
+gun customization|🔫
+heist|💰
+hex grid|🐝
+hobby sim|🧶
+hockey|🏒
+horses|🐎
+illuminati|👁️
+jet|🛩️
+job simulator|💼
+lego|🧱
+lgbtq+|🏳️‍🌈
+logic|🧠
+lore-rich|📚
+magic|🪄
+mahjong|🀄
+mars|🔴
+martial arts|🥋
+mechs|🦾
+mini golf|⛳
+minigames|🎪
+moba|🗼
+motocross|🏍️
+motorbike|🏍️
+music|🎵
+musou|⚔️
+mystery dungeon|🗝️
+mythology|🏛️
+narration|🎙️
+narrative|📜
+naval combat|⚓
+ninja|🥷
+nonlinear|🔀
+offroad|🚙
+open world survival craft|🪓
+parody|🤡
+party|🎉
+party-based rpg|🧙
+point & click|👆
+political sim|🏛️
+politics|🗳️
+programming|💻
+psychological|🧠
+puzzle|🧩
+racing|🏁
+real time tactics|🎖️
+real-time|⏱️
+real-time with pause|⏸️
+robots|🤖
+rock music|🎸
+role playing|🧙
+romance|💘
+rome|🏛️
+rpgmaker|🛠️
+runner|🏃
+sailing|⛵
+satire|🤡
+shop keeper|🏪
+silent protagonist|🤐
+simulation|🖥️
+skateboarding|🛹
+sniper|🎯
+snowboarding|🏂
+space sim|🚀
+spectacle fighter|💫
+sports|🏅
+strategy|♟️
+strategy rpg|🎖️
+submarine|🛥️
+tabletop|🎲
+tactical|🎖️
+tactical rpg|🛡️
+tanks|🪖
+team-based|👥
+thriller|😱
+time attack|⏱️
+time travel|⌛
+top-down shooter|🔫
+trading card game|🎴
+traditional roguelike|💀
+trains|🚂
+transhumanism|🦾
+trivia|❓
+turn-based|🔁
+underground|🕳️
+unforgiving|☠️
+vampire|🧛
+villain protagonist|😈
+voice control|🎙️
+walking simulator|🚶
+wargame|🪖
+warhammer 40k|💀
+word|🔤
+wrestling|🤼
+fighting|🥋
+## PLATFORM_TRAIT
+interruptible short sessions|⏸️
+landscape orientation|↔️
+offline-first play|📴
+one-button input|🔘
+playable without sound|🔇
+portrait orientation|📲
+remappable controls|🎮
+touch-first controls|👆
+## PRESSURE
+ammo scarcity|🔫
+battery drain|🪫
+body recovery risk|💀
+cold exposure|🥶
+combo decay|📉
+communication limits|📵
+contamination|☣️
+countdown timer|⏲️
+crew conflict|😠
+customer queue|🧍
+day/night danger shift|🌗
+deadline/contracts|📅
+debt/quota pressure|💸
+delivery deadlines|📦
+dense projectile pressure|☄️
+detection avoidance|👀
+disease risk|🦠
+dwindling sanity|😵‍💫
+economic upkeep|🧾
+enemy hordes|🧟
+enemy waves|🌊
+escalating enemy presence|📈
+escalating waves|🌊
+fatigue|😴
+feeding companion|🦴
+fog of war|🌫️
+food scarcity|🍞
+friendly fire|💥
+fuel scarcity|⛽
+hardcore punishment|☠️
+harsh environment|🌪️
+heat buildup|🌡️
+high difficulty|🧗
+high punishment|⚔️
+horror threat|👻
+hostile creatures|🐺
+hunger and thirst|🥤
+hunger/thirst|🥤
+infection|🦠
+infection spread|🧫
+information scarcity|❔
+injury accumulation|🩹
+inventory pressure|🎒
+last-player pressure|🧍
+law enforcement response|🚓
+limited budget|💰
+limited carry slots|🎒
+limited crew capacity|👥
+limited fuel|⛽
+limited moves|👣
+limited power|🔋
+limited safe areas|🛡️
+limited storage|📦
+limited turns|🔢
+lose carried loot on death|💀
+machine breakdown risk|💢
+maintenance costs|🧾
+market fluctuations|📉
+morale collapse|😞
+moving hazard zone|⚠️
+nightfall danger|🌙
+no-save sections|🚫
+noise attracts danger|🔊
+noise attracts enemies|🔊
+objective escalation|📈
+one-way progression|⬆️
+optional greed vs safety|🤑
+overheating systems|🔥
+oxygen scarcity|🫁
+oxygen supply|🫧
+patrol routes|👮
+permadeath|💀
+player competition|🏆
+precision execution|🎯
+production backlog|📚
+projectile avoidance|💨
+pursuer pressure|🏃
+quality degradation|📉
+radiation exposure|☢️
+rent/taxes|🧾
+reputation risk|⭐
+resource scarcity|🪫
+retreat risk|🏳️
+revive timer|⏲️
+rising water|🌊
+risk/reward extraction|💎
+route uncertainty|❓
+sanity/stress|😰
+save-point scarcity|💾
+scarce resources|🪫
+score decay|📉
+separation risk|↔️
+shrinking safe zone|⭕
+shrinking/last-player pressure|⭕
+spoilage|🦠
+spreading fire|🔥
+stalking enemy|👁️
+stealth detection|👁️
+storm approaching|⛈️
+structural collapse risk|🏚️
+survival|🔥
+survival needs|🍖
+suspicion meter|🤨
+time limit|⌛
+time pressure|⏰
+toxic atmosphere|☣️
+traffic congestion|🚗
+unknown map|❓
+unstable power grid|⚡
+visibility/detection pressure|🔦
+wanted level|⭐
+water scarcity|💧
+wave defense|🌊
+weather deterioration|🌩️
+weight pressure|🏋️
+debt|💸
+hunger|🍎
+pursuit|🚨
+resource decay|🥀
+timer|⏱️
+## PROGRESSION
+ability-gated progression|🔑
+achievement-based unlocks|🏆
+automation scaling|🤖
+base growth|🏗️
+blueprint progression|📐
+branching unlocks|🌿
+build customization|🛠️
+business growth|💼
+card collection|🎴
+carry-capacity upgrades|🎒
+character customization|🧑‍🎨
+character stat progression|📊
+checkpoint progression|🚩
+city growth|🏙️
+class/build progression|🧙
+collection completion|✅
+collection progression|📚
+colony growth|🏘️
+companion progression|🐕
+cosmetic collection|👒
+crafting mastery|🔨
+crafting quality mastery|💎
+crew progression|👥
+deck growth|🃏
+difficulty tier progression|📶
+empire progression|👑
+equipment progression|🛡️
+exponential growth|🚀
+facility restoration|🔧
+faction progression|🚩
+factory/system scaling|🏭
+farm growth|🌾
+gear-score progression|⚙️
+hero/ability progression|🦸
+incremental growth|🔼
+inventory expansion|🧳
+knowledge progression|📖
+legacy/generational progression|🌳
+level-based progression|🆙
+long-form empire progression|🏰
+loot-driven progression|💰
+map knowledge progression|🗺️
+meta progression|♾️
+mobile-base expansion|🚚
+money-based upgrades|💵
+mutations|🧬
+new biome unlocks|🌍
+new mission tier unlocks|🎖️
+new route unlocks|🛤️
+passive growth|🌱
+permadeath inheritance|🪦
+persistent upgrades|⬆️
+pet progression|🐾
+player-skill-only progression|🎯
+prestige/reset progression|🔁
+profession mastery|🧑‍🔧
+rank/league progression|🥇
+recipe discovery|📜
+relationship progression|💞
+reputation progression|⭐
+research progression|🔬
+resource-investment upgrades|🪙
+rpg progression|🧙
+run deck growth|🃏
+run reset/progression|🔁
+season progression|🗓️
+settlement growth|🏘️
+ship/base restoration|🚢
+shortcut unlocks|🚪
+skill-tree progression|🌲
+story unlock progression|📖
+team composition progression|👥
+technology tree|🔬
+territory expansion|🗺️
+tool upgrade progression|🛠️
+unlock progression|🔓
+upgrade progression|⬆️
+vehicle upgrade progression|🏎️
+weapon upgrade progression|🗡️
+weapon upgrades|🗡️
+world restoration|🌱
+## SCOPE
+compact handcrafted challenge set|🧩
+large|🏔️
+limited tool set with systemic depth|🧰
+medium|⛰️
+one mechanic with variations|🔂
+reusable modular levels|🧱
+short self-contained experience|⏱️
+single environment with changing rules|🔄
+single-room prototype|🚪
+small|🪨
+small cast of characters|👥
+## SECONDARY_MECHANIC
+air dash|💨
+ammo scarcity|🔫
+auction/trading|🔨
+auto battler|🤖
+automatic combat|⚔️
+automation|🤖
+bartering|🤝
+base building|🏗️
+base decoration|🖼️
+base defense|🛡️
+base upgrades|⬆️
+blueprint discovery|📐
+body recovery|💀
+bounties|📜
+branching dialogue|🗨️
+building|🏗️
+building and crafting|🔨
+camp building|⛺
+cannibalization|🦴
+cargo logistics|📦
+character abilities|✨
+character customization|🧑‍🎨
+climbing|🧗
+co-op roles|🧩
+code breaking|🔐
+codex discovery|📚
+collecting|🧺
+collection|🗃️
+collection completion|✅
+combo combat|👊
+companion management|🐕
+conveyor routing|🏭
+cooking|🍳
+cooking minigame|🥘
+cosmetics collection|👒
+crafting minigame|⚒️
+crafting recipes|📜
+crew management|👥
+customization|🎨
+daily tasks|📅
+day/night cycle|🌗
+delivery contracts|📦
+destruction|💥
+dialogue interaction|🗣️
+dice allocation|🎲
+disease system|🦠
+dynamic weather|🌦️
+economy simulation|🪙
+electricity routing|⚡
+emergent incidents|🚨
+environmental storytelling|🏚️
+equipment loadouts|🎽
+exploration|🧭
+faction relations|🚩
+faction reputation|⭐
+factory automation|🏭
+farming|🌾
+fatigue|😴
+fire propagation|🔥
+fishing|🎣
+fishing minigame|🐟
+fluid routing|💧
+fog of war|🌫️
+fortification|🧱
+friendly fire|💥
+fuel management|⛽
+gliding|🪂
+grappling-hook traversal|🪝
+hacking|💻
+hidden roles|🎭
+home decoration|🛋️
+hunger/thirst|🥤
+injury system|🩹
+inventory tetris|🧳
+level creation|🧰
+limited carry slots|🎒
+lockpicking|🔓
+loot collection|💰
+loot combinations|🧬
+machine maintenance|🧰
+map drawing|🗺️
+meaningful choices|🔀
+meta unlocks|🔓
+modding support|🔧
+morality choices|😇
+mount system|🐎
+multiple endings|🏁
+noise system|🔊
+order fulfillment|🧾
+parkour traversal|🤸
+parry/dodge timing|🛡️
+party composition|👥
+permadeath mode|💀
+pet system|🐾
+photography|📸
+physics|⚛️
+physics interaction|🧲
+procedural generation|🎲
+production chains|⛓️
+proximity voice|🎙️
+puzzle locks|🧩
+quests/contracts|📜
+quick-time events|⚡
+random events|🎲
+relationship system|💞
+repair minigames|🔧
+reputation system|⭐
+research tree|🔬
+resource extraction|⛏️
+resource management|📊
+revive system|💗
+rhythm minigames|🎵
+route planning|🗺️
+salvage collection|♻️
+sanity/stress|😰
+season cycle|🍂
+secret hunting|🔍
+shift planning|🗓️
+shop management|🏪
+skill loadouts|🎽
+stamina management|🔋
+stealth gadgets|🥷
+survival|🔥
+swimming/diving|🤿
+technology unlocks|🔬
+temperature system|🌡️
+temporary repairs|🩹
+time management|⏰
+traffic routing|🚦
+train scheduling|🚆
+trap placement|🪤
+turn-based combat|♟️
+undo|↩️
+user-generated content|🧰
+vehicle customization|🏎️
+vehicle maintenance|🔧
+vehicle ownership|🚗
+visibility system|👁️
+water simulation|💧
+weapon customization|🔫
+weapon durability|🗡️
+weapon scavenging|🔫
+weight limits|⚖️
+worker assignment|👷
+world events|🌍
+crafting|🔨
+dialogue choices|💬
+inventory management|🎒
+logistics|📦
+repair|🔧
+## SETTING
+abandoned infrastructure|🏚️
+afterlife|👼
+alien ocean|🐙
+alien planet|🪐
+aliens|👽
+alternate history|📜
+ancient egypt|🐫
+ancient greece|🏛️
+ancient rome|🏛️
+ancient world|🏺
+animal society|🦊
+archaeological expedition|🏺
+atompunk|⚛️
+biopunk|🧬
+buried city|🏺
+caravan world|🐫
+cassette futurism|📼
+cold war|☢️
+colonial frontier|⛵
+corporate world|🏢
+cosmic horror|🐙
+countryside|🌾
+crime/underworld|🕴️
+cyberpunk|🤖
+cyberpunk city|🌃
+dark fantasy|🦇
+deep-sea expedition|🤿
+dieselpunk|🛢️
+dinosaurs|🦖
+dragons/fantasy|🐉
+dream world|💭
+dying world|🥀
+dystopian|📹
+fairy tale|🧚
+fantasy|🧙
+feudal japan|🏯
+floating city|🏙️
+floating islands|🏝️
+flooded city|🌊
+forest|🌳
+frontier settlement|🛖
+futuristic|🛸
+generation ship|🚀
+giant-scale world|🦕
+gothic horror|🦇
+greek underworld|🔱
+high fantasy|🐉
+historical|📜
+horror|👻
+industrial revolution|🏭
+inside a computer|💾
+interstellar colony|🪐
+iron age|🗡️
+isolated community|🏘️
+lovecraftian|🐙
+low fantasy|⚔️
+magical academy|🪄
+mars colony|🔴
+medieval|🏰
+megacity|🌆
+military|🪖
+miniature world|🔍
+modern|🏙️
+modern america|🗽
+monster society|👹
+moon colony|🌕
+moving world|🚂
+mythology|🏛️
+naval|⚓
+near future|🔮
+nomadic society|⛺
+norse afterlife|🪓
+occult conspiracy|🕯️
+ocean civilization|🐚
+orbital habitat|🛰️
+parallel world|🪞
+pirates|🏴‍☠️
+polar expedition|🐧
+post-apocalyptic|☢️
+post-collapse civilization|🏚️
+post-human world|🤖
+prehistoric|🦣
+renaissance|🎨
+research expedition|🔬
+restored world|🌱
+retrofuturistic|🚀
+road trip|🚐
+robot civilization|🤖
+ruined civilization|🏛️
+samurai era|⛩️
+school life|🏫
+sci-fi|🚀
+sci-fi colony|🪐
+science fantasy|🔮
+science fiction|🚀
+science/technology|🔬
+secret government facility|🕶️
+simulation world|💾
+small-town life|🏘️
+solarpunk|☀️
+space|🌌
+space colony|🪐
+space frontier|🚀
+steampunk|⚙️
+superheroes|🦸
+supernatural|👻
+time-travel setting|⌛
+underground civilization|🕳️
+underwater|🐠
+underwater/ocean|🌊
+underworld|🔥
+university life|🎓
+urban fantasy|🧛
+utopian|🌈
+vertical city|🏙️
+victorian|🎩
+vikings|🪓
+virtual world|🥽
+war|💣
+western|🤠
+wild west|🤠
+wilderness/nature|🏕️
+workplace|💼
+world war i|🪖
+world war ii|✈️
+zombie apocalypse|🧟
+abandoned factory|🏭
+endless train|🚂
+forest village|🌲
+space station|🚀
+underwater lab|🌊
+## STRUCTURE
+arena matches|🏟️
+asymmetric rounds|⚖️
+battle-royale matches|🪂
+boss-rush structure|👹
+branching campaign|🌿
+branching narrative|🔀
+build-defend-expand loop|🔁
+campaign with new game+|➕
+caravan journey|🐫
+chapter structure|📑
+checkpoints|🚩
+co-op missions|🤝
+daily cycle|🌅
+day/job/day loop|🔁
+delivery route loop|🔁
+dungeon runs|🗝️
+emergent stories|📖
+endless mode|♾️
+endless score run|♾️
+episodic campaign|📺
+expedition runs|🎒
+explore-gather-build loop|🔁
+extraction runs|🚁
+factory shift loop|🏭
+floor-by-floor descent|⬇️
+generational progression|🌳
+handcrafted levels|✋
+heist planning/execution loop|💰
+hub world|🏠
+hub-and-mission|🎯
+idle sessions|💤
+interconnected gated world|🔑
+investigate-decide-consequence loop|🔎
+island hopping|🏝️
+journey across map|🧳
+level-based progression|🆙
+linear campaign|➡️
+management calendar|🗓️
+metroidvania world|🏰
+mission-based campaign|🎯
+mobile base progression|🚚
+multiple endings|🏁
+multiple parallel objectives|📋
+narrative campaign|📖
+one central base plus excursions|🏠
+open world|🌍
+open-ended life loop|🔁
+open-ended life sim|🏠
+persistent colony timeline|🏘️
+persistent online world|🌐
+persistent world|🌍
+planet hopping|🪐
+player-built world|🧱
+prepare-execute-return loop|🔁
+prepare-extract-upgrade loop|🔁
+procedural labyrinth|🌀
+procedurally varied content|🎲
+real-time continuous simulation|⏱️
+road-trip structure|🚐
+roguelike runs|💀
+roguelite runs|🔁
+room-by-room crawl|🚪
+round-based matches|🔔
+run-based meta progression|♾️
+score-attack sessions|🏆
+seasonal cycle|🍂
+seasonal management|🗓️
+semi-open hubs|🏘️
+semi-random map sectors|🧩
+shop open/close loop|🏪
+short arcade stages|🕹️
+short contract runs|📋
+short party rounds|🎉
+short score-based sessions|🏆
+single-location evolving map|📍
+survival endurance|🔥
+time loop|🔁
+time-trial sessions|⏱️
+tower ascent|🗼
+travel-stop-travel loop|🚏
+turn-based days|📆
+wave-based sessions|🌊
+weekly cycle|📆
+work shifts|⏰
+campaign|📖
+contracts|📋
+day cycle|🌅
+sandbox|🏖️
+short runs|🔁
+## THEME
+absurd comedy|🤪
+adventure|🧭
+ai anxiety|🤖
+atmospheric|🌫️
+body horror|🫀
+body modification|🦾
+bureaucracy|🗃️
+capitalism satire|💵
+cats|🐈
+chaotic co-op|🤹
+chemistry|🧪
+colorful|🌈
+comedy|😂
+coming of age|🌱
+community building|🏘️
+conspiracy|👁️
+consumerism|🛍️
+corporate absurdity|👔
+cosmic horror|🐙
+cozy|🧸
+cozy journey|🍵
+cozy/relaxing|☕
+crime drama|🕴️
+curiosity|🔍
+cute|🥰
+dark|🌑
+dark comedy|🃏
+dark fairy tale|🍎
+decay|🥀
+detective mystery|🕵️
+discovery|💡
+dreamlike|💭
+ecological collapse|🌍
+emotional|😢
+environmentalism|🌿
+epic fantasy|🐉
+exploration|🧭
+fairy-tale wonder|🧚
+family relationships|👨‍👩‍👧
+folk horror|🌾
+found family|🫂
+friendship|🤝
+frontier adventure|🤠
+greed|🤑
+heist fantasy|💰
+heroism|🦸
+hopeful|🌅
+horror|👻
+industrial grime|🏭
+isolation|🏝️
+loneliness|🌧️
+maintenance|🧰
+media influence|📺
+meditative|🧘
+melancholy|🍂
+mundane work made dangerous|⚠️
+mystery|❓
+noir|🕵️
+occult mystery|🕯️
+optimistic|☀️
+paranoia|👀
+peaceful|🕊️
+pirate adventure|🏴‍☠️
+political intrigue|🎩
+post-human identity|🤖
+power fantasy|💪
+psychedelic|🍄
+psychological horror|🧠
+rebuilding|🧱
+redemption|🕊️
+relaxing|🌊
+restoration|🌱
+retro nostalgia|📼
+revenge|🗡️
+risk/reward|🎲
+rivalry|⚔️
+romance|💘
+satire|🤡
+school drama|🏫
+slapstick|🍌
+small-scale everyday life|🏠
+solitude|🌙
+surreal|🌀
+survival|🔥
+survival horror|🧟
+suspense|😰
+technology anxiety|📱
+thriller|😱
+tragedy|💔
+vulnerability|🥺
+war drama|🪖
+wholesome|💗
+winter whimsy|⛄
+workplace comedy|💼
+## TWIST
+all abilities come from items|🎒
+base can be lost permanently|🏚️
+base is also the main vehicle|🚚
+best reward requires making situation less safe|💎
+boss is an environmental system rather than creature|🌪️
+building rearranges during play|🔀
+camera is a game mechanic|📷
+characters remember choices|🧠
+city itself is a moving machine|🏙️
+correct solution is often slower than risky shortcut|🐢
+crafting happens by assembling real pieces|🧩
+danger follows valuable resources|💰
+darkness changes level readability|🌑
+death advances the story|💀
+debt replaces traditional experience points|💸
+dialogue happens during active gameplay|💬
+enemies are also useful resources|🦴
+enemies learn player habits|🧠
+enemy cannot be killed but can be redirected|↪️
+entire game happens on a moving train|🚂
+every enemy has one unique rule|📏
+every tool is also a weapon|🔧
+every weapon is also a tool|🪓
+everything valuable must be physically carried|🧳
+factory is also the labyrinth|🏭
+failure creates new opportunities|🌱
+feedback loops|🔁
+final objective is simply getting home|🏠
+game begins after the apocalypse is already old|🏚️
+game deliberately breaks its own interface|🪟
+gravity replaces jumping|🙃
+inventory is physically represented in the world|📦
+inventory opens as physical object|🧰
+large rooms are local mazes themselves|🌀
+level is one giant machine|⚙️
+light grants safety but attracts enemies|🔦
+light is a limited resource|🕯️
+loot can invalidate completed objectives|💎
+main objective can be dismantled for parts|🪛
+management decisions happen while action continues|⏯️
+map changes because of player systems|🗺️
+map has no minimap but uses strong landmarks|🗼
+money is hidden until the end of the run|🙈
+no permanent character upgrades|🚫
+no teleport between exterior and interior|🚪
+not every mystery has a reward|❔
+nothing is automatically extracted|✋
+one object is the center of the whole game|🎯
+one player controls logistics while others act physically|📡
+one player has different information from others|🤫
+only the base progresses|🏠
+only the world progresses|🌍
+optional work can be more valuable than mission objective|💼
+ordinary job becomes dangerous|⚠️
+player can finish task using parts stolen from optional systems|🦝
+player chooses when to wake the facility|⏰
+player inherits previous crews mistakes|📜
+player manages a place but performs all work manually|🧹
+player repairs the world instead of conquering it|🩹
+player works for an organization they never see|🕴️
+players can intentionally cause disasters for profit|🔥
+players can split but communication becomes harder|📵
+players create most of the disasters themselves|💥
+players decide when run is over|🏳️
+players draw their own map|✏️
+players see different versions of reality|🪞
+powering lights also powers threats|💡
+previous failed runs leave physical traces|👣
+progress comes only from knowledge|📖
+progress resets but knowledge remains|🧠
+quests are generated from current world state|📜
+resources are other machines/components|🔩
+restoring infrastructure opens new hazards|🏗️
+roles are defined only by equipment|🎽
+routes change after accidents|🚧
+safe area slowly disappears|⭕
+safe-looking rooms can become dangerous after blackout|🔌
+secondary exits can emerge far from the vehicle|🚪
+shop remains open during disasters|🏪
+some dead ends contain absolutely nothing|🕳️
+sound is the primary navigation tool|👂
+team can leave at almost any time|🚁
+temporary repair may fail later|🩹
+the environment is the enemy|🌋
+the game takes place during one long shift|⏰
+the map is physically continuous from base to dungeon|🛤️
+the safest route gives the smallest reward|🐌
+the ui exists physically in the world|🖥️
+time follows movement|🏃
+time never pauses even in menus|⏳
+time only advances when player acts|⏯️
+turning systems on makes map more dangerous|🔛
+two gameplay loops feed each other|♻️
+vehicle is the extraction boundary|🚐
+victory increases future obligations|📈
+whole campaign happens in one evolving location|📍
+world generation uses real functional dependencies|🔗
+world has no traditional enemies|☮️
+world moves while player stays put|🌐
+world reacts to noise physically|🔊
+you can steal parts from working systems|🦝
+you know the goal but not the exact reward|🎁
+any machine can break|💢
+every upgrade has a price|⚖️
+items remember their owners|🗝️
+player runs the enemy economy|♟️
+the world changes every night|🌙
+## VISUAL
+1-bit|⬛
+1-bit pixel art|◾
+2.5d|🧊
+2d|🖼️
+3d|🧊
+anime stylized|🌸
+ascii-like|🔣
+biopunk visual|🧬
+black-and-white|🎞️
+bright colorful|🌈
+cartoon stylized|🖍️
+cassette-futurist|📼
+cel-shaded|✏️
+cinematic presentation|🎬
+clay-like|🏺
+clean sci-fi|🛸
+colorful|🌈
+comic halftone|💥
+comic-book|💬
+crt-filtered|📺
+cute/chibi|🧸
+dark fantasy visual|🦇
+dark low-visibility|🌑
+dieselpunk|🛢️
+dirty utilitarian|🔧
+dreamlike|💭
+flat-shaded|🔷
+fog-heavy|🌫️
+full-motion video|📹
+gothic|🦇
+hand-drawn|✍️
+hand-painted 3d|🖌️
+high-contrast lighting|🌗
+high-res pixel art|🟦
+industrial grime|🏭
+ink-drawn|🖋️
+isometric diorama|🔷
+liminal|🚪
+limited palette|🟥
+low-poly 3d|🔺
+low-resolution 3d|🧱
+miniature diorama|🏘️
+minimalist|⚪
+mixed 2d/3d|🔀
+modular industrial|🏗️
+n64-style 3d|🕹️
+neon|💜
+noir|🕵️
+oil-painting look|🖼️
+paper cutout|✂️
+photogrammetry-inspired|📸
+photorealistic|📷
+pixel art 2d|👾
+pixelated 3d|🟫
+plastic toy-like|🧸
+pre-rendered backgrounds|🖼️
+ps1-style 3d|👾
+ps2-era 3d|💿
+psychedelic|🍄
+realistic|📷
+realistic 3d|🧍
+retro|📼
+retro 3d|💾
+retro sci-fi|🚀
+rusty industrial|⚙️
+silhouette art|👤
+soft cozy lighting|🕯️
+solarpunk visual|☀️
+steampunk visual|⚙️
+storybook|📖
+stylized|✨
+surreal|🌀
+synthwave|🌆
+text-based|📝
+vaporwave|🗿
+vector art|📐
+vhs-filtered|📼
+voxel 3d|🧊
+voxel/blocky 3d|🟩
+watercolor|🖌️
+hand-painted world|🖌️
+monochrome|◐
+pixel art|🟪
+ps1 low-poly|👾
+voxels|🧊
+## WORLD
+abandoned civilization|🏚️
+afterlife|👼
+alien invasion|🛸
+alternate history|📜
+ancient|🏺
+animal civilization|🦊
+atompunk|⚛️
+biopunk|🧬
+cold war|☢️
+corporate dystopia|🏢
+cosmic horror|🐙
+crime underworld|🕴️
+cyberpunk|🌃
+dark fantasy|🦇
+dieselpunk|🛢️
+dream reality|💭
+dying world|🥀
+dystopian|📹
+fairy tale|🧚
+fantasy|🧙
+far future|🌌
+floating-island civilization|🏝️
+frontier civilization|🛖
+generation-ship society|🚀
+giant world|🦕
+high fantasy|🐉
+industrial era|🏭
+interstellar empire|👑
+isolated society|🏘️
+magic-and-technology|🔮
+medieval|🏰
+military conflict|🪖
+miniature world|🔍
+modern|🏙️
+mysterious ancient civilization|🗿
+mythological|🏛️
+near future|🔮
+new colony world|🪐
+nomadic world|⛺
+ocean civilization|🐚
+parallel universe|🪞
+pirate age|🏴‍☠️
+post-apocalyptic|☢️
+post-collapse|🏚️
+post-human future|🤖
+prehistoric|🦣
+renaissance|🎨
+retro-future|🚀
+robot civilization|🤖
+samurai era|⛩️
+school contemporary|🏫
+science fiction|🚀
+simulation world|💾
+small-town contemporary|🏘️
+solarpunk|☀️
+space frontier|🚀
+steampunk|⚙️
+superhero world|🦸
+supernatural|👻
+time travel|⌛
+underground civilization|🕳️
+urban fantasy|🧛
+utopian|🌈
+victorian|🎩
+viking age|🪓
+virtual reality|🥽
+wild west|🤠
+workplace contemporary|💼
+world being rebuilt|🧱
+world war i|🪖
+world war ii|✈️
+zombie apocalypse|🧟

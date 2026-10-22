@@ -194,6 +194,7 @@ private val Tag.aliasKey: String?
 val Tag.displayIcon: String
     get() = icon.ifBlank {
         aliasKey?.let(fixtureIcons::get)
+            ?: tagIcons["${category.name}:${name.trim().lowercase()}"]
             ?: mechanicDetails[name.lowercase()]?.first
             ?: category.symbol
     }

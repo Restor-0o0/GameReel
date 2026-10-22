@@ -21,3 +21,4 @@ tools/library_sources/*/data/
 __pycache__/
 *.apk
 *.aab
+tools/tag_icons/sheets/

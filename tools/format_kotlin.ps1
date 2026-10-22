@@ -11,6 +11,7 @@ $excludedFiles = @(
     'CuratedDescriptions.kt',
     'CuratedReferences.kt',
     'ReferenceArt.kt',
+    'TagIcons.kt',
     'TagShortNames.kt'
 )
 

@@ -1,0 +1,7138 @@
+[
+ {
+  "sheet": 1,
+  "icons": [
+   {
+    "file": "free_to_play",
+    "tag": "free-to-play (business model)"
+   },
+   {
+    "file": "in_app_purchases",
+    "tag": "in-app purchases (business model)"
+   },
+   {
+    "file": "ads",
+    "tag": "ads (business model)"
+   },
+   {
+    "file": "action",
+    "tag": "action (genre tag)"
+   },
+   {
+    "file": "multiplayer",
+    "tag": "multiplayer (player mode)"
+   },
+   {
+    "file": "singleplayer",
+    "tag": "singleplayer (player mode)"
+   },
+   {
+    "file": "medium",
+    "tag": "medium (production scope)"
+   },
+   {
+    "file": "shooting",
+    "tag": "shooting (core gameplay)"
+   },
+   {
+    "file": "adventure",
+    "tag": "adventure (genre tag)"
+   },
+   {
+    "file": "open_world",
+    "tag": "open world (game structure)"
+   },
+   {
+    "file": "simulation",
+    "tag": "simulation (genre tag)"
+   },
+   {
+    "file": "first_person",
+    "tag": "first-person (camera view)"
+   },
+   {
+    "file": "rpg_progression",
+    "tag": "rpg progression (progression)"
+   },
+   {
+    "file": "small",
+    "tag": "small (production scope)"
+   },
+   {
+    "file": "co_op",
+    "tag": "co-op (player mode)"
+   },
+   {
+    "file": "strategy",
+    "tag": "strategy (core gameplay)"
+   }
+  ]
+ },
+ {
+  "sheet": 2,
+  "icons": [
+   {
+    "file": "survival",
+    "tag": "survival (core gameplay)"
+   },
+   {
+    "file": "action_combat",
+    "tag": "action combat (core gameplay)"
+   },
+   {
+    "file": "casual",
+    "tag": "casual (genre tag)"
+   },
+   {
+    "file": "competitive_multiplayer",
+    "tag": "competitive multiplayer (player mode)"
+   },
+   {
+    "file": "online_co_op",
+    "tag": "online co-op (player mode)"
+   },
+   {
+    "file": "narrative_campaign",
+    "tag": "narrative campaign (game structure)"
+   },
+   {
+    "file": "third_person",
+    "tag": "third-person (camera view)"
+   },
+   {
+    "file": "crafting",
+    "tag": "crafting (core gameplay)"
+   },
+   {
+    "file": "player_competition",
+    "tag": "player competition (pressure or challenge)"
+   },
+   {
+    "file": "exploration",
+    "tag": "exploration (core gameplay)"
+   },
+   {
+    "file": "racing",
+    "tag": "racing (core gameplay)"
+   },
+   {
+    "file": "construction",
+    "tag": "construction (player interaction)"
+   },
+   {
+    "file": "sandbox",
+    "tag": "sandbox (game structure)"
+   },
+   {
+    "file": "3d",
+    "tag": "3d (visual style)"
+   },
+   {
+    "file": "survival_needs",
+    "tag": "survival needs (pressure or challenge)"
+   },
+   {
+    "file": "horror",
+    "tag": "horror (mood and theme)"
+   }
+  ]
+ },
+ {
+  "sheet": 3,
+  "icons": [
+   {
+    "file": "horror_threat",
+    "tag": "horror threat (pressure or challenge)"
+   },
+   {
+    "file": "arcade",
+    "tag": "arcade (genre tag)"
+   },
+   {
+    "file": "comedy",
+    "tag": "comedy (mood and theme)"
+   },
+   {
+    "file": "fantasy",
+    "tag": "fantasy (setting)"
+   },
+   {
+    "file": "building",
+    "tag": "building (core gameplay)"
+   },
+   {
+    "file": "build_customization",
+    "tag": "build customization (progression)"
+   },
+   {
+    "file": "base_building",
+    "tag": "base building (core gameplay)"
+   },
+   {
+    "file": "base_growth",
+    "tag": "base growth (progression)"
+   },
+   {
+    "file": "space",
+    "tag": "space (setting)"
+   },
+   {
+    "file": "customization",
+    "tag": "customization (secondary mechanic)"
+   },
+   {
+    "file": "character_customization",
+    "tag": "character customization (secondary mechanic)"
+   },
+   {
+    "file": "puzzles",
+    "tag": "puzzles (core gameplay)"
+   },
+   {
+    "file": "large",
+    "tag": "large (production scope)"
+   },
+   {
+    "file": "level_based_progression",
+    "tag": "level-based progression (progression)"
+   },
+   {
+    "file": "management",
+    "tag": "management (core gameplay)"
+   },
+   {
+    "file": "zombie_apocalypse",
+    "tag": "zombie apocalypse (setting)"
+   }
+  ]
+ },
+ {
+  "sheet": 4,
+  "icons": [
+   {
+    "file": "atmospheric",
+    "tag": "atmospheric (mood and theme)"
+   },
+   {
+    "file": "physics_manipulation",
+    "tag": "physics manipulation (player interaction)"
+   },
+   {
+    "file": "physics_interaction",
+    "tag": "physics interaction (core gameplay)"
+   },
+   {
+    "file": "realistic",
+    "tag": "realistic (visual style)"
+   },
+   {
+    "file": "upgrade_progression",
+    "tag": "upgrade progression (progression)"
+   },
+   {
+    "file": "vehicle_control",
+    "tag": "vehicle control (player interaction)"
+   },
+   {
+    "file": "science_fiction",
+    "tag": "science fiction (setting)"
+   },
+   {
+    "file": "scarce_resources",
+    "tag": "scarce resources (pressure or challenge)"
+   },
+   {
+    "file": "puzzle",
+    "tag": "puzzle (genre tag)"
+   },
+   {
+    "file": "sports",
+    "tag": "sports (genre tag)"
+   },
+   {
+    "file": "action_adventure",
+    "tag": "action-adventure (genre tag)"
+   },
+   {
+    "file": "military",
+    "tag": "military (setting)"
+   },
+   {
+    "file": "destruction",
+    "tag": "destruction (secondary mechanic)"
+   },
+   {
+    "file": "post_apocalyptic",
+    "tag": "post-apocalyptic (setting)"
+   },
+   {
+    "file": "pixel_art",
+    "tag": "pixel art (visual style)"
+   },
+   {
+    "file": "short_score_based_sessions",
+    "tag": "short score-based sessions (game structure)"
+   }
+  ]
+ },
+ {
+  "sheet": 5,
+  "icons": [
+   {
+    "file": "driving",
+    "tag": "driving (core gameplay)"
+   },
+   {
+    "file": "2d",
+    "tag": "2d (visual style)"
+   },
+   {
+    "file": "persistent_online_world",
+    "tag": "persistent online world (game structure)"
+   },
+   {
+    "file": "war",
+    "tag": "war (setting)"
+   },
+   {
+    "file": "massively_multiplayer",
+    "tag": "massively multiplayer (player mode)"
+   },
+   {
+    "file": "dark",
+    "tag": "dark (mood and theme)"
+   },
+   {
+    "file": "educational",
+    "tag": "educational (genre tag)"
+   },
+   {
+    "file": "roguelike_runs",
+    "tag": "roguelike runs (game structure)"
+   },
+   {
+    "file": "party_rpg_combat",
+    "tag": "party rpg combat (core gameplay)"
+   },
+   {
+    "file": "meta_progression",
+    "tag": "meta progression (progression)"
+   },
+   {
+    "file": "roguelite_runs",
+    "tag": "roguelite runs (game structure)"
+   },
+   {
+    "file": "unlock_progression",
+    "tag": "unlock progression (progression)"
+   },
+   {
+    "file": "cooperative_ai_opposition",
+    "tag": "cooperative/ai opposition (player mode)"
+   },
+   {
+    "file": "combat",
+    "tag": "combat (core gameplay)"
+   },
+   {
+    "file": "run_reset_progression",
+    "tag": "run reset/progression (progression)"
+   },
+   {
+    "file": "tactical",
+    "tag": "tactical (genre tag)"
+   }
+  ]
+ },
+ {
+  "sheet": 6,
+  "icons": [
+   {
+    "file": "branching_narrative",
+    "tag": "branching narrative (game structure)"
+   },
+   {
+    "file": "destructible_objects",
+    "tag": "destructible objects (player interaction)"
+   },
+   {
+    "file": "melee_combat",
+    "tag": "melee combat (core gameplay)"
+   },
+   {
+    "file": "online_multiplayer",
+    "tag": "online multiplayer (player mode)"
+   },
+   {
+    "file": "anime_stylized",
+    "tag": "anime stylized (visual style)"
+   },
+   {
+    "file": "offline_singleplayer_friendly",
+    "tag": "offline/singleplayer-friendly (player mode)"
+   },
+   {
+    "file": "cute",
+    "tag": "cute (mood and theme)"
+   },
+   {
+    "file": "medieval",
+    "tag": "medieval (setting)"
+   },
+   {
+    "file": "stealth",
+    "tag": "stealth (core gameplay)"
+   },
+   {
+    "file": "city_building",
+    "tag": "city building (core gameplay)"
+   },
+   {
+    "file": "settlement_growth",
+    "tag": "settlement growth (progression)"
+   },
+   {
+    "file": "detection_avoidance",
+    "tag": "detection avoidance (pressure or challenge)"
+   },
+   {
+    "file": "modding_support",
+    "tag": "modding support (secondary mechanic)"
+   },
+   {
+    "file": "open_world_survival_craft",
+    "tag": "open world survival craft (genre tag)"
+   },
+   {
+    "file": "historical",
+    "tag": "historical (setting)"
+   },
+   {
+    "file": "relaxing",
+    "tag": "relaxing (mood and theme)"
+   }
+  ]
+ },
+ {
+  "sheet": 7,
+  "icons": [
+   {
+    "file": "arcade_action",
+    "tag": "arcade action (core gameplay)"
+   },
+   {
+    "file": "high_difficulty",
+    "tag": "high difficulty (pressure or challenge)"
+   },
+   {
+    "file": "board_game",
+    "tag": "board game (genre tag)"
+   },
+   {
+    "file": "psychological_horror",
+    "tag": "psychological horror (mood and theme)"
+   },
+   {
+    "file": "cosmetic_collection",
+    "tag": "cosmetic collection (progression)"
+   },
+   {
+    "file": "dress_up_customization",
+    "tag": "dress-up/customization (core gameplay)"
+   },
+   {
+    "file": "checkpoint_progression",
+    "tag": "checkpoint progression (progression)"
+   },
+   {
+    "file": "high_punishment",
+    "tag": "high punishment (pressure or challenge)"
+   },
+   {
+    "file": "deliberate_melee_combat",
+    "tag": "deliberate melee combat (core gameplay)"
+   },
+   {
+    "file": "turn_based_combat",
+    "tag": "turn-based combat (core gameplay)"
+   },
+   {
+    "file": "casual_short_session_loop",
+    "tag": "casual short-session loop (core gameplay)"
+   },
+   {
+    "file": "dark_fantasy",
+    "tag": "dark fantasy (setting)"
+   },
+   {
+    "file": "local_multiplayer",
+    "tag": "local multiplayer (player mode)"
+   },
+   {
+    "file": "tower_defense",
+    "tag": "tower defense (core gameplay)"
+   },
+   {
+    "file": "wave_defense",
+    "tag": "wave defense (pressure or challenge)"
+   },
+   {
+    "file": "resource_management",
+    "tag": "resource management (core gameplay)"
+   }
+  ]
+ },
+ {
+  "sheet": 8,
+  "icons": [
+   {
+    "file": "meaningful_choices",
+    "tag": "meaningful choices (secondary mechanic)"
+   },
+   {
+    "file": "real_time_strategy",
+    "tag": "real-time strategy (core gameplay)"
+   },
+   {
+    "file": "realistic_3d",
+    "tag": "realistic 3d (visual style)"
+   },
+   {
+    "file": "automobile_sim",
+    "tag": "automobile sim (genre tag)"
+   },
+   {
+    "file": "farming",
+    "tag": "farming (core gameplay)"
+   },
+   {
+    "file": "loot_driven_progression",
+    "tag": "loot-driven progression (progression)"
+   },
+   {
+    "file": "match_3",
+    "tag": "match-3 (core gameplay)"
+   },
+   {
+    "file": "football_soccer",
+    "tag": "football/soccer (core gameplay)"
+   },
+   {
+    "file": "platforming",
+    "tag": "platforming (core gameplay)"
+   },
+   {
+    "file": "open_ended_life_loop",
+    "tag": "open-ended life loop (game structure)"
+   },
+   {
+    "file": "turn_based_strategy",
+    "tag": "turn-based strategy (core gameplay)"
+   },
+   {
+    "file": "fighting",
+    "tag": "fighting (genre tag)"
+   },
+   {
+    "file": "economy_management",
+    "tag": "economy management (core gameplay)"
+   },
+   {
+    "file": "card_play",
+    "tag": "card play (core gameplay)"
+   },
+   {
+    "file": "local_co_op",
+    "tag": "local co-op (player mode)"
+   },
+   {
+    "file": "life_simulation",
+    "tag": "life simulation (core gameplay)"
+   }
+  ]
+ },
+ {
+  "sheet": 9,
+  "icons": [
+   {
+    "file": "empire_progression",
+    "tag": "empire progression (progression)"
+   },
+   {
+    "file": "dungeon_crawling",
+    "tag": "dungeon crawling (core gameplay)"
+   },
+   {
+    "file": "dungeon_runs",
+    "tag": "dungeon runs (game structure)"
+   },
+   {
+    "file": "farm_growth",
+    "tag": "farm growth (progression)"
+   },
+   {
+    "file": "party_based_rpg",
+    "tag": "party-based rpg (genre tag)"
+   },
+   {
+    "file": "team_based",
+    "tag": "team-based (genre tag)"
+   },
+   {
+    "file": "battle_royale_matches",
+    "tag": "battle-royale matches (game structure)"
+   },
+   {
+    "file": "colorful",
+    "tag": "colorful (mood and theme)"
+   },
+   {
+    "file": "learning_mechanics",
+    "tag": "learning mechanics (core gameplay)"
+   },
+   {
+    "file": "colony_management",
+    "tag": "colony management (core gameplay)"
+   },
+   {
+    "file": "shrinking_last_player_pressure",
+    "tag": "shrinking/last-player pressure (pressure or challenge)"
+   },
+   {
+    "file": "endless_running",
+    "tag": "endless running (core gameplay)"
+   },
+   {
+    "file": "turn_based",
+    "tag": "turn-based (genre tag)"
+   },
+   {
+    "file": "cinematic_presentation",
+    "tag": "cinematic presentation (visual style)"
+   },
+   {
+    "file": "colony_growth",
+    "tag": "colony growth (progression)"
+   },
+   {
+    "file": "endless_score_run",
+    "tag": "endless score run (game structure)"
+   }
+  ]
+ },
+ {
+  "sheet": 10,
+  "icons": [
+   {
+    "file": "grand_strategy",
+    "tag": "grand strategy (core gameplay)"
+   },
+   {
+    "file": "role_playing",
+    "tag": "role playing (genre tag)"
+   },
+   {
+    "file": "cooking",
+    "tag": "cooking (core gameplay)"
+   },
+   {
+    "file": "deckbuilding",
+    "tag": "deckbuilding (core gameplay)"
+   },
+   {
+    "file": "turn_based_tactics",
+    "tag": "turn-based tactics (core gameplay)"
+   },
+   {
+    "file": "competitive",
+    "tag": "competitive (genre tag)"
+   },
+   {
+    "file": "cozy_relaxing",
+    "tag": "cozy/relaxing (mood and theme)"
+   },
+   {
+    "file": "flight",
+    "tag": "flight (core gameplay)"
+   },
+   {
+    "file": "multiple_solution_interactions",
+    "tag": "multiple-solution interactions (player interaction)"
+   },
+   {
+    "file": "procedural_generation",
+    "tag": "procedural generation (secondary mechanic)"
+   },
+   {
+    "file": "systemic_problem_solving",
+    "tag": "systemic problem solving (core gameplay)"
+   },
+   {
+    "file": "word_puzzles",
+    "tag": "word puzzles (core gameplay)"
+   },
+   {
+    "file": "cartoon_stylized",
+    "tag": "cartoon stylized (visual style)"
+   },
+   {
+    "file": "crime_underworld",
+    "tag": "crime/underworld (setting)"
+   },
+   {
+    "file": "loot_collection",
+    "tag": "loot collection (secondary mechanic)"
+   },
+   {
+    "file": "deck_growth",
+    "tag": "deck growth (progression)"
+   }
+  ]
+ },
+ {
+  "sheet": 11,
+  "icons": [
+   {
+    "file": "pirates",
+    "tag": "pirates (setting)"
+   },
+   {
+    "file": "collection_progression",
+    "tag": "collection progression (progression)"
+   },
+   {
+    "file": "investigation",
+    "tag": "investigation (core gameplay)"
+   },
+   {
+    "file": "isometric",
+    "tag": "isometric (camera view)"
+   },
+   {
+    "file": "multiple_endings",
+    "tag": "multiple endings (secondary mechanic)"
+   },
+   {
+    "file": "procedurally_varied_content",
+    "tag": "procedurally varied content (game structure)"
+   },
+   {
+    "file": "sports_mechanics",
+    "tag": "sports mechanics (core gameplay)"
+   },
+   {
+    "file": "world_war_ii",
+    "tag": "world war ii (setting)"
+   },
+   {
+    "file": "3d_platforming",
+    "tag": "3d platforming (core gameplay)"
+   },
+   {
+    "file": "destructible_environment",
+    "tag": "destructible environment (player interaction)"
+   },
+   {
+    "file": "exploration_adventure",
+    "tag": "exploration/adventure (core gameplay)"
+   },
+   {
+    "file": "magic",
+    "tag": "magic (genre tag)"
+   },
+   {
+    "file": "mystery",
+    "tag": "mystery (mood and theme)"
+   },
+   {
+    "file": "rhythm",
+    "tag": "rhythm (core gameplay)"
+   },
+   {
+    "file": "time_pressure",
+    "tag": "time pressure (pressure or challenge)"
+   },
+   {
+    "file": "automation",
+    "tag": "automation (core gameplay)"
+   }
+  ]
+ },
+ {
+  "sheet": 12,
+  "icons": [
+   {
+    "file": "board_game_rules",
+    "tag": "board-game rules (core gameplay)"
+   },
+   {
+    "file": "cozy",
+    "tag": "cozy (mood and theme)"
+   },
+   {
+    "file": "factory_system_scaling",
+    "tag": "factory/system scaling (progression)"
+   },
+   {
+    "file": "pet_care",
+    "tag": "pet care (core gameplay)"
+   },
+   {
+    "file": "pet_progression",
+    "tag": "pet progression (progression)"
+   },
+   {
+    "file": "role_playing_systems",
+    "tag": "role-playing systems (core gameplay)"
+   },
+   {
+    "file": "campaign",
+    "tag": "campaign (game structure)"
+   },
+   {
+    "file": "dark_comedy",
+    "tag": "dark comedy (mood and theme)"
+   },
+   {
+    "file": "parkour_traversal",
+    "tag": "parkour traversal (secondary mechanic)"
+   },
+   {
+    "file": "wilderness_nature",
+    "tag": "wilderness/nature (setting)"
+   },
+   {
+    "file": "movement_mastery",
+    "tag": "movement mastery (player interaction)"
+   },
+   {
+    "file": "party_multiplayer",
+    "tag": "party multiplayer (player mode)"
+   },
+   {
+    "file": "short_party_rounds",
+    "tag": "short party rounds (game structure)"
+   },
+   {
+    "file": "4x_strategy",
+    "tag": "4x strategy (core gameplay)"
+   },
+   {
+    "file": "creature_collection",
+    "tag": "creature collection (core gameplay)"
+   },
+   {
+    "file": "emotional",
+    "tag": "emotional (mood and theme)"
+   }
+  ]
+ },
+ {
+  "sheet": 13,
+  "icons": [
+   {
+    "file": "fishing",
+    "tag": "fishing (core gameplay)"
+   },
+   {
+    "file": "hand_drawn",
+    "tag": "hand-drawn (visual style)"
+   },
+   {
+    "file": "top_down",
+    "tag": "top-down (camera view)"
+   },
+   {
+    "file": "word",
+    "tag": "word (genre tag)"
+   },
+   {
+    "file": "choice_narrative_reading",
+    "tag": "choice/narrative reading (core gameplay)"
+   },
+   {
+    "file": "co_op_campaign",
+    "tag": "co-op campaign (genre tag)"
+   },
+   {
+    "file": "hero_ability_progression",
+    "tag": "hero/ability progression (progression)"
+   },
+   {
+    "file": "mythology",
+    "tag": "mythology (genre tag)"
+   },
+   {
+    "file": "party_rpg_systems",
+    "tag": "party rpg systems (core gameplay)"
+   },
+   {
+    "file": "card",
+    "tag": "card (genre tag)"
+   },
+   {
+    "file": "card_combat",
+    "tag": "card combat (core gameplay)"
+   },
+   {
+    "file": "dragons_fantasy",
+    "tag": "dragons/fantasy (setting)"
+   },
+   {
+    "file": "esports",
+    "tag": "esports (genre tag)"
+   },
+   {
+    "file": "extraction_runs",
+    "tag": "extraction runs (game structure)"
+   },
+   {
+    "file": "futuristic",
+    "tag": "futuristic (setting)"
+   },
+   {
+    "file": "lore_rich",
+    "tag": "lore-rich (genre tag)"
+   }
+  ]
+ },
+ {
+  "sheet": 14,
+  "icons": [
+   {
+    "file": "order_fulfillment",
+    "tag": "order fulfillment (secondary mechanic)"
+   },
+   {
+    "file": "puzzle_platforming",
+    "tag": "puzzle platforming (core gameplay)"
+   },
+   {
+    "file": "risk_reward_extraction",
+    "tag": "risk/reward extraction (pressure or challenge)"
+   },
+   {
+    "file": "3d_fighter",
+    "tag": "3d fighter (genre tag)"
+   },
+   {
+    "file": "choose_your_own_adventure",
+    "tag": "choose your own adventure (genre tag)"
+   },
+   {
+    "file": "music",
+    "tag": "music (genre tag)"
+   },
+   {
+    "file": "robots",
+    "tag": "robots (genre tag)"
+   },
+   {
+    "file": "solitaire_card_play",
+    "tag": "solitaire/card play (core gameplay)"
+   },
+   {
+    "file": "superheroes",
+    "tag": "superheroes (setting)"
+   },
+   {
+    "file": "capitalism",
+    "tag": "capitalism (genre tag)"
+   },
+   {
+    "file": "collecting",
+    "tag": "collecting (secondary mechanic)"
+   },
+   {
+    "file": "collection_completion",
+    "tag": "collection completion (progression)"
+   },
+   {
+    "file": "idle_progression",
+    "tag": "idle progression (core gameplay)"
+   },
+   {
+    "file": "idle_sessions",
+    "tag": "idle sessions (game structure)"
+   },
+   {
+    "file": "passive_growth",
+    "tag": "passive growth (progression)"
+   },
+   {
+    "file": "romance",
+    "tag": "romance (genre tag)"
+   }
+  ]
+ },
+ {
+  "sheet": 15,
+  "icons": [
+   {
+    "file": "strategy_rpg",
+    "tag": "strategy rpg (genre tag)"
+   },
+   {
+    "file": "tactical_rpg",
+    "tag": "tactical rpg (genre tag)"
+   },
+   {
+    "file": "underwater",
+    "tag": "underwater (setting)"
+   },
+   {
+    "file": "2_5d",
+    "tag": "2.5d (visual style)"
+   },
+   {
+    "file": "2d_fighter",
+    "tag": "2d fighter (genre tag)"
+   },
+   {
+    "file": "buy_sell_decisions",
+    "tag": "buy/sell decisions (player interaction)"
+   },
+   {
+    "file": "real_time_tactics",
+    "tag": "real time tactics (genre tag)"
+   },
+   {
+    "file": "relationship_choices",
+    "tag": "relationship choices (core gameplay)"
+   },
+   {
+    "file": "relationship_progression",
+    "tag": "relationship progression (progression)"
+   },
+   {
+    "file": "split_screen_multiplayer",
+    "tag": "split-screen multiplayer (player mode)"
+   },
+   {
+    "file": "trading",
+    "tag": "trading (core gameplay)"
+   },
+   {
+    "file": "wargame",
+    "tag": "wargame (genre tag)"
+   },
+   {
+    "file": "4_player_local",
+    "tag": "4-player local (player mode)"
+   },
+   {
+    "file": "agriculture",
+    "tag": "agriculture (genre tag)"
+   },
+   {
+    "file": "cosmic_horror",
+    "tag": "cosmic horror (mood and theme)"
+   },
+   {
+    "file": "dense_projectile_pressure",
+    "tag": "dense projectile pressure (pressure or challenge)"
+   }
+  ]
+ },
+ {
+  "sheet": 16,
+  "icons": [
+   {
+    "file": "gambling",
+    "tag": "gambling (genre tag)"
+   },
+   {
+    "file": "lgbtq",
+    "tag": "lgbtq+ (genre tag)"
+   },
+   {
+    "file": "spectacle_fighter",
+    "tag": "spectacle fighter (genre tag)"
+   },
+   {
+    "file": "coloring",
+    "tag": "coloring (core gameplay)"
+   },
+   {
+    "file": "comic_book",
+    "tag": "comic book (genre tag)"
+   },
+   {
+    "file": "party",
+    "tag": "party (genre tag)"
+   },
+   {
+    "file": "projectile_dodging",
+    "tag": "projectile dodging (core gameplay)"
+   },
+   {
+    "file": "sudoku",
+    "tag": "sudoku (core gameplay)"
+   },
+   {
+    "file": "supernatural",
+    "tag": "supernatural (setting)"
+   },
+   {
+    "file": "2d_platformer",
+    "tag": "2d platformer (genre tag)"
+   },
+   {
+    "file": "ability_gated_progression",
+    "tag": "ability-gated progression (progression)"
+   },
+   {
+    "file": "basketball",
+    "tag": "basketball (core gameplay)"
+   },
+   {
+    "file": "dwarf",
+    "tag": "dwarf (genre tag)"
+   },
+   {
+    "file": "hunting",
+    "tag": "hunting (core gameplay)"
+   },
+   {
+    "file": "interconnected_gated_world",
+    "tag": "interconnected gated world (game structure)"
+   },
+   {
+    "file": "inventory_management",
+    "tag": "inventory management (secondary mechanic)"
+   }
+  ]
+ },
+ {
+  "sheet": 17,
+  "icons": [
+   {
+    "file": "permadeath",
+    "tag": "permadeath (pressure or challenge)"
+   },
+   {
+    "file": "point_click",
+    "tag": "point & click (genre tag)"
+   },
+   {
+    "file": "quiz_knowledge",
+    "tag": "quiz/knowledge (core gameplay)"
+   },
+   {
+    "file": "retro",
+    "tag": "retro (visual style)"
+   },
+   {
+    "file": "voxel_3d",
+    "tag": "voxel 3d (visual style)"
+   },
+   {
+    "file": "assassin",
+    "tag": "assassin (genre tag)"
+   },
+   {
+    "file": "chess_board_strategy",
+    "tag": "chess/board strategy (core gameplay)"
+   },
+   {
+    "file": "golf",
+    "tag": "golf (core gameplay)"
+   },
+   {
+    "file": "heist",
+    "tag": "heist (genre tag)"
+   },
+   {
+    "file": "lovecraftian",
+    "tag": "lovecraftian (setting)"
+   },
+   {
+    "file": "martial_arts",
+    "tag": "martial arts (genre tag)"
+   },
+   {
+    "file": "moba",
+    "tag": "moba (genre tag)"
+   },
+   {
+    "file": "modern",
+    "tag": "modern (setting)"
+   },
+   {
+    "file": "modern_america",
+    "tag": "modern america (setting)"
+   },
+   {
+    "file": "politics",
+    "tag": "politics (genre tag)"
+   },
+   {
+    "file": "psychological",
+    "tag": "psychological (genre tag)"
+   }
+  ]
+ },
+ {
+  "sheet": 18,
+  "icons": [
+   {
+    "file": "run_deck_growth",
+    "tag": "run deck growth (progression)"
+   },
+   {
+    "file": "space_sim",
+    "tag": "space sim (genre tag)"
+   },
+   {
+    "file": "stylized",
+    "tag": "stylized (visual style)"
+   },
+   {
+    "file": "surreal",
+    "tag": "surreal (visual style)"
+   },
+   {
+    "file": "tabletop",
+    "tag": "tabletop (genre tag)"
+   },
+   {
+    "file": "trading_card_game",
+    "tag": "trading card game (genre tag)"
+   },
+   {
+    "file": "underwater_ocean",
+    "tag": "underwater/ocean (setting)"
+   },
+   {
+    "file": "user_generated_content",
+    "tag": "user-generated content (player interaction)"
+   },
+   {
+    "file": "action_rts",
+    "tag": "action rts (genre tag)"
+   },
+   {
+    "file": "arena_matches",
+    "tag": "arena matches (game structure)"
+   },
+   {
+    "file": "clicker_incremental",
+    "tag": "clicker/incremental (core gameplay)"
+   },
+   {
+    "file": "cold_war",
+    "tag": "cold war (genre tag)"
+   },
+   {
+    "file": "cyberpunk",
+    "tag": "cyberpunk (setting)"
+   },
+   {
+    "file": "dinosaurs",
+    "tag": "dinosaurs (setting)"
+   },
+   {
+    "file": "dungeons_dragons",
+    "tag": "dungeons & dragons (genre tag)"
+   },
+   {
+    "file": "fast_paced",
+    "tag": "fast-paced (genre tag)"
+   }
+  ]
+ },
+ {
+  "sheet": 19,
+  "icons": [
+   {
+    "file": "level_creation",
+    "tag": "level creation (secondary mechanic)"
+   },
+   {
+    "file": "mechs",
+    "tag": "mechs (genre tag)"
+   },
+   {
+    "file": "naval",
+    "tag": "naval (setting)"
+   },
+   {
+    "file": "ninja",
+    "tag": "ninja (genre tag)"
+   },
+   {
+    "file": "precision_platforming",
+    "tag": "precision platforming (core gameplay)"
+   },
+   {
+    "file": "science_technology",
+    "tag": "science/technology (setting)"
+   },
+   {
+    "file": "top_down_shooter",
+    "tag": "top-down shooter (genre tag)"
+   },
+   {
+    "file": "vampire",
+    "tag": "vampire (genre tag)"
+   },
+   {
+    "file": "warhammer_40k",
+    "tag": "warhammer 40k (genre tag)"
+   },
+   {
+    "file": "world_war_i",
+    "tag": "world war i (setting)"
+   },
+   {
+    "file": "beat_em_up_combat",
+    "tag": "beat-em-up combat (core gameplay)"
+   },
+   {
+    "file": "drama",
+    "tag": "drama (genre tag)"
+   },
+   {
+    "file": "inventory_decisions",
+    "tag": "inventory decisions (player interaction)"
+   },
+   {
+    "file": "precision_execution",
+    "tag": "precision execution (pressure or challenge)"
+   },
+   {
+    "file": "side_view",
+    "tag": "side-view (camera view)"
+   },
+   {
+    "file": "tanks",
+    "tag": "tanks (genre tag)"
+   }
+  ]
+ },
+ {
+  "sheet": 20,
+  "icons": [
+   {
+    "file": "trains",
+    "tag": "trains (genre tag)"
+   },
+   {
+    "file": "trivia",
+    "tag": "trivia (genre tag)"
+   },
+   {
+    "file": "vehicular_combat",
+    "tag": "vehicular combat (core gameplay)"
+   },
+   {
+    "file": "aliens",
+    "tag": "aliens (setting)"
+   },
+   {
+    "file": "auto_battler",
+    "tag": "auto battler (core gameplay)"
+   },
+   {
+    "file": "bowling",
+    "tag": "bowling (core gameplay)"
+   },
+   {
+    "file": "business_growth",
+    "tag": "business growth (progression)"
+   },
+   {
+    "file": "cats",
+    "tag": "cats (mood and theme)"
+   },
+   {
+    "file": "combat_racing",
+    "tag": "combat racing (genre tag)"
+   },
+   {
+    "file": "demons",
+    "tag": "demons (genre tag)"
+   },
+   {
+    "file": "games_workshop",
+    "tag": "games workshop (genre tag)"
+   },
+   {
+    "file": "gun_customization",
+    "tag": "gun customization (genre tag)"
+   },
+   {
+    "file": "hidden_object_searching",
+    "tag": "hidden-object searching (core gameplay)"
+   },
+   {
+    "file": "lego",
+    "tag": "lego (genre tag)"
+   },
+   {
+    "file": "minimalist",
+    "tag": "minimalist (visual style)"
+   },
+   {
+    "file": "pixel_art_2d",
+    "tag": "pixel art 2d (visual style)"
+   }
+  ]
+ },
+ {
+  "sheet": 21,
+  "icons": [
+   {
+    "file": "real_time_with_pause",
+    "tag": "real-time with pause (genre tag)"
+   },
+   {
+    "file": "sailing",
+    "tag": "sailing (genre tag)"
+   },
+   {
+    "file": "time_travel",
+    "tag": "time travel (genre tag)"
+   },
+   {
+    "file": "transport_logistics",
+    "tag": "transport/logistics (core gameplay)"
+   },
+   {
+    "file": "alternate_history",
+    "tag": "alternate history (genre tag)"
+   },
+   {
+    "file": "card_collection",
+    "tag": "card collection (progression)"
+   },
+   {
+    "file": "climbing",
+    "tag": "climbing (secondary mechanic)"
+   },
+   {
+    "file": "combo_combat",
+    "tag": "combo combat (secondary mechanic)"
+   },
+   {
+    "file": "god_game",
+    "tag": "god game (genre tag)"
+   },
+   {
+    "file": "handcrafted_levels",
+    "tag": "handcrafted levels (game structure)"
+   },
+   {
+    "file": "island",
+    "tag": "island (location)"
+   },
+   {
+    "file": "linear_campaign",
+    "tag": "linear campaign (game structure)"
+   },
+   {
+    "file": "management_tycoon",
+    "tag": "management/tycoon (core gameplay)"
+   },
+   {
+    "file": "mining",
+    "tag": "mining (player interaction)"
+   },
+   {
+    "file": "naval_combat",
+    "tag": "naval combat (genre tag)"
+   },
+   {
+    "file": "shop_keeper",
+    "tag": "shop keeper (genre tag)"
+   }
+  ]
+ },
+ {
+  "sheet": 22,
+  "icons": [
+   {
+    "file": "steampunk",
+    "tag": "steampunk (setting)"
+   },
+   {
+    "file": "team_composition_progression",
+    "tag": "team composition progression (progression)"
+   },
+   {
+    "file": "walking_simulator",
+    "tag": "walking simulator (genre tag)"
+   },
+   {
+    "file": "western",
+    "tag": "western (setting)"
+   },
+   {
+    "file": "wholesome",
+    "tag": "wholesome (mood and theme)"
+   },
+   {
+    "file": "boomer_shooter",
+    "tag": "boomer shooter (genre tag)"
+   },
+   {
+    "file": "building_and_crafting",
+    "tag": "building and crafting (secondary mechanic)"
+   },
+   {
+    "file": "casino",
+    "tag": "casino (genre tag)"
+   },
+   {
+    "file": "collection",
+    "tag": "collection (secondary mechanic)"
+   },
+   {
+    "file": "dialogue_choices",
+    "tag": "dialogue choices (player interaction)"
+   },
+   {
+    "file": "diplomacy",
+    "tag": "diplomacy (genre tag)"
+   },
+   {
+    "file": "dystopian",
+    "tag": "dystopian (setting)"
+   },
+   {
+    "file": "episodic",
+    "tag": "episodic (genre tag)"
+   },
+   {
+    "file": "escape_room",
+    "tag": "escape room (genre tag)"
+   },
+   {
+    "file": "factory_automation",
+    "tag": "factory automation (core gameplay)"
+   },
+   {
+    "file": "hidden_role_communication",
+    "tag": "hidden-role communication (player interaction)"
+   }
+  ]
+ },
+ {
+  "sheet": 23,
+  "icons": [
+   {
+    "file": "horses",
+    "tag": "horses (genre tag)"
+   },
+   {
+    "file": "incremental_growth",
+    "tag": "incremental growth (progression)"
+   },
+   {
+    "file": "jet",
+    "tag": "jet (genre tag)"
+   },
+   {
+    "file": "photography",
+    "tag": "photography (core gameplay)"
+   },
+   {
+    "file": "political_sim",
+    "tag": "political sim (genre tag)"
+   },
+   {
+    "file": "programming",
+    "tag": "programming (genre tag)"
+   },
+   {
+    "file": "real_time",
+    "tag": "real-time (genre tag)"
+   },
+   {
+    "file": "resource_extraction",
+    "tag": "resource extraction (secondary mechanic)"
+   },
+   {
+    "file": "satire",
+    "tag": "satire (genre tag)"
+   },
+   {
+    "file": "social_deduction",
+    "tag": "social deduction (core gameplay)"
+   },
+   {
+    "file": "1980s",
+    "tag": "1980s (genre tag)"
+   },
+   {
+    "file": "alien_planet",
+    "tag": "alien planet (setting)"
+   },
+   {
+    "file": "artificial_intelligence",
+    "tag": "artificial intelligence (genre tag)"
+   },
+   {
+    "file": "asynchronous_multiplayer",
+    "tag": "asynchronous multiplayer (genre tag)"
+   },
+   {
+    "file": "baseball",
+    "tag": "baseball (core gameplay)"
+   },
+   {
+    "file": "chance_based_game_loop",
+    "tag": "chance-based game loop (core gameplay)"
+   }
+  ]
+ },
+ {
+  "sheet": 24,
+  "icons": [
+   {
+    "file": "conspiracy",
+    "tag": "conspiracy (genre tag)"
+   },
+   {
+    "file": "conversation",
+    "tag": "conversation (genre tag)"
+   },
+   {
+    "file": "dieselpunk",
+    "tag": "dieselpunk (setting)"
+   },
+   {
+    "file": "escalating_waves",
+    "tag": "escalating waves (pressure or challenge)"
+   },
+   {
+    "file": "friendship",
+    "tag": "friendship (mood and theme)"
+   },
+   {
+    "file": "gothic",
+    "tag": "gothic (genre tag)"
+   },
+   {
+    "file": "hex_grid",
+    "tag": "hex grid (genre tag)"
+   },
+   {
+    "file": "incremental_clicker",
+    "tag": "incremental/clicker (core gameplay)"
+   },
+   {
+    "file": "limited_moves",
+    "tag": "limited moves (pressure or challenge)"
+   },
+   {
+    "file": "lockpicking",
+    "tag": "lockpicking (core gameplay)"
+   },
+   {
+    "file": "logic",
+    "tag": "logic (genre tag)"
+   },
+   {
+    "file": "logistics",
+    "tag": "logistics (secondary mechanic)"
+   },
+   {
+    "file": "merging",
+    "tag": "merging (core gameplay)"
+   },
+   {
+    "file": "minigames",
+    "tag": "minigames (genre tag)"
+   },
+   {
+    "file": "noir",
+    "tag": "noir (visual style)"
+   },
+   {
+    "file": "nonlinear",
+    "tag": "nonlinear (genre tag)"
+   }
+  ]
+ },
+ {
+  "sheet": 25,
+  "icons": [
+   {
+    "file": "offroad",
+    "tag": "offroad (genre tag)"
+   },
+   {
+    "file": "psychedelic",
+    "tag": "psychedelic (visual style)"
+   },
+   {
+    "file": "rome",
+    "tag": "rome (genre tag)"
+   },
+   {
+    "file": "route_planning",
+    "tag": "route planning (secondary mechanic)"
+   },
+   {
+    "file": "rpgmaker",
+    "tag": "rpgmaker (genre tag)"
+   },
+   {
+    "file": "single_player",
+    "tag": "single-player (player mode)"
+   },
+   {
+    "file": "sniper",
+    "tag": "sniper (genre tag)"
+   },
+   {
+    "file": "submarine",
+    "tag": "submarine (genre tag)"
+   },
+   {
+    "file": "tennis",
+    "tag": "tennis (core gameplay)"
+   },
+   {
+    "file": "thriller",
+    "tag": "thriller (genre tag)"
+   },
+   {
+    "file": "tile_placement",
+    "tag": "tile placement (player interaction)"
+   },
+   {
+    "file": "time_management",
+    "tag": "time management (secondary mechanic)"
+   },
+   {
+    "file": "vikings",
+    "tag": "vikings (setting)"
+   },
+   {
+    "file": "voxel_blocky_3d",
+    "tag": "voxel/blocky 3d (visual style)"
+   },
+   {
+    "file": "wave_based_sessions",
+    "tag": "wave-based sessions (game structure)"
+   },
+   {
+    "file": "wild_west",
+    "tag": "wild west (setting)"
+   }
+  ]
+ },
+ {
+  "sheet": 26,
+  "icons": [
+   {
+    "file": "1990s",
+    "tag": "1990s (genre tag)"
+   },
+   {
+    "file": "abandoned_factory",
+    "tag": "abandoned factory (setting)"
+   },
+   {
+    "file": "abandoned_infrastructure",
+    "tag": "abandoned infrastructure (setting)"
+   },
+   {
+    "file": "afterlife",
+    "tag": "afterlife (setting)"
+   },
+   {
+    "file": "ammo_scarcity",
+    "tag": "ammo scarcity (secondary mechanic)"
+   },
+   {
+    "file": "archipelago",
+    "tag": "archipelago (location)"
+   },
+   {
+    "file": "atompunk",
+    "tag": "atompunk (setting)"
+   },
+   {
+    "file": "bartering",
+    "tag": "bartering (secondary mechanic)"
+   },
+   {
+    "file": "based_on_a_novel",
+    "tag": "based on a novel (genre tag)"
+   },
+   {
+    "file": "biopunk",
+    "tag": "biopunk (setting)"
+   },
+   {
+    "file": "boxing",
+    "tag": "boxing (genre tag)"
+   },
+   {
+    "file": "buried_city",
+    "tag": "buried city (setting)"
+   },
+   {
+    "file": "choice_driven_narrative",
+    "tag": "choice-driven narrative (core gameplay)"
+   },
+   {
+    "file": "code_breaking",
+    "tag": "code breaking (secondary mechanic)"
+   },
+   {
+    "file": "conversation_choices",
+    "tag": "conversation choices (core gameplay)"
+   },
+   {
+    "file": "conveyor_building",
+    "tag": "conveyor building (player interaction)"
+   }
+  ]
+ },
+ {
+  "sheet": 27,
+  "icons": [
+   {
+    "file": "countryside",
+    "tag": "countryside (setting)"
+   },
+   {
+    "file": "dialogue_interaction",
+    "tag": "dialogue interaction (secondary mechanic)"
+   },
+   {
+    "file": "diving",
+    "tag": "diving (core gameplay)"
+   },
+   {
+    "file": "dreamlike",
+    "tag": "dreamlike (mood and theme)"
+   },
+   {
+    "file": "dungeon",
+    "tag": "dungeon (location)"
+   },
+   {
+    "file": "dying_world",
+    "tag": "dying world (setting)"
+   },
+   {
+    "file": "dynamic_weather",
+    "tag": "dynamic weather (secondary mechanic)"
+   },
+   {
+    "file": "escape_room_puzzles",
+    "tag": "escape-room puzzles (core gameplay)"
+   },
+   {
+    "file": "fairy_tale",
+    "tag": "fairy tale (setting)"
+   },
+   {
+    "file": "fatigue",
+    "tag": "fatigue (secondary mechanic)"
+   },
+   {
+    "file": "floating_city",
+    "tag": "floating city (setting)"
+   },
+   {
+    "file": "floating_islands",
+    "tag": "floating islands (setting)"
+   },
+   {
+    "file": "flooded_city",
+    "tag": "flooded city (setting)"
+   },
+   {
+    "file": "fog_of_war",
+    "tag": "fog of war (secondary mechanic)"
+   },
+   {
+    "file": "forest",
+    "tag": "forest (natural environment)"
+   },
+   {
+    "file": "friendly_fire",
+    "tag": "friendly fire (secondary mechanic)"
+   }
+  ]
+ },
+ {
+  "sheet": 28,
+  "icons": [
+   {
+    "file": "generation_ship",
+    "tag": "generation ship (setting)"
+   },
+   {
+    "file": "gliding",
+    "tag": "gliding (player interaction)"
+   },
+   {
+    "file": "grappling_traversal",
+    "tag": "grappling traversal (core gameplay)"
+   },
+   {
+    "file": "hacking",
+    "tag": "hacking (core gameplay)"
+   },
+   {
+    "file": "high_fantasy",
+    "tag": "high fantasy (setting)"
+   },
+   {
+    "file": "hunger",
+    "tag": "hunger (pressure or challenge)"
+   },
+   {
+    "file": "hunger_thirst",
+    "tag": "hunger/thirst (secondary mechanic)"
+   },
+   {
+    "file": "illuminati",
+    "tag": "illuminati (genre tag)"
+   },
+   {
+    "file": "industrial_grime",
+    "tag": "industrial grime (mood and theme)"
+   },
+   {
+    "file": "inside_a_computer",
+    "tag": "inside a computer (setting)"
+   },
+   {
+    "file": "inventory_tetris",
+    "tag": "inventory tetris (secondary mechanic)"
+   },
+   {
+    "file": "limited_carry_slots",
+    "tag": "limited carry slots (secondary mechanic)"
+   },
+   {
+    "file": "low_poly_3d",
+    "tag": "low-poly 3d (visual style)"
+   },
+   {
+    "file": "mars",
+    "tag": "mars (genre tag)"
+   },
+   {
+    "file": "mini_golf",
+    "tag": "mini golf (genre tag)"
+   },
+   {
+    "file": "miniature_world",
+    "tag": "miniature world (setting)"
+   }
+  ]
+ },
+ {
+  "sheet": 29,
+  "icons": [
+   {
+    "file": "monochrome",
+    "tag": "monochrome (visual style)"
+   },
+   {
+    "file": "motocross",
+    "tag": "motocross (genre tag)"
+   },
+   {
+    "file": "motorbike",
+    "tag": "motorbike (genre tag)"
+   },
+   {
+    "file": "mutations",
+    "tag": "mutations (progression)"
+   },
+   {
+    "file": "narration",
+    "tag": "narration (genre tag)"
+   },
+   {
+    "file": "narrative",
+    "tag": "narrative (genre tag)"
+   },
+   {
+    "file": "near_future",
+    "tag": "near future (setting)"
+   },
+   {
+    "file": "ocean_civilization",
+    "tag": "ocean civilization (setting)"
+   },
+   {
+    "file": "parry_dodge_timing",
+    "tag": "parry/dodge timing (secondary mechanic)"
+   },
+   {
+    "file": "prehistoric",
+    "tag": "prehistoric (setting)"
+   },
+   {
+    "file": "procedural_world",
+    "tag": "procedural world (natural environment)"
+   },
+   {
+    "file": "renaissance",
+    "tag": "renaissance (setting)"
+   },
+   {
+    "file": "robot_civilization",
+    "tag": "robot civilization (setting)"
+   },
+   {
+    "file": "robot_programming",
+    "tag": "robot programming (core gameplay)"
+   },
+   {
+    "file": "samurai_era",
+    "tag": "samurai era (setting)"
+   },
+   {
+    "file": "sanity_stress",
+    "tag": "sanity/stress (secondary mechanic)"
+   }
+  ]
+ },
+ {
+  "sheet": 30,
+  "icons": [
+   {
+    "file": "simulation_world",
+    "tag": "simulation world (setting)"
+   },
+   {
+    "file": "skateboarding",
+    "tag": "skateboarding (genre tag)"
+   },
+   {
+    "file": "small_town",
+    "tag": "small town (location)"
+   },
+   {
+    "file": "solarpunk",
+    "tag": "solarpunk (setting)"
+   },
+   {
+    "file": "space_colony",
+    "tag": "space colony (setting)"
+   },
+   {
+    "file": "space_frontier",
+    "tag": "space frontier (setting)"
+   },
+   {
+    "file": "space_station",
+    "tag": "space station (setting)"
+   },
+   {
+    "file": "spell_combination",
+    "tag": "spell combination (core gameplay)"
+   },
+   {
+    "file": "swimming",
+    "tag": "swimming (core gameplay)"
+   },
+   {
+    "file": "text_based",
+    "tag": "text-based (visual style)"
+   },
+   {
+    "file": "trap_placement",
+    "tag": "trap placement (secondary mechanic)"
+   },
+   {
+    "file": "underground_civilization",
+    "tag": "underground civilization (setting)"
+   },
+   {
+    "file": "urban_fantasy",
+    "tag": "urban fantasy (setting)"
+   },
+   {
+    "file": "utopian",
+    "tag": "utopian (setting)"
+   },
+   {
+    "file": "vehicle_customization",
+    "tag": "vehicle customization (core gameplay)"
+   },
+   {
+    "file": "victorian",
+    "tag": "victorian (setting)"
+   }
+  ]
+ },
+ {
+  "sheet": 31,
+  "icons": [
+   {
+    "file": "villain_protagonist",
+    "tag": "villain protagonist (genre tag)"
+   },
+   {
+    "file": "worker_assignment",
+    "tag": "worker assignment (secondary mechanic)"
+   },
+   {
+    "file": "wrestling",
+    "tag": "wrestling (genre tag)"
+   },
+   {
+    "file": "1_bit",
+    "tag": "1-bit (visual style)"
+   },
+   {
+    "file": "1_bit_pixel_art",
+    "tag": "1-bit pixel art (visual style)"
+   },
+   {
+    "file": "1_vs_many",
+    "tag": "1-vs-many (player mode)"
+   },
+   {
+    "file": "2_player_co_op",
+    "tag": "2-player co-op (player mode)"
+   },
+   {
+    "file": "2d_side_scrolling",
+    "tag": "2d side scrolling (camera view)"
+   },
+   {
+    "file": "3_player_co_op",
+    "tag": "3-player co-op (player mode)"
+   },
+   {
+    "file": "3d_side_on",
+    "tag": "3d side-on (camera view)"
+   },
+   {
+    "file": "4_player_co_op",
+    "tag": "4-player co-op (player mode)"
+   },
+   {
+    "file": "6_player_co_op",
+    "tag": "6-player co-op (player mode)"
+   },
+   {
+    "file": "8_player_co_op",
+    "tag": "8-player co-op (player mode)"
+   },
+   {
+    "file": "abandoned_city",
+    "tag": "abandoned city (location)"
+   },
+   {
+    "file": "abandoned_civilization",
+    "tag": "abandoned civilization (world and era)"
+   },
+   {
+    "file": "abandoned_resort",
+    "tag": "abandoned resort (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 32,
+  "icons": [
+   {
+    "file": "absurd_comedy",
+    "tag": "absurd comedy (mood and theme)"
+   },
+   {
+    "file": "achievement_based_unlocks",
+    "tag": "achievement-based unlocks (progression)"
+   },
+   {
+    "file": "action_rpg",
+    "tag": "action rpg (core gameplay)"
+   },
+   {
+    "file": "ai_anxiety",
+    "tag": "ai anxiety (mood and theme)"
+   },
+   {
+    "file": "aimed_shooting",
+    "tag": "aimed shooting (player interaction)"
+   },
+   {
+    "file": "air_dash",
+    "tag": "air dash (secondary mechanic)"
+   },
+   {
+    "file": "airbase",
+    "tag": "airbase (location)"
+   },
+   {
+    "file": "airplane",
+    "tag": "airplane (location)"
+   },
+   {
+    "file": "airport",
+    "tag": "airport (location)"
+   },
+   {
+    "file": "airship",
+    "tag": "airship (location)"
+   },
+   {
+    "file": "alchemy",
+    "tag": "alchemy (core gameplay)"
+   },
+   {
+    "file": "alien_invasion",
+    "tag": "alien invasion (world and era)"
+   },
+   {
+    "file": "alien_megastructure",
+    "tag": "alien megastructure (location)"
+   },
+   {
+    "file": "alien_ocean",
+    "tag": "alien ocean (setting)"
+   },
+   {
+    "file": "all_abilities_come_from_items",
+    "tag": "all abilities come from items (design twist)"
+   },
+   {
+    "file": "amusement_park",
+    "tag": "amusement park (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 33,
+  "icons": [
+   {
+    "file": "ancient",
+    "tag": "ancient (world and era)"
+   },
+   {
+    "file": "ancient_egypt",
+    "tag": "ancient egypt (setting)"
+   },
+   {
+    "file": "ancient_greece",
+    "tag": "ancient greece (setting)"
+   },
+   {
+    "file": "ancient_rome",
+    "tag": "ancient rome (setting)"
+   },
+   {
+    "file": "ancient_ruins",
+    "tag": "ancient ruins (location)"
+   },
+   {
+    "file": "ancient_world",
+    "tag": "ancient world (setting)"
+   },
+   {
+    "file": "animal_civilization",
+    "tag": "animal civilization (world and era)"
+   },
+   {
+    "file": "animal_society",
+    "tag": "animal society (setting)"
+   },
+   {
+    "file": "any_machine_can_break",
+    "tag": "any machine can break (design twist)"
+   },
+   {
+    "file": "apartment_block",
+    "tag": "apartment block (location)"
+   },
+   {
+    "file": "apartment_tower",
+    "tag": "apartment tower (location)"
+   },
+   {
+    "file": "aquarium",
+    "tag": "aquarium (location)"
+   },
+   {
+    "file": "archaeological_dig",
+    "tag": "archaeological dig (location)"
+   },
+   {
+    "file": "archaeological_expedition",
+    "tag": "archaeological expedition (setting)"
+   },
+   {
+    "file": "archaeology",
+    "tag": "archaeology (core gameplay)"
+   },
+   {
+    "file": "arctic",
+    "tag": "arctic (natural environment)"
+   }
+  ]
+ },
+ {
+  "sheet": 34,
+  "icons": [
+   {
+    "file": "arctic_outpost",
+    "tag": "arctic outpost (location)"
+   },
+   {
+    "file": "arena_combat",
+    "tag": "arena combat (core gameplay)"
+   },
+   {
+    "file": "ascii_like",
+    "tag": "ascii-like (visual style)"
+   },
+   {
+    "file": "ash_covered_landscape",
+    "tag": "ash-covered landscape (natural environment)"
+   },
+   {
+    "file": "assassination_planning",
+    "tag": "assassination planning (core gameplay)"
+   },
+   {
+    "file": "assembly",
+    "tag": "assembly (player interaction)"
+   },
+   {
+    "file": "assembly_work",
+    "tag": "assembly work (core gameplay)"
+   },
+   {
+    "file": "asteroid_mine",
+    "tag": "asteroid mine (location)"
+   },
+   {
+    "file": "asteroid_surface",
+    "tag": "asteroid surface (natural environment)"
+   },
+   {
+    "file": "asymmetric_multiplayer",
+    "tag": "asymmetric multiplayer (player mode)"
+   },
+   {
+    "file": "asymmetric_rounds",
+    "tag": "asymmetric rounds (game structure)"
+   },
+   {
+    "file": "auction_bidding",
+    "tag": "auction bidding (player interaction)"
+   },
+   {
+    "file": "auction_trading",
+    "tag": "auction/trading (secondary mechanic)"
+   },
+   {
+    "file": "automated_factory",
+    "tag": "automated factory (location)"
+   },
+   {
+    "file": "automatic_combat",
+    "tag": "automatic combat (secondary mechanic)"
+   },
+   {
+    "file": "automation_logic",
+    "tag": "automation logic (player interaction)"
+   }
+  ]
+ },
+ {
+  "sheet": 35,
+  "icons": [
+   {
+    "file": "automation_programming",
+    "tag": "automation programming (core gameplay)"
+   },
+   {
+    "file": "automation_scaling",
+    "tag": "automation scaling (progression)"
+   },
+   {
+    "file": "backstage_complex",
+    "tag": "backstage complex (location)"
+   },
+   {
+    "file": "badlands",
+    "tag": "badlands (natural environment)"
+   },
+   {
+    "file": "bakery_plant",
+    "tag": "bakery plant (location)"
+   },
+   {
+    "file": "bank",
+    "tag": "bank (location)"
+   },
+   {
+    "file": "base_can_be_lost_permanently",
+    "tag": "base can be lost permanently (design twist)"
+   },
+   {
+    "file": "base_decoration",
+    "tag": "base decoration (secondary mechanic)"
+   },
+   {
+    "file": "base_defense",
+    "tag": "base defense (secondary mechanic)"
+   },
+   {
+    "file": "base_is_also_the_main_vehicle",
+    "tag": "base is also the main vehicle (design twist)"
+   },
+   {
+    "file": "base_upgrades",
+    "tag": "base upgrades (secondary mechanic)"
+   },
+   {
+    "file": "battery_drain",
+    "tag": "battery drain (pressure or challenge)"
+   },
+   {
+    "file": "beach_resort",
+    "tag": "beach resort (location)"
+   },
+   {
+    "file": "best_reward_requires_making_situation_less_safe",
+    "tag": "best reward requires making situation less safe (design twist)"
+   },
+   {
+    "file": "biomes",
+    "tag": "biomes (natural environment)"
+   },
+   {
+    "file": "biopunk_visual",
+    "tag": "biopunk visual (visual style)"
+   }
+  ]
+ },
+ {
+  "sheet": 36,
+  "icons": [
+   {
+    "file": "bird_eye_strategy_view",
+    "tag": "bird-eye strategy view (camera view)"
+   },
+   {
+    "file": "black_and_white",
+    "tag": "black-and-white (visual style)"
+   },
+   {
+    "file": "blacksmithing",
+    "tag": "blacksmithing (core gameplay)"
+   },
+   {
+    "file": "blizzard",
+    "tag": "blizzard (natural environment)"
+   },
+   {
+    "file": "block_pushing",
+    "tag": "block pushing (player interaction)"
+   },
+   {
+    "file": "blueprint_discovery",
+    "tag": "blueprint discovery (secondary mechanic)"
+   },
+   {
+    "file": "blueprint_progression",
+    "tag": "blueprint progression (progression)"
+   },
+   {
+    "file": "board_game_strategy",
+    "tag": "board-game strategy (core gameplay)"
+   },
+   {
+    "file": "board_placement",
+    "tag": "board placement (player interaction)"
+   },
+   {
+    "file": "body_horror",
+    "tag": "body horror (mood and theme)"
+   },
+   {
+    "file": "body_modification",
+    "tag": "body modification (mood and theme)"
+   },
+   {
+    "file": "body_recovery",
+    "tag": "body recovery (secondary mechanic)"
+   },
+   {
+    "file": "body_recovery_risk",
+    "tag": "body recovery risk (pressure or challenge)"
+   },
+   {
+    "file": "border_checkpoint",
+    "tag": "border checkpoint (location)"
+   },
+   {
+    "file": "boss_hunting",
+    "tag": "boss hunting (core gameplay)"
+   },
+   {
+    "file": "boss_is_an_environmental_system_rather_than_creature",
+    "tag": "boss is an environmental system rather than creature (design twist)"
+   }
+  ]
+ },
+ {
+  "sheet": 37,
+  "icons": [
+   {
+    "file": "boss_rush_structure",
+    "tag": "boss-rush structure (game structure)"
+   },
+   {
+    "file": "bounties",
+    "tag": "bounties (secondary mechanic)"
+   },
+   {
+    "file": "branching_campaign",
+    "tag": "branching campaign (game structure)"
+   },
+   {
+    "file": "branching_dialogue",
+    "tag": "branching dialogue (secondary mechanic)"
+   },
+   {
+    "file": "branching_unlocks",
+    "tag": "branching unlocks (progression)"
+   },
+   {
+    "file": "brewery",
+    "tag": "brewery (location)"
+   },
+   {
+    "file": "brewing",
+    "tag": "brewing (core gameplay)"
+   },
+   {
+    "file": "bridge",
+    "tag": "bridge (location)"
+   },
+   {
+    "file": "bright_colorful",
+    "tag": "bright colorful (visual style)"
+   },
+   {
+    "file": "build_defend_expand_loop",
+    "tag": "build-defend-expand loop (game structure)"
+   },
+   {
+    "file": "building_rearranges_during_play",
+    "tag": "building rearranges during play (design twist)"
+   },
+   {
+    "file": "bullet_time",
+    "tag": "bullet time (genre tag)"
+   },
+   {
+    "file": "bunker",
+    "tag": "bunker (location)"
+   },
+   {
+    "file": "bureaucracy",
+    "tag": "bureaucracy (mood and theme)"
+   },
+   {
+    "file": "buried_ruins",
+    "tag": "buried ruins (natural environment)"
+   },
+   {
+    "file": "burning_belongings",
+    "tag": "burning belongings (player interaction)"
+   }
+  ]
+ },
+ {
+  "sheet": 38,
+  "icons": [
+   {
+    "file": "bus_depot",
+    "tag": "bus depot (location)"
+   },
+   {
+    "file": "button_switch_panels",
+    "tag": "button/switch panels (player interaction)"
+   },
+   {
+    "file": "cable_connection",
+    "tag": "cable connection (player interaction)"
+   },
+   {
+    "file": "camera_is_a_game_mechanic",
+    "tag": "camera is a game mechanic (design twist)"
+   },
+   {
+    "file": "camp_building",
+    "tag": "camp building (secondary mechanic)"
+   },
+   {
+    "file": "campaign_with_new_game",
+    "tag": "campaign with new game+ (game structure)"
+   },
+   {
+    "file": "campfire_fueling",
+    "tag": "campfire fueling (player interaction)"
+   },
+   {
+    "file": "cannibalization",
+    "tag": "cannibalization (secondary mechanic)"
+   },
+   {
+    "file": "canyon",
+    "tag": "canyon (natural environment)"
+   },
+   {
+    "file": "canyon_facility",
+    "tag": "canyon facility (location)"
+   },
+   {
+    "file": "capitalism_satire",
+    "tag": "capitalism satire (mood and theme)"
+   },
+   {
+    "file": "caravan_journey",
+    "tag": "caravan journey (game structure)"
+   },
+   {
+    "file": "caravan_world",
+    "tag": "caravan world (setting)"
+   },
+   {
+    "file": "card_placement",
+    "tag": "card placement (player interaction)"
+   },
+   {
+    "file": "card_stacking",
+    "tag": "card stacking (player interaction)"
+   },
+   {
+    "file": "cargo_handling",
+    "tag": "cargo handling (core gameplay)"
+   }
+  ]
+ },
+ {
+  "sheet": 39,
+  "icons": [
+   {
+    "file": "cargo_logistics",
+    "tag": "cargo logistics (secondary mechanic)"
+   },
+   {
+    "file": "cargo_ship",
+    "tag": "cargo ship (location)"
+   },
+   {
+    "file": "carry_capacity_upgrades",
+    "tag": "carry-capacity upgrades (progression)"
+   },
+   {
+    "file": "cassette_futurism",
+    "tag": "cassette futurism (setting)"
+   },
+   {
+    "file": "cassette_futurist",
+    "tag": "cassette-futurist (visual style)"
+   },
+   {
+    "file": "castle",
+    "tag": "castle (location)"
+   },
+   {
+    "file": "catacombs",
+    "tag": "catacombs (location)"
+   },
+   {
+    "file": "cathedral",
+    "tag": "cathedral (location)"
+   },
+   {
+    "file": "cave",
+    "tag": "cave (natural environment)"
+   },
+   {
+    "file": "cave_system",
+    "tag": "cave system (location)"
+   },
+   {
+    "file": "cel_shaded",
+    "tag": "cel-shaded (visual style)"
+   },
+   {
+    "file": "cemetery",
+    "tag": "cemetery (location)"
+   },
+   {
+    "file": "chaotic_co_op",
+    "tag": "chaotic co-op (mood and theme)"
+   },
+   {
+    "file": "chapter_structure",
+    "tag": "chapter structure (game structure)"
+   },
+   {
+    "file": "character_abilities",
+    "tag": "character abilities (secondary mechanic)"
+   },
+   {
+    "file": "character_stat_progression",
+    "tag": "character stat progression (progression)"
+   }
+  ]
+ },
+ {
+  "sheet": 40,
+  "icons": [
+   {
+    "file": "characters_remember_choices",
+    "tag": "characters remember choices (design twist)"
+   },
+   {
+    "file": "checkpoints",
+    "tag": "checkpoints (game structure)"
+   },
+   {
+    "file": "chemical_plant",
+    "tag": "chemical plant (location)"
+   },
+   {
+    "file": "chemistry",
+    "tag": "chemistry (mood and theme)"
+   },
+   {
+    "file": "cinema",
+    "tag": "cinema (location)"
+   },
+   {
+    "file": "cinematic_room_camera",
+    "tag": "cinematic room camera (camera view)"
+   },
+   {
+    "file": "circuit_building",
+    "tag": "circuit building (core gameplay)"
+   },
+   {
+    "file": "city_growth",
+    "tag": "city growth (progression)"
+   },
+   {
+    "file": "city_itself_is_a_moving_machine",
+    "tag": "city itself is a moving machine (design twist)"
+   },
+   {
+    "file": "class_build_progression",
+    "tag": "class/build progression (progression)"
+   },
+   {
+    "file": "clay_like",
+    "tag": "clay-like (visual style)"
+   },
+   {
+    "file": "clean_sci_fi",
+    "tag": "clean sci-fi (visual style)"
+   },
+   {
+    "file": "cleaning",
+    "tag": "cleaning (core gameplay)"
+   },
+   {
+    "file": "cleaning_surfaces",
+    "tag": "cleaning surfaces (player interaction)"
+   },
+   {
+    "file": "clinic",
+    "tag": "clinic (location)"
+   },
+   {
+    "file": "close_follow_camera",
+    "tag": "close-follow camera (camera view)"
+   }
+  ]
+ },
+ {
+  "sheet": 41,
+  "icons": [
+   {
+    "file": "cloud_city",
+    "tag": "cloud city (location)"
+   },
+   {
+    "file": "co_op_missions",
+    "tag": "co-op missions (game structure)"
+   },
+   {
+    "file": "co_op_roles",
+    "tag": "co-op roles (secondary mechanic)"
+   },
+   {
+    "file": "co_op_with_friendly_fire",
+    "tag": "co-op with friendly fire (player mode)"
+   },
+   {
+    "file": "co_op_with_separate_roles",
+    "tag": "co-op with separate roles (player mode)"
+   },
+   {
+    "file": "co_op_with_shared_resources",
+    "tag": "co-op with shared resources (player mode)"
+   },
+   {
+    "file": "coast",
+    "tag": "coast (natural environment)"
+   },
+   {
+    "file": "coastal_town",
+    "tag": "coastal town (location)"
+   },
+   {
+    "file": "codex_discovery",
+    "tag": "codex discovery (secondary mechanic)"
+   },
+   {
+    "file": "cold_exposure",
+    "tag": "cold exposure (pressure or challenge)"
+   },
+   {
+    "file": "cold_storage_facility",
+    "tag": "cold storage facility (location)"
+   },
+   {
+    "file": "colonial_frontier",
+    "tag": "colonial frontier (setting)"
+   },
+   {
+    "file": "colony_ship",
+    "tag": "colony ship (location)"
+   },
+   {
+    "file": "color_mixing",
+    "tag": "color mixing (player interaction)"
+   },
+   {
+    "file": "combo_decay",
+    "tag": "combo decay (pressure or challenge)"
+   },
+   {
+    "file": "combo_inputs",
+    "tag": "combo inputs (player interaction)"
+   }
+  ]
+ },
+ {
+  "sheet": 42,
+  "icons": [
+   {
+    "file": "comic_halftone",
+    "tag": "comic halftone (visual style)"
+   },
+   {
+    "file": "coming_of_age",
+    "tag": "coming of age (mood and theme)"
+   },
+   {
+    "file": "communication_limits",
+    "tag": "communication limits (pressure or challenge)"
+   },
+   {
+    "file": "community_building",
+    "tag": "community building (mood and theme)"
+   },
+   {
+    "file": "compact_handcrafted_challenge_set",
+    "tag": "compact handcrafted challenge set (production scope)"
+   },
+   {
+    "file": "companion_management",
+    "tag": "companion management (secondary mechanic)"
+   },
+   {
+    "file": "companion_progression",
+    "tag": "companion progression (progression)"
+   },
+   {
+    "file": "construction_site",
+    "tag": "construction site (location)"
+   },
+   {
+    "file": "construction_work",
+    "tag": "construction work (core gameplay)"
+   },
+   {
+    "file": "consumerism",
+    "tag": "consumerism (mood and theme)"
+   },
+   {
+    "file": "container_port",
+    "tag": "container port (location)"
+   },
+   {
+    "file": "contamination",
+    "tag": "contamination (pressure or challenge)"
+   },
+   {
+    "file": "contracts",
+    "tag": "contracts (game structure)"
+   },
+   {
+    "file": "conveyor_routing",
+    "tag": "conveyor routing (secondary mechanic)"
+   },
+   {
+    "file": "cooking_manipulation",
+    "tag": "cooking manipulation (player interaction)"
+   },
+   {
+    "file": "cooking_minigame",
+    "tag": "cooking minigame (secondary mechanic)"
+   }
+  ]
+ },
+ {
+  "sheet": 43,
+  "icons": [
+   {
+    "file": "coral_reef",
+    "tag": "coral reef (natural environment)"
+   },
+   {
+    "file": "corporate_absurdity",
+    "tag": "corporate absurdity (mood and theme)"
+   },
+   {
+    "file": "corporate_campus",
+    "tag": "corporate campus (location)"
+   },
+   {
+    "file": "corporate_dystopia",
+    "tag": "corporate dystopia (world and era)"
+   },
+   {
+    "file": "corporate_world",
+    "tag": "corporate world (setting)"
+   },
+   {
+    "file": "correct_solution_is_often_slower_than_risky_shortcut",
+    "tag": "correct solution is often slower than risky shortcut (design twist)"
+   },
+   {
+    "file": "cosmetics_collection",
+    "tag": "cosmetics collection (secondary mechanic)"
+   },
+   {
+    "file": "countdown_timer",
+    "tag": "countdown timer (pressure or challenge)"
+   },
+   {
+    "file": "courier_routing",
+    "tag": "courier routing (core gameplay)"
+   },
+   {
+    "file": "courthouse",
+    "tag": "courthouse (location)"
+   },
+   {
+    "file": "courtroom_argument",
+    "tag": "courtroom argument (core gameplay)"
+   },
+   {
+    "file": "cozy_journey",
+    "tag": "cozy journey (mood and theme)"
+   },
+   {
+    "file": "crafting_happens_by_assembling_real_pieces",
+    "tag": "crafting happens by assembling real pieces (design twist)"
+   },
+   {
+    "file": "crafting_mastery",
+    "tag": "crafting mastery (progression)"
+   },
+   {
+    "file": "crafting_minigame",
+    "tag": "crafting minigame (secondary mechanic)"
+   },
+   {
+    "file": "crafting_quality_mastery",
+    "tag": "crafting quality mastery (progression)"
+   }
+  ]
+ },
+ {
+  "sheet": 44,
+  "icons": [
+   {
+    "file": "crafting_recipes",
+    "tag": "crafting recipes (secondary mechanic)"
+   },
+   {
+    "file": "crane_controls",
+    "tag": "crane controls (player interaction)"
+   },
+   {
+    "file": "creature_training",
+    "tag": "creature training (core gameplay)"
+   },
+   {
+    "file": "crew_conflict",
+    "tag": "crew conflict (pressure or challenge)"
+   },
+   {
+    "file": "crew_management",
+    "tag": "crew management (secondary mechanic)"
+   },
+   {
+    "file": "crew_progression",
+    "tag": "crew progression (progression)"
+   },
+   {
+    "file": "crime_drama",
+    "tag": "crime drama (mood and theme)"
+   },
+   {
+    "file": "crime_investigation",
+    "tag": "crime investigation (core gameplay)"
+   },
+   {
+    "file": "cross_platform_multiplayer",
+    "tag": "cross-platform multiplayer (player mode)"
+   },
+   {
+    "file": "crt_filtered",
+    "tag": "crt-filtered (visual style)"
+   },
+   {
+    "file": "cruise_ship",
+    "tag": "cruise ship (location)"
+   },
+   {
+    "file": "curiosity",
+    "tag": "curiosity (mood and theme)"
+   },
+   {
+    "file": "customer_queue",
+    "tag": "customer queue (pressure or challenge)"
+   },
+   {
+    "file": "customs_terminal",
+    "tag": "customs terminal (location)"
+   },
+   {
+    "file": "cute_chibi",
+    "tag": "cute/chibi (visual style)"
+   },
+   {
+    "file": "cutting_materials",
+    "tag": "cutting materials (player interaction)"
+   }
+  ]
+ },
+ {
+  "sheet": 45,
+  "icons": [
+   {
+    "file": "cyberpunk_city",
+    "tag": "cyberpunk city (setting)"
+   },
+   {
+    "file": "daily_cycle",
+    "tag": "daily cycle (game structure)"
+   },
+   {
+    "file": "daily_tasks",
+    "tag": "daily tasks (secondary mechanic)"
+   },
+   {
+    "file": "damaged_coastal_complex",
+    "tag": "damaged coastal complex (location)"
+   },
+   {
+    "file": "danger_follows_valuable_resources",
+    "tag": "danger follows valuable resources (design twist)"
+   },
+   {
+    "file": "dark_fairy_tale",
+    "tag": "dark fairy tale (mood and theme)"
+   },
+   {
+    "file": "dark_fantasy_visual",
+    "tag": "dark fantasy visual (visual style)"
+   },
+   {
+    "file": "dark_low_visibility",
+    "tag": "dark low-visibility (visual style)"
+   },
+   {
+    "file": "darkness",
+    "tag": "darkness (natural environment)"
+   },
+   {
+    "file": "darkness_changes_level_readability",
+    "tag": "darkness changes level readability (design twist)"
+   },
+   {
+    "file": "data_center",
+    "tag": "data center (location)"
+   },
+   {
+    "file": "day_cycle",
+    "tag": "day cycle (game structure)"
+   },
+   {
+    "file": "day_job_day_loop",
+    "tag": "day/job/day loop (game structure)"
+   },
+   {
+    "file": "day_night_cycle",
+    "tag": "day/night cycle (secondary mechanic)"
+   },
+   {
+    "file": "day_night_danger_shift",
+    "tag": "day/night danger shift (pressure or challenge)"
+   },
+   {
+    "file": "deadline_contracts",
+    "tag": "deadline/contracts (pressure or challenge)"
+   }
+  ]
+ },
+ {
+  "sheet": 46,
+  "icons": [
+   {
+    "file": "death_advances_the_story",
+    "tag": "death advances the story (design twist)"
+   },
+   {
+    "file": "debt",
+    "tag": "debt (pressure or challenge)"
+   },
+   {
+    "file": "debt_quota_pressure",
+    "tag": "debt/quota pressure (pressure or challenge)"
+   },
+   {
+    "file": "debt_replaces_traditional_experience_points",
+    "tag": "debt replaces traditional experience points (design twist)"
+   },
+   {
+    "file": "decay",
+    "tag": "decay (mood and theme)"
+   },
+   {
+    "file": "deep_cave",
+    "tag": "deep cave (location)"
+   },
+   {
+    "file": "deep_sea",
+    "tag": "deep sea (natural environment)"
+   },
+   {
+    "file": "deep_sea_expedition",
+    "tag": "deep-sea expedition (setting)"
+   },
+   {
+    "file": "deep_underground",
+    "tag": "deep underground (natural environment)"
+   },
+   {
+    "file": "delivery_contracts",
+    "tag": "delivery contracts (secondary mechanic)"
+   },
+   {
+    "file": "delivery_deadlines",
+    "tag": "delivery deadlines (pressure or challenge)"
+   },
+   {
+    "file": "delivery_driving",
+    "tag": "delivery driving (core gameplay)"
+   },
+   {
+    "file": "delivery_hub",
+    "tag": "delivery hub (location)"
+   },
+   {
+    "file": "delivery_route_loop",
+    "tag": "delivery route loop (game structure)"
+   },
+   {
+    "file": "demolition",
+    "tag": "demolition (core gameplay)"
+   },
+   {
+    "file": "dense_forest",
+    "tag": "dense forest (natural environment)"
+   }
+  ]
+ },
+ {
+  "sheet": 47,
+  "icons": [
+   {
+    "file": "dense_urban",
+    "tag": "dense urban (natural environment)"
+   },
+   {
+    "file": "derelict_spaceship",
+    "tag": "derelict spaceship (location)"
+   },
+   {
+    "file": "desert",
+    "tag": "desert (natural environment)"
+   },
+   {
+    "file": "desert_convoy_stop",
+    "tag": "desert convoy stop (location)"
+   },
+   {
+    "file": "desert_research_camp",
+    "tag": "desert research camp (location)"
+   },
+   {
+    "file": "desert_town",
+    "tag": "desert town (location)"
+   },
+   {
+    "file": "detective_evidence_linking",
+    "tag": "detective evidence linking (player interaction)"
+   },
+   {
+    "file": "detective_mystery",
+    "tag": "detective mystery (mood and theme)"
+   },
+   {
+    "file": "dialogue_happens_during_active_gameplay",
+    "tag": "dialogue happens during active gameplay (design twist)"
+   },
+   {
+    "file": "dialogue_wheel",
+    "tag": "dialogue wheel (player interaction)"
+   },
+   {
+    "file": "dice",
+    "tag": "dice (genre tag)"
+   },
+   {
+    "file": "dice_allocation",
+    "tag": "dice allocation (secondary mechanic)"
+   },
+   {
+    "file": "dice_rolling",
+    "tag": "dice rolling (core gameplay)"
+   },
+   {
+    "file": "difficulty_tier_progression",
+    "tag": "difficulty tier progression (progression)"
+   },
+   {
+    "file": "digital_environment",
+    "tag": "digital environment (natural environment)"
+   },
+   {
+    "file": "direct_object_grabbing",
+    "tag": "direct object grabbing (player interaction)"
+   }
+  ]
+ },
+ {
+  "sheet": 48,
+  "icons": [
+   {
+    "file": "dirty_utilitarian",
+    "tag": "dirty utilitarian (visual style)"
+   },
+   {
+    "file": "disassembly",
+    "tag": "disassembly (player interaction)"
+   },
+   {
+    "file": "disassembly_work",
+    "tag": "disassembly work (core gameplay)"
+   },
+   {
+    "file": "disaster_response",
+    "tag": "disaster response (core gameplay)"
+   },
+   {
+    "file": "disaster_shelter",
+    "tag": "disaster shelter (location)"
+   },
+   {
+    "file": "discovery",
+    "tag": "discovery (mood and theme)"
+   },
+   {
+    "file": "disease_risk",
+    "tag": "disease risk (pressure or challenge)"
+   },
+   {
+    "file": "disease_system",
+    "tag": "disease system (secondary mechanic)"
+   },
+   {
+    "file": "distillery",
+    "tag": "distillery (location)"
+   },
+   {
+    "file": "distribution_center",
+    "tag": "distribution center (location)"
+   },
+   {
+    "file": "divine_boons",
+    "tag": "divine boons (player interaction)"
+   },
+   {
+    "file": "dog",
+    "tag": "dog (genre tag)"
+   },
+   {
+    "file": "drag_and_carry",
+    "tag": "drag and carry (player interaction)"
+   },
+   {
+    "file": "drag_and_drop_ui",
+    "tag": "drag-and-drop ui (player interaction)"
+   },
+   {
+    "file": "drawing",
+    "tag": "drawing (core gameplay)"
+   },
+   {
+    "file": "drawing_shapes",
+    "tag": "drawing shapes (player interaction)"
+   }
+  ]
+ },
+ {
+  "sheet": 49,
+  "icons": [
+   {
+    "file": "dream_hotel",
+    "tag": "dream hotel (location)"
+   },
+   {
+    "file": "dream_reality",
+    "tag": "dream reality (world and era)"
+   },
+   {
+    "file": "dream_world",
+    "tag": "dream world (setting)"
+   },
+   {
+    "file": "dreamscape",
+    "tag": "dreamscape (natural environment)"
+   },
+   {
+    "file": "drop_in_drop_out_co_op",
+    "tag": "drop-in/drop-out co-op (player mode)"
+   },
+   {
+    "file": "drought_landscape",
+    "tag": "drought landscape (natural environment)"
+   },
+   {
+    "file": "dry_dock",
+    "tag": "dry dock (location)"
+   },
+   {
+    "file": "dwindling_sanity",
+    "tag": "dwindling sanity (pressure or challenge)"
+   },
+   {
+    "file": "ecological_collapse",
+    "tag": "ecological collapse (mood and theme)"
+   },
+   {
+    "file": "economic_upkeep",
+    "tag": "economic upkeep (pressure or challenge)"
+   },
+   {
+    "file": "economy_simulation",
+    "tag": "economy simulation (secondary mechanic)"
+   },
+   {
+    "file": "ecosystem_management",
+    "tag": "ecosystem management (core gameplay)"
+   },
+   {
+    "file": "electricity_routing",
+    "tag": "electricity routing (secondary mechanic)"
+   },
+   {
+    "file": "emergent_incidents",
+    "tag": "emergent incidents (secondary mechanic)"
+   },
+   {
+    "file": "emergent_stories",
+    "tag": "emergent stories (game structure)"
+   },
+   {
+    "file": "endless_mode",
+    "tag": "endless mode (game structure)"
+   }
+  ]
+ },
+ {
+  "sheet": 50,
+  "icons": [
+   {
+    "file": "endless_train",
+    "tag": "endless train (setting)"
+   },
+   {
+    "file": "enemies_are_also_useful_resources",
+    "tag": "enemies are also useful resources (design twist)"
+   },
+   {
+    "file": "enemies_learn_player_habits",
+    "tag": "enemies learn player habits (design twist)"
+   },
+   {
+    "file": "enemy_cannot_be_killed_but_can_be_redirected",
+    "tag": "enemy cannot be killed but can be redirected (design twist)"
+   },
+   {
+    "file": "enemy_hordes",
+    "tag": "enemy hordes (pressure or challenge)"
+   },
+   {
+    "file": "enemy_waves",
+    "tag": "enemy waves (pressure or challenge)"
+   },
+   {
+    "file": "entire_game_happens_on_a_moving_train",
+    "tag": "entire game happens on a moving train (design twist)"
+   },
+   {
+    "file": "environmental_puzzle_interaction",
+    "tag": "environmental puzzle interaction (player interaction)"
+   },
+   {
+    "file": "environmental_storytelling",
+    "tag": "environmental storytelling (secondary mechanic)"
+   },
+   {
+    "file": "environmentalism",
+    "tag": "environmentalism (mood and theme)"
+   },
+   {
+    "file": "epic_fantasy",
+    "tag": "epic fantasy (mood and theme)"
+   },
+   {
+    "file": "episodic_campaign",
+    "tag": "episodic campaign (game structure)"
+   },
+   {
+    "file": "equipment_loadouts",
+    "tag": "equipment loadouts (secondary mechanic)"
+   },
+   {
+    "file": "equipment_progression",
+    "tag": "equipment progression (progression)"
+   },
+   {
+    "file": "escalating_enemy_presence",
+    "tag": "escalating enemy presence (pressure or challenge)"
+   },
+   {
+    "file": "every_enemy_has_one_unique_rule",
+    "tag": "every enemy has one unique rule (design twist)"
+   }
+  ]
+ },
+ {
+  "sheet": 51,
+  "icons": [
+   {
+    "file": "every_tool_is_also_a_weapon",
+    "tag": "every tool is also a weapon (design twist)"
+   },
+   {
+    "file": "every_upgrade_has_a_price",
+    "tag": "every upgrade has a price (design twist)"
+   },
+   {
+    "file": "every_weapon_is_also_a_tool",
+    "tag": "every weapon is also a tool (design twist)"
+   },
+   {
+    "file": "everything_valuable_must_be_physically_carried",
+    "tag": "everything valuable must be physically carried (design twist)"
+   },
+   {
+    "file": "excavation",
+    "tag": "excavation (core gameplay)"
+   },
+   {
+    "file": "expedition",
+    "tag": "expedition (core gameplay)"
+   },
+   {
+    "file": "expedition_runs",
+    "tag": "expedition runs (game structure)"
+   },
+   {
+    "file": "explore_gather_build_loop",
+    "tag": "explore-gather-build loop (game structure)"
+   },
+   {
+    "file": "exponential_growth",
+    "tag": "exponential growth (progression)"
+   },
+   {
+    "file": "extreme_cold",
+    "tag": "extreme cold (natural environment)"
+   },
+   {
+    "file": "extreme_heat",
+    "tag": "extreme heat (natural environment)"
+   },
+   {
+    "file": "facility_restoration",
+    "tag": "facility restoration (progression)"
+   },
+   {
+    "file": "faction_progression",
+    "tag": "faction progression (progression)"
+   },
+   {
+    "file": "faction_relations",
+    "tag": "faction relations (secondary mechanic)"
+   },
+   {
+    "file": "faction_reputation",
+    "tag": "faction reputation (secondary mechanic)"
+   },
+   {
+    "file": "factory",
+    "tag": "factory (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 52,
+  "icons": [
+   {
+    "file": "factory_is_also_the_labyrinth",
+    "tag": "factory is also the labyrinth (design twist)"
+   },
+   {
+    "file": "factory_line_design",
+    "tag": "factory line design (core gameplay)"
+   },
+   {
+    "file": "factory_operation",
+    "tag": "factory operation (core gameplay)"
+   },
+   {
+    "file": "factory_shift_loop",
+    "tag": "factory shift loop (game structure)"
+   },
+   {
+    "file": "failure_creates_new_opportunities",
+    "tag": "failure creates new opportunities (design twist)"
+   },
+   {
+    "file": "fairy_tale_wonder",
+    "tag": "fairy-tale wonder (mood and theme)"
+   },
+   {
+    "file": "family_relationships",
+    "tag": "family relationships (mood and theme)"
+   },
+   {
+    "file": "far_future",
+    "tag": "far future (world and era)"
+   },
+   {
+    "file": "farm",
+    "tag": "farm (location)"
+   },
+   {
+    "file": "farmhouse",
+    "tag": "farmhouse (location)"
+   },
+   {
+    "file": "farmland",
+    "tag": "farmland (natural environment)"
+   },
+   {
+    "file": "feedback_loops",
+    "tag": "feedback loops (design twist)"
+   },
+   {
+    "file": "feeding_companion",
+    "tag": "feeding companion (pressure or challenge)"
+   },
+   {
+    "file": "feudal_japan",
+    "tag": "feudal japan (setting)"
+   },
+   {
+    "file": "film_studio",
+    "tag": "film studio (location)"
+   },
+   {
+    "file": "filming",
+    "tag": "filming (core gameplay)"
+   }
+  ]
+ },
+ {
+  "sheet": 53,
+  "icons": [
+   {
+    "file": "final_objective_is_simply_getting_home",
+    "tag": "final objective is simply getting home (design twist)"
+   },
+   {
+    "file": "fire_propagation",
+    "tag": "fire propagation (secondary mechanic)"
+   },
+   {
+    "file": "fire_station",
+    "tag": "fire station (location)"
+   },
+   {
+    "file": "firefighting",
+    "tag": "firefighting (core gameplay)"
+   },
+   {
+    "file": "first_aid",
+    "tag": "first aid (core gameplay)"
+   },
+   {
+    "file": "fishing_minigame",
+    "tag": "fishing minigame (secondary mechanic)"
+   },
+   {
+    "file": "fishing_port",
+    "tag": "fishing port (location)"
+   },
+   {
+    "file": "fixed_camera",
+    "tag": "fixed camera (camera view)"
+   },
+   {
+    "file": "fixed_cinematic_angles",
+    "tag": "fixed cinematic angles (camera view)"
+   },
+   {
+    "file": "flat_shaded",
+    "tag": "flat-shaded (visual style)"
+   },
+   {
+    "file": "fleet_depot",
+    "tag": "fleet depot (location)"
+   },
+   {
+    "file": "flight_controls",
+    "tag": "flight controls (player interaction)"
+   },
+   {
+    "file": "floating_island_civilization",
+    "tag": "floating-island civilization (world and era)"
+   },
+   {
+    "file": "floating_platform",
+    "tag": "floating platform (location)"
+   },
+   {
+    "file": "flooded_landscape",
+    "tag": "flooded landscape (natural environment)"
+   },
+   {
+    "file": "flooded_ruins",
+    "tag": "flooded ruins (natural environment)"
+   }
+  ]
+ },
+ {
+  "sheet": 54,
+  "icons": [
+   {
+    "file": "floor_by_floor_descent",
+    "tag": "floor-by-floor descent (game structure)"
+   },
+   {
+    "file": "fluid_pumping",
+    "tag": "fluid pumping (player interaction)"
+   },
+   {
+    "file": "fluid_routing",
+    "tag": "fluid routing (secondary mechanic)"
+   },
+   {
+    "file": "fog_heavy",
+    "tag": "fog-heavy (visual style)"
+   },
+   {
+    "file": "fog_heavy_landscape",
+    "tag": "fog-heavy landscape (natural environment)"
+   },
+   {
+    "file": "folk_horror",
+    "tag": "folk horror (mood and theme)"
+   },
+   {
+    "file": "food_processing_plant",
+    "tag": "food processing plant (location)"
+   },
+   {
+    "file": "food_scarcity",
+    "tag": "food scarcity (pressure or challenge)"
+   },
+   {
+    "file": "football_american",
+    "tag": "football (american) (genre tag)"
+   },
+   {
+    "file": "forensics",
+    "tag": "forensics (core gameplay)"
+   },
+   {
+    "file": "forest_camp",
+    "tag": "forest camp (location)"
+   },
+   {
+    "file": "forest_reclaiming_city",
+    "tag": "forest reclaiming city (natural environment)"
+   },
+   {
+    "file": "forest_village",
+    "tag": "forest village (setting)"
+   },
+   {
+    "file": "forklift_controls",
+    "tag": "forklift controls (player interaction)"
+   },
+   {
+    "file": "fortification",
+    "tag": "fortification (secondary mechanic)"
+   },
+   {
+    "file": "fortress",
+    "tag": "fortress (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 55,
+  "icons": [
+   {
+    "file": "found_family",
+    "tag": "found family (mood and theme)"
+   },
+   {
+    "file": "foundry",
+    "tag": "foundry (location)"
+   },
+   {
+    "file": "free_aim_melee",
+    "tag": "free-aim melee (player interaction)"
+   },
+   {
+    "file": "free_complete_game",
+    "tag": "free complete game (business model)"
+   },
+   {
+    "file": "free_demo_with_full_game_unlock",
+    "tag": "free demo with full-game unlock (business model)"
+   },
+   {
+    "file": "free_for_all_pvp",
+    "tag": "free-for-all pvp (player mode)"
+   },
+   {
+    "file": "free_rts_camera",
+    "tag": "free rts camera (camera view)"
+   },
+   {
+    "file": "freeform_building",
+    "tag": "freeform building (player interaction)"
+   },
+   {
+    "file": "freight_train",
+    "tag": "freight train (location)"
+   },
+   {
+    "file": "frontier_adventure",
+    "tag": "frontier adventure (mood and theme)"
+   },
+   {
+    "file": "frontier_civilization",
+    "tag": "frontier civilization (world and era)"
+   },
+   {
+    "file": "frontier_settlement",
+    "tag": "frontier settlement (setting)"
+   },
+   {
+    "file": "fuel_management",
+    "tag": "fuel management (secondary mechanic)"
+   },
+   {
+    "file": "fuel_scarcity",
+    "tag": "fuel scarcity (pressure or challenge)"
+   },
+   {
+    "file": "full_motion_video",
+    "tag": "full-motion video (visual style)"
+   },
+   {
+    "file": "game_begins_after_the_apocalypse_is_already_old",
+    "tag": "game begins after the apocalypse is already old (design twist)"
+   }
+  ]
+ },
+ {
+  "sheet": 56,
+  "icons": [
+   {
+    "file": "game_deliberately_breaks_its_own_interface",
+    "tag": "game deliberately breaks its own interface (design twist)"
+   },
+   {
+    "file": "game_development",
+    "tag": "game development (genre tag)"
+   },
+   {
+    "file": "garage",
+    "tag": "garage (location)"
+   },
+   {
+    "file": "gardening",
+    "tag": "gardening (core gameplay)"
+   },
+   {
+    "file": "gas_plant",
+    "tag": "gas plant (location)"
+   },
+   {
+    "file": "gas_station",
+    "tag": "gas station (location)"
+   },
+   {
+    "file": "gauge_balancing",
+    "tag": "gauge balancing (player interaction)"
+   },
+   {
+    "file": "gear_score_progression",
+    "tag": "gear-score progression (progression)"
+   },
+   {
+    "file": "generation_ship_society",
+    "tag": "generation-ship society (world and era)"
+   },
+   {
+    "file": "generational_progression",
+    "tag": "generational progression (game structure)"
+   },
+   {
+    "file": "geothermal",
+    "tag": "geothermal (natural environment)"
+   },
+   {
+    "file": "gesture_input",
+    "tag": "gesture input (player interaction)"
+   },
+   {
+    "file": "ghost_town",
+    "tag": "ghost town (location)"
+   },
+   {
+    "file": "giant_interior_space",
+    "tag": "giant interior space (natural environment)"
+   },
+   {
+    "file": "giant_scale_world",
+    "tag": "giant-scale world (setting)"
+   },
+   {
+    "file": "giant_tree_interior",
+    "tag": "giant tree interior (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 57,
+  "icons": [
+   {
+    "file": "giant_vehicle",
+    "tag": "giant vehicle (location)"
+   },
+   {
+    "file": "giant_world",
+    "tag": "giant world (world and era)"
+   },
+   {
+    "file": "glacier",
+    "tag": "glacier (natural environment)"
+   },
+   {
+    "file": "glacier_station",
+    "tag": "glacier station (location)"
+   },
+   {
+    "file": "gothic_horror",
+    "tag": "gothic horror (setting)"
+   },
+   {
+    "file": "grappling_hook_traversal",
+    "tag": "grappling-hook traversal (secondary mechanic)"
+   },
+   {
+    "file": "grasslands",
+    "tag": "grasslands (natural environment)"
+   },
+   {
+    "file": "gravity_replaces_jumping",
+    "tag": "gravity replaces jumping (design twist)"
+   },
+   {
+    "file": "gravity_reversal",
+    "tag": "gravity reversal (player interaction)"
+   },
+   {
+    "file": "greed",
+    "tag": "greed (mood and theme)"
+   },
+   {
+    "file": "greek_underworld",
+    "tag": "greek underworld (setting)"
+   },
+   {
+    "file": "greenhouse_complex",
+    "tag": "greenhouse complex (location)"
+   },
+   {
+    "file": "grid_based_movement",
+    "tag": "grid-based movement (genre tag)"
+   },
+   {
+    "file": "grid_inventory_decisions",
+    "tag": "grid inventory decisions (player interaction)"
+   },
+   {
+    "file": "hacking_minigames",
+    "tag": "hacking minigames (player interaction)"
+   },
+   {
+    "file": "hand_painted_3d",
+    "tag": "hand-painted 3d (visual style)"
+   }
+  ]
+ },
+ {
+  "sheet": 58,
+  "icons": [
+   {
+    "file": "hand_painted_world",
+    "tag": "hand-painted world (visual style)"
+   },
+   {
+    "file": "harbor",
+    "tag": "harbor (location)"
+   },
+   {
+    "file": "hardcore_punishment",
+    "tag": "hardcore punishment (pressure or challenge)"
+   },
+   {
+    "file": "harsh_environment",
+    "tag": "harsh environment (pressure or challenge)"
+   },
+   {
+    "file": "heat_buildup",
+    "tag": "heat buildup (pressure or challenge)"
+   },
+   {
+    "file": "heavy_rain",
+    "tag": "heavy rain (natural environment)"
+   },
+   {
+    "file": "heist_fantasy",
+    "tag": "heist fantasy (mood and theme)"
+   },
+   {
+    "file": "heist_planning",
+    "tag": "heist planning (core gameplay)"
+   },
+   {
+    "file": "heist_planning_execution_loop",
+    "tag": "heist planning/execution loop (game structure)"
+   },
+   {
+    "file": "helmet_body_camera",
+    "tag": "helmet/body camera (camera view)"
+   },
+   {
+    "file": "heroism",
+    "tag": "heroism (mood and theme)"
+   },
+   {
+    "file": "hidden_role_multiplayer",
+    "tag": "hidden-role multiplayer (player mode)"
+   },
+   {
+    "file": "hidden_roles",
+    "tag": "hidden roles (secondary mechanic)"
+   },
+   {
+    "file": "high_contrast_lighting",
+    "tag": "high-contrast lighting (visual style)"
+   },
+   {
+    "file": "high_res_pixel_art",
+    "tag": "high-res pixel art (visual style)"
+   },
+   {
+    "file": "highlands",
+    "tag": "highlands (natural environment)"
+   }
+  ]
+ },
+ {
+  "sheet": 59,
+  "icons": [
+   {
+    "file": "highway_interchange",
+    "tag": "highway interchange (location)"
+   },
+   {
+    "file": "highway_rest_stop",
+    "tag": "highway rest stop (location)"
+   },
+   {
+    "file": "hobby_sim",
+    "tag": "hobby sim (genre tag)"
+   },
+   {
+    "file": "hockey",
+    "tag": "hockey (genre tag)"
+   },
+   {
+    "file": "home_decoration",
+    "tag": "home decoration (secondary mechanic)"
+   },
+   {
+    "file": "hopeful",
+    "tag": "hopeful (mood and theme)"
+   },
+   {
+    "file": "hose_connection",
+    "tag": "hose connection (player interaction)"
+   },
+   {
+    "file": "hospital",
+    "tag": "hospital (location)"
+   },
+   {
+    "file": "hostile_creatures",
+    "tag": "hostile creatures (pressure or challenge)"
+   },
+   {
+    "file": "hot_seat_multiplayer",
+    "tag": "hot-seat multiplayer (player mode)"
+   },
+   {
+    "file": "hotel",
+    "tag": "hotel (location)"
+   },
+   {
+    "file": "hotel_management",
+    "tag": "hotel management (core gameplay)"
+   },
+   {
+    "file": "hub_and_mission",
+    "tag": "hub-and-mission (game structure)"
+   },
+   {
+    "file": "hub_world",
+    "tag": "hub world (game structure)"
+   },
+   {
+    "file": "hunger_and_thirst",
+    "tag": "hunger and thirst (pressure or challenge)"
+   },
+   {
+    "file": "hydroelectric_dam",
+    "tag": "hydroelectric dam (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 60,
+  "icons": [
+   {
+    "file": "ice_reclaiming_city",
+    "tag": "ice reclaiming city (natural environment)"
+   },
+   {
+    "file": "icebreaker",
+    "tag": "icebreaker (location)"
+   },
+   {
+    "file": "incremental_progression",
+    "tag": "incremental progression (core gameplay)"
+   },
+   {
+    "file": "industrial",
+    "tag": "industrial (natural environment)"
+   },
+   {
+    "file": "industrial_district",
+    "tag": "industrial district (location)"
+   },
+   {
+    "file": "industrial_era",
+    "tag": "industrial era (world and era)"
+   },
+   {
+    "file": "industrial_revolution",
+    "tag": "industrial revolution (setting)"
+   },
+   {
+    "file": "infection",
+    "tag": "infection (pressure or challenge)"
+   },
+   {
+    "file": "infection_spread",
+    "tag": "infection spread (pressure or challenge)"
+   },
+   {
+    "file": "information_scarcity",
+    "tag": "information scarcity (pressure or challenge)"
+   },
+   {
+    "file": "injury_accumulation",
+    "tag": "injury accumulation (pressure or challenge)"
+   },
+   {
+    "file": "injury_system",
+    "tag": "injury system (secondary mechanic)"
+   },
+   {
+    "file": "ink_drawn",
+    "tag": "ink-drawn (visual style)"
+   },
+   {
+    "file": "inside_a_creature",
+    "tag": "inside a creature (location)"
+   },
+   {
+    "file": "inside_a_machine",
+    "tag": "inside a machine (location)"
+   },
+   {
+    "file": "interruptible_short_sessions",
+    "tag": "interruptible short sessions (platform trait)"
+   }
+  ]
+ },
+ {
+  "sheet": 61,
+  "icons": [
+   {
+    "file": "interstellar_colony",
+    "tag": "interstellar colony (setting)"
+   },
+   {
+    "file": "interstellar_empire",
+    "tag": "interstellar empire (world and era)"
+   },
+   {
+    "file": "inventory_expansion",
+    "tag": "inventory expansion (progression)"
+   },
+   {
+    "file": "inventory_is_physically_represented_in_the_world",
+    "tag": "inventory is physically represented in the world (design twist)"
+   },
+   {
+    "file": "inventory_opens_as_physical_object",
+    "tag": "inventory opens as physical object (design twist)"
+   },
+   {
+    "file": "inventory_pressure",
+    "tag": "inventory pressure (pressure or challenge)"
+   },
+   {
+    "file": "investigate_decide_consequence_loop",
+    "tag": "investigate-decide-consequence loop (game structure)"
+   },
+   {
+    "file": "iron_age",
+    "tag": "iron age (setting)"
+   },
+   {
+    "file": "island_hopping",
+    "tag": "island hopping (game structure)"
+   },
+   {
+    "file": "isolated_community",
+    "tag": "isolated community (setting)"
+   },
+   {
+    "file": "isolated_society",
+    "tag": "isolated society (world and era)"
+   },
+   {
+    "file": "isolation",
+    "tag": "isolation (mood and theme)"
+   },
+   {
+    "file": "isometric_diorama",
+    "tag": "isometric diorama (visual style)"
+   },
+   {
+    "file": "item_rotation",
+    "tag": "item rotation (player interaction)"
+   },
+   {
+    "file": "items_remember_their_owners",
+    "tag": "items remember their owners (design twist)"
+   },
+   {
+    "file": "job_simulator",
+    "tag": "job simulator (genre tag)"
+   }
+  ]
+ },
+ {
+  "sheet": 62,
+  "icons": [
+   {
+    "file": "journey_across_map",
+    "tag": "journey across map (game structure)"
+   },
+   {
+    "file": "jungle",
+    "tag": "jungle (natural environment)"
+   },
+   {
+    "file": "jungle_ruins",
+    "tag": "jungle ruins (location)"
+   },
+   {
+    "file": "junkyard",
+    "tag": "junkyard (location)"
+   },
+   {
+    "file": "knowledge_progression",
+    "tag": "knowledge progression (progression)"
+   },
+   {
+    "file": "laboratory",
+    "tag": "laboratory (location)"
+   },
+   {
+    "file": "lake_district",
+    "tag": "lake district (natural environment)"
+   },
+   {
+    "file": "landscape_orientation",
+    "tag": "landscape orientation (platform trait)"
+   },
+   {
+    "file": "large_rooms_are_local_mazes_themselves",
+    "tag": "large rooms are local mazes themselves (design twist)"
+   },
+   {
+    "file": "last_player_pressure",
+    "tag": "last-player pressure (pressure or challenge)"
+   },
+   {
+    "file": "laundromat",
+    "tag": "laundromat (location)"
+   },
+   {
+    "file": "lava_caves",
+    "tag": "lava caves (natural environment)"
+   },
+   {
+    "file": "law_enforcement_response",
+    "tag": "law enforcement response (pressure or challenge)"
+   },
+   {
+    "file": "legacy_generational_progression",
+    "tag": "legacy/generational progression (progression)"
+   },
+   {
+    "file": "level_is_one_giant_machine",
+    "tag": "level is one giant machine (design twist)"
+   },
+   {
+    "file": "lever_operation",
+    "tag": "lever operation (player interaction)"
+   }
+  ]
+ },
+ {
+  "sheet": 63,
+  "icons": [
+   {
+    "file": "library",
+    "tag": "library (location)"
+   },
+   {
+    "file": "light_grants_safety_but_attracts_enemies",
+    "tag": "light grants safety but attracts enemies (design twist)"
+   },
+   {
+    "file": "light_is_a_limited_resource",
+    "tag": "light is a limited resource (design twist)"
+   },
+   {
+    "file": "lighthouse",
+    "tag": "lighthouse (location)"
+   },
+   {
+    "file": "liminal",
+    "tag": "liminal (visual style)"
+   },
+   {
+    "file": "liminal_office_complex",
+    "tag": "liminal office complex (location)"
+   },
+   {
+    "file": "liminal_spaces",
+    "tag": "liminal spaces (natural environment)"
+   },
+   {
+    "file": "limited_budget",
+    "tag": "limited budget (pressure or challenge)"
+   },
+   {
+    "file": "limited_crew_capacity",
+    "tag": "limited crew capacity (pressure or challenge)"
+   },
+   {
+    "file": "limited_fuel",
+    "tag": "limited fuel (pressure or challenge)"
+   },
+   {
+    "file": "limited_palette",
+    "tag": "limited palette (visual style)"
+   },
+   {
+    "file": "limited_power",
+    "tag": "limited power (pressure or challenge)"
+   },
+   {
+    "file": "limited_safe_areas",
+    "tag": "limited safe areas (pressure or challenge)"
+   },
+   {
+    "file": "limited_storage",
+    "tag": "limited storage (pressure or challenge)"
+   },
+   {
+    "file": "limited_tool_set_with_systemic_depth",
+    "tag": "limited tool set with systemic depth (production scope)"
+   },
+   {
+    "file": "limited_turns",
+    "tag": "limited turns (pressure or challenge)"
+   }
+  ]
+ },
+ {
+  "sheet": 64,
+  "icons": [
+   {
+    "file": "lock_on_melee",
+    "tag": "lock-on melee (player interaction)"
+   },
+   {
+    "file": "log_pushing",
+    "tag": "log pushing (player interaction)"
+   },
+   {
+    "file": "logging_camp",
+    "tag": "logging camp (location)"
+   },
+   {
+    "file": "logic_gates",
+    "tag": "logic gates (player interaction)"
+   },
+   {
+    "file": "loneliness",
+    "tag": "loneliness (mood and theme)"
+   },
+   {
+    "file": "long_form_empire_progression",
+    "tag": "long-form empire progression (progression)"
+   },
+   {
+    "file": "loot_can_invalidate_completed_objectives",
+    "tag": "loot can invalidate completed objectives (design twist)"
+   },
+   {
+    "file": "loot_combinations",
+    "tag": "loot combinations (secondary mechanic)"
+   },
+   {
+    "file": "lose_carried_loot_on_death",
+    "tag": "lose carried loot on death (pressure or challenge)"
+   },
+   {
+    "file": "low_fantasy",
+    "tag": "low fantasy (setting)"
+   },
+   {
+    "file": "low_gravity",
+    "tag": "low gravity (natural environment)"
+   },
+   {
+    "file": "low_resolution_3d",
+    "tag": "low-resolution 3d (visual style)"
+   },
+   {
+    "file": "luxury_mansion",
+    "tag": "luxury mansion (location)"
+   },
+   {
+    "file": "machine_breakdown_risk",
+    "tag": "machine breakdown risk (pressure or challenge)"
+   },
+   {
+    "file": "machine_calibration",
+    "tag": "machine calibration (player interaction)"
+   },
+   {
+    "file": "machine_maintenance",
+    "tag": "machine maintenance (secondary mechanic)"
+   }
+  ]
+ },
+ {
+  "sheet": 65,
+  "icons": [
+   {
+    "file": "machine_operation",
+    "tag": "machine operation (core gameplay)"
+   },
+   {
+    "file": "magic_academy",
+    "tag": "magic academy (location)"
+   },
+   {
+    "file": "magic_and_technology",
+    "tag": "magic-and-technology (world and era)"
+   },
+   {
+    "file": "magical_academy",
+    "tag": "magical academy (setting)"
+   },
+   {
+    "file": "mahjong",
+    "tag": "mahjong (genre tag)"
+   },
+   {
+    "file": "main_objective_can_be_dismantled_for_parts",
+    "tag": "main objective can be dismantled for parts (design twist)"
+   },
+   {
+    "file": "maintenance",
+    "tag": "maintenance (mood and theme)"
+   },
+   {
+    "file": "maintenance_costs",
+    "tag": "maintenance costs (pressure or challenge)"
+   },
+   {
+    "file": "maintenance_work",
+    "tag": "maintenance work (core gameplay)"
+   },
+   {
+    "file": "management_calendar",
+    "tag": "management calendar (game structure)"
+   },
+   {
+    "file": "management_decisions_happen_while_action_continues",
+    "tag": "management decisions happen while action continues (design twist)"
+   },
+   {
+    "file": "manual_cranking",
+    "tag": "manual cranking (player interaction)"
+   },
+   {
+    "file": "manual_navigation",
+    "tag": "manual navigation (player interaction)"
+   },
+   {
+    "file": "manual_pumping",
+    "tag": "manual pumping (player interaction)"
+   },
+   {
+    "file": "manual_tool_use",
+    "tag": "manual tool use (player interaction)"
+   },
+   {
+    "file": "map_annotation",
+    "tag": "map annotation (player interaction)"
+   }
+  ]
+ },
+ {
+  "sheet": 66,
+  "icons": [
+   {
+    "file": "map_changes_because_of_player_systems",
+    "tag": "map changes because of player systems (design twist)"
+   },
+   {
+    "file": "map_drawing",
+    "tag": "map drawing (secondary mechanic)"
+   },
+   {
+    "file": "map_has_no_minimap_but_uses_strong_landmarks",
+    "tag": "map has no minimap but uses strong landmarks (design twist)"
+   },
+   {
+    "file": "map_knowledge_progression",
+    "tag": "map knowledge progression (progression)"
+   },
+   {
+    "file": "map_only_interface",
+    "tag": "map-only interface (camera view)"
+   },
+   {
+    "file": "market_fluctuations",
+    "tag": "market fluctuations (pressure or challenge)"
+   },
+   {
+    "file": "mars_base",
+    "tag": "mars base (location)"
+   },
+   {
+    "file": "mars_colony",
+    "tag": "mars colony (setting)"
+   },
+   {
+    "file": "mars_like_desert",
+    "tag": "mars-like desert (natural environment)"
+   },
+   {
+    "file": "marsh",
+    "tag": "marsh (natural environment)"
+   },
+   {
+    "file": "media_influence",
+    "tag": "media influence (mood and theme)"
+   },
+   {
+    "file": "medical_diagnosis",
+    "tag": "medical diagnosis (core gameplay)"
+   },
+   {
+    "file": "meditative",
+    "tag": "meditative (mood and theme)"
+   },
+   {
+    "file": "megacity",
+    "tag": "megacity (setting)"
+   },
+   {
+    "file": "megacity_block",
+    "tag": "megacity block (location)"
+   },
+   {
+    "file": "melancholy",
+    "tag": "melancholy (mood and theme)"
+   }
+  ]
+ },
+ {
+  "sheet": 67,
+  "icons": [
+   {
+    "file": "meta_unlocks",
+    "tag": "meta unlocks (secondary mechanic)"
+   },
+   {
+    "file": "metro_tunnels",
+    "tag": "metro tunnels (location)"
+   },
+   {
+    "file": "metroidvania_world",
+    "tag": "metroidvania world (game structure)"
+   },
+   {
+    "file": "military_base",
+    "tag": "military base (location)"
+   },
+   {
+    "file": "military_conflict",
+    "tag": "military conflict (world and era)"
+   },
+   {
+    "file": "mine",
+    "tag": "mine (location)"
+   },
+   {
+    "file": "miniature_diorama",
+    "tag": "miniature diorama (visual style)"
+   },
+   {
+    "file": "miniature_domestic_world",
+    "tag": "miniature domestic world (natural environment)"
+   },
+   {
+    "file": "missile_silo",
+    "tag": "missile silo (location)"
+   },
+   {
+    "file": "mission_based_campaign",
+    "tag": "mission-based campaign (game structure)"
+   },
+   {
+    "file": "mixed_2d_3d",
+    "tag": "mixed 2d/3d (visual style)"
+   },
+   {
+    "file": "mobile_base_expansion",
+    "tag": "mobile-base expansion (progression)"
+   },
+   {
+    "file": "mobile_base_progression",
+    "tag": "mobile base progression (game structure)"
+   },
+   {
+    "file": "mobile_fortress",
+    "tag": "mobile fortress (location)"
+   },
+   {
+    "file": "modular_industrial",
+    "tag": "modular industrial (visual style)"
+   },
+   {
+    "file": "molecule_assembly",
+    "tag": "molecule assembly (player interaction)"
+   }
+  ]
+ },
+ {
+  "sheet": 68,
+  "icons": [
+   {
+    "file": "momentum_traversal",
+    "tag": "momentum traversal (player interaction)"
+   },
+   {
+    "file": "monastery",
+    "tag": "monastery (location)"
+   },
+   {
+    "file": "money_based_upgrades",
+    "tag": "money-based upgrades (progression)"
+   },
+   {
+    "file": "money_is_hidden_until_the_end_of_the_run",
+    "tag": "money is hidden until the end of the run (design twist)"
+   },
+   {
+    "file": "monsoon",
+    "tag": "monsoon (natural environment)"
+   },
+   {
+    "file": "monster_hunting",
+    "tag": "monster hunting (core gameplay)"
+   },
+   {
+    "file": "monster_society",
+    "tag": "monster society (setting)"
+   },
+   {
+    "file": "moon_base",
+    "tag": "moon base (location)"
+   },
+   {
+    "file": "moon_colony",
+    "tag": "moon colony (setting)"
+   },
+   {
+    "file": "moon_surface",
+    "tag": "moon surface (natural environment)"
+   },
+   {
+    "file": "morale_collapse",
+    "tag": "morale collapse (pressure or challenge)"
+   },
+   {
+    "file": "morality_choices",
+    "tag": "morality choices (secondary mechanic)"
+   },
+   {
+    "file": "motel",
+    "tag": "motel (location)"
+   },
+   {
+    "file": "mount_system",
+    "tag": "mount system (secondary mechanic)"
+   },
+   {
+    "file": "mountain_facility",
+    "tag": "mountain facility (location)"
+   },
+   {
+    "file": "mountain_town",
+    "tag": "mountain town (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 69,
+  "icons": [
+   {
+    "file": "mountains",
+    "tag": "mountains (natural environment)"
+   },
+   {
+    "file": "moving_caravan",
+    "tag": "moving caravan (location)"
+   },
+   {
+    "file": "moving_hazard_zone",
+    "tag": "moving hazard zone (pressure or challenge)"
+   },
+   {
+    "file": "moving_train",
+    "tag": "moving train (location)"
+   },
+   {
+    "file": "moving_world",
+    "tag": "moving world (setting)"
+   },
+   {
+    "file": "multi_camera_surveillance",
+    "tag": "multi-camera surveillance (camera view)"
+   },
+   {
+    "file": "multiple_parallel_objectives",
+    "tag": "multiple parallel objectives (game structure)"
+   },
+   {
+    "file": "mundane_work_made_dangerous",
+    "tag": "mundane work made dangerous (mood and theme)"
+   },
+   {
+    "file": "museum",
+    "tag": "museum (location)"
+   },
+   {
+    "file": "museum_curation",
+    "tag": "museum curation (core gameplay)"
+   },
+   {
+    "file": "music_performance",
+    "tag": "music performance (core gameplay)"
+   },
+   {
+    "file": "musou",
+    "tag": "musou (genre tag)"
+   },
+   {
+    "file": "mysterious_ancient_civilization",
+    "tag": "mysterious ancient civilization (world and era)"
+   },
+   {
+    "file": "mystery_dungeon",
+    "tag": "mystery dungeon (genre tag)"
+   },
+   {
+    "file": "mythological",
+    "tag": "mythological (world and era)"
+   },
+   {
+    "file": "n64_style_3d",
+    "tag": "n64-style 3d (visual style)"
+   }
+  ]
+ },
+ {
+  "sheet": 70,
+  "icons": [
+   {
+    "file": "negotiation",
+    "tag": "negotiation (core gameplay)"
+   },
+   {
+    "file": "neon",
+    "tag": "neon (visual style)"
+   },
+   {
+    "file": "new_biome_unlocks",
+    "tag": "new biome unlocks (progression)"
+   },
+   {
+    "file": "new_colony_world",
+    "tag": "new colony world (world and era)"
+   },
+   {
+    "file": "new_mission_tier_unlocks",
+    "tag": "new mission tier unlocks (progression)"
+   },
+   {
+    "file": "new_route_unlocks",
+    "tag": "new route unlocks (progression)"
+   },
+   {
+    "file": "newsroom",
+    "tag": "newsroom (location)"
+   },
+   {
+    "file": "nightclub",
+    "tag": "nightclub (location)"
+   },
+   {
+    "file": "nightfall_danger",
+    "tag": "nightfall danger (pressure or challenge)"
+   },
+   {
+    "file": "no_permanent_character_upgrades",
+    "tag": "no permanent character upgrades (design twist)"
+   },
+   {
+    "file": "no_save_sections",
+    "tag": "no-save sections (pressure or challenge)"
+   },
+   {
+    "file": "no_teleport_between_exterior_and_interior",
+    "tag": "no teleport between exterior and interior (design twist)"
+   },
+   {
+    "file": "noise_attracts_danger",
+    "tag": "noise attracts danger (pressure or challenge)"
+   },
+   {
+    "file": "noise_attracts_enemies",
+    "tag": "noise attracts enemies (pressure or challenge)"
+   },
+   {
+    "file": "noise_system",
+    "tag": "noise system (secondary mechanic)"
+   },
+   {
+    "file": "nomadic_society",
+    "tag": "nomadic society (setting)"
+   }
+  ]
+ },
+ {
+  "sheet": 71,
+  "icons": [
+   {
+    "file": "nomadic_world",
+    "tag": "nomadic world (world and era)"
+   },
+   {
+    "file": "norse_afterlife",
+    "tag": "norse afterlife (setting)"
+   },
+   {
+    "file": "northern_wilderness",
+    "tag": "northern wilderness (natural environment)"
+   },
+   {
+    "file": "not_every_mystery_has_a_reward",
+    "tag": "not every mystery has a reward (design twist)"
+   },
+   {
+    "file": "nothing_is_automatically_extracted",
+    "tag": "nothing is automatically extracted (design twist)"
+   },
+   {
+    "file": "nuclear_style_power_complex",
+    "tag": "nuclear-style power complex (location)"
+   },
+   {
+    "file": "object_stacking",
+    "tag": "object stacking (core gameplay)"
+   },
+   {
+    "file": "objective_escalation",
+    "tag": "objective escalation (pressure or challenge)"
+   },
+   {
+    "file": "observatory",
+    "tag": "observatory (location)"
+   },
+   {
+    "file": "occult_conspiracy",
+    "tag": "occult conspiracy (setting)"
+   },
+   {
+    "file": "occult_mystery",
+    "tag": "occult mystery (mood and theme)"
+   },
+   {
+    "file": "office_tower",
+    "tag": "office tower (location)"
+   },
+   {
+    "file": "offline_first_play",
+    "tag": "offline-first play (platform trait)"
+   },
+   {
+    "file": "offshore_platform",
+    "tag": "offshore platform (location)"
+   },
+   {
+    "file": "oil_painting_look",
+    "tag": "oil-painting look (visual style)"
+   },
+   {
+    "file": "oil_refinery",
+    "tag": "oil refinery (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 72,
+  "icons": [
+   {
+    "file": "oil_rig",
+    "tag": "oil rig (location)"
+   },
+   {
+    "file": "old_manor",
+    "tag": "old manor (location)"
+   },
+   {
+    "file": "one_button_input",
+    "tag": "one-button input (platform trait)"
+   },
+   {
+    "file": "one_central_base_plus_excursions",
+    "tag": "one central base plus excursions (game structure)"
+   },
+   {
+    "file": "one_mechanic_with_variations",
+    "tag": "one mechanic with variations (production scope)"
+   },
+   {
+    "file": "one_object_is_the_center_of_the_whole_game",
+    "tag": "one object is the center of the whole game (design twist)"
+   },
+   {
+    "file": "one_player_controls_logistics_while_others_act_physically",
+    "tag": "one player controls logistics while others act physically (design twist)"
+   },
+   {
+    "file": "one_player_has_different_information_from_others",
+    "tag": "one player has different information from others (design twist)"
+   },
+   {
+    "file": "one_time_purchase",
+    "tag": "one-time purchase (business model)"
+   },
+   {
+    "file": "one_way_progression",
+    "tag": "one-way progression (pressure or challenge)"
+   },
+   {
+    "file": "only_the_base_progresses",
+    "tag": "only the base progresses (design twist)"
+   },
+   {
+    "file": "only_the_world_progresses",
+    "tag": "only the world progresses (design twist)"
+   },
+   {
+    "file": "open_ended_life_sim",
+    "tag": "open-ended life sim (game structure)"
+   },
+   {
+    "file": "open_ocean",
+    "tag": "open ocean (natural environment)"
+   },
+   {
+    "file": "open_pit_quarry",
+    "tag": "open-pit quarry (location)"
+   },
+   {
+    "file": "optimistic",
+    "tag": "optimistic (mood and theme)"
+   }
+  ]
+ },
+ {
+  "sheet": 73,
+  "icons": [
+   {
+    "file": "optional_content_expansions",
+    "tag": "optional content expansions (business model)"
+   },
+   {
+    "file": "optional_cosmetic_purchases",
+    "tag": "optional cosmetic purchases (business model)"
+   },
+   {
+    "file": "optional_greed_vs_safety",
+    "tag": "optional greed vs safety (pressure or challenge)"
+   },
+   {
+    "file": "optional_work_can_be_more_valuable_than_mission_objective",
+    "tag": "optional work can be more valuable than mission objective (design twist)"
+   },
+   {
+    "file": "orbital_exterior",
+    "tag": "orbital exterior (natural environment)"
+   },
+   {
+    "file": "orbital_habitat",
+    "tag": "orbital habitat (setting)"
+   },
+   {
+    "file": "orbital_station",
+    "tag": "orbital station (location)"
+   },
+   {
+    "file": "orbital_strategy_camera",
+    "tag": "orbital strategy camera (camera view)"
+   },
+   {
+    "file": "ordinary_job_becomes_dangerous",
+    "tag": "ordinary job becomes dangerous (design twist)"
+   },
+   {
+    "file": "over_the_shoulder",
+    "tag": "over-the-shoulder (camera view)"
+   },
+   {
+    "file": "overgrown_ruins",
+    "tag": "overgrown ruins (natural environment)"
+   },
+   {
+    "file": "overheating_systems",
+    "tag": "overheating systems (pressure or challenge)"
+   },
+   {
+    "file": "oxygen_scarcity",
+    "tag": "oxygen scarcity (pressure or challenge)"
+   },
+   {
+    "file": "oxygen_supply",
+    "tag": "oxygen supply (pressure or challenge)"
+   },
+   {
+    "file": "packing_objects",
+    "tag": "packing objects (player interaction)"
+   },
+   {
+    "file": "packing_orders",
+    "tag": "packing orders (core gameplay)"
+   }
+  ]
+ },
+ {
+  "sheet": 74,
+  "icons": [
+   {
+    "file": "painting",
+    "tag": "painting (core gameplay)"
+   },
+   {
+    "file": "painting_surfaces",
+    "tag": "painting surfaces (player interaction)"
+   },
+   {
+    "file": "paper_cutout",
+    "tag": "paper cutout (visual style)"
+   },
+   {
+    "file": "parallel_universe",
+    "tag": "parallel universe (world and era)"
+   },
+   {
+    "file": "parallel_world",
+    "tag": "parallel world (setting)"
+   },
+   {
+    "file": "paranoia",
+    "tag": "paranoia (mood and theme)"
+   },
+   {
+    "file": "parking_garage",
+    "tag": "parking garage (location)"
+   },
+   {
+    "file": "parkour",
+    "tag": "parkour (core gameplay)"
+   },
+   {
+    "file": "parkour_movement",
+    "tag": "parkour movement (player interaction)"
+   },
+   {
+    "file": "parody",
+    "tag": "parody (genre tag)"
+   },
+   {
+    "file": "particle_accelerator",
+    "tag": "particle accelerator (location)"
+   },
+   {
+    "file": "party_composition",
+    "tag": "party composition (secondary mechanic)"
+   },
+   {
+    "file": "patrol_routes",
+    "tag": "patrol routes (pressure or challenge)"
+   },
+   {
+    "file": "pay_what_you_want",
+    "tag": "pay what you want (business model)"
+   },
+   {
+    "file": "peaceful",
+    "tag": "peaceful (mood and theme)"
+   },
+   {
+    "file": "permadeath_inheritance",
+    "tag": "permadeath inheritance (progression)"
+   }
+  ]
+ },
+ {
+  "sheet": 75,
+  "icons": [
+   {
+    "file": "permadeath_mode",
+    "tag": "permadeath mode (secondary mechanic)"
+   },
+   {
+    "file": "permanent_night",
+    "tag": "permanent night (natural environment)"
+   },
+   {
+    "file": "persistent_colony_timeline",
+    "tag": "persistent colony timeline (game structure)"
+   },
+   {
+    "file": "persistent_multiplayer",
+    "tag": "persistent multiplayer (player mode)"
+   },
+   {
+    "file": "persistent_upgrades",
+    "tag": "persistent upgrades (progression)"
+   },
+   {
+    "file": "persistent_world",
+    "tag": "persistent world (game structure)"
+   },
+   {
+    "file": "pet_system",
+    "tag": "pet system (secondary mechanic)"
+   },
+   {
+    "file": "photogrammetry_inspired",
+    "tag": "photogrammetry-inspired (visual style)"
+   },
+   {
+    "file": "photorealistic",
+    "tag": "photorealistic (visual style)"
+   },
+   {
+    "file": "physics",
+    "tag": "physics (secondary mechanic)"
+   },
+   {
+    "file": "physics_destruction",
+    "tag": "physics destruction (core gameplay)"
+   },
+   {
+    "file": "pickpocketing",
+    "tag": "pickpocketing (player interaction)"
+   },
+   {
+    "file": "picture_in_picture_drone_camera",
+    "tag": "picture-in-picture drone camera (camera view)"
+   },
+   {
+    "file": "pipe_routing",
+    "tag": "pipe routing (player interaction)"
+   },
+   {
+    "file": "pipeline_routing",
+    "tag": "pipeline routing (core gameplay)"
+   },
+   {
+    "file": "pirate_adventure",
+    "tag": "pirate adventure (mood and theme)"
+   }
+  ]
+ },
+ {
+  "sheet": 76,
+  "icons": [
+   {
+    "file": "pirate_age",
+    "tag": "pirate age (world and era)"
+   },
+   {
+    "file": "pixelated_3d",
+    "tag": "pixelated 3d (visual style)"
+   },
+   {
+    "file": "placing_objects_precisely",
+    "tag": "placing objects precisely (player interaction)"
+   },
+   {
+    "file": "planet_hopping",
+    "tag": "planet hopping (game structure)"
+   },
+   {
+    "file": "planetary_colony",
+    "tag": "planetary colony (location)"
+   },
+   {
+    "file": "planting",
+    "tag": "planting (player interaction)"
+   },
+   {
+    "file": "plastic_toy_like",
+    "tag": "plastic toy-like (visual style)"
+   },
+   {
+    "file": "playable_without_sound",
+    "tag": "playable without sound (platform trait)"
+   },
+   {
+    "file": "player_built_world",
+    "tag": "player-built world (game structure)"
+   },
+   {
+    "file": "player_can_finish_task_using_parts_stolen_from_optional_systems",
+    "tag": "player can finish task using parts stolen from optional systems (design twist)"
+   },
+   {
+    "file": "player_chooses_when_to_wake_the_facility",
+    "tag": "player chooses when to wake the facility (design twist)"
+   },
+   {
+    "file": "player_inherits_previous_crews_mistakes",
+    "tag": "player inherits previous crews mistakes (design twist)"
+   },
+   {
+    "file": "player_manages_a_place_but_performs_all_work_manually",
+    "tag": "player manages a place but performs all work manually (design twist)"
+   },
+   {
+    "file": "player_repairs_the_world_instead_of_conquering_it",
+    "tag": "player repairs the world instead of conquering it (design twist)"
+   },
+   {
+    "file": "player_runs_the_enemy_economy",
+    "tag": "player runs the enemy economy (design twist)"
+   },
+   {
+    "file": "player_skill_only_progression",
+    "tag": "player-skill-only progression (progression)"
+   }
+  ]
+ },
+ {
+  "sheet": 77,
+  "icons": [
+   {
+    "file": "player_works_for_an_organization_they_never_see",
+    "tag": "player works for an organization they never see (design twist)"
+   },
+   {
+    "file": "players_can_intentionally_cause_disasters_for_profit",
+    "tag": "players can intentionally cause disasters for profit (design twist)"
+   },
+   {
+    "file": "players_can_split_but_communication_becomes_harder",
+    "tag": "players can split but communication becomes harder (design twist)"
+   },
+   {
+    "file": "players_create_most_of_the_disasters_themselves",
+    "tag": "players create most of the disasters themselves (design twist)"
+   },
+   {
+    "file": "players_decide_when_run_is_over",
+    "tag": "players decide when run is over (design twist)"
+   },
+   {
+    "file": "players_draw_their_own_map",
+    "tag": "players draw their own map (design twist)"
+   },
+   {
+    "file": "players_see_different_versions_of_reality",
+    "tag": "players see different versions of reality (design twist)"
+   },
+   {
+    "file": "plug_and_socket_connection",
+    "tag": "plug-and-socket connection (player interaction)"
+   },
+   {
+    "file": "point_and_click",
+    "tag": "point-and-click (player interaction)"
+   },
+   {
+    "file": "polar_expedition",
+    "tag": "polar expedition (setting)"
+   },
+   {
+    "file": "police_station",
+    "tag": "police station (location)"
+   },
+   {
+    "file": "political_intrigue",
+    "tag": "political intrigue (mood and theme)"
+   },
+   {
+    "file": "political_management",
+    "tag": "political management (core gameplay)"
+   },
+   {
+    "file": "portal_facility",
+    "tag": "portal facility (location)"
+   },
+   {
+    "file": "portrait_orientation",
+    "tag": "portrait orientation (platform trait)"
+   },
+   {
+    "file": "post_collapse",
+    "tag": "post-collapse (world and era)"
+   }
+  ]
+ },
+ {
+  "sheet": 78,
+  "icons": [
+   {
+    "file": "post_collapse_civilization",
+    "tag": "post-collapse civilization (setting)"
+   },
+   {
+    "file": "post_disaster_landscape",
+    "tag": "post-disaster landscape (natural environment)"
+   },
+   {
+    "file": "post_human_future",
+    "tag": "post-human future (world and era)"
+   },
+   {
+    "file": "post_human_identity",
+    "tag": "post-human identity (mood and theme)"
+   },
+   {
+    "file": "post_human_world",
+    "tag": "post-human world (setting)"
+   },
+   {
+    "file": "post_office",
+    "tag": "post office (location)"
+   },
+   {
+    "file": "power_fantasy",
+    "tag": "power fantasy (mood and theme)"
+   },
+   {
+    "file": "power_grid_restoration",
+    "tag": "power-grid restoration (core gameplay)"
+   },
+   {
+    "file": "power_management",
+    "tag": "power management (core gameplay)"
+   },
+   {
+    "file": "power_plant",
+    "tag": "power plant (location)"
+   },
+   {
+    "file": "powering_lights_also_powers_threats",
+    "tag": "powering lights also powers threats (design twist)"
+   },
+   {
+    "file": "pre_rendered_backgrounds",
+    "tag": "pre-rendered backgrounds (visual style)"
+   },
+   {
+    "file": "premium",
+    "tag": "premium (business model)"
+   },
+   {
+    "file": "prepare_execute_return_loop",
+    "tag": "prepare-execute-return loop (game structure)"
+   },
+   {
+    "file": "prepare_extract_upgrade_loop",
+    "tag": "prepare-extract-upgrade loop (game structure)"
+   },
+   {
+    "file": "prestige_reset_progression",
+    "tag": "prestige/reset progression (progression)"
+   }
+  ]
+ },
+ {
+  "sheet": 79,
+  "icons": [
+   {
+    "file": "previous_failed_runs_leave_physical_traces",
+    "tag": "previous failed runs leave physical traces (design twist)"
+   },
+   {
+    "file": "prison",
+    "tag": "prison (location)"
+   },
+   {
+    "file": "procedural_labyrinth",
+    "tag": "procedural labyrinth (game structure)"
+   },
+   {
+    "file": "production_backlog",
+    "tag": "production backlog (pressure or challenge)"
+   },
+   {
+    "file": "production_chains",
+    "tag": "production chains (secondary mechanic)"
+   },
+   {
+    "file": "production_scheduling",
+    "tag": "production scheduling (player interaction)"
+   },
+   {
+    "file": "profession_mastery",
+    "tag": "profession mastery (progression)"
+   },
+   {
+    "file": "progress_comes_only_from_knowledge",
+    "tag": "progress comes only from knowledge (design twist)"
+   },
+   {
+    "file": "progress_resets_but_knowledge_remains",
+    "tag": "progress resets but knowledge remains (design twist)"
+   },
+   {
+    "file": "projectile_avoidance",
+    "tag": "projectile avoidance (pressure or challenge)"
+   },
+   {
+    "file": "proximity_voice",
+    "tag": "proximity voice (secondary mechanic)"
+   },
+   {
+    "file": "proximity_voice_interaction",
+    "tag": "proximity voice interaction (player interaction)"
+   },
+   {
+    "file": "ps1_low_poly",
+    "tag": "ps1 low-poly (visual style)"
+   },
+   {
+    "file": "ps1_style_3d",
+    "tag": "ps1-style 3d (visual style)"
+   },
+   {
+    "file": "ps2_era_3d",
+    "tag": "ps2-era 3d (visual style)"
+   },
+   {
+    "file": "pumping_station",
+    "tag": "pumping station (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 80,
+  "icons": [
+   {
+    "file": "pursuer_pressure",
+    "tag": "pursuer pressure (pressure or challenge)"
+   },
+   {
+    "file": "pursuit",
+    "tag": "pursuit (pressure or challenge)"
+   },
+   {
+    "file": "puzzle_locks",
+    "tag": "puzzle locks (secondary mechanic)"
+   },
+   {
+    "file": "quality_degradation",
+    "tag": "quality degradation (pressure or challenge)"
+   },
+   {
+    "file": "quality_inspection",
+    "tag": "quality inspection (core gameplay)"
+   },
+   {
+    "file": "quarantine_facility",
+    "tag": "quarantine facility (location)"
+   },
+   {
+    "file": "quests_are_generated_from_current_world_state",
+    "tag": "quests are generated from current world state (design twist)"
+   },
+   {
+    "file": "quests_contracts",
+    "tag": "quests/contracts (secondary mechanic)"
+   },
+   {
+    "file": "quick_time_events",
+    "tag": "quick-time events (secondary mechanic)"
+   },
+   {
+    "file": "radiation_exposure",
+    "tag": "radiation exposure (pressure or challenge)"
+   },
+   {
+    "file": "radio_station",
+    "tag": "radio station (location)"
+   },
+   {
+    "file": "radio_tower_complex",
+    "tag": "radio tower complex (location)"
+   },
+   {
+    "file": "radioactive_wasteland",
+    "tag": "radioactive wasteland (natural environment)"
+   },
+   {
+    "file": "rail_yard",
+    "tag": "rail yard (location)"
+   },
+   {
+    "file": "railway_building",
+    "tag": "railway building (core gameplay)"
+   },
+   {
+    "file": "rainforest",
+    "tag": "rainforest (natural environment)"
+   }
+  ]
+ },
+ {
+  "sheet": 81,
+  "icons": [
+   {
+    "file": "ranch",
+    "tag": "ranch (location)"
+   },
+   {
+    "file": "random_events",
+    "tag": "random events (secondary mechanic)"
+   },
+   {
+    "file": "rank_league_progression",
+    "tag": "rank/league progression (progression)"
+   },
+   {
+    "file": "real_time_continuous_simulation",
+    "tag": "real-time continuous simulation (game structure)"
+   },
+   {
+    "file": "rebuilding",
+    "tag": "rebuilding (mood and theme)"
+   },
+   {
+    "file": "recipe_discovery",
+    "tag": "recipe discovery (progression)"
+   },
+   {
+    "file": "recipe_mixing",
+    "tag": "recipe mixing (player interaction)"
+   },
+   {
+    "file": "recycling_plant",
+    "tag": "recycling plant (location)"
+   },
+   {
+    "file": "redemption",
+    "tag": "redemption (mood and theme)"
+   },
+   {
+    "file": "relationship_system",
+    "tag": "relationship system (secondary mechanic)"
+   },
+   {
+    "file": "relationships",
+    "tag": "relationships (player interaction)"
+   },
+   {
+    "file": "remappable_controls",
+    "tag": "remappable controls (platform trait)"
+   },
+   {
+    "file": "remote_drone_control",
+    "tag": "remote drone control (player interaction)"
+   },
+   {
+    "file": "rent_taxes",
+    "tag": "rent/taxes (pressure or challenge)"
+   },
+   {
+    "file": "repair",
+    "tag": "repair (secondary mechanic)"
+   },
+   {
+    "file": "repair_depot",
+    "tag": "repair depot (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 82,
+  "icons": [
+   {
+    "file": "repair_minigames",
+    "tag": "repair minigames (secondary mechanic)"
+   },
+   {
+    "file": "repairing",
+    "tag": "repairing (core gameplay)"
+   },
+   {
+    "file": "repairing_components",
+    "tag": "repairing components (player interaction)"
+   },
+   {
+    "file": "reputation_progression",
+    "tag": "reputation progression (progression)"
+   },
+   {
+    "file": "reputation_risk",
+    "tag": "reputation risk (pressure or challenge)"
+   },
+   {
+    "file": "reputation_system",
+    "tag": "reputation system (secondary mechanic)"
+   },
+   {
+    "file": "rescue_operations",
+    "tag": "rescue operations (core gameplay)"
+   },
+   {
+    "file": "research_expedition",
+    "tag": "research expedition (setting)"
+   },
+   {
+    "file": "research_progression",
+    "tag": "research progression (progression)"
+   },
+   {
+    "file": "research_station",
+    "tag": "research station (location)"
+   },
+   {
+    "file": "research_tree",
+    "tag": "research tree (secondary mechanic)"
+   },
+   {
+    "file": "research_vessel",
+    "tag": "research vessel (location)"
+   },
+   {
+    "file": "resource_allocation",
+    "tag": "resource allocation (player interaction)"
+   },
+   {
+    "file": "resource_decay",
+    "tag": "resource decay (pressure or challenge)"
+   },
+   {
+    "file": "resource_investment_upgrades",
+    "tag": "resource-investment upgrades (progression)"
+   },
+   {
+    "file": "resource_scarcity",
+    "tag": "resource scarcity (pressure or challenge)"
+   }
+  ]
+ },
+ {
+  "sheet": 83,
+  "icons": [
+   {
+    "file": "resources_are_other_machines_components",
+    "tag": "resources are other machines/components (design twist)"
+   },
+   {
+    "file": "restaurant",
+    "tag": "restaurant (location)"
+   },
+   {
+    "file": "restaurant_management",
+    "tag": "restaurant management (core gameplay)"
+   },
+   {
+    "file": "restoration",
+    "tag": "restoration (mood and theme)"
+   },
+   {
+    "file": "restored_world",
+    "tag": "restored world (setting)"
+   },
+   {
+    "file": "restoring_infrastructure_opens_new_hazards",
+    "tag": "restoring infrastructure opens new hazards (design twist)"
+   },
+   {
+    "file": "retreat_risk",
+    "tag": "retreat risk (pressure or challenge)"
+   },
+   {
+    "file": "retro_3d",
+    "tag": "retro 3d (visual style)"
+   },
+   {
+    "file": "retro_future",
+    "tag": "retro-future (world and era)"
+   },
+   {
+    "file": "retro_nostalgia",
+    "tag": "retro nostalgia (mood and theme)"
+   },
+   {
+    "file": "retro_sci_fi",
+    "tag": "retro sci-fi (visual style)"
+   },
+   {
+    "file": "retrofuturistic",
+    "tag": "retrofuturistic (setting)"
+   },
+   {
+    "file": "reusable_modular_levels",
+    "tag": "reusable modular levels (production scope)"
+   },
+   {
+    "file": "revenge",
+    "tag": "revenge (mood and theme)"
+   },
+   {
+    "file": "revive_system",
+    "tag": "revive system (secondary mechanic)"
+   },
+   {
+    "file": "revive_timer",
+    "tag": "revive timer (pressure or challenge)"
+   }
+  ]
+ },
+ {
+  "sheet": 84,
+  "icons": [
+   {
+    "file": "rhythm_minigames",
+    "tag": "rhythm minigames (secondary mechanic)"
+   },
+   {
+    "file": "rhythm_play",
+    "tag": "rhythm play (core gameplay)"
+   },
+   {
+    "file": "rhythm_timing",
+    "tag": "rhythm timing (player interaction)"
+   },
+   {
+    "file": "rising_water",
+    "tag": "rising water (pressure or challenge)"
+   },
+   {
+    "file": "risk_reward",
+    "tag": "risk/reward (mood and theme)"
+   },
+   {
+    "file": "ritual_casting",
+    "tag": "ritual casting (core gameplay)"
+   },
+   {
+    "file": "rivalry",
+    "tag": "rivalry (mood and theme)"
+   },
+   {
+    "file": "river_delta",
+    "tag": "river delta (natural environment)"
+   },
+   {
+    "file": "river_valley",
+    "tag": "river valley (natural environment)"
+   },
+   {
+    "file": "road_building",
+    "tag": "road building (core gameplay)"
+   },
+   {
+    "file": "road_trip",
+    "tag": "road trip (setting)"
+   },
+   {
+    "file": "road_trip_structure",
+    "tag": "road-trip structure (game structure)"
+   },
+   {
+    "file": "roadside_diner",
+    "tag": "roadside diner (location)"
+   },
+   {
+    "file": "robot_assembly",
+    "tag": "robot assembly (core gameplay)"
+   },
+   {
+    "file": "rock_music",
+    "tag": "rock music (genre tag)"
+   },
+   {
+    "file": "rocky_coast",
+    "tag": "rocky coast (natural environment)"
+   }
+  ]
+ },
+ {
+  "sheet": 85,
+  "icons": [
+   {
+    "file": "roles_are_defined_only_by_equipment",
+    "tag": "roles are defined only by equipment (design twist)"
+   },
+   {
+    "file": "rooftop_district",
+    "tag": "rooftop district (location)"
+   },
+   {
+    "file": "room_by_room_crawl",
+    "tag": "room-by-room crawl (game structure)"
+   },
+   {
+    "file": "rope_interaction",
+    "tag": "rope interaction (player interaction)"
+   },
+   {
+    "file": "rotational_tightening",
+    "tag": "rotational tightening (player interaction)"
+   },
+   {
+    "file": "round_based_matches",
+    "tag": "round-based matches (game structure)"
+   },
+   {
+    "file": "route_uncertainty",
+    "tag": "route uncertainty (pressure or challenge)"
+   },
+   {
+    "file": "routes_change_after_accidents",
+    "tag": "routes change after accidents (design twist)"
+   },
+   {
+    "file": "ruined_civilization",
+    "tag": "ruined civilization (setting)"
+   },
+   {
+    "file": "ruins",
+    "tag": "ruins (natural environment)"
+   },
+   {
+    "file": "run_based_meta_progression",
+    "tag": "run-based meta progression (game structure)"
+   },
+   {
+    "file": "runner",
+    "tag": "runner (genre tag)"
+   },
+   {
+    "file": "rural",
+    "tag": "rural (natural environment)"
+   },
+   {
+    "file": "rusty_industrial",
+    "tag": "rusty industrial (visual style)"
+   },
+   {
+    "file": "safe_area_slowly_disappears",
+    "tag": "safe area slowly disappears (design twist)"
+   },
+   {
+    "file": "safe_looking_rooms_can_become_dangerous_after_blackout",
+    "tag": "safe-looking rooms can become dangerous after blackout (design twist)"
+   }
+  ]
+ },
+ {
+  "sheet": 86,
+  "icons": [
+   {
+    "file": "sailing_controls",
+    "tag": "sailing controls (player interaction)"
+   },
+   {
+    "file": "salt_flats",
+    "tag": "salt flats (natural environment)"
+   },
+   {
+    "file": "salvage_collection",
+    "tag": "salvage collection (secondary mechanic)"
+   },
+   {
+    "file": "salvage_yard",
+    "tag": "salvage yard (location)"
+   },
+   {
+    "file": "salvaging",
+    "tag": "salvaging (core gameplay)"
+   },
+   {
+    "file": "sand_dunes",
+    "tag": "sand dunes (natural environment)"
+   },
+   {
+    "file": "sand_reclaiming_city",
+    "tag": "sand reclaiming city (natural environment)"
+   },
+   {
+    "file": "sandstorm",
+    "tag": "sandstorm (natural environment)"
+   },
+   {
+    "file": "satellite_station",
+    "tag": "satellite station (location)"
+   },
+   {
+    "file": "savanna",
+    "tag": "savanna (natural environment)"
+   },
+   {
+    "file": "save_point_scarcity",
+    "tag": "save-point scarcity (pressure or challenge)"
+   },
+   {
+    "file": "sawmill",
+    "tag": "sawmill (location)"
+   },
+   {
+    "file": "scanning_inspection",
+    "tag": "scanning/inspection (player interaction)"
+   },
+   {
+    "file": "scavenging",
+    "tag": "scavenging (player interaction)"
+   },
+   {
+    "file": "school",
+    "tag": "school (location)"
+   },
+   {
+    "file": "school_contemporary",
+    "tag": "school contemporary (world and era)"
+   }
+  ]
+ },
+ {
+  "sheet": 87,
+  "icons": [
+   {
+    "file": "school_drama",
+    "tag": "school drama (mood and theme)"
+   },
+   {
+    "file": "school_life",
+    "tag": "school life (setting)"
+   },
+   {
+    "file": "sci_fi",
+    "tag": "sci-fi (setting)"
+   },
+   {
+    "file": "sci_fi_colony",
+    "tag": "sci-fi colony (setting)"
+   },
+   {
+    "file": "science_fantasy",
+    "tag": "science fantasy (setting)"
+   },
+   {
+    "file": "score_attack_sessions",
+    "tag": "score-attack sessions (game structure)"
+   },
+   {
+    "file": "score_decay",
+    "tag": "score decay (pressure or challenge)"
+   },
+   {
+    "file": "scrapyard",
+    "tag": "scrapyard (location)"
+   },
+   {
+    "file": "screen_terminal_only_view",
+    "tag": "screen/terminal-only view (camera view)"
+   },
+   {
+    "file": "sculpting",
+    "tag": "sculpting (core gameplay)"
+   },
+   {
+    "file": "seaside_town",
+    "tag": "seaside town (location)"
+   },
+   {
+    "file": "season_cycle",
+    "tag": "season cycle (secondary mechanic)"
+   },
+   {
+    "file": "season_progression",
+    "tag": "season progression (progression)"
+   },
+   {
+    "file": "seasonal_cycle",
+    "tag": "seasonal cycle (game structure)"
+   },
+   {
+    "file": "seasonal_management",
+    "tag": "seasonal management (game structure)"
+   },
+   {
+    "file": "seasons",
+    "tag": "seasons (natural environment)"
+   }
+  ]
+ },
+ {
+  "sheet": 88,
+  "icons": [
+   {
+    "file": "secondary_exits_can_emerge_far_from_the_vehicle",
+    "tag": "secondary exits can emerge far from the vehicle (design twist)"
+   },
+   {
+    "file": "secret_government_facility",
+    "tag": "secret government facility (setting)"
+   },
+   {
+    "file": "secret_hunting",
+    "tag": "secret hunting (secondary mechanic)"
+   },
+   {
+    "file": "security_camera_view",
+    "tag": "security-camera view (camera view)"
+   },
+   {
+    "file": "security_monitoring",
+    "tag": "security monitoring (core gameplay)"
+   },
+   {
+    "file": "semi_open_hubs",
+    "tag": "semi-open hubs (game structure)"
+   },
+   {
+    "file": "semi_random_map_sectors",
+    "tag": "semi-random map sectors (game structure)"
+   },
+   {
+    "file": "separation_risk",
+    "tag": "separation risk (pressure or challenge)"
+   },
+   {
+    "file": "server_farm",
+    "tag": "server farm (location)"
+   },
+   {
+    "file": "sewer_system",
+    "tag": "sewer system (location)"
+   },
+   {
+    "file": "shift_planning",
+    "tag": "shift planning (secondary mechanic)"
+   },
+   {
+    "file": "ship_base_restoration",
+    "tag": "ship/base restoration (progression)"
+   },
+   {
+    "file": "ship_management",
+    "tag": "ship management (core gameplay)"
+   },
+   {
+    "file": "shipyard",
+    "tag": "shipyard (location)"
+   },
+   {
+    "file": "shop_management",
+    "tag": "shop management (secondary mechanic)"
+   },
+   {
+    "file": "shop_open_close_loop",
+    "tag": "shop open/close loop (game structure)"
+   }
+  ]
+ },
+ {
+  "sheet": 89,
+  "icons": [
+   {
+    "file": "shop_remains_open_during_disasters",
+    "tag": "shop remains open during disasters (design twist)"
+   },
+   {
+    "file": "shopkeeping",
+    "tag": "shopkeeping (core gameplay)"
+   },
+   {
+    "file": "shopping_mall",
+    "tag": "shopping mall (location)"
+   },
+   {
+    "file": "short_arcade_stages",
+    "tag": "short arcade stages (game structure)"
+   },
+   {
+    "file": "short_contract_runs",
+    "tag": "short contract runs (game structure)"
+   },
+   {
+    "file": "short_runs",
+    "tag": "short runs (game structure)"
+   },
+   {
+    "file": "short_self_contained_experience",
+    "tag": "short self-contained experience (production scope)"
+   },
+   {
+    "file": "shortcut_unlocks",
+    "tag": "shortcut unlocks (progression)"
+   },
+   {
+    "file": "shrinking_safe_zone",
+    "tag": "shrinking safe zone (pressure or challenge)"
+   },
+   {
+    "file": "silent_protagonist",
+    "tag": "silent protagonist (genre tag)"
+   },
+   {
+    "file": "silhouette_art",
+    "tag": "silhouette art (visual style)"
+   },
+   {
+    "file": "single_environment_with_changing_rules",
+    "tag": "single environment with changing rules (production scope)"
+   },
+   {
+    "file": "single_location_evolving_map",
+    "tag": "single-location evolving map (game structure)"
+   },
+   {
+    "file": "single_room_prototype",
+    "tag": "single-room prototype (production scope)"
+   },
+   {
+    "file": "skating",
+    "tag": "skating (core gameplay)"
+   },
+   {
+    "file": "ski_resort",
+    "tag": "ski resort (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 90,
+  "icons": [
+   {
+    "file": "skiing",
+    "tag": "skiing (core gameplay)"
+   },
+   {
+    "file": "skiing_skating",
+    "tag": "skiing/skating (player interaction)"
+   },
+   {
+    "file": "skill_loadouts",
+    "tag": "skill loadouts (secondary mechanic)"
+   },
+   {
+    "file": "skill_tree_progression",
+    "tag": "skill-tree progression (progression)"
+   },
+   {
+    "file": "skyscraper",
+    "tag": "skyscraper (location)"
+   },
+   {
+    "file": "slapstick",
+    "tag": "slapstick (mood and theme)"
+   },
+   {
+    "file": "slum",
+    "tag": "slum (location)"
+   },
+   {
+    "file": "small_cast_of_characters",
+    "tag": "small cast of characters (production scope)"
+   },
+   {
+    "file": "small_scale_everyday_life",
+    "tag": "small-scale everyday life (mood and theme)"
+   },
+   {
+    "file": "small_town_contemporary",
+    "tag": "small-town contemporary (world and era)"
+   },
+   {
+    "file": "small_town_life",
+    "tag": "small-town life (setting)"
+   },
+   {
+    "file": "smuggling",
+    "tag": "smuggling (core gameplay)"
+   },
+   {
+    "file": "snap_grid_building",
+    "tag": "snap-grid building (player interaction)"
+   },
+   {
+    "file": "snowboarding",
+    "tag": "snowboarding (genre tag)"
+   },
+   {
+    "file": "snowman_building",
+    "tag": "snowman building (player interaction)"
+   },
+   {
+    "file": "snowy_mountains",
+    "tag": "snowy mountains (natural environment)"
+   }
+  ]
+ },
+ {
+  "sheet": 91,
+  "icons": [
+   {
+    "file": "social_deduction_multiplayer",
+    "tag": "social-deduction multiplayer (player mode)"
+   },
+   {
+    "file": "soft_cozy_lighting",
+    "tag": "soft cozy lighting (visual style)"
+   },
+   {
+    "file": "solarpunk_visual",
+    "tag": "solarpunk visual (visual style)"
+   },
+   {
+    "file": "solitude",
+    "tag": "solitude (mood and theme)"
+   },
+   {
+    "file": "solo_or_co_op",
+    "tag": "solo or co-op (player mode)"
+   },
+   {
+    "file": "solo_with_ai_companions",
+    "tag": "solo with ai companions (player mode)"
+   },
+   {
+    "file": "some_dead_ends_contain_absolutely_nothing",
+    "tag": "some dead ends contain absolutely nothing (design twist)"
+   },
+   {
+    "file": "sorting",
+    "tag": "sorting (core gameplay)"
+   },
+   {
+    "file": "sorting_objects",
+    "tag": "sorting objects (player interaction)"
+   },
+   {
+    "file": "sound_is_the_primary_navigation_tool",
+    "tag": "sound is the primary navigation tool (design twist)"
+   },
+   {
+    "file": "space_void",
+    "tag": "space void (natural environment)"
+   },
+   {
+    "file": "spacecraft",
+    "tag": "spacecraft (location)"
+   },
+   {
+    "file": "spacecraft_operation",
+    "tag": "spacecraft operation (core gameplay)"
+   },
+   {
+    "file": "spaceport",
+    "tag": "spaceport (location)"
+   },
+   {
+    "file": "spectator_supported_multiplayer",
+    "tag": "spectator-supported multiplayer (player mode)"
+   },
+   {
+    "file": "spell_aiming",
+    "tag": "spell aiming (player interaction)"
+   }
+  ]
+ },
+ {
+  "sheet": 92,
+  "icons": [
+   {
+    "file": "spell_crafting",
+    "tag": "spell crafting (core gameplay)"
+   },
+   {
+    "file": "split_perspective",
+    "tag": "split perspective (camera view)"
+   },
+   {
+    "file": "spoilage",
+    "tag": "spoilage (pressure or challenge)"
+   },
+   {
+    "file": "sports_center",
+    "tag": "sports center (location)"
+   },
+   {
+    "file": "spreading_fire",
+    "tag": "spreading fire (pressure or challenge)"
+   },
+   {
+    "file": "stacking_objects",
+    "tag": "stacking objects (player interaction)"
+   },
+   {
+    "file": "stadium",
+    "tag": "stadium (location)"
+   },
+   {
+    "file": "stalking_enemy",
+    "tag": "stalking enemy (pressure or challenge)"
+   },
+   {
+    "file": "stamina_management",
+    "tag": "stamina management (secondary mechanic)"
+   },
+   {
+    "file": "stealth_detection",
+    "tag": "stealth detection (pressure or challenge)"
+   },
+   {
+    "file": "stealth_gadgets",
+    "tag": "stealth gadgets (secondary mechanic)"
+   },
+   {
+    "file": "stealth_takedowns",
+    "tag": "stealth takedowns (player interaction)"
+   },
+   {
+    "file": "steampunk_visual",
+    "tag": "steampunk visual (visual style)"
+   },
+   {
+    "file": "steel_mill",
+    "tag": "steel mill (location)"
+   },
+   {
+    "file": "steering_heavy_vehicles",
+    "tag": "steering heavy vehicles (player interaction)"
+   },
+   {
+    "file": "storm_approaching",
+    "tag": "storm approaching (pressure or challenge)"
+   }
+  ]
+ },
+ {
+  "sheet": 93,
+  "icons": [
+   {
+    "file": "storm_drains",
+    "tag": "storm drains (location)"
+   },
+   {
+    "file": "storm_zone",
+    "tag": "storm zone (natural environment)"
+   },
+   {
+    "file": "story_unlock_progression",
+    "tag": "story unlock progression (progression)"
+   },
+   {
+    "file": "storybook",
+    "tag": "storybook (visual style)"
+   },
+   {
+    "file": "structural_collapse_risk",
+    "tag": "structural collapse risk (pressure or challenge)"
+   },
+   {
+    "file": "submarine_piloting",
+    "tag": "submarine piloting (core gameplay)"
+   },
+   {
+    "file": "suburban",
+    "tag": "suburban (natural environment)"
+   },
+   {
+    "file": "suburban_neighborhood",
+    "tag": "suburban neighborhood (location)"
+   },
+   {
+    "file": "subway_station",
+    "tag": "subway station (location)"
+   },
+   {
+    "file": "summer_camp",
+    "tag": "summer camp (location)"
+   },
+   {
+    "file": "summon_placement",
+    "tag": "summon placement (player interaction)"
+   },
+   {
+    "file": "summoning",
+    "tag": "summoning (core gameplay)"
+   },
+   {
+    "file": "superhero_world",
+    "tag": "superhero world (world and era)"
+   },
+   {
+    "file": "supermarket",
+    "tag": "supermarket (location)"
+   },
+   {
+    "file": "surgery",
+    "tag": "surgery (core gameplay)"
+   },
+   {
+    "file": "survival_endurance",
+    "tag": "survival endurance (game structure)"
+   }
+  ]
+ },
+ {
+  "sheet": 94,
+  "icons": [
+   {
+    "file": "survival_horror",
+    "tag": "survival horror (mood and theme)"
+   },
+   {
+    "file": "suspense",
+    "tag": "suspense (mood and theme)"
+   },
+   {
+    "file": "suspicion_meter",
+    "tag": "suspicion meter (pressure or challenge)"
+   },
+   {
+    "file": "swamp",
+    "tag": "swamp (natural environment)"
+   },
+   {
+    "file": "swamp_settlement",
+    "tag": "swamp settlement (location)"
+   },
+   {
+    "file": "swimming_diving",
+    "tag": "swimming/diving (secondary mechanic)"
+   },
+   {
+    "file": "switchable_first_third_person",
+    "tag": "switchable first/third person (camera view)"
+   },
+   {
+    "file": "synthwave",
+    "tag": "synthwave (visual style)"
+   },
+   {
+    "file": "taiga",
+    "tag": "taiga (natural environment)"
+   },
+   {
+    "file": "team_can_leave_at_almost_any_time",
+    "tag": "team can leave at almost any time (design twist)"
+   },
+   {
+    "file": "team_pvp",
+    "tag": "team pvp (player mode)"
+   },
+   {
+    "file": "technology_anxiety",
+    "tag": "technology anxiety (mood and theme)"
+   },
+   {
+    "file": "technology_tree",
+    "tag": "technology tree (progression)"
+   },
+   {
+    "file": "technology_unlocks",
+    "tag": "technology unlocks (secondary mechanic)"
+   },
+   {
+    "file": "telekinesis",
+    "tag": "telekinesis (player interaction)"
+   },
+   {
+    "file": "teleport_hub",
+    "tag": "teleport hub (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 95,
+  "icons": [
+   {
+    "file": "temperature_system",
+    "tag": "temperature system (secondary mechanic)"
+   },
+   {
+    "file": "temple",
+    "tag": "temple (location)"
+   },
+   {
+    "file": "temporary_repair_may_fail_later",
+    "tag": "temporary repair may fail later (design twist)"
+   },
+   {
+    "file": "temporary_repairs",
+    "tag": "temporary repairs (secondary mechanic)"
+   },
+   {
+    "file": "terminal_commands",
+    "tag": "terminal commands (player interaction)"
+   },
+   {
+    "file": "terraforming",
+    "tag": "terraforming (core gameplay)"
+   },
+   {
+    "file": "terrain_editing",
+    "tag": "terrain editing (player interaction)"
+   },
+   {
+    "file": "territory_expansion",
+    "tag": "territory expansion (progression)"
+   },
+   {
+    "file": "the_environment_is_the_enemy",
+    "tag": "the environment is the enemy (design twist)"
+   },
+   {
+    "file": "the_game_takes_place_during_one_long_shift",
+    "tag": "the game takes place during one long shift (design twist)"
+   },
+   {
+    "file": "the_map_is_physically_continuous_from_base_to_dungeon",
+    "tag": "the map is physically continuous from base to dungeon (design twist)"
+   },
+   {
+    "file": "the_safest_route_gives_the_smallest_reward",
+    "tag": "the safest route gives the smallest reward (design twist)"
+   },
+   {
+    "file": "the_ui_exists_physically_in_the_world",
+    "tag": "the ui exists physically in the world (design twist)"
+   },
+   {
+    "file": "the_world_changes_every_night",
+    "tag": "the world changes every night (design twist)"
+   },
+   {
+    "file": "theater",
+    "tag": "theater (location)"
+   },
+   {
+    "file": "theme_hotel",
+    "tag": "theme hotel (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 96,
+  "icons": [
+   {
+    "file": "thieving",
+    "tag": "thieving (core gameplay)"
+   },
+   {
+    "file": "throwing_objects",
+    "tag": "throwing objects (player interaction)"
+   },
+   {
+    "file": "time_attack",
+    "tag": "time attack (genre tag)"
+   },
+   {
+    "file": "time_follows_movement",
+    "tag": "time follows movement (design twist)"
+   },
+   {
+    "file": "time_limit",
+    "tag": "time limit (pressure or challenge)"
+   },
+   {
+    "file": "time_loop",
+    "tag": "time loop (game structure)"
+   },
+   {
+    "file": "time_never_pauses_even_in_menus",
+    "tag": "time never pauses even in menus (design twist)"
+   },
+   {
+    "file": "time_only_advances_when_player_acts",
+    "tag": "time only advances when player acts (design twist)"
+   },
+   {
+    "file": "time_travel_setting",
+    "tag": "time-travel setting (setting)"
+   },
+   {
+    "file": "time_trial_sessions",
+    "tag": "time-trial sessions (game structure)"
+   },
+   {
+    "file": "timer",
+    "tag": "timer (pressure or challenge)"
+   },
+   {
+    "file": "tool_upgrade_progression",
+    "tag": "tool upgrade progression (progression)"
+   },
+   {
+    "file": "touch_first_controls",
+    "tag": "touch-first controls (platform trait)"
+   },
+   {
+    "file": "tower_ascent",
+    "tag": "tower ascent (game structure)"
+   },
+   {
+    "file": "toxic_atmosphere",
+    "tag": "toxic atmosphere (pressure or challenge)"
+   },
+   {
+    "file": "toxic_wasteland",
+    "tag": "toxic wasteland (natural environment)"
+   }
+  ]
+ },
+ {
+  "sheet": 97,
+  "icons": [
+   {
+    "file": "traditional_roguelike",
+    "tag": "traditional roguelike (genre tag)"
+   },
+   {
+    "file": "traffic_congestion",
+    "tag": "traffic congestion (pressure or challenge)"
+   },
+   {
+    "file": "traffic_management",
+    "tag": "traffic management (core gameplay)"
+   },
+   {
+    "file": "traffic_planning",
+    "tag": "traffic planning (player interaction)"
+   },
+   {
+    "file": "traffic_routing",
+    "tag": "traffic routing (secondary mechanic)"
+   },
+   {
+    "file": "tragedy",
+    "tag": "tragedy (mood and theme)"
+   },
+   {
+    "file": "train_city",
+    "tag": "train-city (location)"
+   },
+   {
+    "file": "train_controls",
+    "tag": "train controls (player interaction)"
+   },
+   {
+    "file": "train_operation",
+    "tag": "train operation (core gameplay)"
+   },
+   {
+    "file": "train_scheduling",
+    "tag": "train scheduling (secondary mechanic)"
+   },
+   {
+    "file": "train_station",
+    "tag": "train station (location)"
+   },
+   {
+    "file": "transhumanism",
+    "tag": "transhumanism (genre tag)"
+   },
+   {
+    "file": "transport_planning",
+    "tag": "transport planning (core gameplay)"
+   },
+   {
+    "file": "travel_stop_travel_loop",
+    "tag": "travel-stop-travel loop (game structure)"
+   },
+   {
+    "file": "treasure_hunting",
+    "tag": "treasure hunting (core gameplay)"
+   },
+   {
+    "file": "treehouse_settlement",
+    "tag": "treehouse settlement (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 98,
+  "icons": [
+   {
+    "file": "tropical_coast",
+    "tag": "tropical coast (natural environment)"
+   },
+   {
+    "file": "tundra",
+    "tag": "tundra (natural environment)"
+   },
+   {
+    "file": "tunnel_network",
+    "tag": "tunnel network (location)"
+   },
+   {
+    "file": "turn_based_days",
+    "tag": "turn-based days (game structure)"
+   },
+   {
+    "file": "turning_systems_on_makes_map_more_dangerous",
+    "tag": "turning systems on makes map more dangerous (design twist)"
+   },
+   {
+    "file": "turret_placement",
+    "tag": "turret placement (player interaction)"
+   },
+   {
+    "file": "tv_station",
+    "tag": "tv station (location)"
+   },
+   {
+    "file": "two_gameplay_loops_feed_each_other",
+    "tag": "two gameplay loops feed each other (design twist)"
+   },
+   {
+    "file": "two_player_carry",
+    "tag": "two-player carry (player interaction)"
+   },
+   {
+    "file": "typing",
+    "tag": "typing (core gameplay)"
+   },
+   {
+    "file": "typing_commands",
+    "tag": "typing commands (player interaction)"
+   },
+   {
+    "file": "underground",
+    "tag": "underground (genre tag)"
+   },
+   {
+    "file": "underground_city",
+    "tag": "underground city (location)"
+   },
+   {
+    "file": "underground_mine",
+    "tag": "underground mine (location)"
+   },
+   {
+    "file": "underground_shelter",
+    "tag": "underground shelter (location)"
+   },
+   {
+    "file": "underground_utility_tunnels",
+    "tag": "underground utility tunnels (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 99,
+  "icons": [
+   {
+    "file": "underwater_base",
+    "tag": "underwater base (location)"
+   },
+   {
+    "file": "underwater_city",
+    "tag": "underwater city (location)"
+   },
+   {
+    "file": "underwater_lab",
+    "tag": "underwater lab (setting)"
+   },
+   {
+    "file": "underworld",
+    "tag": "underworld (setting)"
+   },
+   {
+    "file": "undo",
+    "tag": "undo (secondary mechanic)"
+   },
+   {
+    "file": "unforgiving",
+    "tag": "unforgiving (genre tag)"
+   },
+   {
+    "file": "university_campus",
+    "tag": "university campus (location)"
+   },
+   {
+    "file": "university_life",
+    "tag": "university life (setting)"
+   },
+   {
+    "file": "unknown_map",
+    "tag": "unknown map (pressure or challenge)"
+   },
+   {
+    "file": "unstable_power_grid",
+    "tag": "unstable power grid (pressure or challenge)"
+   },
+   {
+    "file": "urban",
+    "tag": "urban (natural environment)"
+   },
+   {
+    "file": "urban_decay",
+    "tag": "urban decay (natural environment)"
+   },
+   {
+    "file": "valve_turning",
+    "tag": "valve turning (player interaction)"
+   },
+   {
+    "file": "vaporwave",
+    "tag": "vaporwave (visual style)"
+   },
+   {
+    "file": "vault",
+    "tag": "vault (location)"
+   },
+   {
+    "file": "vector_art",
+    "tag": "vector art (visual style)"
+   }
+  ]
+ },
+ {
+  "sheet": 100,
+  "icons": [
+   {
+    "file": "vehicle_chase_camera",
+    "tag": "vehicle chase camera (camera view)"
+   },
+   {
+    "file": "vehicle_cockpit",
+    "tag": "vehicle cockpit (camera view)"
+   },
+   {
+    "file": "vehicle_is_the_extraction_boundary",
+    "tag": "vehicle is the extraction boundary (design twist)"
+   },
+   {
+    "file": "vehicle_maintenance",
+    "tag": "vehicle maintenance (secondary mechanic)"
+   },
+   {
+    "file": "vehicle_ownership",
+    "tag": "vehicle ownership (secondary mechanic)"
+   },
+   {
+    "file": "vehicle_repair",
+    "tag": "vehicle repair (core gameplay)"
+   },
+   {
+    "file": "vehicle_upgrade_progression",
+    "tag": "vehicle upgrade progression (progression)"
+   },
+   {
+    "file": "vertical_city",
+    "tag": "vertical city (setting)"
+   },
+   {
+    "file": "vertical_traversal",
+    "tag": "vertical traversal (player interaction)"
+   },
+   {
+    "file": "vhs_filtered",
+    "tag": "vhs-filtered (visual style)"
+   },
+   {
+    "file": "victory_increases_future_obligations",
+    "tag": "victory increases future obligations (design twist)"
+   },
+   {
+    "file": "viking_age",
+    "tag": "viking age (world and era)"
+   },
+   {
+    "file": "village",
+    "tag": "village (location)"
+   },
+   {
+    "file": "vineyard",
+    "tag": "vineyard (location)"
+   },
+   {
+    "file": "virtual_reality",
+    "tag": "virtual reality (world and era)"
+   },
+   {
+    "file": "virtual_world",
+    "tag": "virtual world (setting)"
+   }
+  ]
+ },
+ {
+  "sheet": 101,
+  "icons": [
+   {
+    "file": "visibility_detection_pressure",
+    "tag": "visibility/detection pressure (pressure or challenge)"
+   },
+   {
+    "file": "visibility_system",
+    "tag": "visibility system (secondary mechanic)"
+   },
+   {
+    "file": "visual_novel",
+    "tag": "visual novel (core gameplay)"
+   },
+   {
+    "file": "voice_control",
+    "tag": "voice control (genre tag)"
+   },
+   {
+    "file": "volcanic",
+    "tag": "volcanic (natural environment)"
+   },
+   {
+    "file": "volcano_facility",
+    "tag": "volcano facility (location)"
+   },
+   {
+    "file": "voxel_digging",
+    "tag": "voxel digging (player interaction)"
+   },
+   {
+    "file": "voxels",
+    "tag": "voxels (visual style)"
+   },
+   {
+    "file": "vulnerability",
+    "tag": "vulnerability (mood and theme)"
+   },
+   {
+    "file": "wanted_level",
+    "tag": "wanted level (pressure or challenge)"
+   },
+   {
+    "file": "war_drama",
+    "tag": "war drama (mood and theme)"
+   },
+   {
+    "file": "war_torn_landscape",
+    "tag": "war-torn landscape (natural environment)"
+   },
+   {
+    "file": "warehouse",
+    "tag": "warehouse (location)"
+   },
+   {
+    "file": "water_management",
+    "tag": "water management (core gameplay)"
+   },
+   {
+    "file": "water_park",
+    "tag": "water park (location)"
+   },
+   {
+    "file": "water_scarcity",
+    "tag": "water scarcity (pressure or challenge)"
+   }
+  ]
+ },
+ {
+  "sheet": 102,
+  "icons": [
+   {
+    "file": "water_simulation",
+    "tag": "water simulation (secondary mechanic)"
+   },
+   {
+    "file": "water_treatment_plant",
+    "tag": "water treatment plant (location)"
+   },
+   {
+    "file": "watercolor",
+    "tag": "watercolor (visual style)"
+   },
+   {
+    "file": "weapon_customization",
+    "tag": "weapon customization (secondary mechanic)"
+   },
+   {
+    "file": "weapon_durability",
+    "tag": "weapon durability (secondary mechanic)"
+   },
+   {
+    "file": "weapon_scavenging",
+    "tag": "weapon scavenging (secondary mechanic)"
+   },
+   {
+    "file": "weapon_smithing",
+    "tag": "weapon smithing (core gameplay)"
+   },
+   {
+    "file": "weapon_upgrade_progression",
+    "tag": "weapon upgrade progression (progression)"
+   },
+   {
+    "file": "weapon_upgrades",
+    "tag": "weapon upgrades (progression)"
+   },
+   {
+    "file": "weather_deterioration",
+    "tag": "weather deterioration (pressure or challenge)"
+   },
+   {
+    "file": "weather_station",
+    "tag": "weather station (location)"
+   },
+   {
+    "file": "weekly_cycle",
+    "tag": "weekly cycle (game structure)"
+   },
+   {
+    "file": "weight_limits",
+    "tag": "weight limits (secondary mechanic)"
+   },
+   {
+    "file": "weight_pressure",
+    "tag": "weight pressure (pressure or challenge)"
+   },
+   {
+    "file": "welding",
+    "tag": "welding (player interaction)"
+   },
+   {
+    "file": "wetland_station",
+    "tag": "wetland station (location)"
+   }
+  ]
+ },
+ {
+  "sheet": 103,
+  "icons": [
+   {
+    "file": "wetlands",
+    "tag": "wetlands (natural environment)"
+   },
+   {
+    "file": "whole_campaign_happens_in_one_evolving_location",
+    "tag": "whole campaign happens in one evolving location (design twist)"
+   },
+   {
+    "file": "wilderness",
+    "tag": "wilderness (natural environment)"
+   },
+   {
+    "file": "winter_whimsy",
+    "tag": "winter whimsy (mood and theme)"
+   },
+   {
+    "file": "wiring_circuits",
+    "tag": "wiring circuits (player interaction)"
+   },
+   {
+    "file": "wizard_tower",
+    "tag": "wizard tower (location)"
+   },
+   {
+    "file": "work_shifts",
+    "tag": "work shifts (game structure)"
+   },
+   {
+    "file": "workplace",
+    "tag": "workplace (setting)"
+   },
+   {
+    "file": "workplace_comedy",
+    "tag": "workplace comedy (mood and theme)"
+   },
+   {
+    "file": "workplace_contemporary",
+    "tag": "workplace contemporary (world and era)"
+   },
+   {
+    "file": "workshop",
+    "tag": "workshop (location)"
+   },
+   {
+    "file": "world_being_rebuilt",
+    "tag": "world being rebuilt (world and era)"
+   },
+   {
+    "file": "world_events",
+    "tag": "world events (secondary mechanic)"
+   },
+   {
+    "file": "world_generation_uses_real_functional_dependencies",
+    "tag": "world generation uses real functional dependencies (design twist)"
+   },
+   {
+    "file": "world_has_no_traditional_enemies",
+    "tag": "world has no traditional enemies (design twist)"
+   },
+   {
+    "file": "world_moves_while_player_stays_put",
+    "tag": "world moves while player stays put (design twist)"
+   }
+  ]
+ },
+ {
+  "sheet": 104,
+  "icons": [
+   {
+    "file": "world_reacts_to_noise_physically",
+    "tag": "world reacts to noise physically (design twist)"
+   },
+   {
+    "file": "world_restoration",
+    "tag": "world restoration (progression)"
+   },
+   {
+    "file": "you_can_steal_parts_from_working_systems",
+    "tag": "you can steal parts from working systems (design twist)"
+   },
+   {
+    "file": "you_know_the_goal_but_not_the_exact_reward",
+    "tag": "you know the goal but not the exact reward (design twist)"
+   },
+   {
+    "file": "zero_gravity",
+    "tag": "zero gravity (natural environment)"
+   },
+   {
+    "file": "zoo",
+    "tag": "zoo (location)"
+   }
+  ]
+ }
+]
