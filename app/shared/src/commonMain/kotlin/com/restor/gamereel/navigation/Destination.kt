@@ -8,5 +8,6 @@ internal enum class Destination(val title: StringResource, val symbol: String) {
     SEARCH(Res.string.nav_search, "⌕"),
     LIBRARIES(Res.string.nav_libraries, "▦"),
     IDEAS(Res.string.nav_ideas, "▤"),
+    MARKET(Res.string.nav_market, "▥"),
     SETTINGS(Res.string.nav_settings, "⚙"),
 }

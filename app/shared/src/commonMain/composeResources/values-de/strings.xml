@@ -472,4 +472,27 @@
     <string name="idea_open_result">Ergebnis öffnen</string>
     <string name="ideas_all_stages">Alle Status</string>
     <string name="privacy_full">Vollständige Richtlinie</string>
+    <string name="nav_market">Markt</string>
+    <string name="market_note">Steam zeigt geschätzte Besitzer, Google Play Installationen. Das sind Reichweitenschätzungen, keine Verkäufe; viele Tags sind automatisch erkannt.</string>
+    <string name="market_summary">%1$s · insgesamt %2$s</string>
+    <string name="market_search">Tag suchen</string>
+    <string name="market_empty">Keine passenden Tags</string>
+    <string name="market_all">Alle</string>
+    <string name="market_sort_total">Summe</string>
+    <string name="market_sort_max">Größter Hit</string>
+    <string name="market_sort_median">Median</string>
+    <string name="market_sort_games">Spiele</string>
+    <string name="market_sort_hits">Hits</string>
+    <string name="market_sort_rating">Bewertung</string>
+    <string name="market_total">Summe %1$s</string>
+    <string name="market_max">max. %1$s</string>
+    <string name="market_median">Median %1$s</string>
+    <string name="market_hits">Hits: %1$d</string>
+    <string name="market_share">%1$s der Reichweite</string>
+    <string name="market_hit_steam">Hit: ab 10 Mio. Besitzern</string>
+    <string name="market_hit_play">Hit: ab 100 Mio. Installationen</string>
+    <string name="market_top">Beliebteste Spiele</string>
+    <string name="market_thousands">%1$s Tsd.</string>
+    <string name="market_millions">%1$s Mio.</string>
+    <string name="market_billions">%1$s Mrd.</string>
 </resources>

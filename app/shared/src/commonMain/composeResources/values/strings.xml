@@ -490,4 +490,27 @@
     <string name="idea_open_result">Open result</string>
     <string name="ideas_all_stages">All stages</string>
     <string name="privacy_full">Full privacy policy</string>
+    <string name="nav_market">Market</string>
+    <string name="market_note">Steam shows estimated owners, Google Play shows installs. These are audience estimates, not sales, and many tags are detected automatically.</string>
+    <string name="market_summary">%1$s · %2$s in total</string>
+    <string name="market_search">Find a tag</string>
+    <string name="market_empty">No tags match</string>
+    <string name="market_all">All</string>
+    <string name="market_sort_total">Total</string>
+    <string name="market_sort_max">Biggest hit</string>
+    <string name="market_sort_median">Median</string>
+    <string name="market_sort_games">Games</string>
+    <string name="market_sort_hits">Hits</string>
+    <string name="market_sort_rating">Rating</string>
+    <string name="market_total">total %1$s</string>
+    <string name="market_max">max %1$s</string>
+    <string name="market_median">median %1$s</string>
+    <string name="market_hits">hits: %1$d</string>
+    <string name="market_share">%1$s of the audience</string>
+    <string name="market_hit_steam">Hit: 10M+ owners</string>
+    <string name="market_hit_play">Hit: 100M+ installs</string>
+    <string name="market_top">Top games</string>
+    <string name="market_thousands">%1$sK</string>
+    <string name="market_millions">%1$sM</string>
+    <string name="market_billions">%1$sB</string>
 </resources>

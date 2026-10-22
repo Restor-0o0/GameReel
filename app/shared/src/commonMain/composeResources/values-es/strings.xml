@@ -472,4 +472,27 @@
     <string name="idea_open_result">Abrir resultado</string>
     <string name="ideas_all_stages">Todos los estados</string>
     <string name="privacy_full">Política completa</string>
+    <string name="nav_market">Mercado</string>
+    <string name="market_note">Steam muestra propietarios estimados y Google Play, instalaciones. Son estimaciones de audiencia, no ventas, y muchas etiquetas se detectan automáticamente.</string>
+    <string name="market_summary">%1$s · %2$s en total</string>
+    <string name="market_search">Buscar etiqueta</string>
+    <string name="market_empty">No hay etiquetas</string>
+    <string name="market_all">Todas</string>
+    <string name="market_sort_total">Total</string>
+    <string name="market_sort_max">Mayor éxito</string>
+    <string name="market_sort_median">Mediana</string>
+    <string name="market_sort_games">Juegos</string>
+    <string name="market_sort_hits">Éxitos</string>
+    <string name="market_sort_rating">Valoración</string>
+    <string name="market_total">total %1$s</string>
+    <string name="market_max">máx. %1$s</string>
+    <string name="market_median">mediana %1$s</string>
+    <string name="market_hits">éxitos: %1$d</string>
+    <string name="market_share">%1$s de la audiencia</string>
+    <string name="market_hit_steam">Éxito: 10 M+ propietarios</string>
+    <string name="market_hit_play">Éxito: 100 M+ instalaciones</string>
+    <string name="market_top">Juegos más populares</string>
+    <string name="market_thousands">%1$s mil</string>
+    <string name="market_millions">%1$s M</string>
+    <string name="market_billions">%1$s mil M</string>
 </resources>

@@ -257,9 +257,15 @@ fun Tag.about(): String {
 }
 
 @Composable
-fun referenceLabel(games: List<String>): String? =
-    if (games.isEmpty()) null
-    else pluralStringResource(Res.plurals.references, games.size, games.joinToString(", "))
+fun referenceLabel(games: List<String>): String? {
+    if (games.isEmpty()) return null
+    val stats = LocalMarketStats.current
+    val titles =
+        games.map { title ->
+            stats?.reference(title)?.let { "$title (${audienceLabel(it.audience)})" } ?: title
+        }
+    return pluralStringResource(Res.plurals.references, games.size, titles.joinToString(", "))
+}
 
 fun gameTitle(id: String?, gameNames: Map<String, String>): String? = id?.let {
     gameNames[it] ?: BuiltinCatalog.gameNames[it]

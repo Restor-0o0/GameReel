@@ -502,4 +502,27 @@
     <string name="idea_open_result">Открыть результат</string>
     <string name="ideas_all_stages">Все статусы</string>
     <string name="privacy_full">Полная политика</string>
+    <string name="nav_market">Рынок</string>
+    <string name="market_note">Для Steam — оценка числа владельцев, для Google Play — установки. Это оценка аудитории, а не продажи; многие теги определены автоматически.</string>
+    <string name="market_summary">%1$s · всего %2$s</string>
+    <string name="market_search">Найти тег</string>
+    <string name="market_empty">Таких тегов нет</string>
+    <string name="market_all">Все</string>
+    <string name="market_sort_total">Сумма</string>
+    <string name="market_sort_max">Максимум</string>
+    <string name="market_sort_median">Медиана</string>
+    <string name="market_sort_games">Игры</string>
+    <string name="market_sort_hits">Хиты</string>
+    <string name="market_sort_rating">Рейтинг</string>
+    <string name="market_total">сумма %1$s</string>
+    <string name="market_max">макс. %1$s</string>
+    <string name="market_median">медиана %1$s</string>
+    <string name="market_hits">хитов: %1$d</string>
+    <string name="market_share">%1$s аудитории</string>
+    <string name="market_hit_steam">Хит — от 10 млн владельцев</string>
+    <string name="market_hit_play">Хит — от 100 млн установок</string>
+    <string name="market_top">Самые популярные игры</string>
+    <string name="market_thousands">%1$s тыс.</string>
+    <string name="market_millions">%1$s млн</string>
+    <string name="market_billions">%1$s млрд</string>
 </resources>

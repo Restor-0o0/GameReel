@@ -15,6 +15,7 @@ import com.restor.gamereel.catalog.BuiltinCatalog
 import com.restor.gamereel.feature.generator.*
 import com.restor.gamereel.feature.ideas.*
 import com.restor.gamereel.feature.library.*
+import com.restor.gamereel.feature.market.*
 import com.restor.gamereel.feature.search.*
 import com.restor.gamereel.feature.settings.*
 import com.restor.gamereel.model.*
@@ -223,6 +224,7 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
                                     { page = Destination.GENERATOR },
                                     { model.showMessage(Res.string.msg_link_copied) },
                                 )
+                            Destination.MARKET -> MarketContent()
                             Destination.SETTINGS ->
                                 PreferencesContent(
                                     workspace,
@@ -254,7 +256,14 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
                                 selected = page == destination,
                                 onClick = { page = destination },
                                 icon = { DestinationIcon(destination) },
-                                label = { Text(stringResource(destination.title), maxLines = 1) },
+                                label = {
+                                    Text(
+                                        stringResource(destination.title),
+                                        maxLines = 1,
+                                        softWrap = false,
+                                        style = MaterialTheme.typography.labelSmall,
+                                    )
+                                },
                                 colors = NavigationBarItemDefaults.colors(
                                     selectedIconColor = MaterialTheme.colorScheme.primary,
                                     selectedTextColor = MaterialTheme.colorScheme.primary,

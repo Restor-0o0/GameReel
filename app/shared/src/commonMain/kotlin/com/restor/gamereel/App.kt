@@ -6,6 +6,8 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.restor.gamereel.data.bundled.loadBundledLibraries
+import com.restor.gamereel.data.stats.MarketStats
+import com.restor.gamereel.data.stats.loadMarketStats
 import com.restor.gamereel.model.AppLanguage
 import com.restor.gamereel.navigation.GameReelScreen
 import com.restor.gamereel.presentation.*
@@ -13,6 +15,7 @@ import com.restor.gamereel.repository.WorkspaceRepository
 import com.restor.gamereel.text.AppLanguageProvider
 import com.restor.gamereel.ui.presentation.GameArt
 import com.restor.gamereel.ui.presentation.LocalGameArt
+import com.restor.gamereel.ui.presentation.LocalMarketStats
 import com.restor.gamereel.ui.theme.GameReelTheme
 import gamereel.app.shared.generated.resources.Res
 
@@ -31,11 +34,14 @@ fun App(repositoryFactory: () -> WorkspaceRepository, incomingLink: String? = nu
         produceState(false) {
             value = Res.readBytes("files/art-policy.txt").decodeToString().trim() != "no-store-art"
         }
+    val market by produceState<MarketStats?>(null) { value = loadMarketStats() }
     val art = remember(state.libraries, allowStoreArt) { GameArt(state.libraries, allowStoreArt) }
     AppLanguageProvider(state.workspace?.preferences?.language ?: AppLanguage.SYSTEM) {
         GameReelTheme(state.workspace?.preferences) {
             Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                CompositionLocalProvider(LocalGameArt provides art) { GameReelScreen(state, model) }
+                CompositionLocalProvider(LocalGameArt provides art, LocalMarketStats provides market) {
+                    GameReelScreen(state, model)
+                }
             }
         }
     }

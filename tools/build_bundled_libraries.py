@@ -49,6 +49,7 @@ LIST_FIELDS = dict(core_mechanics='CORE', extra_mechanics='SECONDARY_MECHANIC', 
     theme_tags='THEME', world_tags='WORLD', location_tags='LOCATION', environment_tags='ENVIRONMENT', twist_tags='TWIST')
 TEXT_FIELDS = dict(visual_style='VISUAL', camera='CAMERA', player_mode='MULTIPLAYER', production_scope_estimate='SCOPE')
 LIBRARY_ORDER = ('steam_alltime', 'steam_broad', 'google_play')
+HIT_AUDIENCE = {'steam': 10_000_000, 'play': 100_000_000}
 ADDON_WORDS = ('season pass', ' pack', 'dlc', 'workshop', 'expansion', 'bundle', 'soundtrack', 'creations', 'bonus content', ' × ')
 
 
@@ -105,6 +106,72 @@ def same_game(first, second):
     if not shorter or not longer.startswith(shorter):
         return False
     return not re.fullmatch(r'[0-9ivx]{1,3}', longer[len(shorter):])
+
+
+def owners(game):
+    estimate = int(str(game.get('estimated_owners') or 0).replace(',', '') or 0)
+    if estimate:
+        return estimate
+    bounds = [int(part.replace(',', '')) for part in str(game.get('owners') or '').split('..') if part.strip()]
+    return sum(bounds) // len(bounds) if bounds else 0
+
+
+def write_tag_stats(library_games, references):
+    platforms = {'steam': {}, 'play': {}}
+    for name in ('steam_broad', 'steam_alltime'):
+        for game in library_games[name]:
+            entry = platforms['steam'].setdefault(str(game['appid']), {'t': game['title'], 'a': 0, 'r': None, 'tags': set()})
+            entry['a'] = entry['a'] or owners(game)
+            score = game.get('review_score_pct')
+            if entry['r'] is None and score not in (None, ''):
+                entry['r'] = round(float(score), 1)
+            entry['tags'].update((category, tag.strip()) for category, tag in game_tags(game))
+    for game in library_games['google_play']:
+        platforms['play'][game['app_id']] = {'t': game['title'], 'a': int(game.get('maximum_installs') or 0),
+            'r': round(float(game['rating']), 2) if game.get('rating') else None,
+            'tags': {(category, tag.strip()) for category, tag in game_tags(game)}}
+    games, index = [], {}
+
+    def ref(platform, entry):
+        key = (platform, entry['t'])
+        if key not in index:
+            index[key] = len(games)
+            games.append({'t': entry['t'], 'p': platform, 'a': entry['a'], 'r': entry['r']})
+        return index[key]
+
+    tags, totals = {}, {}
+    for platform, entries in platforms.items():
+        known = [entry for entry in entries.values() if entry['a']]
+        totals[platform] = {'g': len(known), 'a': sum(entry['a'] for entry in known)}
+        grouped = {}
+        for entry in known:
+            for category, tag in entry['tags']:
+                if category != 'SCOPE':
+                    grouped.setdefault((category, tag.lower()), (tag, []))[1].append(entry)
+        for (category, key), (tag, members) in grouped.items():
+            members.sort(key=lambda entry: entry['a'], reverse=True)
+            audience = [entry['a'] for entry in members]
+            ratings = sorted(entry['r'] for entry in members if entry['r'] is not None)
+            stat = tags.setdefault(category + ':' + key, {'n': tag, 'c': category})
+            stat[platform] = {'g': len(members), 'sum': sum(audience), 'max': audience[0], 'med': audience[len(audience) // 2],
+                'hit': sum(1 for value in audience if value >= HIT_AUDIENCE[platform]), 'r': ratings[len(ratings) // 2] if ratings else None,
+                'top': [ref(platform, entry) for entry in members[:5]]}
+    best = {}
+    for platform, entries in platforms.items():
+        for entry in entries.values():
+            if entry['a'] > best.get(title_key(entry['t']), (0,))[0]:
+                best[title_key(entry['t'])] = (entry['a'], platform, entry)
+    titles = {}
+    for picked in references.values():
+        for title in picked:
+            match = best.get(title_key(title))
+            if match:
+                titles[title] = ref(match[1], match[2])
+    target = DESTINATION.parent / 'stats/tag_stats.json'
+    target.parent.mkdir(parents=True, exist_ok=True)
+    payload = {'totals': totals, 'games': games, 'references': titles, 'tags': tags}
+    target.write_text(json.dumps(payload, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+    print(f'stats: {len(tags)} tags, {len(games)} games, {target.stat().st_size} bytes')
 
 
 def main():
@@ -230,6 +297,7 @@ def main():
                 chosen.append(title)
     reference_lines = [f'    {quote(key)} to {quote(chr(10).join(titles))},' for key, titles in games.items() if titles]
     reference_file.write_text(header + 'internal val tagReferences = mapOf(\n' + '\n'.join(reference_lines) + '\n)\n', encoding='utf-8')
+    write_tag_stats(library_games, games)
     for title, tag in sorted(unused if '--curated-only' not in sys.argv else []):
         print(f'unused fix: {title} / {tag}')
     pack = {'library': {'id': 'curated_v5', 'name': 'Теги GameReel', 'version': 10, 'standaloneTags': tags},
