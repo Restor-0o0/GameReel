@@ -53,6 +53,7 @@ internal fun LibrariesContent(
 ) {
     var creatingTagSet by remember { mutableStateOf(false) }
     var browsingPacks by remember { mutableStateOf(false) }
+    var editingPack by remember { mutableStateOf(false) }
     var tagSetError by remember { mutableStateOf<String?>(null) }
     var exportingTagSet by remember { mutableStateOf<GeneratorPreset?>(null) }
     var personalEditorOpen by remember { mutableStateOf(false) }
@@ -235,7 +236,7 @@ internal fun LibrariesContent(
             }
 
         item {
-            Row(verticalAlignment = Alignment.CenterVertically) {
+            FlowRow(verticalArrangement = Arrangement.Center) {
                 Button(onClick = { picker.launch() }, enabled = !importing) {
                     Text(
                         stringResource(if (importing) Res.string.importing else Res.string.import_json)
@@ -243,6 +244,9 @@ internal fun LibrariesContent(
                 }
                 TextButton(onClick = { browsingPacks = true }) {
                     Text(stringResource(Res.string.packs_download))
+                }
+                TextButton(onClick = { editingPack = true }) {
+                    Text(stringResource(Res.string.pack_editor_create))
                 }
             }
         }
@@ -320,6 +324,7 @@ internal fun LibrariesContent(
         }
     }
     if (browsingPacks) PackCatalogDialog(libraries, importing, onImport) { browsingPacks = false }
+    if (editingPack) PackEditorDialog(libraries, importing, onImport) { editingPack = false }
     if (creatingTagSet) TagSetCreatorDialog(libraries, onDismiss = { creatingTagSet = false }) {
         name, games, tags, includeGameTags ->
         onSaveTagSet(name, games, tags, includeGameTags)

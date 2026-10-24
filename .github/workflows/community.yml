@@ -10,9 +10,19 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python tools/validate_community.py --check
+      - run: python tools/validate_community.py
+      - name: Commit the rebuilt index
+        if: github.event_name == 'push'
+        run: |
+          git diff --quiet community/index.json && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Rebuild community index"
+          git push
