@@ -1,11 +1,27 @@
 # Приём паков из приложения
 
-`submit.gs` это Google Apps Script. Приложение отправляет на него пак, скрипт проверяет его
-и открывает pull request в этом репозитории: ветка `submissions/<id>-<время>`, файл
-`community/packs/<id>.json`, метка `pack-submission`. Workflow `community.yml` проверяет PR,
-а после merge сам пересобирает `community/index.json`.
+`submit.gs` это Google Apps Script. Приложение отправляет на него пак, скрипт проверяет его,
+сохраняет в папку **GameReel submissions** на Google Диске владельца и присылает письмо.
+В репозиторий сам по себе ничего не попадает.
+
+## Проверка пака
+
+В письме: название, барабаны, число вариантов в каждой категории, комментарий, сам пак во
+вложении и две ссылки.
+
+- **Review and publish**: страница с кнопкой «Open pull request». Скрипт создаёт ветку
+  `submissions/<id>-<время>` с файлом `community/packs/<id>.json`, открывает PR с меткой
+  `pack-submission`. Workflow `community.yml` проверяет PR, после merge сам пересобирает
+  `community/index.json`. Повторное нажатие вернёт уже открытый PR.
+- **File on Drive**: файл на Диске. Это готовый пак: можно скачать, положить в
+  `community/packs/`, запустить `python tools/validate_community.py` и закоммитить вручную.
+
+Чтобы отклонить пак, удалите файл с Диска. Ссылка из письма содержит секретный ключ
+(`REVIEW_KEY` в свойствах скрипта, создаётся сам), письма не пересылайте.
 
 ## Токен GitHub
+
+Нужен только для кнопки «Open pull request»; без него паки всё равно сохраняются и приходят письма.
 
 1. GitHub → Settings → Developer settings → Personal access tokens → **Fine-grained tokens** →
    Generate new token.
@@ -22,7 +38,7 @@
 4. **Начать развертывание** → **Новое развертывание** → тип **Веб-приложение**:
    - Выполнять от имени: **От моего имени**;
    - У кого есть доступ: **Все**.
-5. Разрешить доступ (Google спросит про внешние запросы: это обращения к api.github.com).
+5. Разрешить доступ: Google спросит про Диск, отправку почты и внешние запросы (api.github.com).
 6. Скопировать URL веб-приложения (`https://script.google.com/macros/s/.../exec`) и вставить в
    `SUBMIT_URL` в `app/shared/src/commonMain/kotlin/com/restor/gamereel/feature/library/PackSubmission.kt`.
    Пока `SUBMIT_URL` пустой, кнопки «Предложить в каталог» в приложении нет.

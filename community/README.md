@@ -26,7 +26,7 @@
 4. Откройте pull request с файлом. `index.json` пересоберётся сам после merge.
 
 Игровой пакет проще собрать в приложении: «Библиотеки» → «Собрать игровой пакет» →
-«Предложить в каталог». Пак придёт сюда pull request'ом без аккаунта на GitHub.
+«Предложить в каталог». Пак сначала приходит разработчику на проверку, принятый появляется здесь pull request'ом.
 
 Правила:
 
@@ -82,7 +82,7 @@ Dota 2 является товарным знаком Valve. Пакет неоф
 Reel presets, tag sets and game libraries for GameReel. Download a file and import it
 in the app. To contribute, add a `kebab-case.json` file next to the examples, run
 `python tools/validate_community.py` and open a pull request. Game packs can also be built in
-the app (Libraries → Create a game pack → Suggest for catalog); they arrive here as pull requests.
+the app (Libraries → Create a game pack → Suggest for catalog); they are reviewed first and accepted ones arrive here as pull requests.
 
 Game packs (`packs/`) turn the reels into a randomizer for a real game: a hero, items, talents.
 A slot can depend on a parent slot through `parent`, and a tag lists the parent names it fits

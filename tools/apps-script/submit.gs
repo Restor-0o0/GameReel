@@ -1,10 +1,11 @@
-// the app posts a pack here, the script opens a pull request with it
-// needs script property GITHUB_TOKEN: fine-grained, contents and pull requests write
+// the app posts a pack here, the script keeps it on drive and mails the owner
+// a pull request is opened only from the review page; needs script property GITHUB_TOKEN
 
 const REPO = 'Restor-0o0/GameReel';
 const BASE = 'main';
 const MAX_CHARS = 5000000;
 const MAX_PER_HOUR = 20;
+const FOLDER = 'GameReel submissions';
 const IMAGE_SOURCES = [
   'https://cdn.cloudflare.steamstatic.com/', 'https://cdn.akamai.steamstatic.com/',
   'https://community.cloudflare.steamstatic.com/economy/image/',
@@ -24,8 +25,15 @@ function doPost(e) {
   }
 }
 
-function doGet() {
-  return reply({ ok: true, service: 'gamereel-submissions' });
+function doGet(e) {
+  const id = e && e.parameter && e.parameter.review;
+  if (!id) return reply({ ok: true, service: 'gamereel-submissions' });
+  if (e.parameter.key !== reviewKey() || !/^[A-Za-z0-9_-]{10,100}$/.test(id)) return HtmlService.createHtmlOutput('Not found');
+  const page = HtmlService.createTemplate(REVIEW_PAGE);
+  page.id = id;
+  page.key = e.parameter.key;
+  page.info = describe(readSubmission(id));
+  return page.evaluate().setTitle('GameReel submission');
 }
 
 function reply(body) {
@@ -50,10 +58,10 @@ function submit(raw) {
     const hour = 'hour:' + Math.floor(Date.now() / 3600000);
     const count = Number(cache.get(hour) || 0);
     if (count >= MAX_PER_HOUR) throw new Error('too many submissions, try again in an hour');
-    const url = openPullRequest(pack, text, note);
+    store(pack, text, note);
     cache.put(hour, String(count + 1), 3600);
-    cache.put('sent:' + digest, url, 21600);
-    return url;
+    cache.put('sent:' + digest, '1', 21600);
+    return '';
   } finally {
     lock.releaseLock();
   }
@@ -149,6 +157,92 @@ function expect(result, label) {
   return result.data;
 }
 
+function reviewKey() {
+  const props = PropertiesService.getScriptProperties();
+  let key = props.getProperty('REVIEW_KEY');
+  if (!key) {
+    key = Utilities.getUuid().replace(/-/g, '');
+    props.setProperty('REVIEW_KEY', key);
+  }
+  return key;
+}
+
+function folder() {
+  const found = DriveApp.getFoldersByName(FOLDER);
+  return found.hasNext() ? found.next() : DriveApp.createFolder(FOLDER);
+}
+
+function store(pack, text, note) {
+  const file = folder().createFile(pack.library.id + '.json', text, 'application/json');
+  file.setDescription(JSON.stringify({ note: note }));
+  const info = describe({ pack: pack, note: note });
+  const link = ScriptApp.getService().getUrl() + '?review=' + file.getId() + '&key=' + reviewKey();
+  const html = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  MailApp.sendEmail({
+    to: Session.getEffectiveUser().getEmail(),
+    subject: 'GameReel: new pack "' + pack.library.name.slice(0, 80) + '"',
+    htmlBody: '<pre>' + html(info) + '</pre><p><a href="' + link + '">Review and publish</a> · ' +
+      '<a href="' + file.getUrl() + '">File on Drive</a></p>',
+    attachments: [Utilities.newBlob(text, 'application/json', pack.library.id + '.json')],
+  });
+}
+
+function readSubmission(id) {
+  const file = DriveApp.getFileById(id);
+  if (!file.getParents().hasNext() || file.getParents().next().getName() !== FOLDER) throw new Error('not found');
+  const meta = JSON.parse(file.getDescription() || '{}');
+  return { pack: JSON.parse(file.getBlob().getDataAsString('UTF-8')), note: meta.note || '',
+    published: meta.published || '' };
+}
+
+function describe(data) {
+  const library = data.pack.library;
+  const reels = library.reels.map(function (reel) {
+    const slot = library.slots.filter(function (s) { return s.id === reel; })[0];
+    return (slot.icon ? slot.icon + ' ' : '') + slot.name;
+  });
+  const counts = {};
+  library.standaloneTags.forEach(function (tag) { counts[tag.slot] = (counts[tag.slot] || 0) + 1; });
+  return [
+    'Name: ' + library.name,
+    'Id: ' + library.id + ' (version ' + library.version + ')',
+    'Reels: ' + reels.join(', '),
+    'Tags: ' + library.slots.map(function (s) { return s.name + ' ' + (counts[s.id] || 0); }).join(', '),
+    data.note ? 'Note: ' + data.note : null,
+    data.published ? 'Published: ' + data.published : null,
+  ].filter(function (line) { return line !== null; }).join('\n');
+}
+
+function publish(id, key) {
+  if (key !== reviewKey()) throw new Error('not allowed');
+  const data = readSubmission(id);
+  if (data.published) return data.published;
+  const pack = clean(data.pack);
+  const url = openPullRequest(pack, JSON.stringify(pack, null, 1) + '\n', data.note || '');
+  DriveApp.getFileById(id).setDescription(JSON.stringify({ note: data.note, published: url }));
+  return url;
+}
+
+const REVIEW_PAGE = `<!doctype html><html><body style="font-family:sans-serif;max-width:720px;margin:24px auto">
+<pre style="white-space:pre-wrap"><?= info ?></pre>
+<button id="go" onclick="go()">Open pull request</button> <span id="out"></span>
+<script>
+function go() {
+  document.getElementById('go').disabled = true;
+  document.getElementById('out').textContent = '...';
+  google.script.run
+    .withSuccessHandler(function (url) {
+      var a = document.createElement('a'); a.href = url; a.target = '_blank'; a.textContent = url;
+      var out = document.getElementById('out'); out.textContent = ''; out.appendChild(a);
+    })
+    .withFailureHandler(function (e) {
+      document.getElementById('out').textContent = e.message;
+      document.getElementById('go').disabled = false;
+    })
+    .publish('<?!= id ?>', '<?!= key ?>');
+}
+</script></body></html>`;
+
 function openPullRequest(pack, text, note) {
   const library = pack.library;
   const slug = library.id.toLowerCase().replace(/[^a-z0-9-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 50) || 'pack';
@@ -170,7 +264,7 @@ function openPullRequest(pack, text, note) {
     return (slot.icon ? slot.icon + ' ' : '') + slot.name;
   });
   const body = [
-    'Pack submitted from the app.',
+    'Pack submitted from the app and reviewed.',
     '',
     '- **Name:** ' + quiet(library.name),
     '- **Id:** `' + library.id + '`',

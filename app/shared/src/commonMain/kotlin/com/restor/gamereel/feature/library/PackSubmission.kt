@@ -11,7 +11,8 @@ import io.ktor.http.contentType
 import io.ktor.http.isSuccess
 import kotlinx.serialization.json.*
 
-internal const val SUBMIT_URL = ""
+internal const val SUBMIT_URL =
+    "https://script.google.com/macros/s/AKfycbwqP2oag-7qomvslLRcNPmSXAchXmgEUANsynRhw8yMGoX55XukKVWU-7XbWndw1yDJgA/exec"
 
 internal class SubmissionException(message: String) : Exception(message)
 
