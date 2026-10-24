@@ -18,7 +18,6 @@ if (providers.gradleProperty("playRelease").orNull == "true") {
     val preparePlayResources =
         tasks.register<Sync>("preparePlayResources") {
             from(layout.projectDirectory.dir("src/commonMain/composeResources")) {
-                exclude("files/art/**")
                 exclude(
                     "files/libraries/steam_broad.json",
                     "files/libraries/steam_alltime.json",

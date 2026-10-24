@@ -7,7 +7,6 @@ import com.restor.gamereel.model.Category
 import com.restor.gamereel.model.GeneratorConfig
 import com.restor.gamereel.model.Reel
 import com.restor.gamereel.model.allTags
-import com.restor.gamereel.ui.presentation.artPath
 import gamereel.app.shared.generated.resources.Res
 import kotlin.test.*
 import kotlinx.coroutines.test.runTest
@@ -38,13 +37,6 @@ class BundledLibrariesTest {
         )
         assertTrue(google.games.flatMap { it.tags }.any { it.category == Category.MONETIZATION })
         assertEquals(8, google.library.version)
-        if (Res.readBytes("files/art-policy.txt").decodeToString().trim() != "no-store-art") {
-            assertTrue(
-                google.games
-                    .filter { it.image != null }
-                    .all { Res.readBytes(artPath(it)!!).isNotEmpty() }
-            )
-        }
         assertTrue(
             google.games.count {
                 it.image?.startsWith("https://play-lh.googleusercontent.com/") == true

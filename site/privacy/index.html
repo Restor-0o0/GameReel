@@ -29,15 +29,14 @@
         только на вашем устройстве или в хранилище браузера. Учётная запись не нужна. Разработчик
         не получает эти данные: в приложении нет собственного сервера, аналитики, рекламы и сторонних SDK
         для сбора данных.</p>
-    <p>Кроме описанного ниже предложения пакетов, приложение выходит в интернет только за каталогом игровых пакетов и их картинками: файлы
-        пакетов скачиваются с GitHub, картинки — с серверов издателей игр (Steam, Riot Games,
-        valorant-api.com, PUBG). В этих запросах нет личных данных; серверы видят только обычные
-        сведения о запросе, например IP-адрес. Картинки кешируются на устройстве. Импорт читает только
+    <p>Кроме описанного ниже предложения пакетов, приложение выходит в интернет только за каталогом игровых пакетов: файлы
+        пакетов скачиваются с GitHub. В этих запросах нет личных данных; GitHub видит только обычные
+        сведения о запросе, например IP-адрес. Картинки игр приложение не загружает и не показывает. Импорт читает только
         файл, который вы выбрали в системном диалоге.</p>
 
     <h2>Предложение пакетов в каталог</h2>
     <p>В редакторе игровых пакетов есть кнопка «Предложить в каталог». Только по её нажатию пакет
-        (названия, категории, варианты, ссылки на картинки) и необязательный комментарий
+        (названия, категории и варианты) и необязательный комментарий
         отправляются разработчику через Google Apps Script и сохраняются на его Google Диске для
         проверки. Если разработчик примет пакет, он публикуется в открытом репозитории на GitHub и
         появляется в каталоге; комментарий может попасть в описание pull request. Учётная запись и
@@ -83,15 +82,14 @@
         <p>Saved ideas, notes, presets, imported libraries and settings stay on your device or in your
             browser storage. No account is required. The developer does not receive this data: the app has
             no backend, analytics, advertising or third-party data collection SDKs.</p>
-        <p>Apart from suggesting packs (see below), the app goes online only for the game pack catalog and pack pictures: pack files come from
-            GitHub, pictures from the game publishers’ servers (Steam, Riot Games, valorant-api.com, PUBG).
-            These requests carry no personal data; the servers see ordinary request details such as your
-            IP address. Pictures are cached on the device. Import reads only the file you pick in the
+        <p>Apart from suggesting packs (see below), the app goes online only for the game pack catalog: pack files come from
+            GitHub. These requests carry no personal data; GitHub sees ordinary request details such as your
+            IP address. The app does not download or show game pictures. Import reads only the file you pick in the
             system dialog.</p>
 
         <h2>Suggesting packs for the catalog</h2>
         <p>The game pack editor has a “Suggest for catalog” button. Only when you tap it, the pack
-            (names, categories, options, picture links) and your optional comment are sent to the
+            (names, categories and options) and your optional comment are sent to the
             developer through Google Apps Script and kept on the developer’s Google Drive for review. If
             the developer accepts the pack, it is published in the public GitHub repository and appears in
             the catalog; the comment may be included in the pull request description. No account or

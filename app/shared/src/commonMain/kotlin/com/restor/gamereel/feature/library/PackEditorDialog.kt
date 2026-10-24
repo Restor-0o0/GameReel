@@ -1,19 +1,14 @@
 package com.restor.gamereel.feature.library
 
 import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
@@ -23,8 +18,6 @@ import com.restor.gamereel.model.ContentLimits
 import com.restor.gamereel.model.LibraryPack
 import com.restor.gamereel.model.isGamePack
 import com.restor.gamereel.ui.presentation.displayName
-import com.restor.gamereel.ui.presentation.isRemoteImage
-import com.restor.gamereel.ui.presentation.rememberBitmap
 import gamereel.app.shared.generated.resources.*
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.launch
@@ -253,15 +246,9 @@ private fun TagRow(
     onChange: (TagDraft) -> Unit,
     onRemove: () -> Unit,
 ) {
-    val url = tag.image.trim()
-    val picture = rememberBitmap(url.takeIf(::isRemoteImage))
     OutlinedCard(Modifier.fillMaxWidth()) {
         Column(Modifier.padding(horizontal = 10.dp, vertical = 4.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(Modifier.size(40.dp).clip(RoundedCornerShape(6.dp))
-                    .background(MaterialTheme.colorScheme.surfaceVariant), contentAlignment = Alignment.Center) {
-                    if (picture != null) Image(picture, null, Modifier.matchParentSize(), contentScale = ContentScale.Fit)
-                }
                 TextButton(onClick = onToggle, modifier = Modifier.weight(1f)) {
                     Text(listOf(tag.name).plus(tag.requires.sorted()).joinToString("  · "),
                         Modifier.fillMaxWidth(), maxLines = 2)
@@ -272,11 +259,6 @@ private fun TagRow(
                 OutlinedTextField(tag.name, { if (it.isNotBlank()) onChange(tag.copy(name = it.take(120))) },
                     label = { Text(stringResource(Res.string.pack_editor_option_name)) },
                     singleLine = true, modifier = Modifier.fillMaxWidth())
-                val bad = url.isNotEmpty() && !isRemoteImage(url)
-                OutlinedTextField(tag.image, { onChange(tag.copy(image = it.take(600))) },
-                    label = { Text(stringResource(Res.string.pack_editor_image)) },
-                    supportingText = { Text(stringResource(Res.string.pack_editor_image_hint)) },
-                    isError = bad, singleLine = true, modifier = Modifier.fillMaxWidth())
                 if (parentNames.isNotEmpty()) {
                     Text(stringResource(Res.string.pack_editor_requires), style = MaterialTheme.typography.titleSmall)
                     Text(stringResource(Res.string.pack_editor_requires_hint), style = MaterialTheme.typography.bodySmall,

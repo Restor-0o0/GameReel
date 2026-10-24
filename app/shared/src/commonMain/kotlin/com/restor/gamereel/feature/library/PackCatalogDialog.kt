@@ -1,6 +1,5 @@
 package com.restor.gamereel.feature.library
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -11,7 +10,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
@@ -20,8 +18,6 @@ import com.restor.gamereel.data.importer.JsonLibraryImporter
 import com.restor.gamereel.model.LibraryPack
 import com.restor.gamereel.platform.httpClient
 import com.restor.gamereel.text.fail
-import com.restor.gamereel.ui.presentation.isRemoteImage
-import com.restor.gamereel.ui.presentation.rememberBitmap
 import gamereel.app.shared.generated.resources.*
 import io.ktor.client.request.get
 import io.ktor.client.statement.bodyAsText
@@ -143,13 +139,11 @@ internal fun PackCatalogDialog(
 
 @Composable
 private fun PackRow(pack: CatalogPack, installedVersion: Int?, importing: Boolean, onInstall: () -> Unit) {
-    val cover = rememberBitmap(pack.cover?.takeIf(::isRemoteImage))
     OutlinedCard(Modifier.fillMaxWidth()) {
         Row(Modifier.padding(12.dp), verticalAlignment = Alignment.CenterVertically) {
             Box(Modifier.size(width = 72.dp, height = 48.dp).clip(RoundedCornerShape(8.dp))
                 .background(MaterialTheme.colorScheme.surfaceVariant), contentAlignment = Alignment.Center) {
-                if (cover != null) Image(cover, null, Modifier.matchParentSize(), contentScale = ContentScale.Crop)
-                else Text("🎮")
+                Text("🎮")
             }
             Column(Modifier.weight(1f).padding(horizontal = 12.dp)) {
                 Text(pack.name, style = MaterialTheme.typography.titleMedium)

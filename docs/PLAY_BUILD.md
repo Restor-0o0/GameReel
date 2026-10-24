@@ -11,12 +11,11 @@
 python tools/check_play_artifact.py app/androidApp/build/play/outputs/bundle/play/androidApp-play.aab
 ```
 
-При `playRelease=true` Compose Resources берёт подготовленную копию ресурсов без
-`files/art/**` и без исторических `steam_broad.json`, `steam_alltime.json`,
+Обложки игр лежат в `tools/store_art` и не входят ни в одну сборку; приложение их не
+показывает, вместо них значки тегов. При `playRelease=true` Compose Resources берёт
+подготовленную копию ресурсов без исторических `steam_broad.json`, `steam_alltime.json`,
 `google_play.json`. Загрузчик оставляет редакторский набор и небольшие подборки
-itch.io и Steam. Маркер `no-store-art` также отключает поиск и загрузку обложек в UI:
-используются значки тегов. Исходники картинок сохранены для локальной версии, но в
-Preview/Play APK/AAB они не входят. Подборки не включают картинки. Это уменьшает конкретный риск арта, но не подтверждает права
+itch.io и Steam (маркер `no-store-art`). Подборки не включают картинки. Это уменьшает конкретный риск арта, но не подтверждает права
 на все исторические датасеты и не гарантирует одобрение Google.
 
 Без предоставленного upload key AAB остаётся неподписанным и предназначен для
@@ -59,7 +58,7 @@ Preview/Play APK/AAB они не входят. Подборки не включ�
 .\tools\build_mobile.ps1 -Variant Play -RequireUploadKey
 ```
 
-- С картинками: `app/androidApp/build/outputs/apk/release/androidApp-release.apk`.
+- Local: `app/androidApp/build/outputs/apk/release/androidApp-release.apk`.
 - Preview: `app/androidApp/build/play/outputs/apk/preview/androidApp-preview.apk`.
 - Play: `app/androidApp/build/play/outputs/bundle/play/androidApp-play.aab`.
 

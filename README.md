@@ -69,9 +69,8 @@
 в том числе импортированные наборы. Редкость считается только по выбранным размеченным
 наборам и не доказывает уникальность идеи.
 
-Обложки игр (`composeResources/files/art`, 2809 файлов) используются в локальной сборке
-в карточках сочетания. Публичная Play-сборка исключает их физически, см.
-[PLAY_BUILD.md](docs/PLAY_BUILD.md).
+Обложки игр (`tools/store_art`) хранятся только в репозитории и не входят ни в одну сборку:
+приложение не показывает чужие картинки, см. [PLAY_BUILD.md](docs/PLAY_BUILD.md).
 
 ## Сборка и запуск
 
@@ -114,9 +113,9 @@ python tools/build_bundled_libraries.py
 python tools/fetch_store_images.py
 ```
 
-Второй скрипт загружает Steam header и иконки Google Play в WebP
+Второй скрипт загружает Steam header и иконки Google Play в WebP (в сборку не попадают)
 (кэш в `tools/library_sources/store_images.json`, `--refresh` перезапрашивает всё),
-ищет арт для игр-референсов (`ref_*.webp` + `ReferenceArt.kt`, `--retry-missing`
+ищет арт для игр-референсов (`ref_*.webp` + `references.txt` в `tools/store_art`, `--retry-missing`
 повторяет ненайденные) и поднимает версию наборов. Его нужно запускать после каждой сборки
 наборов. Новые метаданные магазинов автоматически не запрашиваются: срез Google Play
 обновляет `tools/library_sources/google_play/scripts/refresh_snapshot.py`

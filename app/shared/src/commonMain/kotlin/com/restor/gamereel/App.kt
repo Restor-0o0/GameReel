@@ -13,11 +13,8 @@ import com.restor.gamereel.navigation.GameReelScreen
 import com.restor.gamereel.presentation.*
 import com.restor.gamereel.repository.WorkspaceRepository
 import com.restor.gamereel.text.AppLanguageProvider
-import com.restor.gamereel.ui.presentation.GameArt
-import com.restor.gamereel.ui.presentation.LocalGameArt
 import com.restor.gamereel.ui.presentation.LocalMarketStats
 import com.restor.gamereel.ui.theme.GameReelTheme
-import gamereel.app.shared.generated.resources.Res
 
 @Composable
 fun App(
@@ -37,16 +34,11 @@ fun App(
     LaunchedEffect(incomingFile, loaded) {
         if (loaded && incomingFile != null) model.importLibrary(incomingFile.read)
     }
-    val allowStoreArt by
-        produceState(false) {
-            value = Res.readBytes("files/art-policy.txt").decodeToString().trim() != "no-store-art"
-        }
     val market by produceState<MarketStats?>(null) { value = loadMarketStats() }
-    val art = remember(state.libraries, allowStoreArt) { GameArt(state.libraries, allowStoreArt) }
     AppLanguageProvider(state.workspace?.preferences?.language ?: AppLanguage.SYSTEM) {
         GameReelTheme(state.workspace?.preferences) {
             Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                CompositionLocalProvider(LocalGameArt provides art, LocalMarketStats provides market) {
+                CompositionLocalProvider(LocalMarketStats provides market) {
                     GameReelScreen(state, model)
                 }
             }
