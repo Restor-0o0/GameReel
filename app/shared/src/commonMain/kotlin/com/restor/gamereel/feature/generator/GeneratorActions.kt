@@ -31,4 +31,5 @@ internal data class GeneratorActions(
     val dailyIdea: () -> Unit,
     val openShared: (String) -> Boolean,
     val linkCopied: () -> Unit,
+    val openSettings: () -> Unit = {},
 )

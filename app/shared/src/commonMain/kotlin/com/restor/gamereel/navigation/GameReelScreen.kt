@@ -10,6 +10,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.restor.gamereel.catalog.BuiltinCatalog
 import com.restor.gamereel.feature.generator.*
@@ -21,6 +22,7 @@ import com.restor.gamereel.feature.settings.*
 import com.restor.gamereel.model.*
 import com.restor.gamereel.presentation.*
 import com.restor.gamereel.text.resolve
+import com.restor.gamereel.ui.components.*
 import com.restor.gamereel.ui.presentation.*
 import gamereel.app.shared.generated.resources.*
 import org.jetbrains.compose.resources.stringResource
@@ -30,6 +32,8 @@ private val WideLayout = 840.dp
 @Composable
 internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
     var page by remember { mutableStateOf(Destination.GENERATOR) }
+    var returnPage by remember { mutableStateOf(Destination.GENERATOR) }
+    val openSettings = { returnPage = if (page == Destination.SETTINGS) returnPage else page; page = Destination.SETTINGS }
     var addReel by remember { mutableStateOf(false) }
     var saveIdea by remember { mutableStateOf(false) }
     var selecting by remember { mutableStateOf<Reel?>(null) }
@@ -84,6 +88,7 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
                 dailyIdea = model::dailyIdea,
                 openShared = model::openSharedIdea,
                 linkCopied = { model.showMessage(Res.string.msg_link_copied) },
+                openSettings = openSettings,
             )
         }
     val allTags =
@@ -95,7 +100,7 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
         Row(Modifier.fillMaxSize()) {
             if (wide)
                 NavigationRail(containerColor = MaterialTheme.colorScheme.surface) {
-                    Destination.entries.forEach { destination ->
+                    Destination.tabs.forEach { destination ->
                         NavigationRailItem(
                             selected = page == destination,
                             onClick = { page = destination },
@@ -105,29 +110,12 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
                     }
                 }
             Column(Modifier.weight(1f).fillMaxHeight()) {
-                if (page != Destination.GENERATOR) {
-                    Row(
-                        Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 16.dp),
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(12.dp),
-                    ) {
-                        Box(
-                            Modifier.width(4.dp).height(38.dp)
-                                .background(MaterialTheme.colorScheme.primary, RoundedCornerShape(3.dp))
-                        )
-                        Column {
-                            Text(
-                                stringResource(Res.string.app_name).uppercase(),
-                                style = MaterialTheme.typography.labelSmall,
-                                color = MaterialTheme.colorScheme.primary,
-                            )
-                            Text(
-                                stringResource(page.title),
-                                style = MaterialTheme.typography.titleLarge,
-                            )
-                        }
+                if (page != Destination.GENERATOR)
+                    ScreenHeader(stringResource(page.title)) {
+                        if (page == Destination.SETTINGS)
+                            LinkAction(stringResource(Res.string.close), { page = returnPage })
+                        else SettingsButton(openSettings)
                     }
-                }
 
                 if (state.loading || state.importing)
                     LinearProgressIndicator(Modifier.fillMaxWidth())
@@ -251,7 +239,7 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
                         containerColor = MaterialTheme.colorScheme.surface,
                         tonalElevation = 0.dp,
                     ) {
-                        Destination.entries.forEach { destination ->
+                        Destination.tabs.forEach { destination ->
                             NavigationBarItem(
                                 selected = page == destination,
                                 onClick = { page = destination },
@@ -260,7 +248,7 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
                                     Text(
                                         stringResource(destination.title),
                                         maxLines = 1,
-                                        softWrap = false,
+                                        overflow = TextOverflow.Ellipsis,
                                         style = MaterialTheme.typography.labelSmall,
                                     )
                                 },

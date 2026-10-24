@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">Üretici</string>
     <string name="nav_search">Ara</string>
-    <string name="nav_libraries">Kütüphaneler</string>
+    <string name="nav_libraries">Paketler</string>
     <string name="nav_ideas">Fikirler</string>
     <string name="nav_settings">Ayarlar</string>
     <string name="loading_libraries">Kütüphaneler yükleniyor…</string>
@@ -536,7 +536,7 @@
     <string name="packs_install">Kur</string>
     <string name="packs_update">Güncelle</string>
     <string name="packs_installed">Kurulu</string>
-    <string name="packs_catalog_note">GameReel; Valve, Riot Games veya KRAFTON tarafından onaylanmamıştır ve oyunlarının yapımında ya da yönetiminde resmî olarak yer alan kimsenin görüşlerini yansıtmaz. Oyun adları, görseller ve markalar sahiplerine aittir; görseller doğrudan yayıncıların sunucularından yüklenir.</string>
+    <string name="packs_catalog_note">GameReel; Valve, Riot Games veya KRAFTON tarafından onaylanmamıştır ve oyunlarının yapımında ya da yönetiminde resmî olarak yer alan kimsenin görüşlerini yansıtmaz. Oyun adları, görseller ve markalar sahiplerine aittir.</string>
     <string name="packs_catalog_github">GitHub’daki tüm paketler ↗</string>
     <string name="pack_editor_create">Oyun paketi oluştur</string>
     <string name="pack_editor_hint">Kendi rastgele seçicin: kategoriler makaraya, seçenekler de makaradan çıkanlara dönüşür. Paketi kendin için kaydet ya da ortak kataloğa öner.</string>
@@ -572,4 +572,6 @@
     <string name="pack_submit_done">Teşekkürler! Paket inceleme bekliyor.</string>
     <string name="pack_submit_open">GitHub’da aç ↗</string>
     <string name="pack_submit_error">Paket gönderilemedi. Bağlantını kontrol edip daha sonra yeniden dene.</string>
+    <string name="packs_browse">Kataloğu aç</string>
+    <string name="packs_hero_text">Gerçek oyunlar için hazır rastgele seçiciler: kahraman, eşyalar, teçhizat. Kur ve çevir.</string>
 </resources>

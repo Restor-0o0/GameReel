@@ -26,7 +26,7 @@ import com.restor.gamereel.data.storage.WorkspaceBackup
 import com.restor.gamereel.data.storage.makeWorkspaceBackup
 import com.restor.gamereel.feature.generator.SpinTimeline
 import com.restor.gamereel.model.*
-import com.restor.gamereel.ui.components.StudioCard
+import com.restor.gamereel.ui.components.*
 import com.restor.gamereel.ui.presentation.title
 import com.restor.gamereel.ui.theme.colorFromHex
 import com.restor.gamereel.ui.theme.swatch
@@ -235,9 +235,8 @@ internal fun PreferencesContent(
                         color = MaterialTheme.colorScheme.error,
                         style = MaterialTheme.typography.bodySmall,
                     )
-                Button(onClick = applyTiming, enabled = canApply) {
-                    Text(stringResource(Res.string.settings_apply_timing))
-                }
+                PrimaryAction(stringResource(Res.string.settings_apply_timing), applyTiming,
+                    Modifier.fillMaxWidth(), enabled = canApply)
                 val requestedMs = totalMs ?: requestedDuration
                 val actualMs = SpinTimeline.actualDurationMs(
                     requestedMs,
@@ -293,20 +292,17 @@ internal fun PreferencesContent(
         item {
             SettingsGroup(title = stringResource(Res.string.backup_title),
                 hint = stringResource(Res.string.backup_hint)) {
-                Button(onClick = {
+                SecondaryAction(stringResource(Res.string.backup_export), {
                     backupSaver.launch(suggestedName = "gamereel-backup", defaultExtension = "json")
-                }) { Text(stringResource(Res.string.backup_export)) }
-                OutlinedButton(onClick = { backupPicker.launch() }) {
-                    Text(stringResource(Res.string.backup_import))
-                }
+                }, Modifier.fillMaxWidth())
+                TertiaryAction(stringResource(Res.string.backup_import), { backupPicker.launch() },
+                    Modifier.fillMaxWidth())
                 backupError?.let { Text(it, color = MaterialTheme.colorScheme.error) }
             }
         }
         item {
             SettingsGroup(title = stringResource(Res.string.welcome_title)) {
-                TextButton(onClick = onShowWelcome) {
-                    Text(stringResource(Res.string.welcome_show_again))
-                }
+                LinkAction(stringResource(Res.string.welcome_show_again), onShowWelcome)
             }
         }
         item {
@@ -316,9 +312,7 @@ internal fun PreferencesContent(
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
-                TextButton(onClick = { privacyOpen = true }) {
-                    Text(stringResource(Res.string.privacy_title))
-                }
+                LinkAction(stringResource(Res.string.privacy_title), { privacyOpen = true })
             }
         }
     }
@@ -396,9 +390,7 @@ private fun ColorSettingsGroup(
         Text(stringResource(Res.string.settings_add_custom_color), style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant)
         if (selectedCustom != null) {
-            TextButton(onClick = { onRemove(selectedCustom) }) {
-                Text(stringResource(Res.string.settings_remove_custom_color))
-            }
+            LinkAction(stringResource(Res.string.settings_remove_custom_color), { onRemove(selectedCustom) })
         }
     }
 }

@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">Generator</string>
     <string name="nav_search">Szukaj</string>
-    <string name="nav_libraries">Biblioteki</string>
+    <string name="nav_libraries">Pakiety</string>
     <string name="nav_ideas">Pomysły</string>
     <string name="nav_settings">Ustawienia</string>
     <string name="loading_libraries">Wczytywanie bibliotek…</string>
@@ -548,7 +548,7 @@
     <string name="packs_install">Zainstaluj</string>
     <string name="packs_update">Aktualizuj</string>
     <string name="packs_installed">Zainstalowano</string>
-    <string name="packs_catalog_note">GameReel nie jest wspierany przez Valve, Riot Games ani KRAFTON i nie odzwierciedla poglądów ani opinii osób oficjalnie zaangażowanych w tworzenie lub prowadzenie ich gier. Nazwy gier, obrazy i znaki towarowe należą do ich właścicieli; obrazki wczytywane są bezpośrednio z serwerów wydawców.</string>
+    <string name="packs_catalog_note">GameReel nie jest wspierany przez Valve, Riot Games ani KRAFTON i nie odzwierciedla poglądów ani opinii osób oficjalnie zaangażowanych w tworzenie lub prowadzenie ich gier. Nazwy gier, obrazy i znaki towarowe należą do ich właścicieli.</string>
     <string name="packs_catalog_github">Wszystkie pakiety na GitHubie ↗</string>
     <string name="pack_editor_create">Utwórz pakiet gry</string>
     <string name="pack_editor_hint">Własny randomizer: kategorie stają się bębnami, a opcje tym, co na nich wypada. Zapisz pakiet dla siebie lub zaproponuj go do wspólnego katalogu.</string>
@@ -584,4 +584,6 @@
     <string name="pack_submit_done">Dziękujemy! Pakiet czeka na sprawdzenie.</string>
     <string name="pack_submit_open">Otwórz na GitHubie ↗</string>
     <string name="pack_submit_error">Nie udało się wysłać pakietu. Sprawdź połączenie i spróbuj później.</string>
+    <string name="packs_browse">Otwórz katalog</string>
+    <string name="packs_hero_text">Gotowe losowania do prawdziwych gier: bohater, przedmioty, ekwipunek. Zainstaluj i kręć.</string>
 </resources>

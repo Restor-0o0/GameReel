@@ -14,6 +14,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.restor.gamereel.model.*
 import com.restor.gamereel.share.IdeaShareCode
+import com.restor.gamereel.ui.components.*
 import com.restor.gamereel.ui.presentation.title
 import gamereel.app.shared.generated.resources.*
 import org.jetbrains.compose.resources.stringResource
@@ -37,19 +38,7 @@ internal fun GeneratorToolbar(
     val presetsDescription = stringResource(Res.string.presets_title)
 
     Column(Modifier.fillMaxWidth().padding(bottom = 8.dp)) {
-    Row(Modifier.fillMaxWidth().padding(start = 20.dp, end = 8.dp, top = 12.dp, bottom = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-        Column(Modifier.weight(1f)) {
-            Text(
-                stringResource(Res.string.app_name).uppercase(),
-                style = MaterialTheme.typography.labelSmall,
-                color = MaterialTheme.colorScheme.primary,
-            )
-            Text(
-                stringResource(Res.string.nav_generator),
-                style = MaterialTheme.typography.titleLarge,
-            )
-        }
-
+    ScreenHeader(stringResource(Res.string.nav_generator)) {
         IconButton(
             onClick = actions.undo,
             enabled = canUndo,
@@ -142,25 +131,17 @@ internal fun GeneratorToolbar(
                 )
             }
         }
+        SettingsButton(actions.openSettings)
     }
     Row(
-        Modifier.fillMaxWidth().padding(horizontal = 16.dp),
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
+        Modifier.fillMaxWidth().padding(horizontal = Space.l),
+        horizontalArrangement = Arrangement.spacedBy(Space.s),
     ) {
-        Button(onClick = onSave, enabled = reels.any { it.tag != null }, modifier = Modifier.weight(1.1f).heightIn(min = 46.dp),
-            shape = RoundedCornerShape(14.dp), contentPadding = PaddingValues(horizontal = 8.dp)) {
-            Text(stringResource(Res.string.save), maxLines = 1)
-        }
-        OutlinedButton(onClick = onPresets,
-            modifier = Modifier.weight(1.2f).heightIn(min = 46.dp).semantics { contentDescription = presetsDescription },
-            shape = RoundedCornerShape(14.dp), contentPadding = PaddingValues(horizontal = 8.dp)) {
-            Text(stringResource(Res.string.presets_button), Modifier.fillMaxWidth(),
-                maxLines = 1, textAlign = TextAlign.Center)
-        }
-        OutlinedButton(onClick = onAdd, modifier = Modifier.weight(1f).heightIn(min = 46.dp),
-            shape = RoundedCornerShape(14.dp), contentPadding = PaddingValues(horizontal = 8.dp)) {
-            Text(stringResource(Res.string.add_reel_short), maxLines = 1)
-        }
+        PrimaryAction(stringResource(Res.string.save), onSave, Modifier.weight(1.1f),
+            enabled = reels.any { it.tag != null })
+        TertiaryAction(stringResource(Res.string.presets_button), onPresets,
+            Modifier.weight(1.2f).semantics { contentDescription = presetsDescription })
+        TertiaryAction(stringResource(Res.string.add_reel_short), onAdd, Modifier.weight(1f))
     }
     }
     if (openingShared) OpenSharedDialog(actions.openShared) { openingShared = false }

@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">Generatore</string>
     <string name="nav_search">Cerca</string>
-    <string name="nav_libraries">Librerie</string>
+    <string name="nav_libraries">Pacchetti</string>
     <string name="nav_ideas">Idee</string>
     <string name="nav_settings">Impostazioni</string>
     <string name="loading_libraries">Caricamento librerie…</string>
@@ -536,7 +536,7 @@
     <string name="packs_install">Installa</string>
     <string name="packs_update">Aggiorna</string>
     <string name="packs_installed">Installato</string>
-    <string name="packs_catalog_note">GameReel non è approvato da Valve, Riot Games o KRAFTON e non riflette le opinioni di chi è ufficialmente coinvolto nella produzione o gestione dei loro giochi. Nomi, immagini e marchi appartengono ai rispettivi proprietari; le immagini vengono caricate direttamente dai server degli editori.</string>
+    <string name="packs_catalog_note">GameReel non è approvato da Valve, Riot Games o KRAFTON e non riflette le opinioni di chi è ufficialmente coinvolto nella produzione o gestione dei loro giochi. Nomi, immagini e marchi appartengono ai rispettivi proprietari.</string>
     <string name="packs_catalog_github">Tutti i pacchetti su GitHub ↗</string>
     <string name="pack_editor_create">Crea un pacchetto di gioco</string>
     <string name="pack_editor_hint">Il tuo randomizzatore: le categorie diventano rulli, le opzioni ciò che esce. Salvalo per te o proponilo per il catalogo comune.</string>
@@ -572,4 +572,6 @@
     <string name="pack_submit_done">Grazie! Il pacchetto è in attesa di verifica.</string>
     <string name="pack_submit_open">Apri su GitHub ↗</string>
     <string name="pack_submit_error">Impossibile inviare il pacchetto. Controlla la connessione e riprova più tardi.</string>
+    <string name="packs_browse">Apri catalogo</string>
+    <string name="packs_hero_text">Randomizzatori pronti per giochi veri: eroe, oggetti, equipaggiamento. Installa e gira.</string>
 </resources>

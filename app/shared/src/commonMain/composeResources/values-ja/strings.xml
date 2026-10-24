@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">ジェネレーター</string>
     <string name="nav_search">検索</string>
-    <string name="nav_libraries">ライブラリ</string>
+    <string name="nav_libraries">パック</string>
     <string name="nav_ideas">アイデア</string>
     <string name="nav_settings">設定</string>
     <string name="loading_libraries">ライブラリを読み込み中…</string>
@@ -536,7 +536,7 @@
     <string name="packs_install">インストール</string>
     <string name="packs_update">更新</string>
     <string name="packs_installed">インストール済み</string>
-    <string name="packs_catalog_note">GameReel は Valve、Riot Games、KRAFTON の承認を受けておらず、各社のゲームの制作・運営に公式に関わる人々の見解や意見を反映するものではありません。ゲーム名、画像、商標はそれぞれの所有者に帰属し、画像は発売元のサーバーから直接読み込まれます。</string>
+    <string name="packs_catalog_note">GameReel は Valve、Riot Games、KRAFTON の承認を受けておらず、各社のゲームの制作・運営に公式に関わる人々の見解や意見を反映するものではありません。ゲーム名、画像、商標はそれぞれの所有者に帰属します。</string>
     <string name="packs_catalog_github">GitHub のすべてのパック ↗</string>
     <string name="pack_editor_create">ゲームパックを作成</string>
     <string name="pack_editor_hint">自分だけのランダマイザー：カテゴリーがリールになり、選択肢がリールで出る内容になります。自分用に保存するか、共有カタログに提案できます。</string>
@@ -572,4 +572,6 @@
     <string name="pack_submit_done">ありがとうございます！パックは確認待ちです。</string>
     <string name="pack_submit_open">GitHub で開く ↗</string>
     <string name="pack_submit_error">パックを送信できませんでした。接続を確認して、後でもう一度お試しください。</string>
+    <string name="packs_browse">カタログを開く</string>
+    <string name="packs_hero_text">実在のゲーム向けの既製ランダマイザー：ヒーロー、アイテム、装備。入れて回すだけ。</string>
 </resources>

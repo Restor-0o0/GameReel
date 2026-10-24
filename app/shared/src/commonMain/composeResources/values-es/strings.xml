@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">Generador</string>
     <string name="nav_search">Buscar</string>
-    <string name="nav_libraries">Conjuntos</string>
+    <string name="nav_libraries">Packs</string>
     <string name="nav_ideas">Ideas</string>
     <string name="nav_settings">Ajustes</string>
     <string name="loading_libraries">Cargando bibliotecas…</string>
@@ -518,7 +518,7 @@
     <string name="packs_install">Instalar</string>
     <string name="packs_update">Actualizar</string>
     <string name="packs_installed">Instalado</string>
-    <string name="packs_catalog_note">GameReel no cuenta con el respaldo de Valve, Riot Games ni KRAFTON y no refleja las opiniones de nadie implicado oficialmente en la producción o gestión de sus juegos. Los nombres, imágenes y marcas pertenecen a sus propietarios; las imágenes se cargan directamente desde los servidores de las editoras.</string>
+    <string name="packs_catalog_note">GameReel no cuenta con el respaldo de Valve, Riot Games ni KRAFTON y no refleja las opiniones de nadie implicado oficialmente en la producción o gestión de sus juegos. Los nombres, imágenes y marcas pertenecen a sus propietarios.</string>
     <string name="packs_catalog_github">Todos los paquetes en GitHub ↗</string>
     <string name="pack_editor_create">Crear un paquete de juego</string>
     <string name="pack_editor_hint">Tu propio aleatorizador: las categorías se convierten en rodillos y las opciones en lo que sale en ellos. Guárdalo para ti o propónlo para el catálogo común.</string>
@@ -554,4 +554,6 @@
     <string name="pack_submit_done">¡Gracias! El paquete espera revisión.</string>
     <string name="pack_submit_open">Abrir en GitHub ↗</string>
     <string name="pack_submit_error">No se pudo enviar el paquete. Revisa la conexión y vuelve a intentarlo más tarde.</string>
+    <string name="packs_browse">Ver catálogo</string>
+    <string name="packs_hero_text">Aleatorizadores listos para juegos reales: héroe, objetos, equipo. Instala y gira.</string>
 </resources>

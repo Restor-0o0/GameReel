@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">Generator</string>
     <string name="nav_search">Suche</string>
-    <string name="nav_libraries">Sets</string>
+    <string name="nav_libraries">Pakete</string>
     <string name="nav_ideas">Ideen</string>
     <string name="nav_settings">Optionen</string>
     <string name="loading_libraries">Bibliotheken werden geladen…</string>
@@ -518,7 +518,7 @@
     <string name="packs_install">Installieren</string>
     <string name="packs_update">Aktualisieren</string>
     <string name="packs_installed">Installiert</string>
-    <string name="packs_catalog_note">GameReel wird nicht von Valve, Riot Games oder KRAFTON unterstützt und gibt nicht die Ansichten oder Meinungen der offiziell an Entwicklung oder Betrieb ihrer Spiele Beteiligten wieder. Spielnamen, Bilder und Marken gehören ihren Inhabern; Bilder werden direkt von den Servern der Publisher geladen.</string>
+    <string name="packs_catalog_note">GameReel wird nicht von Valve, Riot Games oder KRAFTON unterstützt und gibt nicht die Ansichten oder Meinungen der offiziell an Entwicklung oder Betrieb ihrer Spiele Beteiligten wieder. Spielnamen, Bilder und Marken gehören ihren Inhabern.</string>
     <string name="packs_catalog_github">Alle Pakete auf GitHub ↗</string>
     <string name="pack_editor_create">Spielpaket erstellen</string>
     <string name="pack_editor_hint">Dein eigener Zufallsgenerator: Kategorien werden zu Walzen, Optionen zu dem, was sie auswerfen. Speichere das Paket für dich oder schlage es für den gemeinsamen Katalog vor.</string>
@@ -554,4 +554,6 @@
     <string name="pack_submit_done">Danke! Das Paket wartet auf die Prüfung.</string>
     <string name="pack_submit_open">Auf GitHub öffnen ↗</string>
     <string name="pack_submit_error">Das Paket konnte nicht gesendet werden. Prüfe die Verbindung und versuche es später erneut.</string>
+    <string name="packs_browse">Katalog öffnen</string>
+    <string name="packs_hero_text">Fertige Zufallsgeneratoren für echte Spiele: Held, Items, Ausrüstung. Installieren und drehen.</string>
 </resources>

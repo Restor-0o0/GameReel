@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">Generator</string>
     <string name="nav_search">Search</string>
-    <string name="nav_libraries">Libraries</string>
+    <string name="nav_libraries">Packs</string>
     <string name="nav_ideas">Ideas</string>
     <string name="nav_settings">Settings</string>
     <string name="loading_libraries">Loading libraries…</string>
@@ -536,7 +536,7 @@
     <string name="packs_install">Install</string>
     <string name="packs_update">Update</string>
     <string name="packs_installed">Installed</string>
-    <string name="packs_catalog_note">GameReel isn’t endorsed by Valve, Riot Games or KRAFTON and doesn’t reflect the views or opinions of anyone officially involved in producing or managing their games. Game names, images and trademarks belong to their owners; pictures load straight from the publishers’ servers.</string>
+    <string name="packs_catalog_note">GameReel isn’t endorsed by Valve, Riot Games or KRAFTON and doesn’t reflect the views or opinions of anyone officially involved in producing or managing their games. Game names, images and trademarks belong to their owners.</string>
     <string name="packs_catalog_github">All packs on GitHub ↗</string>
     <string name="pack_editor_create">Create a game pack</string>
     <string name="pack_editor_hint">Build your own randomizer: categories become reels, options are what they roll. Save it for yourself or suggest it for the shared catalog.</string>
@@ -572,4 +572,6 @@
     <string name="pack_submit_done">Thanks! The pack is waiting for review.</string>
     <string name="pack_submit_open">Open on GitHub ↗</string>
     <string name="pack_submit_error">Couldn’t send the pack. Check your connection and try again later.</string>
+    <string name="packs_browse">Browse packs</string>
+    <string name="packs_hero_text">Ready-made randomizers for real games: hero, items, loadout. Install one and spin.</string>
 </resources>

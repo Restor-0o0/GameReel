@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">生成器</string>
     <string name="nav_search">搜索</string>
-    <string name="nav_libraries">资料库</string>
+    <string name="nav_libraries">游戏包</string>
     <string name="nav_ideas">创意</string>
     <string name="nav_settings">设置</string>
     <string name="loading_libraries">正在加载资料库…</string>
@@ -536,7 +536,7 @@
     <string name="packs_install">安装</string>
     <string name="packs_update">更新</string>
     <string name="packs_installed">已安装</string>
-    <string name="packs_catalog_note">GameReel 未获得 Valve、Riot Games 或 KRAFTON 的认可，也不代表任何正式参与其游戏制作或运营人员的观点或意见。游戏名称、图片和商标归其各自所有者所有；图片直接从发行商的服务器加载。</string>
+    <string name="packs_catalog_note">GameReel 未获得 Valve、Riot Games 或 KRAFTON 的认可，也不代表任何正式参与其游戏制作或运营人员的观点或意见。游戏名称、图片和商标归其各自所有者所有。</string>
     <string name="packs_catalog_github">GitHub 上的全部游戏包 ↗</string>
     <string name="pack_editor_create">创建游戏包</string>
     <string name="pack_editor_hint">你自己的随机器：类别变成转轮，选项就是转轮转出的内容。可以保存自用，也可以推荐到公共目录。</string>
@@ -572,4 +572,6 @@
     <string name="pack_submit_done">谢谢！游戏包正在等待审核。</string>
     <string name="pack_submit_open">在 GitHub 上打开 ↗</string>
     <string name="pack_submit_error">无法发送游戏包。请检查网络连接，稍后再试。</string>
+    <string name="packs_browse">打开目录</string>
+    <string name="packs_hero_text">为真实游戏准备的随机器：英雄、物品、装备。安装即可开转。</string>
 </resources>

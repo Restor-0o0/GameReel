@@ -18,8 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.restor.gamereel.model.*
 import com.restor.gamereel.share.IdeaShareCode
-import com.restor.gamereel.ui.components.SectionLabel
-import com.restor.gamereel.ui.components.StudioCard
+import com.restor.gamereel.ui.components.*
 import com.restor.gamereel.ui.presentation.label
 import com.restor.gamereel.ui.presentation.title
 import io.github.vinceglb.filekit.dialogs.FileKitDialogSettings
@@ -143,9 +142,7 @@ internal fun SavedContent(
                     ) {
                         Text("✦", style = MaterialTheme.typography.headlineSmall, color = MaterialTheme.colorScheme.primary)
                         Text(stringResource(Res.string.ideas_empty), style = MaterialTheme.typography.bodyMedium)
-                        Button(onClick = onGoToGenerator) {
-                            Text(stringResource(Res.string.ideas_go_generator))
-                        }
+                        PrimaryAction(stringResource(Res.string.ideas_go_generator), onGoToGenerator)
                     }
                 }
             }
@@ -207,9 +204,7 @@ internal fun SavedContent(
                         horizontalArrangement = Arrangement.End,
                         verticalArrangement = Arrangement.spacedBy(4.dp)) {
                         Box {
-                            TextButton(onClick = { menuOpen = true }) {
-                                Text(stringResource(Res.string.more_actions))
-                            }
+                            LinkAction(stringResource(Res.string.more_actions), { menuOpen = true })
                             DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
                                 DropdownMenuItem(text = { Text(stringResource(Res.string.idea_make_variant)) },
                                     onClick = { menuOpen = false; onVariant(idea.id) })
@@ -247,15 +242,10 @@ internal fun SavedContent(
                             }
                         }
                         if (idea.outcome.url.startsWith("https://") || idea.outcome.url.startsWith("http://"))
-                            TextButton(onClick = { runCatching { uriHandler.openUri(idea.outcome.url) } }) {
-                                Text(stringResource(Res.string.idea_open_result))
-                            }
-                        TextButton(onClick = { onEdit(idea) }) {
-                            Text(stringResource(Res.string.edit))
-                        }
-                        Button(onClick = { onLoad(idea.id) }) {
-                            Text(stringResource(Res.string.load))
-                        }
+                            LinkAction(stringResource(Res.string.idea_open_result),
+                                { runCatching { uriHandler.openUri(idea.outcome.url) } })
+                        LinkAction(stringResource(Res.string.edit), { onEdit(idea) })
+                        SecondaryAction(stringResource(Res.string.load), { onLoad(idea.id) })
                     }
                 }
             }

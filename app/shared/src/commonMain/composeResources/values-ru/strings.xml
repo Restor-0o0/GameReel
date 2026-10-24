@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">Генератор</string>
     <string name="nav_search">Поиск</string>
-    <string name="nav_libraries">Наборы</string>
+    <string name="nav_libraries">Пакеты</string>
     <string name="nav_ideas">Идеи</string>
     <string name="nav_settings">Опции</string>
     <string name="loading_libraries">Загружаем библиотеки…</string>
@@ -548,7 +548,7 @@
     <string name="packs_install">Установить</string>
     <string name="packs_update">Обновить</string>
     <string name="packs_installed">Установлен</string>
-    <string name="packs_catalog_note">GameReel не одобрен Valve, Riot Games или KRAFTON и не отражает взгляды или мнения лиц, официально участвующих в создании или управлении их играми. Названия игр, изображения и товарные знаки принадлежат их владельцам; картинки загружаются напрямую с серверов издателей.</string>
+    <string name="packs_catalog_note">GameReel не одобрен Valve, Riot Games или KRAFTON и не отражает взгляды или мнения лиц, официально участвующих в создании или управлении их играми. Названия игр, изображения и товарные знаки принадлежат их владельцам.</string>
     <string name="packs_catalog_github">Все пакеты на GitHub ↗</string>
     <string name="pack_editor_create">Собрать игровой пакет</string>
     <string name="pack_editor_hint">Свой рандомайзер: категории становятся барабанами, а варианты — тем, что на них выпадает. Сохраните пакет для себя или предложите его в общий каталог.</string>
@@ -584,4 +584,6 @@
     <string name="pack_submit_done">Спасибо! Пакет ждёт проверки.</string>
     <string name="pack_submit_open">Открыть на GitHub ↗</string>
     <string name="pack_submit_error">Не удалось отправить пакет. Проверьте подключение и попробуйте позже.</string>
+    <string name="packs_browse">Открыть каталог</string>
+    <string name="packs_hero_text">Готовые рандомайзеры для настоящих игр: герой, предметы, снаряжение. Установи и крути.</string>
 </resources>

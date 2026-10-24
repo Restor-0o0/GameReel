@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">Générateur</string>
     <string name="nav_search">Recherche</string>
-    <string name="nav_libraries">Ensembles</string>
+    <string name="nav_libraries">Packs</string>
     <string name="nav_ideas">Idées</string>
     <string name="nav_settings">Options</string>
     <string name="loading_libraries">Chargement des bibliothèques…</string>
@@ -518,7 +518,7 @@
     <string name="packs_install">Installer</string>
     <string name="packs_update">Mettre à jour</string>
     <string name="packs_installed">Installé</string>
-    <string name="packs_catalog_note">GameReel n’est pas approuvé par Valve, Riot Games ou KRAFTON et ne reflète pas les opinions des personnes officiellement impliquées dans la production ou la gestion de leurs jeux. Les noms, images et marques appartiennent à leurs propriétaires ; les images sont chargées directement depuis les serveurs des éditeurs.</string>
+    <string name="packs_catalog_note">GameReel n’est pas approuvé par Valve, Riot Games ou KRAFTON et ne reflète pas les opinions des personnes officiellement impliquées dans la production ou la gestion de leurs jeux. Les noms, images et marques appartiennent à leurs propriétaires.</string>
     <string name="packs_catalog_github">Tous les packs sur GitHub ↗</string>
     <string name="pack_editor_create">Créer un pack de jeu</string>
     <string name="pack_editor_hint">Votre propre générateur aléatoire : les catégories deviennent des rouleaux, les options ce qu’ils tirent. Gardez le pack pour vous ou proposez-le au catalogue commun.</string>
@@ -554,4 +554,6 @@
     <string name="pack_submit_done">Merci ! Le pack attend sa vérification.</string>
     <string name="pack_submit_open">Ouvrir sur GitHub ↗</string>
     <string name="pack_submit_error">Impossible d’envoyer le pack. Vérifiez la connexion et réessayez plus tard.</string>
+    <string name="packs_browse">Voir le catalogue</string>
+    <string name="packs_hero_text">Des tirages prêts pour de vrais jeux : héros, objets, équipement. Installe et lance.</string>
 </resources>

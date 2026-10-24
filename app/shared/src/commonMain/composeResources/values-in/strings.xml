@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">Generator</string>
     <string name="nav_search">Cari</string>
-    <string name="nav_libraries">Pustaka</string>
+    <string name="nav_libraries">Paket</string>
     <string name="nav_ideas">Ide</string>
     <string name="nav_settings">Setelan</string>
     <string name="loading_libraries">Memuat pustaka…</string>
@@ -536,7 +536,7 @@
     <string name="packs_install">Pasang</string>
     <string name="packs_update">Perbarui</string>
     <string name="packs_installed">Terpasang</string>
-    <string name="packs_catalog_note">GameReel tidak didukung oleh Valve, Riot Games, atau KRAFTON dan tidak mencerminkan pandangan pihak yang secara resmi terlibat dalam pembuatan atau pengelolaan game mereka. Nama game, gambar, dan merek dagang adalah milik pemiliknya; gambar dimuat langsung dari server penerbit.</string>
+    <string name="packs_catalog_note">GameReel tidak didukung oleh Valve, Riot Games, atau KRAFTON dan tidak mencerminkan pandangan pihak yang secara resmi terlibat dalam pembuatan atau pengelolaan game mereka. Nama game, gambar, dan merek dagang adalah milik pemiliknya.</string>
     <string name="packs_catalog_github">Semua paket di GitHub ↗</string>
     <string name="pack_editor_create">Buat paket game</string>
     <string name="pack_editor_hint">Pengacak buatanmu sendiri: kategori menjadi gulungan, opsi menjadi hasil putarannya. Simpan untuk dirimu atau usulkan ke katalog bersama.</string>
@@ -572,4 +572,6 @@
     <string name="pack_submit_done">Terima kasih! Paket menunggu peninjauan.</string>
     <string name="pack_submit_open">Buka di GitHub ↗</string>
     <string name="pack_submit_error">Paket tidak dapat dikirim. Periksa koneksi dan coba lagi nanti.</string>
+    <string name="packs_browse">Buka katalog</string>
+    <string name="packs_hero_text">Pengacak siap pakai untuk game sungguhan: hero, item, perlengkapan. Pasang lalu putar.</string>
 </resources>

@@ -47,6 +47,29 @@ internal fun StudioCard(
 }
 
 @Composable
+internal fun SectionDivider() {
+    HorizontalDivider(Modifier.padding(vertical = Space.s), color = MaterialTheme.colorScheme.outlineVariant)
+}
+
+@Composable
+internal fun HeroCard(
+    modifier: Modifier = Modifier,
+    content: @Composable ColumnScope.() -> Unit,
+) {
+    Card(
+        modifier = modifier,
+        shape = RoundedCornerShape(20.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.primaryContainer,
+            contentColor = MaterialTheme.colorScheme.onSurface,
+        ),
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.45f)),
+    ) {
+        Column(Modifier.padding(Space.l), verticalArrangement = Arrangement.spacedBy(Space.m), content = content)
+    }
+}
+
+@Composable
 internal fun StudioCard(
     onClick: () -> Unit,
     modifier: Modifier = Modifier,

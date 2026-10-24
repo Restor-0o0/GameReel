@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">생성기</string>
     <string name="nav_search">검색</string>
-    <string name="nav_libraries">라이브러리</string>
+    <string name="nav_libraries">팩</string>
     <string name="nav_ideas">아이디어</string>
     <string name="nav_settings">설정</string>
     <string name="loading_libraries">라이브러리 불러오는 중…</string>
@@ -536,7 +536,7 @@
     <string name="packs_install">설치</string>
     <string name="packs_update">업데이트</string>
     <string name="packs_installed">설치됨</string>
-    <string name="packs_catalog_note">GameReel은 Valve, Riot Games 또는 KRAFTON의 보증을 받지 않았으며, 해당 게임의 제작이나 운영에 공식적으로 관여하는 누구의 견해나 의견도 반영하지 않습니다. 게임 이름, 이미지, 상표는 각 소유자에게 있으며, 이미지는 퍼블리셔 서버에서 바로 불러옵니다.</string>
+    <string name="packs_catalog_note">GameReel은 Valve, Riot Games 또는 KRAFTON의 보증을 받지 않았으며, 해당 게임의 제작이나 운영에 공식적으로 관여하는 누구의 견해나 의견도 반영하지 않습니다. 게임 이름, 이미지, 상표는 각 소유자에게 있습니다.</string>
     <string name="packs_catalog_github">GitHub의 모든 팩 ↗</string>
     <string name="pack_editor_create">게임 팩 만들기</string>
     <string name="pack_editor_hint">나만의 랜덤 생성기: 카테고리는 릴이 되고, 옵션은 릴에서 나오는 결과가 됩니다. 직접 쓰려고 저장하거나 공유 카탈로그에 제안하세요.</string>
@@ -572,4 +572,6 @@
     <string name="pack_submit_done">감사합니다! 팩이 검토를 기다리고 있습니다.</string>
     <string name="pack_submit_open">GitHub에서 열기 ↗</string>
     <string name="pack_submit_error">팩을 보내지 못했습니다. 연결을 확인하고 나중에 다시 시도하세요.</string>
+    <string name="packs_browse">카탈로그 열기</string>
+    <string name="packs_hero_text">실제 게임용 랜덤 뽑기: 영웅, 아이템, 장비. 설치하고 돌리세요.</string>
 </resources>

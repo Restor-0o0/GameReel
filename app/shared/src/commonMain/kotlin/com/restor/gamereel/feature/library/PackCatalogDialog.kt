@@ -1,16 +1,14 @@
 package com.restor.gamereel.feature.library
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
@@ -18,6 +16,7 @@ import com.restor.gamereel.data.importer.JsonLibraryImporter
 import com.restor.gamereel.model.LibraryPack
 import com.restor.gamereel.platform.httpClient
 import com.restor.gamereel.text.fail
+import com.restor.gamereel.ui.components.*
 import gamereel.app.shared.generated.resources.*
 import io.ktor.client.request.get
 import io.ktor.client.statement.bodyAsText
@@ -84,14 +83,11 @@ internal fun PackCatalogDialog(
             shape = MaterialTheme.shapes.large,
         ) {
             Column(Modifier.fillMaxSize()) {
-                Row(Modifier.fillMaxWidth().padding(start = 20.dp, end = 8.dp, top = 12.dp),
-                    verticalAlignment = Alignment.CenterVertically) {
-                    Text(stringResource(Res.string.packs_catalog_title), Modifier.weight(1f),
-                        style = MaterialTheme.typography.headlineSmall)
-                    TextButton(onClick = onDismiss) { Text(stringResource(Res.string.close)) }
+                ScreenHeader(stringResource(Res.string.packs_catalog_title)) {
+                    LinkAction(stringResource(Res.string.close), onDismiss)
                 }
-                LazyColumn(Modifier.weight(1f), contentPadding = PaddingValues(16.dp),
-                    verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                LazyColumn(Modifier.weight(1f), contentPadding = PaddingValues(Space.l),
+                    verticalArrangement = Arrangement.spacedBy(Space.m)) {
                     item {
                         Text(stringResource(Res.string.packs_catalog_hint),
                             style = MaterialTheme.typography.bodySmall,
@@ -100,12 +96,10 @@ internal fun PackCatalogDialog(
                     val list = packs
                     when {
                         failed && list == null -> item {
-                            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Column(verticalArrangement = Arrangement.spacedBy(Space.s)) {
                                 Text(stringResource(Res.string.packs_catalog_error),
                                     color = MaterialTheme.colorScheme.error)
-                                OutlinedButton(onClick = { attempt++ }) {
-                                    Text(stringResource(Res.string.packs_catalog_retry))
-                                }
+                                SecondaryAction(stringResource(Res.string.packs_catalog_retry), { attempt++ })
                             }
                         }
                         list == null -> item {
@@ -127,9 +121,8 @@ internal fun PackCatalogDialog(
                             color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                     item {
-                        TextButton(onClick = { runCatching { uriHandler.openUri(PACKS_PAGE) } }) {
-                            Text(stringResource(Res.string.packs_catalog_github))
-                        }
+                        LinkAction(stringResource(Res.string.packs_catalog_github),
+                            { runCatching { uriHandler.openUri(PACKS_PAGE) } })
                     }
                 }
             }
@@ -139,23 +132,21 @@ internal fun PackCatalogDialog(
 
 @Composable
 private fun PackRow(pack: CatalogPack, installedVersion: Int?, importing: Boolean, onInstall: () -> Unit) {
-    OutlinedCard(Modifier.fillMaxWidth()) {
-        Row(Modifier.padding(12.dp), verticalAlignment = Alignment.CenterVertically) {
-            Box(Modifier.size(width = 72.dp, height = 48.dp).clip(RoundedCornerShape(8.dp))
-                .background(MaterialTheme.colorScheme.surfaceVariant), contentAlignment = Alignment.Center) {
-                Text("🎮")
-            }
-            Column(Modifier.weight(1f).padding(horizontal = 12.dp)) {
-                Text(pack.name, style = MaterialTheme.typography.titleMedium)
+    StudioCard(Modifier.fillMaxWidth()) {
+        Row(Modifier.padding(horizontal = Space.l, vertical = Space.m), verticalAlignment = Alignment.CenterVertically) {
+            Column(Modifier.weight(1f).padding(end = Space.m), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                Text(pack.name, style = MaterialTheme.typography.titleMedium, maxLines = 2,
+                    overflow = TextOverflow.Ellipsis)
                 Text(pluralStringResource(Res.plurals.tags_count, pack.tags, pack.tags),
-                    style = MaterialTheme.typography.bodySmall)
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             val upToDate = installedVersion != null && installedVersion >= pack.version
-            if (upToDate) Text(stringResource(Res.string.packs_installed),
+            if (upToDate) Text("✓ " + stringResource(Res.string.packs_installed),
                 style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
-            else Button(onClick = onInstall, enabled = !importing) {
-                Text(stringResource(if (installedVersion != null) Res.string.packs_update else Res.string.packs_install))
-            }
+            else PrimaryAction(
+                stringResource(if (installedVersion != null) Res.string.packs_update else Res.string.packs_install),
+                onInstall, enabled = !importing)
         }
     }
 }

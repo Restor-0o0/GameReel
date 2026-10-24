@@ -12,7 +12,7 @@ import kotlinx.serialization.json.*
 
 class PresetCompatibilityTest {
     @Test
-    fun builtinLayoutsHaveVarietyInEveryModeAcrossDefaultCatalogs() = runTest {
+    fun builtinLayoutsHaveVarietyInEveryModeAcrossDefaultCatalogs() = runTest(timeout = 3.minutes) {
         val packs = loadBundledLibraries(emptyMap())
         val publicIds = setOf(LibraryIds.CURATED, LibraryIds.ITCH_SELECTED, LibraryIds.STEAM_SELECTED)
         val selections = (listOf(

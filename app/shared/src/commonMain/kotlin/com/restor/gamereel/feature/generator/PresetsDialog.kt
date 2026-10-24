@@ -13,6 +13,7 @@ import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import com.restor.gamereel.model.*
 import com.restor.gamereel.ui.presentation.title
+import com.restor.gamereel.ui.components.*
 import gamereel.app.shared.generated.resources.*
 import io.github.vinceglb.filekit.dialogs.FileKitDialogSettings
 import io.github.vinceglb.filekit.dialogs.FileKitType
@@ -82,14 +83,11 @@ internal fun PresetsDialog(
             shape = MaterialTheme.shapes.large,
         ) {
             Column(Modifier.fillMaxSize()) {
-                Row(Modifier.fillMaxWidth().padding(start = 20.dp, end = 8.dp, top = 12.dp),
-                    verticalAlignment = Alignment.CenterVertically) {
-                    Text(stringResource(Res.string.presets_title), Modifier.weight(1f),
-                        style = MaterialTheme.typography.headlineSmall)
-                    TextButton(onClick = onDismiss) { Text(stringResource(Res.string.close)) }
+                ScreenHeader(stringResource(Res.string.presets_title)) {
+                    LinkAction(stringResource(Res.string.close), onDismiss)
                 }
-                LazyColumn(Modifier.weight(1f), contentPadding = PaddingValues(16.dp),
-                    verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                LazyColumn(Modifier.weight(1f), contentPadding = PaddingValues(Space.l),
+                    verticalArrangement = Arrangement.spacedBy(Space.m)) {
                     item {
                         Text(stringResource(Res.string.presets_hint),
                             style = MaterialTheme.typography.bodySmall,
@@ -97,15 +95,12 @@ internal fun PresetsDialog(
                     }
                     ioError?.let { error -> item { Text(error, color = MaterialTheme.colorScheme.error) } }
                     item {
-                        Button(onClick = { creating = true }, modifier = Modifier.fillMaxWidth()) {
-                            Text(stringResource(Res.string.preset_create))
-                        }
+                        PrimaryAction(stringResource(Res.string.preset_create), { creating = true },
+                            Modifier.fillMaxWidth())
                     }
                     item {
-                        OutlinedButton(onClick = { savingCurrent = !savingCurrent },
-                            enabled = workspace.reels.isNotEmpty(), modifier = Modifier.fillMaxWidth()) {
-                            Text(stringResource(Res.string.preset_save))
-                        }
+                        SecondaryAction(stringResource(Res.string.preset_save), { savingCurrent = !savingCurrent },
+                            Modifier.fillMaxWidth(), enabled = workspace.reels.isNotEmpty())
                     }
                     if (savingCurrent) item {
                         OutlinedCard(Modifier.fillMaxWidth()) {
@@ -114,21 +109,17 @@ internal fun PresetsDialog(
                                 OutlinedTextField(currentName, { currentName = it.take(80) },
                                     label = { Text(stringResource(Res.string.preset_name)) },
                                     singleLine = true, modifier = Modifier.fillMaxWidth())
-                                Button(onClick = {
+                                PrimaryAction(stringResource(Res.string.preset_save_new), {
                                     actions.savePreset(currentName.trim())
                                     currentName = ""
                                     savingCurrent = false
-                                }, enabled = currentName.isNotBlank(),
-                                    modifier = Modifier.align(Alignment.End)) {
-                                    Text(stringResource(Res.string.preset_save_new))
-                                }
+                                }, Modifier.align(Alignment.End), enabled = currentName.isNotBlank())
                             }
                         }
                     }
                     item {
-                        TextButton(onClick = { picker.launch() }, modifier = Modifier.fillMaxWidth()) {
-                            Text(stringResource(Res.string.preset_import_json))
-                        }
+                        TertiaryAction(stringResource(Res.string.preset_import_json), { picker.launch() },
+                            Modifier.fillMaxWidth())
                     }
                     if (saved.isNotEmpty()) {
                         item { HorizontalDivider() }
@@ -207,9 +198,7 @@ private fun PresetListItem(
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End,
                 verticalAlignment = Alignment.CenterVertically) {
                 if (onExport != null || onDelete != null) Box {
-                    TextButton(onClick = { menuOpen = true }) {
-                        Text(stringResource(Res.string.more_actions))
-                    }
+                    LinkAction(stringResource(Res.string.more_actions), { menuOpen = true })
                     DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
                         onExport?.let { action -> DropdownMenuItem(
                             text = { Text(stringResource(Res.string.preset_export_json)) },
@@ -219,7 +208,7 @@ private fun PresetListItem(
                             onClick = { menuOpen = false; action() }) }
                     }
                 }
-                Button(onClick = onApply) { Text(stringResource(Res.string.preset_apply)) }
+                SecondaryAction(stringResource(Res.string.preset_apply), onApply)
             }
         }
     }

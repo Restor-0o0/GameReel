@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">Gerador</string>
     <string name="nav_search">Buscar</string>
-    <string name="nav_libraries">Bibliotecas</string>
+    <string name="nav_libraries">Pacotes</string>
     <string name="nav_ideas">Ideias</string>
     <string name="nav_settings">Ajustes</string>
     <string name="loading_libraries">Carregando bibliotecas…</string>
@@ -536,7 +536,7 @@
     <string name="packs_install">Instalar</string>
     <string name="packs_update">Atualizar</string>
     <string name="packs_installed">Instalado</string>
-    <string name="packs_catalog_note">O GameReel não é endossado pela Valve, Riot Games ou KRAFTON e não reflete as opiniões de ninguém oficialmente envolvido na produção ou gestão dos seus jogos. Nomes, imagens e marcas pertencem aos seus donos; as imagens são carregadas diretamente dos servidores das publicadoras.</string>
+    <string name="packs_catalog_note">O GameReel não é endossado pela Valve, Riot Games ou KRAFTON e não reflete as opiniões de ninguém oficialmente envolvido na produção ou gestão dos seus jogos. Nomes, imagens e marcas pertencem aos seus donos.</string>
     <string name="packs_catalog_github">Todos os pacotes no GitHub ↗</string>
     <string name="pack_editor_create">Criar um pacote de jogo</string>
     <string name="pack_editor_hint">Seu próprio randomizador: as categorias viram rolos e as opções são o que eles sorteiam. Salve para você ou sugira para o catálogo comum.</string>
@@ -572,4 +572,6 @@
     <string name="pack_submit_done">Obrigado! O pacote aguarda revisão.</string>
     <string name="pack_submit_open">Abrir no GitHub ↗</string>
     <string name="pack_submit_error">Não foi possível enviar o pacote. Verifique a conexão e tente novamente mais tarde.</string>
+    <string name="packs_browse">Abrir catálogo</string>
+    <string name="packs_hero_text">Sorteadores prontos para jogos reais: herói, itens, equipamento. Instale e gire.</string>
 </resources>

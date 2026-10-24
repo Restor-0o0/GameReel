@@ -21,7 +21,7 @@
     <string name="app_name">GameReel</string>
     <string name="nav_generator">Генератор</string>
     <string name="nav_search">Пошук</string>
-    <string name="nav_libraries">Бібліотеки</string>
+    <string name="nav_libraries">Пакети</string>
     <string name="nav_ideas">Ідеї</string>
     <string name="nav_settings">Налаштування</string>
     <string name="loading_libraries">Завантаження бібліотек…</string>
@@ -548,7 +548,7 @@
     <string name="packs_install">Встановити</string>
     <string name="packs_update">Оновити</string>
     <string name="packs_installed">Встановлено</string>
-    <string name="packs_catalog_note">GameReel не схвалений Valve, Riot Games чи KRAFTON і не відображає поглядів або думок осіб, офіційно залучених до створення чи керування їхніми іграми. Назви ігор, зображення й торговельні марки належать їхнім власникам; картинки завантажуються безпосередньо із серверів видавців.</string>
+    <string name="packs_catalog_note">GameReel не схвалений Valve, Riot Games чи KRAFTON і не відображає поглядів або думок осіб, офіційно залучених до створення чи керування їхніми іграми. Назви ігор, зображення й торговельні марки належать їхнім власникам.</string>
     <string name="packs_catalog_github">Усі пакети на GitHub ↗</string>
     <string name="pack_editor_create">Зібрати ігровий пакет</string>
     <string name="pack_editor_hint">Власний рандомайзер: категорії стають барабанами, а варіанти — тим, що на них випадає. Збережіть пакет для себе або запропонуйте його до спільного каталогу.</string>
@@ -584,4 +584,6 @@
     <string name="pack_submit_done">Дякуємо! Пакет чекає на перевірку.</string>
     <string name="pack_submit_open">Відкрити на GitHub ↗</string>
     <string name="pack_submit_error">Не вдалося надіслати пакет. Перевірте з’єднання й спробуйте пізніше.</string>
+    <string name="packs_browse">Відкрити каталог</string>
+    <string name="packs_hero_text">Готові рандомайзери для справжніх ігор: герой, предмети, спорядження. Встанови й крути.</string>
 </resources>
