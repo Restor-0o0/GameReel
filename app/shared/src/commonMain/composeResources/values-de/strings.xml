@@ -401,7 +401,7 @@
     <string name="synergy_discovery">Entdecken durch Gespräche: Hinweise anderer leiten die Erkundung, Funde eröffnen neue Fragen.</string>
     <string name="synergy_rhythm">Bewegung als Musik: Sprünge werden zur Folge, die der Spieler im Takt lernt und ausführt.</string>
     <string name="privacy_title">Datenschutz und Daten</string>
-    <string name="privacy_body">GameReel speichert erzeugte Ideen, Notizen, Vorlagen, importierte Bibliotheken und Einstellungen auf deinem Gerät. Ein Konto ist nicht nötig. Die App enthält weder Werbung noch Analyse-SDKs und sendet diese Inhalte nicht an einen GameReel-Server.\n\nUnter Android hat die App keine Internetberechtigung. System-Backups können App-Daten enthalten, abhängig von deinen Geräteeinstellungen. Ideen und Vorlagen löschst du in der App; alle App-Daten kannst du in den Android-Einstellungen löschen. Browserdaten entfernst du in den Browsereinstellungen.\n\nBeim Import wird nur die ausgewählte Datei gelesen. Externe Links öffnet dein Browser gemäß den Regeln der Zielseite. Der Hoster der Webversion kann übliche HTTP-Anfrageprotokolle verarbeiten.\n\nSpielnamen und Quelllinks kennzeichnen Referenzbeispiele. GameReel ist nicht mit den genannten Studios oder Shops verbunden. Kombinationsvorschläge sind Gestaltungshypothesen; Seltenheit in der Sammlung beweist nicht, dass eine Idee einzigartig ist.</string>
+    <string name="privacy_body">GameReel speichert erzeugte Ideen, Notizen, Vorlagen, importierte Bibliotheken und Einstellungen auf deinem Gerät. Ein Konto ist nicht nötig. Die App enthält weder Werbung noch Analyse-SDKs und sendet diese Inhalte nicht an einen GameReel-Server.\n\nDie App geht nur für den Spielpaket-Katalog und dessen Bilder online: Paketdateien kommen von GitHub, Bilder von den Servern der Spielepublisher. Diese Anfragen enthalten keine personenbezogenen Daten; die Server sehen nur übliche Anfragedetails wie die IP-Adresse. System-Backups können App-Daten enthalten, abhängig von deinen Geräteeinstellungen. Ideen und Vorlagen löschst du in der App; alle App-Daten kannst du in den Android-Einstellungen löschen. Browserdaten entfernst du in den Browsereinstellungen.\n\nBeim Import wird nur die ausgewählte Datei gelesen. Externe Links öffnet dein Browser gemäß den Regeln der Zielseite. Der Hoster der Webversion kann übliche HTTP-Anfrageprotokolle verarbeiten.\n\nSpielnamen und Quelllinks kennzeichnen Referenzbeispiele. GameReel ist nicht mit den genannten Studios oder Shops verbunden. Kombinationsvorschläge sind Gestaltungshypothesen; Seltenheit in der Sammlung beweist nicht, dass eine Idee einzigartig ist.</string>
     <string name="idea_project">Projekt</string>
     <string name="idea_concept_heading">Idee ausarbeiten</string>
     <string name="idea_pitch">Idee in einem Satz</string>
@@ -510,5 +510,14 @@
     <string name="import_bad_slot">Ungültige Walze im Paket</string>
     <string name="import_unknown_slot">Unbekannte Walze „%1$s“</string>
     <string name="msg_pack_installed">Paket „%1$s“ installiert, seine Walzen sind aktiv. ↶ oben holt die vorherigen zurück</string>
-    <string name="packs_download">Spielpakete herunterladen ↗</string>
+    <string name="packs_download">Spielpakete</string>
+    <string name="packs_catalog_title">Spielpakete</string>
+    <string name="packs_catalog_hint">Fertige Zufallsgeneratoren für echte Spiele: Held, Items, Ausrüstung. Die Installation stellt die Walzen auf das Paket um; ↶ holt deine bisherigen Walzen zurück.</string>
+    <string name="packs_catalog_error">Katalog konnte nicht geladen werden. Prüfe die Verbindung.</string>
+    <string name="packs_catalog_retry">Erneut versuchen</string>
+    <string name="packs_install">Installieren</string>
+    <string name="packs_update">Aktualisieren</string>
+    <string name="packs_installed">Installiert</string>
+    <string name="packs_catalog_note">GameReel wird nicht von Valve, Riot Games oder KRAFTON unterstützt und gibt nicht die Ansichten oder Meinungen der offiziell an Entwicklung oder Betrieb ihrer Spiele Beteiligten wieder. Spielnamen, Bilder und Marken gehören ihren Inhabern; Bilder werden direkt von den Servern der Publisher geladen.</string>
+    <string name="packs_catalog_github">Alle Pakete auf GitHub ↗</string>
 </resources>

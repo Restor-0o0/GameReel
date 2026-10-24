@@ -1,0 +1,399 @@
+{
+ "library": {
+  "id": "pubg",
+  "name": "PUBG: Battlegrounds",
+  "version": 1,
+  "slots": [
+   {
+    "id": "map",
+    "name": "Map",
+    "icon": "🗺️"
+   },
+   {
+    "id": "drop",
+    "name": "Drop",
+    "icon": "🪂"
+   },
+   {
+    "id": "primary",
+    "name": "Primary",
+    "icon": "🎯"
+   },
+   {
+    "id": "sidearm",
+    "name": "Sidearm",
+    "icon": "🔫"
+   },
+   {
+    "id": "throwable",
+    "name": "Throwable",
+    "icon": "💣"
+   }
+  ],
+  "reels": [
+   "map",
+   "drop",
+   "primary",
+   "primary",
+   "sidearm",
+   "throwable"
+  ],
+  "standaloneTags": [
+   {
+    "name": "ACE32",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_ACE32_C.png"
+   },
+   {
+    "name": "AKM",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_AK47_C.png"
+   },
+   {
+    "name": "AUG A3",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_AUG_C.png"
+   },
+   {
+    "name": "AWM",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_AWM_C.png"
+   },
+   {
+    "name": "Beryl",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_BerylM762_C.png"
+   },
+   {
+    "name": "Bizon",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_BizonPP19_C.png"
+   },
+   {
+    "name": "Crossbow",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Crossbow_C.png"
+   },
+   {
+    "name": "DBS",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_DP12_C.png"
+   },
+   {
+    "name": "DP-28",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_DP28_C.png"
+   },
+   {
+    "name": "Dragunov",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Dragunov_C.png"
+   },
+   {
+    "name": "FAMAS",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_FAMASG2_C.png"
+   },
+   {
+    "name": "G36C",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_G36C_C.png"
+   },
+   {
+    "name": "Groza",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Groza_C.png"
+   },
+   {
+    "name": "K2",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_K2_C.png"
+   },
+   {
+    "name": "Kar98k",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Kar98k_C.png"
+   },
+   {
+    "name": "Lynx AMR",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_L6_C.png"
+   },
+   {
+    "name": "M16A4",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_M16A4_C.png"
+   },
+   {
+    "name": "M24",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_M24_C.png"
+   },
+   {
+    "name": "M249",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_M249_C.png"
+   },
+   {
+    "name": "M416",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_HK416_C.png"
+   },
+   {
+    "name": "MG3",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_MG3_C.png"
+   },
+   {
+    "name": "MP5K",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_MP5K_C.png"
+   },
+   {
+    "name": "MP9",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_MP9_C.png"
+   },
+   {
+    "name": "Micro Uzi",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_UZI_C.png"
+   },
+   {
+    "name": "Mini 14",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Mini14_C.png"
+   },
+   {
+    "name": "Mk12",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Mk12_C.png"
+   },
+   {
+    "name": "Mk14 EBR",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Mk14_C.png"
+   },
+   {
+    "name": "Mk47 Mutant",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Mk47Mutant_C.png"
+   },
+   {
+    "name": "Mosin-Nagant",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Mosin_C.png"
+   },
+   {
+    "name": "O12",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_OriginS12_C.png"
+   },
+   {
+    "name": "P90",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_P90_C.png"
+   },
+   {
+    "name": "QBU88",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_QBU88_C.png"
+   },
+   {
+    "name": "QBZ95",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_QBZ95_C.png"
+   },
+   {
+    "name": "S12K",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Saiga12_C.png"
+   },
+   {
+    "name": "S1897",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Winchester_C.png"
+   },
+   {
+    "name": "S686",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Berreta686_C.png"
+   },
+   {
+    "name": "SCAR-L",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_SCAR-L_C.png"
+   },
+   {
+    "name": "SKS",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_SKS_C.png"
+   },
+   {
+    "name": "SLR",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_FNFal_C.png"
+   },
+   {
+    "name": "Tommy Gun",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Thompson_C.png"
+   },
+   {
+    "name": "UMP9",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_UMP_C.png"
+   },
+   {
+    "name": "VSS",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_VSS_C.png"
+   },
+   {
+    "name": "Vector",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Vector_C.png"
+   },
+   {
+    "name": "Win94",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_Win1894_C.png"
+   },
+   {
+    "name": "Deagle",
+    "slot": "sidearm",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Handgun/Item_Weapon_DesertEagle_C.png"
+   },
+   {
+    "name": "P18C",
+    "slot": "sidearm",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Handgun/Item_Weapon_G18_C.png"
+   },
+   {
+    "name": "P1911",
+    "slot": "sidearm",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Handgun/Item_Weapon_M1911_C.png"
+   },
+   {
+    "name": "P92",
+    "slot": "sidearm",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Handgun/Item_Weapon_M9_C.png"
+   },
+   {
+    "name": "R1895",
+    "slot": "sidearm",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Handgun/Item_Weapon_NagantM1895_C.png"
+   },
+   {
+    "name": "R45",
+    "slot": "sidearm",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Handgun/Item_Weapon_Rhino_C.png"
+   },
+   {
+    "name": "Sawed-off",
+    "slot": "sidearm",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Handgun/Item_Weapon_Sawnoff_C.png"
+   },
+   {
+    "name": "Skorpion",
+    "slot": "sidearm",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Handgun/Item_Weapon_vz61Skorpion_C.png"
+   },
+   {
+    "name": "Decoy Grenade",
+    "slot": "throwable",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Equipment/Throwable/Item_Weapon_DecoyGrenade_C.png"
+   },
+   {
+    "name": "Flashbang",
+    "slot": "throwable",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Equipment/Throwable/Item_Weapon_FlashBang_C.png"
+   },
+   {
+    "name": "Frag Grenade",
+    "slot": "throwable",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Equipment/Throwable/Item_Weapon_Grenade_C.png"
+   },
+   {
+    "name": "Molotov Cocktail",
+    "slot": "throwable",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Equipment/Throwable/Item_Weapon_Molotov_C.png"
+   },
+   {
+    "name": "Smoke Grenade",
+    "slot": "throwable",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Equipment/Throwable/Item_Weapon_SmokeBomb_C.png"
+   },
+   {
+    "name": "Sticky Bomb",
+    "slot": "throwable",
+    "image": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Equipment/Throwable/Item_Weapon_StickyGrenade_C.png"
+   },
+   {
+    "name": "Deston",
+    "slot": "map"
+   },
+   {
+    "name": "Erangel",
+    "slot": "map"
+   },
+   {
+    "name": "Haven",
+    "slot": "map"
+   },
+   {
+    "name": "Karakin",
+    "slot": "map"
+   },
+   {
+    "name": "Miramar",
+    "slot": "map"
+   },
+   {
+    "name": "Paramo",
+    "slot": "map"
+   },
+   {
+    "name": "Rondo",
+    "slot": "map"
+   },
+   {
+    "name": "Sanhok",
+    "slot": "map"
+   },
+   {
+    "name": "Taego",
+    "slot": "map"
+   },
+   {
+    "name": "Vikendi",
+    "slot": "map"
+   },
+   {
+    "name": "Hot drop",
+    "slot": "drop"
+   },
+   {
+    "name": "Edge of the map",
+    "slot": "drop"
+   },
+   {
+    "name": "Military base",
+    "slot": "drop"
+   },
+   {
+    "name": "Small town",
+    "slot": "drop"
+   },
+   {
+    "name": "Lone compound",
+    "slot": "drop"
+   },
+   {
+    "name": "Follow the plane",
+    "slot": "drop"
+   }
+  ]
+ },
+ "source_url": "https://github.com/pubg/api-assets"
+}

@@ -401,7 +401,7 @@
     <string name="synergy_discovery">Descubrimiento mediante conversaciones: las pistas de otros guían la exploración y los hallazgos abren preguntas nuevas.</string>
     <string name="synergy_rhythm">Movimiento como música: los saltos forman una secuencia que el jugador aprende y ejecuta al ritmo.</string>
     <string name="privacy_title">Privacidad y datos</string>
-    <string name="privacy_body">GameReel guarda en tu dispositivo ideas generadas, notas, preajustes, bibliotecas importadas y preferencias. No requiere cuenta. La aplicación no incluye publicidad ni SDK de análisis y no envía este contenido a un servidor de GameReel.\n\nEn Android, la aplicación no tiene permiso de Internet. Las copias de seguridad del sistema pueden incluir los datos de la aplicación, según la configuración del dispositivo. Elimina ideas y preajustes en la aplicación; desde los ajustes de Android puedes borrar todos los datos. Los datos del navegador se borran en sus ajustes.\n\nAl importar, solo se lee el archivo que eliges. Los enlaces externos se abren en tu navegador y se rigen por la política del sitio de destino. El proveedor de alojamiento de la versión web puede procesar los registros HTTP habituales.\n\nLos nombres de juegos y enlaces de origen identifican ejemplos de referencia. GameReel no está afiliado a los estudios ni tiendas mencionados. Las sugerencias de combinación son hipótesis de diseño; su rareza en la colección no demuestra que una idea sea única.</string>
+    <string name="privacy_body">GameReel guarda en tu dispositivo ideas generadas, notas, preajustes, bibliotecas importadas y preferencias. No requiere cuenta. La aplicación no incluye publicidad ni SDK de análisis y no envía este contenido a un servidor de GameReel.\n\nLa aplicación solo se conecta a Internet para el catálogo de paquetes de juegos y sus imágenes: los archivos se descargan de GitHub y las imágenes, de los servidores de las editoras. Estas solicitudes no llevan datos personales; los servidores solo ven datos normales de la solicitud, como la dirección IP. Las copias de seguridad del sistema pueden incluir los datos de la aplicación, según la configuración del dispositivo. Elimina ideas y preajustes en la aplicación; desde los ajustes de Android puedes borrar todos los datos. Los datos del navegador se borran en sus ajustes.\n\nAl importar, solo se lee el archivo que eliges. Los enlaces externos se abren en tu navegador y se rigen por la política del sitio de destino. El proveedor de alojamiento de la versión web puede procesar los registros HTTP habituales.\n\nLos nombres de juegos y enlaces de origen identifican ejemplos de referencia. GameReel no está afiliado a los estudios ni tiendas mencionados. Las sugerencias de combinación son hipótesis de diseño; su rareza en la colección no demuestra que una idea sea única.</string>
     <string name="idea_project">Proyecto</string>
     <string name="idea_concept_heading">Desarrollar la idea</string>
     <string name="idea_pitch">Idea en una frase</string>
@@ -510,5 +510,14 @@
     <string name="import_bad_slot">Rodillo no válido en el paquete</string>
     <string name="import_unknown_slot">Rodillo desconocido «%1$s»</string>
     <string name="msg_pack_installed">Paquete «%1$s» instalado y sus rodillos aplicados. ↶ arriba recupera los anteriores</string>
-    <string name="packs_download">Descargar paquetes de juegos ↗</string>
+    <string name="packs_download">Paquetes de juegos</string>
+    <string name="packs_catalog_title">Paquetes de juegos</string>
+    <string name="packs_catalog_hint">Aleatorizadores listos para juegos reales: héroe, objetos, equipamiento. Al instalar, los rodillos cambian al paquete; ↶ recupera los anteriores.</string>
+    <string name="packs_catalog_error">No se pudo cargar el catálogo. Revisa la conexión.</string>
+    <string name="packs_catalog_retry">Reintentar</string>
+    <string name="packs_install">Instalar</string>
+    <string name="packs_update">Actualizar</string>
+    <string name="packs_installed">Instalado</string>
+    <string name="packs_catalog_note">GameReel no cuenta con el respaldo de Valve, Riot Games ni KRAFTON y no refleja las opiniones de nadie implicado oficialmente en la producción o gestión de sus juegos. Los nombres, imágenes y marcas pertenecen a sus propietarios; las imágenes se cargan directamente desde los servidores de las editoras.</string>
+    <string name="packs_catalog_github">Todos los paquetes en GitHub ↗</string>
 </resources>

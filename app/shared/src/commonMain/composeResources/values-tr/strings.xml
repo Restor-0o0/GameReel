@@ -419,7 +419,7 @@
     <string name="synergy_discovery">Sohbetle keşif: insanlardan gelen ipuçları keşfe yön verir, keşifler yeni sorular açar.</string>
     <string name="synergy_rhythm">Müzik gibi hareket: zıplamalar, oyuncunun öğrendiği ve ritimle yaptığı bir diziye dönüşür.</string>
     <string name="privacy_title">Gizlilik ve veriler</string>
-    <string name="privacy_body">GameReel üretilen fikirleri, notları, ön ayarları, içe aktarılan kütüphaneleri ve tercihleri cihazında saklar. Hesap gerekmez. Uygulamada reklam veya analiz SDK’sı yoktur ve bu içerikleri bir GameReel sunucusuna göndermez.\n\nAndroid’de uygulamanın internet erişim izni yoktur. Sistem yedekleri, cihaz ayarlarına bağlı olarak uygulama verilerini içerebilir. Fikirleri ve ön ayarları uygulamada sil; Android uygulama ayarları tüm verileri temizlemeye izin verir. Tarayıcı verileri tarayıcı ayarlarından kaldırılabilir.\n\nİçe aktarma yalnızca seçtiğin dosyayı okur. Harici bağlantılar, hedef sitenin politikasına göre tarayıcı tarafından açılır. Web sürümünün barındırma sağlayıcısı olağan HTTP istek kayıtlarını işleyebilir.\n\nOyun adları ve kaynak bağlantıları referans örneklerini belirtir. GameReel adı geçen stüdyolar veya mağazalarla bağlantılı değildir. Kombinasyon önerileri tasarım hipotezleridir; koleksiyondaki nadirlik bir fikrin benzersiz olduğunu kanıtlamaz.</string>
+    <string name="privacy_body">GameReel üretilen fikirleri, notları, ön ayarları, içe aktarılan kütüphaneleri ve tercihleri cihazında saklar. Hesap gerekmez. Uygulamada reklam veya analiz SDK’sı yoktur ve bu içerikleri bir GameReel sunucusuna göndermez.\n\nUygulama yalnızca oyun paketi kataloğu ve görselleri için internete bağlanır: paket dosyaları GitHub’dan, görseller oyun yayıncılarının sunucularından indirilir. Bu isteklerde kişisel veri yoktur; sunucular yalnızca IP adresi gibi olağan istek bilgilerini görür. Sistem yedekleri, cihaz ayarlarına bağlı olarak uygulama verilerini içerebilir. Fikirleri ve ön ayarları uygulamada sil; Android uygulama ayarları tüm verileri temizlemeye izin verir. Tarayıcı verileri tarayıcı ayarlarından kaldırılabilir.\n\nİçe aktarma yalnızca seçtiğin dosyayı okur. Harici bağlantılar, hedef sitenin politikasına göre tarayıcı tarafından açılır. Web sürümünün barındırma sağlayıcısı olağan HTTP istek kayıtlarını işleyebilir.\n\nOyun adları ve kaynak bağlantıları referans örneklerini belirtir. GameReel adı geçen stüdyolar veya mağazalarla bağlantılı değildir. Kombinasyon önerileri tasarım hipotezleridir; koleksiyondaki nadirlik bir fikrin benzersiz olduğunu kanıtlamaz.</string>
     <string name="idea_project">Proje</string>
     <string name="idea_concept_heading">Konsepti geliştir</string>
     <string name="idea_pitch">Tek cümlelik özet</string>
@@ -528,5 +528,14 @@
     <string name="import_bad_slot">Pakette geçersiz makara</string>
     <string name="import_unknown_slot">Bilinmeyen makara “%1$s”</string>
     <string name="msg_pack_installed">“%1$s” paketi yüklendi ve makaraları uygulandı. Üstteki ↶ öncekileri geri getirir</string>
-    <string name="packs_download">Oyun paketlerini indir ↗</string>
+    <string name="packs_download">Oyun paketleri</string>
+    <string name="packs_catalog_title">Oyun paketleri</string>
+    <string name="packs_catalog_hint">Gerçek oyunlar için hazır rastgele seçiciler: kahraman, eşyalar, teçhizat. Kurulum makaraları pakete geçirir; ↶ önceki makaraları geri getirir.</string>
+    <string name="packs_catalog_error">Katalog yüklenemedi. Bağlantını kontrol et.</string>
+    <string name="packs_catalog_retry">Tekrar dene</string>
+    <string name="packs_install">Kur</string>
+    <string name="packs_update">Güncelle</string>
+    <string name="packs_installed">Kurulu</string>
+    <string name="packs_catalog_note">GameReel; Valve, Riot Games veya KRAFTON tarafından onaylanmamıştır ve oyunlarının yapımında ya da yönetiminde resmî olarak yer alan kimsenin görüşlerini yansıtmaz. Oyun adları, görseller ve markalar sahiplerine aittir; görseller doğrudan yayıncıların sunucularından yüklenir.</string>
+    <string name="packs_catalog_github">GitHub’daki tüm paketler ↗</string>
 </resources>

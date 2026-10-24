@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.sp
 import com.restor.gamereel.catalog.BuiltinCatalog
 import com.restor.gamereel.model.Reel
 import com.restor.gamereel.ui.presentation.displayIcon
-import com.restor.gamereel.ui.presentation.iconPath
+import com.restor.gamereel.ui.presentation.finalImagePath
 import com.restor.gamereel.ui.presentation.label
 import com.restor.gamereel.ui.presentation.rememberBitmap
 import com.restor.gamereel.ui.presentation.symbol
@@ -50,7 +50,7 @@ internal fun RollingArtwork(
             else BuiltinCatalog.tags.filter { it.category == reel.category }.map { it.displayIcon }
         }
     val finalIcon = reel.tag?.displayIcon ?: reel.symbol
-    val finalImage = rememberBitmap(remember(reel.tag) { reel.tag?.let(::iconPath) })
+    val finalImage = rememberBitmap(remember(reel.tag) { reel.tag?.let(::finalImagePath) })
     val measurer = rememberTextMeasurer()
     val style =
         LocalTextStyle.current.copy(
@@ -96,15 +96,17 @@ internal fun RollingArtwork(
                 val top = (index - phase) * size.height
                 val final = index >= SpinSteps || previews.isEmpty()
                 if (final && finalImage != null) {
-                    val side = (minOf(size.width, size.height) * 0.9f).toInt()
+                    val scale = minOf(size.width / finalImage.width, size.height / finalImage.height) * 0.9f
+                    val imageWidth = (finalImage.width * scale).toInt()
+                    val imageHeight = (finalImage.height * scale).toInt()
                     drawImage(
                         finalImage,
                         dstOffset =
                             IntOffset(
-                                ((size.width - side) / 2).toInt(),
-                                (top + (size.height - side) / 2).toInt(),
+                                ((size.width - imageWidth) / 2).toInt(),
+                                (top + (size.height - imageHeight) / 2).toInt(),
                             ),
-                        dstSize = IntSize(side, side),
+                        dstSize = IntSize(imageWidth, imageHeight),
                         filterQuality = FilterQuality.High,
                     )
                     continue

@@ -431,7 +431,7 @@
     <string name="synergy_discovery">Odkrycia przez rozmowy: wskazówki od ludzi prowadzą eksplorację, a odkrycia otwierają nowe pytania.</string>
     <string name="synergy_rhythm">Ruch jak muzyka: skoki stają się sekwencją, której gracz uczy się i wykonuje w rytmie.</string>
     <string name="privacy_title">Prywatność i dane</string>
-    <string name="privacy_body">GameReel przechowuje wygenerowane pomysły, notatki, presety, zaimportowane biblioteki i preferencje na twoim urządzeniu. Konto nie jest wymagane. Aplikacja nie zawiera SDK reklamowych ani analitycznych i nie wysyła tych treści na serwer GameReel.\n\nNa Androidzie aplikacja nie ma uprawnienia dostępu do Internetu. Kopie zapasowe systemu mogą obejmować dane aplikacji, zależnie od ustawień urządzenia. Pomysły i presety usuniesz w aplikacji; ustawienia aplikacji w Androidzie pozwalają wyczyścić wszystkie dane. Dane przeglądarki można usunąć w jej ustawieniach.\n\nImport odczytuje tylko wybrany przez ciebie plik. Linki zewnętrzne otwiera przeglądarka, zgodnie z polityką docelowej strony. Dostawca hostingu wersji webowej może przetwarzać zwykłe logi żądań HTTP.\n\nNazwy gier i linki do źródeł wskazują przykłady odniesienia. GameReel nie jest powiązany z wymienionymi studiami ani sklepami. Sugestie kombinacji to hipotezy projektowe; rzadkość w kolekcji nie dowodzi, że pomysł jest unikalny.</string>
+    <string name="privacy_body">GameReel przechowuje wygenerowane pomysły, notatki, presety, zaimportowane biblioteki i preferencje na twoim urządzeniu. Konto nie jest wymagane. Aplikacja nie zawiera SDK reklamowych ani analitycznych i nie wysyła tych treści na serwer GameReel.\n\nAplikacja łączy się z Internetem tylko po katalog pakietów gier i ich obrazki: pliki pakietów pobiera z GitHuba, a obrazki z serwerów wydawców gier. Te żądania nie zawierają danych osobowych; serwery widzą jedynie zwykłe informacje o żądaniu, takie jak adres IP. Kopie zapasowe systemu mogą obejmować dane aplikacji, zależnie od ustawień urządzenia. Pomysły i presety usuniesz w aplikacji; ustawienia aplikacji w Androidzie pozwalają wyczyścić wszystkie dane. Dane przeglądarki można usunąć w jej ustawieniach.\n\nImport odczytuje tylko wybrany przez ciebie plik. Linki zewnętrzne otwiera przeglądarka, zgodnie z polityką docelowej strony. Dostawca hostingu wersji webowej może przetwarzać zwykłe logi żądań HTTP.\n\nNazwy gier i linki do źródeł wskazują przykłady odniesienia. GameReel nie jest powiązany z wymienionymi studiami ani sklepami. Sugestie kombinacji to hipotezy projektowe; rzadkość w kolekcji nie dowodzi, że pomysł jest unikalny.</string>
     <string name="idea_project">Projekt</string>
     <string name="idea_concept_heading">Rozwiń koncepcję</string>
     <string name="idea_pitch">Pitch w jednym zdaniu</string>
@@ -540,5 +540,14 @@
     <string name="import_bad_slot">Nieprawidłowy bęben w pakiecie</string>
     <string name="import_unknown_slot">Nieznany bęben „%1$s”</string>
     <string name="msg_pack_installed">Pakiet „%1$s” zainstalowany, jego bębny są aktywne. ↶ u góry przywraca poprzednie</string>
-    <string name="packs_download">Pobierz pakiety gier ↗</string>
+    <string name="packs_download">Pakiety gier</string>
+    <string name="packs_catalog_title">Pakiety gier</string>
+    <string name="packs_catalog_hint">Gotowe losowania do prawdziwych gier: bohater, przedmioty, wyposażenie. Instalacja przełącza bębny na pakiet; ↶ przywraca poprzednie.</string>
+    <string name="packs_catalog_error">Nie udało się wczytać katalogu. Sprawdź połączenie.</string>
+    <string name="packs_catalog_retry">Spróbuj ponownie</string>
+    <string name="packs_install">Zainstaluj</string>
+    <string name="packs_update">Aktualizuj</string>
+    <string name="packs_installed">Zainstalowano</string>
+    <string name="packs_catalog_note">GameReel nie jest wspierany przez Valve, Riot Games ani KRAFTON i nie odzwierciedla poglądów ani opinii osób oficjalnie zaangażowanych w tworzenie lub prowadzenie ich gier. Nazwy gier, obrazy i znaki towarowe należą do ich właścicieli; obrazki wczytywane są bezpośrednio z serwerów wydawców.</string>
+    <string name="packs_catalog_github">Wszystkie pakiety na GitHubie ↗</string>
 </resources>

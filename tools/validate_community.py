@@ -112,6 +112,19 @@ def check_library(data, errors):
 
 
 SLOT_ID = re.compile(r"[A-Za-z0-9_.-]{1,60}")
+# keep in sync with imageSources in RemoteImages.kt
+IMAGE_SOURCES = (
+    "https://cdn.cloudflare.steamstatic.com/", "https://cdn.akamai.steamstatic.com/",
+    "https://community.cloudflare.steamstatic.com/economy/image/",
+    "https://community.akamai.steamstatic.com/economy/image/",
+    "https://ddragon.leagueoflegends.com/cdn/", "https://media.valorant-api.com/",
+    "https://raw.githubusercontent.com/pubg/api-assets/",
+    "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/",
+)
+
+
+def image(value):
+    return isinstance(value, str) and len(value) <= 600 and value.startswith(IMAGE_SOURCES)
 
 
 def check_pack(data, errors):
@@ -155,10 +168,18 @@ def check_pack(data, errors):
             errors.append(f"bad pack tag {tag!r}")
         else:
             counts[tag["slot"]] = counts.get(tag["slot"], 0) + 1
+            if "image" in tag and not image(tag["image"]):
+                errors.append(f"tag {tag['name']} has an image outside the allowed servers")
     for slot_id in reels or []:
         if not counts.get(slot_id):
             errors.append(f"slot {slot_id} has no tags")
-    return {"id": library_id, "version": library.get("version"), "reels": len(reels), "tags": len(tags)}
+    summary = {"id": library_id, "version": library.get("version"), "reels": len(reels), "tags": len(tags)}
+    cover = data.get("cover") or next((t["image"] for t in tags if isinstance(t, dict) and image(t.get("image"))), None)
+    if cover is not None:
+        if not image(cover):
+            errors.append("cover must point at an allowed image server")
+        summary["cover"] = cover
+    return summary
 
 
 KINDS = {"presets": check_preset, "tag-sets": check_tag_set, "libraries": check_library, "packs": check_pack}

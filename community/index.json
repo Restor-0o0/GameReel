@@ -50,12 +50,49 @@
   ],
   "packs": [
     {
+      "file": "packs/cs2.json",
+      "name": "Counter-Strike 2",
+      "id": "cs2",
+      "version": 1,
+      "reels": 6,
+      "tags": 51,
+      "cover": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh9nYMoaCvMfxudKGVC2bIwLku5bFsHn2xzU1w4W_Tm9-ucn2eaQZxWcYmR-IU8k7vea-fOvM"
+    },
+    {
       "file": "packs/dota2.json",
       "name": "Dota 2",
       "id": "dota2",
-      "version": 2,
+      "version": 3,
       "reels": 11,
-      "tags": 1224
+      "tags": 1224,
+      "cover": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png"
+    },
+    {
+      "file": "packs/league-of-legends.json",
+      "name": "League of Legends",
+      "id": "league-of-legends",
+      "version": 1,
+      "reels": 11,
+      "tags": 328,
+      "cover": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Aatrox.png"
+    },
+    {
+      "file": "packs/pubg.json",
+      "name": "PUBG: Battlegrounds",
+      "id": "pubg",
+      "version": 1,
+      "reels": 6,
+      "tags": 74,
+      "cover": "https://raw.githubusercontent.com/pubg/api-assets/master/Assets/Item/Weapon/Main/Item_Weapon_ACE32_C.png"
+    },
+    {
+      "file": "packs/valorant.json",
+      "name": "Valorant",
+      "id": "valorant",
+      "version": 1,
+      "reels": 4,
+      "tags": 62,
+      "cover": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png"
     }
   ]
 }

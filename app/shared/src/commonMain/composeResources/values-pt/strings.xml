@@ -419,7 +419,7 @@
     <string name="synergy_discovery">Descoberta pela conversa: pistas das pessoas guiam a exploração, e as descobertas abrem novas perguntas.</string>
     <string name="synergy_rhythm">Movimento como música: os pulos viram uma sequência que o jogador aprende e executa no ritmo.</string>
     <string name="privacy_title">Privacidade e dados</string>
-    <string name="privacy_body">O GameReel guarda ideias geradas, notas, predefinições, bibliotecas importadas e preferências no seu dispositivo. Não é preciso conta. O app não contém SDK de publicidade ou análise e não envia esse conteúdo para um servidor do GameReel.\n\nNo Android, o app não tem permissão de Internet. Backups do sistema podem incluir os dados do app, dependendo das configurações do dispositivo. Exclua ideias e predefinições no app; as configurações de apps do Android permitem apagar todos os dados. Os dados do navegador podem ser removidos nas configurações do navegador.\n\nA importação lê apenas o arquivo que você escolher. Links externos são abertos pelo seu navegador, sob a política do site de destino. O provedor de hospedagem da versão web pode processar registros comuns de requisições HTTP.\n\nNomes de jogos e links de fontes identificam exemplos de referência. O GameReel não tem vínculo com os estúdios ou lojas mencionados. Sugestões de combinação são hipóteses de design; raridade na coleção não prova que uma ideia é única.</string>
+    <string name="privacy_body">O GameReel guarda ideias geradas, notas, predefinições, bibliotecas importadas e preferências no seu dispositivo. Não é preciso conta. O app não contém SDK de publicidade ou análise e não envia esse conteúdo para um servidor do GameReel.\n\nO app só se conecta à Internet para o catálogo de pacotes de jogos e suas imagens: os arquivos vêm do GitHub e as imagens, dos servidores das publicadoras. Essas solicitações não levam dados pessoais; os servidores veem apenas detalhes comuns da solicitação, como o endereço IP. Backups do sistema podem incluir os dados do app, dependendo das configurações do dispositivo. Exclua ideias e predefinições no app; as configurações de apps do Android permitem apagar todos os dados. Os dados do navegador podem ser removidos nas configurações do navegador.\n\nA importação lê apenas o arquivo que você escolher. Links externos são abertos pelo seu navegador, sob a política do site de destino. O provedor de hospedagem da versão web pode processar registros comuns de requisições HTTP.\n\nNomes de jogos e links de fontes identificam exemplos de referência. O GameReel não tem vínculo com os estúdios ou lojas mencionados. Sugestões de combinação são hipóteses de design; raridade na coleção não prova que uma ideia é única.</string>
     <string name="idea_project">Projeto</string>
     <string name="idea_concept_heading">Desenvolver o conceito</string>
     <string name="idea_pitch">Pitch em uma frase</string>
@@ -528,5 +528,14 @@
     <string name="import_bad_slot">Rolo inválido no pacote</string>
     <string name="import_unknown_slot">Rolo desconhecido “%1$s”</string>
     <string name="msg_pack_installed">Pacote “%1$s” instalado e seus rolos aplicados. ↶ no topo traz os anteriores de volta</string>
-    <string name="packs_download">Baixar pacotes de jogos ↗</string>
+    <string name="packs_download">Pacotes de jogos</string>
+    <string name="packs_catalog_title">Pacotes de jogos</string>
+    <string name="packs_catalog_hint">Sorteadores prontos para jogos reais: herói, itens, equipamento. Instalar troca os rolos para o pacote; ↶ traz os anteriores de volta.</string>
+    <string name="packs_catalog_error">Não foi possível carregar o catálogo. Verifique a conexão.</string>
+    <string name="packs_catalog_retry">Tentar novamente</string>
+    <string name="packs_install">Instalar</string>
+    <string name="packs_update">Atualizar</string>
+    <string name="packs_installed">Instalado</string>
+    <string name="packs_catalog_note">O GameReel não é endossado pela Valve, Riot Games ou KRAFTON e não reflete as opiniões de ninguém oficialmente envolvido na produção ou gestão dos seus jogos. Nomes, imagens e marcas pertencem aos seus donos; as imagens são carregadas diretamente dos servidores das publicadoras.</string>
+    <string name="packs_catalog_github">Todos os pacotes no GitHub ↗</string>
 </resources>

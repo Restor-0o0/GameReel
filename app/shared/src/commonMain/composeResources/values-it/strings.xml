@@ -419,7 +419,7 @@
     <string name="synergy_discovery">Scoperta attraverso il dialogo: gli indizi delle persone guidano l’esplorazione, e le scoperte aprono nuove domande.</string>
     <string name="synergy_rhythm">Movimento come musica: i salti diventano una sequenza che il giocatore impara ed esegue a tempo.</string>
     <string name="privacy_title">Privacy e dati</string>
-    <string name="privacy_body">GameReel conserva sul tuo dispositivo le idee generate, le note, i preset, le librerie importate e le preferenze. Non serve un account. L’app non contiene SDK pubblicitari o di analisi e non invia questi contenuti a un server di GameReel.\n\nSu Android, l’app non ha il permesso di accesso a Internet. I backup di sistema possono includere i dati dell’app, a seconda delle impostazioni del dispositivo. Elimina idee e preset nell’app; le impostazioni delle app di Android permettono di cancellare tutti i dati. I dati del browser si possono rimuovere nelle impostazioni del browser.\n\nL’importazione legge solo il file che selezioni. I link esterni sono aperti dal browser, secondo la policy del sito di destinazione. Il provider di hosting della versione web può trattare i normali log delle richieste HTTP.\n\nI nomi dei giochi e i link alle fonti identificano esempi di riferimento. GameReel non è affiliato agli studi o agli store citati. I suggerimenti di combinazione sono ipotesi di design; la rarità nella collezione non prova che un’idea sia unica.</string>
+    <string name="privacy_body">GameReel conserva sul tuo dispositivo le idee generate, le note, i preset, le librerie importate e le preferenze. Non serve un account. L’app non contiene SDK pubblicitari o di analisi e non invia questi contenuti a un server di GameReel.\n\nL’app va online solo per il catalogo dei pacchetti di giochi e le relative immagini: i file arrivano da GitHub, le immagini dai server degli editori. Queste richieste non contengono dati personali; i server vedono solo i normali dettagli della richiesta, come l’indirizzo IP. I backup di sistema possono includere i dati dell’app, a seconda delle impostazioni del dispositivo. Elimina idee e preset nell’app; le impostazioni delle app di Android permettono di cancellare tutti i dati. I dati del browser si possono rimuovere nelle impostazioni del browser.\n\nL’importazione legge solo il file che selezioni. I link esterni sono aperti dal browser, secondo la policy del sito di destinazione. Il provider di hosting della versione web può trattare i normali log delle richieste HTTP.\n\nI nomi dei giochi e i link alle fonti identificano esempi di riferimento. GameReel non è affiliato agli studi o agli store citati. I suggerimenti di combinazione sono ipotesi di design; la rarità nella collezione non prova che un’idea sia unica.</string>
     <string name="idea_project">Progetto</string>
     <string name="idea_concept_heading">Sviluppa il concept</string>
     <string name="idea_pitch">Pitch in una frase</string>
@@ -528,5 +528,14 @@
     <string name="import_bad_slot">Rullo non valido nel pacchetto</string>
     <string name="import_unknown_slot">Rullo sconosciuto “%1$s”</string>
     <string name="msg_pack_installed">Pacchetto “%1$s” installato e rulli applicati. ↶ in alto ripristina i precedenti</string>
-    <string name="packs_download">Scarica pacchetti di giochi ↗</string>
+    <string name="packs_download">Pacchetti di giochi</string>
+    <string name="packs_catalog_title">Pacchetti di giochi</string>
+    <string name="packs_catalog_hint">Randomizzatori pronti per giochi veri: eroe, oggetti, equipaggiamento. L’installazione passa i rulli al pacchetto; ↶ ripristina quelli precedenti.</string>
+    <string name="packs_catalog_error">Impossibile caricare il catalogo. Controlla la connessione.</string>
+    <string name="packs_catalog_retry">Riprova</string>
+    <string name="packs_install">Installa</string>
+    <string name="packs_update">Aggiorna</string>
+    <string name="packs_installed">Installato</string>
+    <string name="packs_catalog_note">GameReel non è approvato da Valve, Riot Games o KRAFTON e non riflette le opinioni di chi è ufficialmente coinvolto nella produzione o gestione dei loro giochi. Nomi, immagini e marchi appartengono ai rispettivi proprietari; le immagini vengono caricate direttamente dai server degli editori.</string>
+    <string name="packs_catalog_github">Tutti i pacchetti su GitHub ↗</string>
 </resources>

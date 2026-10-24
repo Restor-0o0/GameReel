@@ -15,12 +15,13 @@ boots = {"Power Treads", "Phase Boots", "Arcane Boots", "Tranquil Boots", "Boots
 skipped = {"Aghanim's Blessing", "Boots of Travel 2", "Crystalys", "Oblivion Staff", "Perseverance",
            "Soul Booster", "Trident"}
 levels = {1: "talent10", 2: "talent15", 3: "talent20", 4: "talent25"}
+cdn = lambda path: "https://cdn.cloudflare.steamstatic.com" + path.split("?")[0]
 
 tags = []
 names = {}
 for hero in sorted(heroes.values(), key=lambda h: h["localized_name"]):
     names[hero["name"]] = hero["localized_name"]
-    tags.append({"name": hero["localized_name"], "slot": "hero"})
+    tags.append({"name": hero["localized_name"], "slot": "hero", "image": cdn(hero["img"])})
 for key, entry in sorted(hero_abilities.items()):
     if key not in names:
         continue
@@ -38,16 +39,19 @@ upgrades = {component for key, item in items.items()
             if finished(item) and item.get("dname") not in skipped
             for component in item.get("components") or []}
 item_names = set()
+item_images = {}
 for key, item in items.items():
     name = item.get("dname", "").strip()
     if not name or key.startswith("recipe") or name in skipped:
         continue
+    if item.get("img"):
+        item_images.setdefault(name, cdn(item["img"]))
     if name in boots or name == "Blink Dagger":
         item_names.add(name)
     elif finished(item) and key not in upgrades:
         item_names.add(name)
 for name in sorted(item_names):
-    tags.append({"name": name, "slot": "boots" if name in boots else "item"})
+    tags.append({"name": name, "slot": "boots" if name in boots else "item", "image": item_images[name]})
 tags.extend({"name": name, "slot": "position"} for name in
             ["Position 1 · Carry", "Position 2 · Mid", "Position 3 · Offlane",
              "Position 4 · Soft support", "Position 5 · Hard support"])
@@ -55,7 +59,7 @@ tags.extend({"name": name, "slot": "position"} for name in
 pack = {"library": {
     "id": "dota2",
     "name": "Dota 2",
-    "version": 2,
+    "version": 3,
     "slots": [
         {"id": "hero", "name": "Hero", "icon": "🦸"},
         {"id": "position", "name": "Position", "icon": "🧭"},

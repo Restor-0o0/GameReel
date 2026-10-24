@@ -2,6 +2,7 @@ package com.restor.gamereel.data.importer
 
 import com.restor.gamereel.model.*
 import com.restor.gamereel.text.fail
+import com.restor.gamereel.ui.presentation.isRemoteImage
 import gamereel.app.shared.generated.resources.*
 import kotlinx.serialization.json.*
 
@@ -72,7 +73,8 @@ class JsonLibraryImporter : LibraryImporter {
                         slotRequires.getOrPut(tagId) { mutableSetOf() } += tag.strings("requires")
                         if (tagId !in slotTags) slotTags[tagId] = Tag(tagId, label, Category.OTHER, id,
                             description = tag.string("description"),
-                            icon = tag.string("icon").ifBlank { declared.icon }, slot = slot)
+                            icon = tag.string("icon").ifBlank { declared.icon }, slot = slot,
+                            image = tag.string("image").takeIf(::isRemoteImage))
                         return@mapNotNull null
                     }
                     val category =

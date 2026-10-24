@@ -14,7 +14,9 @@ import gamereel.app.shared.generated.resources.Res
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.Semaphore
 import kotlinx.coroutines.sync.withLock
+import kotlinx.coroutines.sync.withPermit
 import kotlinx.coroutines.withContext
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.jetbrains.compose.resources.decodeToImageBitmap
@@ -79,6 +81,8 @@ internal fun artPath(game: GameReference): String? =
 private val iconSlug = Regex("[^a-z0-9]+")
 
 // keep in sync with slug in tools/tag_icons.py
+internal fun finalImagePath(tag: Tag): String? = tag.image ?: iconPath(tag)
+
 internal fun iconPath(tag: Tag): String? {
     if (tag.slot != null || tag.icon.isNotBlank()) return null
     val key = tag.name.lowercase().replace(iconSlug, "_").trim('_')
@@ -89,29 +93,37 @@ private object ArtCache {
     // Cache access stays on the UI coroutine; only reading/decoding runs on the worker.
     private val bitmaps = LinkedHashMap<String, ImageBitmap?>()
     private val loading = Mutex()
+    private val downloads = Semaphore(4)
 
     operator fun get(path: String): ImageBitmap? = bitmaps[path]
 
-    @OptIn(ExperimentalResourceApi::class)
-    suspend fun load(path: String): ImageBitmap? = loading.withLock {
-        if (bitmaps.containsKey(path)) return@withLock bitmaps[path]
+    suspend fun load(path: String): ImageBitmap? =
+        if (path.startsWith("https://")) downloads.withPermit {
+            if (bitmaps.containsKey(path)) return@withPermit bitmaps[path]
+            // offline downloads get another try later
+            decode { readRemoteImage(path) }?.also { remember(path, it) }
+        } else loading.withLock {
+            if (bitmaps.containsKey(path)) return@withLock bitmaps[path]
+            // Also remember missing files, rather than retrying them on every appearance.
+            decode { Res.readBytes(path) }.also { remember(path, it) }
+        }
 
-        val bitmap =
-            try {
-                withContext(Dispatchers.Default) {
-                    Res.readBytes(path).decodeToImageBitmap().also { it.prepareToDraw() }
-                }
-            } catch (cancelled: CancellationException) {
-                throw cancelled
-            } catch (_: Exception) {
-                null
-            }
-
-        // Also remember missing files, rather than retrying them on every appearance.
+    private fun remember(path: String, bitmap: ImageBitmap?) {
         bitmaps[path] = bitmap
         if (bitmaps.size > 160) bitmaps.remove(bitmaps.keys.first())
-        bitmap
     }
+
+    @OptIn(ExperimentalResourceApi::class)
+    private suspend fun decode(read: suspend () -> ByteArray?): ImageBitmap? =
+        try {
+            read()?.let { bytes ->
+                withContext(Dispatchers.Default) { bytes.decodeToImageBitmap().also { it.prepareToDraw() } }
+            }
+        } catch (cancelled: CancellationException) {
+            throw cancelled
+        } catch (_: Exception) {
+            null
+        }
 }
 
 // steam header proportions
@@ -132,7 +144,7 @@ fun TagArt(tag: Tag?, fallback: String, fontSize: TextUnit, modifier: Modifier =
     Box(modifier, contentAlignment = Alignment.Center) {
         val image = bitmap
         if (image == null) Text(tag?.displayIcon ?: fallback, fontSize = fontSize)
-        else Image(image, art?.title, Modifier.matchParentSize(), contentScale = ContentScale.Fit)
+        else Image(image, art?.title ?: tag?.name, Modifier.matchParentSize(), contentScale = ContentScale.Fit)
     }
 }
 
@@ -140,7 +152,7 @@ fun TagArt(tag: Tag?, fallback: String, fontSize: TextUnit, modifier: Modifier =
 internal fun rememberTagBitmap(tag: Tag?): ImageBitmap? {
     val art = rememberArt(tag)
     val icon = remember(tag) { tag?.let(::iconPath) }
-    return rememberBitmap(art?.path ?: icon)
+    return rememberBitmap(tag?.image ?: art?.path ?: icon)
 }
 
 @Composable

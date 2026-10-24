@@ -419,7 +419,7 @@
     <string name="synergy_discovery">Discovery through conversation: clues from people guide exploration, and discoveries unlock new questions.</string>
     <string name="synergy_rhythm">Movement as music: jumps become a sequence the player can learn and perform to a beat.</string>
     <string name="privacy_title">Privacy and data</string>
-    <string name="privacy_body">GameReel stores generated ideas, notes, presets, imported libraries and preferences on your device. No account is required. The app contains no advertising or analytics SDK and does not send this content to a GameReel server.\n\nOn Android, the app has no Internet permission. System backups may include app data, depending on your device settings. Delete ideas and presets in the app; Android app settings let you clear all app data. Browser data can be removed in the browser settings.\n\nImport reads only the file you select. Opening external links is handled by your browser, under the destination website’s policy. The web version’s hosting provider may process ordinary HTTP request logs.\n\nGame names and source links identify reference examples. GameReel is not affiliated with the referenced studios or stores. Combination suggestions are design hypotheses; rarity in the collection does not prove that an idea is unique.</string>
+    <string name="privacy_body">GameReel stores generated ideas, notes, presets, imported libraries and preferences on your device. No account is required. The app contains no advertising or analytics SDK and does not send this content to a GameReel server.\n\nThe app goes online only for the game pack catalog and pack pictures: it downloads pack files from GitHub and pictures from the game publishers’ servers. These requests carry no personal data; the servers see ordinary request details such as your IP address. System backups may include app data, depending on your device settings. Delete ideas and presets in the app; Android app settings let you clear all app data. Browser data can be removed in the browser settings.\n\nImport reads only the file you select. Opening external links is handled by your browser, under the destination website’s policy. The web version’s hosting provider may process ordinary HTTP request logs.\n\nGame names and source links identify reference examples. GameReel is not affiliated with the referenced studios or stores. Combination suggestions are design hypotheses; rarity in the collection does not prove that an idea is unique.</string>
     <string name="idea_project">Project</string>
     <string name="idea_concept_heading">Develop the concept</string>
     <string name="idea_pitch">One-sentence pitch</string>
@@ -528,5 +528,14 @@
     <string name="import_bad_slot">Invalid reel slot in the pack</string>
     <string name="import_unknown_slot">Unknown reel slot “%1$s”</string>
     <string name="msg_pack_installed">Pack “%1$s” installed and its reels applied. ↶ at the top brings back the previous ones</string>
-    <string name="packs_download">Download game packs ↗</string>
+    <string name="packs_download">Game packs</string>
+    <string name="packs_catalog_title">Game packs</string>
+    <string name="packs_catalog_hint">Ready-made randomizers for real games: hero, items, loadout. Installing switches the reels to the pack; ↶ brings your previous reels back.</string>
+    <string name="packs_catalog_error">Couldn’t load the catalog. Check your connection.</string>
+    <string name="packs_catalog_retry">Retry</string>
+    <string name="packs_install">Install</string>
+    <string name="packs_update">Update</string>
+    <string name="packs_installed">Installed</string>
+    <string name="packs_catalog_note">GameReel isn’t endorsed by Valve, Riot Games or KRAFTON and doesn’t reflect the views or opinions of anyone officially involved in producing or managing their games. Game names, images and trademarks belong to their owners; pictures load straight from the publishers’ servers.</string>
+    <string name="packs_catalog_github">All packs on GitHub ↗</string>
 </resources>

@@ -10,6 +10,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import com.restor.gamereel.data.storage.createRepository
+import com.restor.gamereel.platform.initHttpCache
 import io.github.vinceglb.filekit.FileKit
 import io.github.vinceglb.filekit.dialogs.init
 import kotlinx.coroutines.Dispatchers
@@ -23,6 +24,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         FileKit.init(this)
+        initHttpCache(cacheDir)
         if (savedInstanceState == null) {
             link = intent.sharedLink()
             file = intent.sharedFile()

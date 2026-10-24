@@ -13,4 +13,5 @@ data class Tag(
     val icon: String = "",
     val slot: String? = null,
     val requires: List<String> = emptyList(),
+    val image: String? = null,
 )

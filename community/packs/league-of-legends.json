@@ -1,0 +1,1690 @@
+{
+ "library": {
+  "id": "league-of-legends",
+  "name": "League of Legends",
+  "version": 1,
+  "slots": [
+   {
+    "id": "champion",
+    "name": "Champion",
+    "icon": "🦸"
+   },
+   {
+    "id": "role",
+    "name": "Role",
+    "icon": "🧭"
+   },
+   {
+    "id": "keystone",
+    "name": "Keystone",
+    "icon": "💠"
+   },
+   {
+    "id": "summoner",
+    "name": "Summoner spell",
+    "icon": "✨"
+   },
+   {
+    "id": "boots",
+    "name": "Boots",
+    "icon": "👢"
+   },
+   {
+    "id": "item",
+    "name": "Item",
+    "icon": "🗡️"
+   }
+  ],
+  "reels": [
+   "champion",
+   "role",
+   "keystone",
+   "summoner",
+   "summoner",
+   "boots",
+   "item",
+   "item",
+   "item",
+   "item",
+   "item"
+  ],
+  "standaloneTags": [
+   {
+    "name": "Aatrox",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Aatrox.png"
+   },
+   {
+    "name": "Ahri",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Ahri.png"
+   },
+   {
+    "name": "Akali",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Akali.png"
+   },
+   {
+    "name": "Akshan",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Akshan.png"
+   },
+   {
+    "name": "Alistar",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Alistar.png"
+   },
+   {
+    "name": "Ambessa",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Ambessa.png"
+   },
+   {
+    "name": "Amumu",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Amumu.png"
+   },
+   {
+    "name": "Anivia",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Anivia.png"
+   },
+   {
+    "name": "Annie",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Annie.png"
+   },
+   {
+    "name": "Aphelios",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Aphelios.png"
+   },
+   {
+    "name": "Ashe",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Ashe.png"
+   },
+   {
+    "name": "Aurelion Sol",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/AurelionSol.png"
+   },
+   {
+    "name": "Aurora",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Aurora.png"
+   },
+   {
+    "name": "Azir",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Azir.png"
+   },
+   {
+    "name": "Bard",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Bard.png"
+   },
+   {
+    "name": "Bel'Veth",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Belveth.png"
+   },
+   {
+    "name": "Blitzcrank",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Blitzcrank.png"
+   },
+   {
+    "name": "Brand",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Brand.png"
+   },
+   {
+    "name": "Braum",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Braum.png"
+   },
+   {
+    "name": "Briar",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Briar.png"
+   },
+   {
+    "name": "Caitlyn",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Caitlyn.png"
+   },
+   {
+    "name": "Camille",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Camille.png"
+   },
+   {
+    "name": "Cassiopeia",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Cassiopeia.png"
+   },
+   {
+    "name": "Cho'Gath",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Chogath.png"
+   },
+   {
+    "name": "Corki",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Corki.png"
+   },
+   {
+    "name": "Darius",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Darius.png"
+   },
+   {
+    "name": "Diana",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Diana.png"
+   },
+   {
+    "name": "Dr. Mundo",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/DrMundo.png"
+   },
+   {
+    "name": "Draven",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Draven.png"
+   },
+   {
+    "name": "Ekko",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Ekko.png"
+   },
+   {
+    "name": "Elise",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Elise.png"
+   },
+   {
+    "name": "Evelynn",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Evelynn.png"
+   },
+   {
+    "name": "Ezreal",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Ezreal.png"
+   },
+   {
+    "name": "Fiddlesticks",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Fiddlesticks.png"
+   },
+   {
+    "name": "Fiora",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Fiora.png"
+   },
+   {
+    "name": "Fizz",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Fizz.png"
+   },
+   {
+    "name": "Galio",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Galio.png"
+   },
+   {
+    "name": "Gangplank",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Gangplank.png"
+   },
+   {
+    "name": "Garen",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Garen.png"
+   },
+   {
+    "name": "Gnar",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Gnar.png"
+   },
+   {
+    "name": "Gragas",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Gragas.png"
+   },
+   {
+    "name": "Graves",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Graves.png"
+   },
+   {
+    "name": "Gwen",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Gwen.png"
+   },
+   {
+    "name": "Hecarim",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Hecarim.png"
+   },
+   {
+    "name": "Heimerdinger",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Heimerdinger.png"
+   },
+   {
+    "name": "Hwei",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Hwei.png"
+   },
+   {
+    "name": "Illaoi",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Illaoi.png"
+   },
+   {
+    "name": "Irelia",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Irelia.png"
+   },
+   {
+    "name": "Ivern",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Ivern.png"
+   },
+   {
+    "name": "Janna",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Janna.png"
+   },
+   {
+    "name": "Jarvan IV",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/JarvanIV.png"
+   },
+   {
+    "name": "Jax",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Jax.png"
+   },
+   {
+    "name": "Jayce",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Jayce.png"
+   },
+   {
+    "name": "Jhin",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Jhin.png"
+   },
+   {
+    "name": "Jinx",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Jinx.png"
+   },
+   {
+    "name": "K'Sante",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/KSante.png"
+   },
+   {
+    "name": "Kai'Sa",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Kaisa.png"
+   },
+   {
+    "name": "Kalista",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Kalista.png"
+   },
+   {
+    "name": "Karma",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Karma.png"
+   },
+   {
+    "name": "Karthus",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Karthus.png"
+   },
+   {
+    "name": "Kassadin",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Kassadin.png"
+   },
+   {
+    "name": "Katarina",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Katarina.png"
+   },
+   {
+    "name": "Kayle",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Kayle.png"
+   },
+   {
+    "name": "Kayn",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Kayn.png"
+   },
+   {
+    "name": "Kennen",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Kennen.png"
+   },
+   {
+    "name": "Kha'Zix",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Khazix.png"
+   },
+   {
+    "name": "Kindred",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Kindred.png"
+   },
+   {
+    "name": "Kled",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Kled.png"
+   },
+   {
+    "name": "Kog'Maw",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/KogMaw.png"
+   },
+   {
+    "name": "LeBlanc",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Leblanc.png"
+   },
+   {
+    "name": "Lee Sin",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/LeeSin.png"
+   },
+   {
+    "name": "Leona",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Leona.png"
+   },
+   {
+    "name": "Lillia",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Lillia.png"
+   },
+   {
+    "name": "Lissandra",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Lissandra.png"
+   },
+   {
+    "name": "Locke",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Locke.png"
+   },
+   {
+    "name": "Lucian",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Lucian.png"
+   },
+   {
+    "name": "Lulu",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Lulu.png"
+   },
+   {
+    "name": "Lux",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Lux.png"
+   },
+   {
+    "name": "Malphite",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Malphite.png"
+   },
+   {
+    "name": "Malzahar",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Malzahar.png"
+   },
+   {
+    "name": "Maokai",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Maokai.png"
+   },
+   {
+    "name": "Master Yi",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/MasterYi.png"
+   },
+   {
+    "name": "Mel",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Mel.png"
+   },
+   {
+    "name": "Milio",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Milio.png"
+   },
+   {
+    "name": "Miss Fortune",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/MissFortune.png"
+   },
+   {
+    "name": "Mordekaiser",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Mordekaiser.png"
+   },
+   {
+    "name": "Morgana",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Morgana.png"
+   },
+   {
+    "name": "Naafiri",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Naafiri.png"
+   },
+   {
+    "name": "Nami",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Nami.png"
+   },
+   {
+    "name": "Nasus",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Nasus.png"
+   },
+   {
+    "name": "Nautilus",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Nautilus.png"
+   },
+   {
+    "name": "Neeko",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Neeko.png"
+   },
+   {
+    "name": "Nidalee",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Nidalee.png"
+   },
+   {
+    "name": "Nilah",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Nilah.png"
+   },
+   {
+    "name": "Nocturne",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Nocturne.png"
+   },
+   {
+    "name": "Nunu & Willump",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Nunu.png"
+   },
+   {
+    "name": "Olaf",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Olaf.png"
+   },
+   {
+    "name": "Orianna",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Orianna.png"
+   },
+   {
+    "name": "Ornn",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Ornn.png"
+   },
+   {
+    "name": "Pantheon",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Pantheon.png"
+   },
+   {
+    "name": "Poppy",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Poppy.png"
+   },
+   {
+    "name": "Pyke",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Pyke.png"
+   },
+   {
+    "name": "Qiyana",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Qiyana.png"
+   },
+   {
+    "name": "Quinn",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Quinn.png"
+   },
+   {
+    "name": "Rakan",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Rakan.png"
+   },
+   {
+    "name": "Rammus",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Rammus.png"
+   },
+   {
+    "name": "Rek'Sai",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/RekSai.png"
+   },
+   {
+    "name": "Rell",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Rell.png"
+   },
+   {
+    "name": "Renata Glasc",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Renata.png"
+   },
+   {
+    "name": "Renekton",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Renekton.png"
+   },
+   {
+    "name": "Rengar",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Rengar.png"
+   },
+   {
+    "name": "Riven",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Riven.png"
+   },
+   {
+    "name": "Rumble",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Rumble.png"
+   },
+   {
+    "name": "Ryze",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Ryze.png"
+   },
+   {
+    "name": "Samira",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Samira.png"
+   },
+   {
+    "name": "Sejuani",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Sejuani.png"
+   },
+   {
+    "name": "Senna",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Senna.png"
+   },
+   {
+    "name": "Seraphine",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Seraphine.png"
+   },
+   {
+    "name": "Sett",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Sett.png"
+   },
+   {
+    "name": "Shaco",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Shaco.png"
+   },
+   {
+    "name": "Shen",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Shen.png"
+   },
+   {
+    "name": "Shyvana",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Shyvana.png"
+   },
+   {
+    "name": "Singed",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Singed.png"
+   },
+   {
+    "name": "Sion",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Sion.png"
+   },
+   {
+    "name": "Sivir",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Sivir.png"
+   },
+   {
+    "name": "Skarner",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Skarner.png"
+   },
+   {
+    "name": "Smolder",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Smolder.png"
+   },
+   {
+    "name": "Sona",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Sona.png"
+   },
+   {
+    "name": "Soraka",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Soraka.png"
+   },
+   {
+    "name": "Swain",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Swain.png"
+   },
+   {
+    "name": "Sylas",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Sylas.png"
+   },
+   {
+    "name": "Syndra",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Syndra.png"
+   },
+   {
+    "name": "Tahm Kench",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/TahmKench.png"
+   },
+   {
+    "name": "Taliyah",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Taliyah.png"
+   },
+   {
+    "name": "Talon",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Talon.png"
+   },
+   {
+    "name": "Taric",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Taric.png"
+   },
+   {
+    "name": "Teemo",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Teemo.png"
+   },
+   {
+    "name": "Thresh",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Thresh.png"
+   },
+   {
+    "name": "Tristana",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Tristana.png"
+   },
+   {
+    "name": "Trundle",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Trundle.png"
+   },
+   {
+    "name": "Tryndamere",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Tryndamere.png"
+   },
+   {
+    "name": "Twisted Fate",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/TwistedFate.png"
+   },
+   {
+    "name": "Twitch",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Twitch.png"
+   },
+   {
+    "name": "Udyr",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Udyr.png"
+   },
+   {
+    "name": "Urgot",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Urgot.png"
+   },
+   {
+    "name": "Varus",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Varus.png"
+   },
+   {
+    "name": "Vayne",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Vayne.png"
+   },
+   {
+    "name": "Veigar",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Veigar.png"
+   },
+   {
+    "name": "Vel'Koz",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Velkoz.png"
+   },
+   {
+    "name": "Vex",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Vex.png"
+   },
+   {
+    "name": "Vi",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Vi.png"
+   },
+   {
+    "name": "Viego",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Viego.png"
+   },
+   {
+    "name": "Viktor",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Viktor.png"
+   },
+   {
+    "name": "Vladimir",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Vladimir.png"
+   },
+   {
+    "name": "Volibear",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Volibear.png"
+   },
+   {
+    "name": "Warwick",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Warwick.png"
+   },
+   {
+    "name": "Wukong",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/MonkeyKing.png"
+   },
+   {
+    "name": "Xayah",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Xayah.png"
+   },
+   {
+    "name": "Xerath",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Xerath.png"
+   },
+   {
+    "name": "Xin Zhao",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/XinZhao.png"
+   },
+   {
+    "name": "Yasuo",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Yasuo.png"
+   },
+   {
+    "name": "Yone",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Yone.png"
+   },
+   {
+    "name": "Yorick",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Yorick.png"
+   },
+   {
+    "name": "Yunara",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Yunara.png"
+   },
+   {
+    "name": "Yuumi",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Yuumi.png"
+   },
+   {
+    "name": "Zaahen",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Zaahen.png"
+   },
+   {
+    "name": "Zac",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Zac.png"
+   },
+   {
+    "name": "Zed",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Zed.png"
+   },
+   {
+    "name": "Zeri",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Zeri.png"
+   },
+   {
+    "name": "Ziggs",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Ziggs.png"
+   },
+   {
+    "name": "Zilean",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Zilean.png"
+   },
+   {
+    "name": "Zoe",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Zoe.png"
+   },
+   {
+    "name": "Zyra",
+    "slot": "champion",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Zyra.png"
+   },
+   {
+    "name": "Top",
+    "slot": "role"
+   },
+   {
+    "name": "Jungle",
+    "slot": "role"
+   },
+   {
+    "name": "Mid",
+    "slot": "role"
+   },
+   {
+    "name": "Bot",
+    "slot": "role"
+   },
+   {
+    "name": "Support",
+    "slot": "role"
+   },
+   {
+    "name": "Electrocute",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/Electrocute/Electrocute.png"
+   },
+   {
+    "name": "Dark Harvest",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png"
+   },
+   {
+    "name": "Hail of Blades",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png"
+   },
+   {
+    "name": "Glacial Augment",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Inspiration/GlacialAugment/GlacialAugment.png"
+   },
+   {
+    "name": "Unsealed Spellbook",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Inspiration/UnsealedSpellbook/UnsealedSpellbook.png"
+   },
+   {
+    "name": "First Strike",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Inspiration/FirstStrike/FirstStrike.png"
+   },
+   {
+    "name": "Press the Attack",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png"
+   },
+   {
+    "name": "Lethal Tempo",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png"
+   },
+   {
+    "name": "Fleet Footwork",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png"
+   },
+   {
+    "name": "Conqueror",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Precision/Conqueror/Conqueror.png"
+   },
+   {
+    "name": "Grasp of the Undying",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png"
+   },
+   {
+    "name": "Aftershock",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png"
+   },
+   {
+    "name": "Guardian",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Resolve/Guardian/Guardian.png"
+   },
+   {
+    "name": "Summon Aery",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/SummonAery/SummonAery.png"
+   },
+   {
+    "name": "Arcane Comet",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+   },
+   {
+    "name": "Stormraider's Surge",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/PhaseRush/StormraidersSurgeRuneIcon2.png"
+   },
+   {
+    "name": "Deathfire Touch",
+    "slot": "keystone",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/DeathfireTouch/DEATHFIRE_TOUCH_KEYSTONE.png"
+   },
+   {
+    "name": "Barrier",
+    "slot": "summoner",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/SummonerBarrier.png"
+   },
+   {
+    "name": "Cleanse",
+    "slot": "summoner",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/SummonerBoost.png"
+   },
+   {
+    "name": "Exhaust",
+    "slot": "summoner",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/SummonerExhaust.png"
+   },
+   {
+    "name": "Flash",
+    "slot": "summoner",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/SummonerFlash.png"
+   },
+   {
+    "name": "Ghost",
+    "slot": "summoner",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/SummonerHaste.png"
+   },
+   {
+    "name": "Heal",
+    "slot": "summoner",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/SummonerHeal.png"
+   },
+   {
+    "name": "Ignite",
+    "slot": "summoner",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/SummonerDot.png"
+   },
+   {
+    "name": "Smite",
+    "slot": "summoner",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/SummonerSmite.png"
+   },
+   {
+    "name": "Teleport",
+    "slot": "summoner",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/SummonerTeleport.png"
+   },
+   {
+    "name": "Abyssal Mask",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/328020.png"
+   },
+   {
+    "name": "Actualizer",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/2522.png"
+   },
+   {
+    "name": "Archangel's Staff",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3003.png"
+   },
+   {
+    "name": "Ardent Censer",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/323504.png"
+   },
+   {
+    "name": "Atma's Reckoning",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/663039.png"
+   },
+   {
+    "name": "Axiom Arc",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6696.png"
+   },
+   {
+    "name": "Bandlepipes",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/2524.png"
+   },
+   {
+    "name": "Banshee's Veil",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3102.png"
+   },
+   {
+    "name": "Bastionbreaker",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/2520.png"
+   },
+   {
+    "name": "Berserker's Greaves",
+    "slot": "boots",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3006.png"
+   },
+   {
+    "name": "Black Cleaver",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3071.png"
+   },
+   {
+    "name": "Blackfire Torch",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/2503.png"
+   },
+   {
+    "name": "Blade of The Ruined King",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3153.png"
+   },
+   {
+    "name": "Bloodletter's Curse",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/8010.png"
+   },
+   {
+    "name": "Bloodthirster",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3072.png"
+   },
+   {
+    "name": "Boots of Swiftness",
+    "slot": "boots",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3009.png"
+   },
+   {
+    "name": "Chempunk Chainsword",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6609.png"
+   },
+   {
+    "name": "Cloak of Starry Night",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/663059.png"
+   },
+   {
+    "name": "Cosmic Drive",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/4629.png"
+   },
+   {
+    "name": "Crown of the Shattered Queen",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/664644.png"
+   },
+   {
+    "name": "Cruelty",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/667109.png"
+   },
+   {
+    "name": "Cryptbloom",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3137.png"
+   },
+   {
+    "name": "Dawncore",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/326621.png"
+   },
+   {
+    "name": "Dead Man's Plate",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3742.png"
+   },
+   {
+    "name": "Death's Dance",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6333.png"
+   },
+   {
+    "name": "Demon King's Crown",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/663056.png"
+   },
+   {
+    "name": "Dusk and Dawn",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/2510.png"
+   },
+   {
+    "name": "Echoes of Helia",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/326620.png"
+   },
+   {
+    "name": "Eclipse",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6692.png"
+   },
+   {
+    "name": "Edge of Night",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3814.png"
+   },
+   {
+    "name": "Endless Hunger",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/2517.png"
+   },
+   {
+    "name": "Essence Reaver",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3508.png"
+   },
+   {
+    "name": "Experimental Hexplate",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3073.png"
+   },
+   {
+    "name": "Fiendhunter Bolts",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/2512.png"
+   },
+   {
+    "name": "Flesheater",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/667112.png"
+   },
+   {
+    "name": "Force of Nature",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/4401.png"
+   },
+   {
+    "name": "Frozen Heart",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3110.png"
+   },
+   {
+    "name": "Gambler's Blade",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/667101.png"
+   },
+   {
+    "name": "Gargoyle Stoneplate",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/663193.png"
+   },
+   {
+    "name": "Gluttonous Greaves",
+    "slot": "boots",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3008.png"
+   },
+   {
+    "name": "Guardian Angel",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3026.png"
+   },
+   {
+    "name": "Guinsoo's Rageblade",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3124.png"
+   },
+   {
+    "name": "Heartsteel",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3084.png"
+   },
+   {
+    "name": "Hexoptics C44",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/2523.png"
+   },
+   {
+    "name": "Hextech Gunblade",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3146.png"
+   },
+   {
+    "name": "Hextech Rocketbelt",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3152.png"
+   },
+   {
+    "name": "Hollow Radiance",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6664.png"
+   },
+   {
+    "name": "Horizon Focus",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/4628.png"
+   },
+   {
+    "name": "Hubris",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6697.png"
+   },
+   {
+    "name": "Hullbreaker",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3181.png"
+   },
+   {
+    "name": "Iceborn Gauntlet",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6662.png"
+   },
+   {
+    "name": "Immortal Shieldbow",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6673.png"
+   },
+   {
+    "name": "Imperial Mandate",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/324005.png"
+   },
+   {
+    "name": "Infinity Edge",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3031.png"
+   },
+   {
+    "name": "Ionian Boots of Lucidity",
+    "slot": "boots",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3158.png"
+   },
+   {
+    "name": "Jak'Sho, The Protean",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6665.png"
+   },
+   {
+    "name": "Kaenic Rookern",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/2504.png"
+   },
+   {
+    "name": "Knight's Vow",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3109.png"
+   },
+   {
+    "name": "Kraken Slayer",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6672.png"
+   },
+   {
+    "name": "Liandry's Torment",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6653.png"
+   },
+   {
+    "name": "Lich Bane",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3100.png"
+   },
+   {
+    "name": "Locket of the Iron Solari",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3190.png"
+   },
+   {
+    "name": "Lord Dominik's Regards",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3036.png"
+   },
+   {
+    "name": "Luden's Echo",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6655.png"
+   },
+   {
+    "name": "Malignance",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3118.png"
+   },
+   {
+    "name": "Manamune",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3004.png"
+   },
+   {
+    "name": "Maw of Malmortius",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3156.png"
+   },
+   {
+    "name": "Mercurial Scimitar",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3139.png"
+   },
+   {
+    "name": "Mercury's Treads",
+    "slot": "boots",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3111.png"
+   },
+   {
+    "name": "Mikael's Blessing",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3222.png"
+   },
+   {
+    "name": "Moonstone Renewer",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/326617.png"
+   },
+   {
+    "name": "Morellonomicon",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3165.png"
+   },
+   {
+    "name": "Mortal Reminder",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3033.png"
+   },
+   {
+    "name": "Nashor's Tooth",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3115.png"
+   },
+   {
+    "name": "Navori Flickerblade",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6675.png"
+   },
+   {
+    "name": "Overlord's Bloodmail",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/2501.png"
+   },
+   {
+    "name": "Phantom Dancer",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3046.png"
+   },
+   {
+    "name": "Plated Steelcaps",
+    "slot": "boots",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3047.png"
+   },
+   {
+    "name": "Profane Hydra",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6698.png"
+   },
+   {
+    "name": "Protoplasm Harness",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/2525.png"
+   },
+   {
+    "name": "Rabadon's Deathcap",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3089.png"
+   },
+   {
+    "name": "Randuin's Omen",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3143.png"
+   },
+   {
+    "name": "Rapid Firecannon",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3094.png"
+   },
+   {
+    "name": "Ravenous Hydra",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3074.png"
+   },
+   {
+    "name": "Redemption",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3107.png"
+   },
+   {
+    "name": "Riftmaker",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/4633.png"
+   },
+   {
+    "name": "Rod of Ages",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/326657.png"
+   },
+   {
+    "name": "Runaan's Hurricane",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3085.png"
+   },
+   {
+    "name": "Rylai's Crystal Scepter",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3116.png"
+   },
+   {
+    "name": "Serpent's Fang",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6695.png"
+   },
+   {
+    "name": "Serylda's Grudge",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6694.png"
+   },
+   {
+    "name": "Shadowflame",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/4645.png"
+   },
+   {
+    "name": "Shield of Molten Stone",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/663058.png"
+   },
+   {
+    "name": "Shurelya's Battlesong",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/2065.png"
+   },
+   {
+    "name": "Sorcerer's Shoes",
+    "slot": "boots",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3020.png"
+   },
+   {
+    "name": "Spear of Shojin",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3161.png"
+   },
+   {
+    "name": "Spirit Visage",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3065.png"
+   },
+   {
+    "name": "Staff of Flowing Water",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/326616.png"
+   },
+   {
+    "name": "Statikk Shiv",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3087.png"
+   },
+   {
+    "name": "Sterak's Gage",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3053.png"
+   },
+   {
+    "name": "Stormrazor",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3095.png"
+   },
+   {
+    "name": "Stormsurge",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/4646.png"
+   },
+   {
+    "name": "Stridebreaker",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6631.png"
+   },
+   {
+    "name": "Sundered Sky",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6610.png"
+   },
+   {
+    "name": "Sunfire Aegis",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3068.png"
+   },
+   {
+    "name": "Sword of Blossoming Dawn",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/664011.png"
+   },
+   {
+    "name": "Sword of the Divine",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/663060.png"
+   },
+   {
+    "name": "Terminus",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3302.png"
+   },
+   {
+    "name": "The Collector",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6676.png"
+   },
+   {
+    "name": "Thornmail",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3075.png"
+   },
+   {
+    "name": "Titanic Hydra",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3748.png"
+   },
+   {
+    "name": "Trinity Force",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3078.png"
+   },
+   {
+    "name": "Umbral Glaive",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3179.png"
+   },
+   {
+    "name": "Unending Despair",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/2502.png"
+   },
+   {
+    "name": "Void Staff",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3135.png"
+   },
+   {
+    "name": "Voltaic Cyclosword",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/6699.png"
+   },
+   {
+    "name": "Warmog's Armor",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3083.png"
+   },
+   {
+    "name": "Winter's Approach",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3119.png"
+   },
+   {
+    "name": "Wit's End",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3091.png"
+   },
+   {
+    "name": "Youmuu's Ghostblade",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3142.png"
+   },
+   {
+    "name": "Yun Tal Wildarrows",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3032.png"
+   },
+   {
+    "name": "Zeke's Convergence",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3050.png"
+   },
+   {
+    "name": "Zephyr",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/663172.png"
+   },
+   {
+    "name": "Zhonya's Hourglass",
+    "slot": "item",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3157.png"
+   }
+  ]
+ },
+ "source_url": "https://developer.riotgames.com/docs/lol"
+}

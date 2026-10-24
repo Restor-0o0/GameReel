@@ -1,0 +1,352 @@
+{
+ "library": {
+  "id": "cs2",
+  "name": "Counter-Strike 2",
+  "version": 1,
+  "slots": [
+   {
+    "id": "side",
+    "name": "Side",
+    "icon": "🛡️"
+   },
+   {
+    "id": "map",
+    "name": "Map",
+    "icon": "🗺️"
+   },
+   {
+    "id": "pistol",
+    "name": "Pistol",
+    "icon": "🔫",
+    "parent": "side"
+   },
+   {
+    "id": "primary",
+    "name": "Primary",
+    "icon": "🎯",
+    "parent": "side"
+   },
+   {
+    "id": "grenade",
+    "name": "Grenade",
+    "icon": "💣",
+    "parent": "side"
+   }
+  ],
+  "reels": [
+   "side",
+   "map",
+   "pistol",
+   "primary",
+   "grenade",
+   "grenade"
+  ],
+  "standaloneTags": [
+   {
+    "name": "Terrorists",
+    "slot": "side"
+   },
+   {
+    "name": "Counter-Terrorists",
+    "slot": "side"
+   },
+   {
+    "name": "AK-47",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh9nYMoaCvMfxudKGVC2bIwLku5bFsHn2xzU1w4W_Tm9-ucn2eaQZxWcYmR-IU8k7vea-fOvM",
+    "requires": [
+     "Terrorists"
+    ]
+   },
+   {
+    "name": "AUG",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh6CUV7ff8PP08eanED2LHlLh06ec-TnjmkUUmsGXRn4n8cimTPVB0XsR1RPlK7Ee4GsImgw",
+    "requires": [
+     "Counter-Terrorists"
+    ]
+   },
+   {
+    "name": "AWP",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh6jIVtqr4PqBoI_ORVjXFkeguseMwGXGwwUV_4GmHyd2qdH-WbFAmApsiQPlK7EcMn7y-CQ"
+   },
+   {
+    "name": "CZ75-Auto",
+    "slot": "pistol",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnj53UO7ryvaac0dKiVW2XBlrwmsuA6GH3hkE9062qEz9aoeCmVawchW8dwEe4MrFDmxWPDR_Ga"
+   },
+   {
+    "name": "Decoy Grenade",
+    "slot": "grenade",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_decoy_png.png"
+   },
+   {
+    "name": "Desert Eagle",
+    "slot": "pistol",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnk-CNc4_fgOfA8cfGRDTfGku13seI4Fyq2wUQm5DjWzo38IH3BO1N2W5MmTe5etw74zINmLLSKdA"
+   },
+   {
+    "name": "Dual Berettas",
+    "slot": "pistol",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnl8StP6ryvOqJpJqjACjbBkb93srg-Fn7ilBhysWXSyNarJSqUZlIpCMclTbMCrFDmxYRwJ9Kk"
+   },
+   {
+    "name": "FAMAS",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnm_C9a_Lz4OvY8dKLGXDKRmOtw5ORrTni3lhl06mqAn4ypJHvBalQlC8AhE-ICrFDmxTHPFtPP",
+    "requires": [
+     "Counter-Terrorists"
+    ]
+   },
+   {
+    "name": "Five-SeveN",
+    "slot": "pistol",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnm9DRe_Pe4baojePHHWz7GwL4jsbVvTHnilE1w5WrVzo39JH6QOFUnC8RxROMN4ESwlMqnab24YkBbtQ",
+    "requires": [
+     "Counter-Terrorists"
+    ]
+   },
+   {
+    "name": "Flashbang",
+    "slot": "grenade",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_flashbang_png.png"
+   },
+   {
+    "name": "G3SG1",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnnrjFcvrz4P_U6efbAWT7BmOou57AxHHjjx0gk4zjQztqtJC7FaVUoW5okTLQNrFDmxakCozSV",
+    "requires": [
+     "Terrorists"
+    ]
+   },
+   {
+    "name": "Galil AR",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnn_C5S4_O8JvZrIaPKV2ORx7d3trg7Gnjmlxl04WTTyoyqeXKUPFVzCsN1FuMJuxam0oqwr0aqT-w",
+    "requires": [
+     "Terrorists"
+    ]
+   },
+   {
+    "name": "Glock-18",
+    "slot": "pistol",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnn8S1Y5Lz9O_M5d_LHDz6WmOp04-U8THmwzU0l6ziDyd__IC3DO1IgXJJwE7NfrFDmxU9v5GXb",
+    "requires": [
+     "Terrorists"
+    ]
+   },
+   {
+    "name": "High Explosive Grenade",
+    "slot": "grenade",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hegrenade_png.png"
+   },
+   {
+    "name": "Incendiary Grenade",
+    "slot": "grenade",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_incgrenade_png.png",
+    "requires": [
+     "Counter-Terrorists"
+    ]
+   },
+   {
+    "name": "M249",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntr3YCoaarbfc_IvHDWWLClb8g5OA7F3y1l0xw6juBzdeoJX6fZ1IoWcciQ-UU8k7vtOr9c-I"
+   },
+   {
+    "name": "M4A1-S",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntqSMK0OGnZKFjI_WBQD_Cleh0teA_F37qkERy52rWm9yhdynGblMgD5AkQrZeuhXtkt3iMOv8p1uJZpwq8Vo",
+    "requires": [
+     "Counter-Terrorists"
+    ]
+   },
+   {
+    "name": "M4A4",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntqSMKofH_O_Y-JfSVV2XBkLolsbZvTCqxx0sk4DjUnNipdSiQagcgXJQlRLEU8k7vIDSSpqI",
+    "requires": [
+     "Counter-Terrorists"
+    ]
+   },
+   {
+    "name": "MAC-10",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mac10_png.png",
+    "requires": [
+     "Terrorists"
+    ]
+   },
+   {
+    "name": "MAG-7",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt_CUMoav3MP1oeanBXWLAmeoitbk-HHrjl0hztW7Xy4n7dirDag4hXJB4EeUU8k7vG_ZoUEk",
+    "requires": [
+     "Counter-Terrorists"
+    ]
+   },
+   {
+    "name": "MP5-SD",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp5sd_png.png"
+   },
+   {
+    "name": "MP7",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt7XUVvfOoPqA1eKHEVjXFlr0ituM_SnqwwR9w4mXVyIn6dnKRblV1D5AhTPlK7EelyO1yEg"
+   },
+   {
+    "name": "MP9",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt7XsVv6T9OvE9dKLKCD_Ex74h5bY6Tnrgl0hzt2rXm4qseXyWaAMgWJJ2EflK7Ec0i602wg",
+    "requires": [
+     "Counter-Terrorists"
+    ]
+   },
+   {
+    "name": "Molotov",
+    "slot": "grenade",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_molotov_png.png",
+    "requires": [
+     "Terrorists"
+    ]
+   },
+   {
+    "name": "Negev",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnu-CVe-bz3P6I1caTGDzTFk7gh5rg6Tn3rkBwm4zjSwo3_Ii-fZgIjA8dwELFZrFDmxWhBRARX"
+   },
+   {
+    "name": "Nova",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_nova_png.png"
+   },
+   {
+    "name": "P2000",
+    "slot": "pistol",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKno9jIJv6L-Jqc_cKjEWDDDlLx3trVrH3qykEtz4TjQno6td3uVbVRyWZR2EbEKtRCm0oqwKXhPxN4",
+    "requires": [
+     "Counter-Terrorists"
+    ]
+   },
+   {
+    "name": "P250",
+    "slot": "pistol",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnwr3cLoaf4avNvJqKXXmKUlrp0s-U9HCvgw0V05WSDw96pIC6VOw92X8QkROAU8k7vNwsvFQ4"
+   },
+   {
+    "name": "P90",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnwpHIVvfOsPfI9dqDCWDDGkb4j5OU_Fy_kx0l1tj6DnoqseC2TP1cpAsF2QPlK7EcMYXqtDg"
+   },
+   {
+    "name": "PP-Bizon",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKni9DhU4bz-PKZocPTBW2GWlbZw4bM7SS2xwER1smSEnIv6dS_GbFBxDJd0RLFbrFDmxaLGO5J-"
+   },
+   {
+    "name": "R8 Revolver",
+    "slot": "pistol",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKny-DRU4-Sreuo8cvTLCzKRmbkk4ONtGijilk8k4znWy9v8JCiUaQIiWZpyQ-AJtEa7jJS5YM17OTN5"
+   },
+   {
+    "name": "SCAR-20",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz_iNJvaLgbqY_JqbKV2TExL11s7JoGnjkl05-4TvUw96vdHiQOwZ1AsMiQuMOtQ74zINGfpXf5Q",
+    "requires": [
+     "Counter-Terrorists"
+    ]
+   },
+   {
+    "name": "SG 553",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png",
+    "requires": [
+     "Terrorists"
+    ]
+   },
+   {
+    "name": "SSG 08",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz7iULt7z2MPY1eaWVCDHGlrgksuQ_HS3lxhkh4m-Gm9b6ICjCPQ4hDMF3EOJerFDmxXJ24aAg"
+   },
+   {
+    "name": "Sawed-Off",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz_DVe6_2obuo_JqHACzaSk-1wtrMwTi3nkUly6m-ByYr4Jy2fP1cgA8dxFLRfu0LqjJS5YC4vtNQk",
+    "requires": [
+     "Terrorists"
+    ]
+   },
+   {
+    "name": "Smoke Grenade",
+    "slot": "grenade",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
+   },
+   {
+    "name": "Tec-9",
+    "slot": "pistol",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn0-CECofb2MKY9IvPGWjPAkrwi5Lk4Tn3nzUwlsGnVzI6pdymQbVAjW8d0F-IU8k7vdMx23Ho",
+    "requires": [
+     "Terrorists"
+    ]
+   },
+   {
+    "name": "UMP-45",
+    "slot": "primary",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn18DIPurz6MPducqDGCDPIw7l05LA7SXyylkh25z-Dm9agJHKSZgciDZt3F7JerFDmxeILsNGi"
+   },
+   {
+    "name": "USP-S",
+    "slot": "pistol",
+    "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn17jJk_PuibapuJeLdWGLFwL8i4eVsFiqxxUt34jmHnoysJ3qVOAYgCJZwQrRb5EPul4XlYvSiuVIHgy4Xvg",
+    "requires": [
+     "Counter-Terrorists"
+    ]
+   },
+   {
+    "name": "XM1014",
+    "slot": "primary",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_xm1014_png.png"
+   },
+   {
+    "name": "Ancient",
+    "slot": "map"
+   },
+   {
+    "name": "Anubis",
+    "slot": "map"
+   },
+   {
+    "name": "Dust II",
+    "slot": "map"
+   },
+   {
+    "name": "Inferno",
+    "slot": "map"
+   },
+   {
+    "name": "Mirage",
+    "slot": "map"
+   },
+   {
+    "name": "Nuke",
+    "slot": "map"
+   },
+   {
+    "name": "Overpass",
+    "slot": "map"
+   },
+   {
+    "name": "Train",
+    "slot": "map"
+   },
+   {
+    "name": "Vertigo",
+    "slot": "map"
+   }
+  ]
+ },
+ "source_url": "https://github.com/ByMykel/CSGO-API"
+}

@@ -86,6 +86,7 @@ kotlin {
     sourceSets {
         androidMain.dependencies {
             implementation(libs.sqldelight.android)
+            implementation(libs.ktor.client.okhttp)
             implementation(libs.compose.uiToolingPreview)
         }
         commonMain.dependencies {
@@ -93,6 +94,7 @@ kotlin {
             implementation(libs.filekit.dialogs)
             implementation(libs.sqldelight.runtime)
             implementation(libs.kotlinx.coroutines.core)
+            implementation(libs.ktor.client.core)
             api(project(":core"))
             implementation(libs.compose.runtime)
             implementation(libs.compose.foundation)
@@ -109,15 +111,21 @@ kotlin {
         }
         iosMain.dependencies {
             implementation(libs.sqldelight.native)
+            implementation(libs.ktor.client.darwin)
         }
         jvmMain.dependencies {
             implementation(libs.sqldelight.sqlite)
+            implementation(libs.ktor.client.okhttp)
         }
         jvmTest.dependencies {
             implementation(compose.desktop.currentOs)
         }
         jsMain.dependencies {
             implementation(libs.wrappers.browser)
+            implementation(libs.ktor.client.js)
+        }
+        wasmJsMain.dependencies {
+            implementation(libs.ktor.client.js)
         }
     }
 }
