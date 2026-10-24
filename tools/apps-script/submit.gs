@@ -1,5 +1,5 @@
 // the app posts a pack here, the script keeps it on drive and mails the owner
-// a pull request is opened only from the review page; needs script property GITHUB_TOKEN
+// a pull request is opened only from the review page; needs script properties NOTIFY_EMAIL and GITHUB_TOKEN
 
 const REPO = 'Restor-0o0/GameReel';
 const BASE = 'main';
@@ -34,6 +34,11 @@ function doGet(e) {
   page.key = e.parameter.key;
   page.info = describe(readSubmission(id));
   return page.evaluate().setTitle('GameReel submission');
+}
+
+// run once from the editor to grant drive and mail access
+function authorize() {
+  console.log(folder().getName(), MailApp.getRemainingDailyQuota(), notifyEmail());
 }
 
 function reply(body) {
@@ -167,19 +172,26 @@ function reviewKey() {
   return key;
 }
 
+function notifyEmail() {
+  const email = PropertiesService.getScriptProperties().getProperty('NOTIFY_EMAIL');
+  if (!email) throw new Error('submissions are not configured');
+  return email;
+}
+
 function folder() {
   const found = DriveApp.getFoldersByName(FOLDER);
   return found.hasNext() ? found.next() : DriveApp.createFolder(FOLDER);
 }
 
 function store(pack, text, note) {
+  const to = notifyEmail();
   const file = folder().createFile(pack.library.id + '.json', text, 'application/json');
   file.setDescription(JSON.stringify({ note: note }));
   const info = describe({ pack: pack, note: note });
   const link = ScriptApp.getService().getUrl() + '?review=' + file.getId() + '&key=' + reviewKey();
   const html = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   MailApp.sendEmail({
-    to: Session.getEffectiveUser().getEmail(),
+    to: to,
     subject: 'GameReel: new pack "' + pack.library.name.slice(0, 80) + '"',
     htmlBody: '<pre>' + html(info) + '</pre><p><a href="' + link + '">Review and publish</a> · ' +
       '<a href="' + file.getUrl() + '">File on Drive</a></p>',
