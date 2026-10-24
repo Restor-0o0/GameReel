@@ -16,7 +16,8 @@ with zipfile.ZipFile(args.artifact) as archive:
     art = [
         name for name in names
         if "/files/art/" in f"/{name}"
-        or ("/files/" in f"/{name}" and name.lower().endswith(image_extensions))
+        or ("/files/" in f"/{name}" and "/files/tag_icons/" not in f"/{name}"
+            and name.lower().endswith(image_extensions))
     ]
     if art:
         errors.append(f"Contains {len(art)} store artwork files")

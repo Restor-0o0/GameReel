@@ -14,7 +14,7 @@
 ## Лист 001
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. free-to-play (business model)
 2. in-app purchases (business model)
@@ -37,7 +37,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 002
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. survival (core gameplay)
 2. action combat (core gameplay)
@@ -60,7 +60,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 003
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. horror threat (pressure or challenge)
 2. arcade (genre tag)
@@ -83,7 +83,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 004
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. atmospheric (mood and theme)
 2. physics manipulation (player interaction)
@@ -106,7 +106,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 005
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. driving (core gameplay)
 2. 2d (visual style)
@@ -129,7 +129,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 006
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. branching narrative (game structure)
 2. destructible objects (player interaction)
@@ -152,7 +152,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 007
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. arcade action (core gameplay)
 2. high difficulty (pressure or challenge)
@@ -175,7 +175,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 008
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. meaningful choices (secondary mechanic)
 2. real-time strategy (core gameplay)
@@ -198,7 +198,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 009
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. empire progression (progression)
 2. dungeon crawling (core gameplay)
@@ -221,7 +221,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 010
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. grand strategy (core gameplay)
 2. role playing (genre tag)
@@ -244,7 +244,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 011
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. pirates (setting)
 2. collection progression (progression)
@@ -267,7 +267,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 012
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. board-game rules (core gameplay)
 2. cozy (mood and theme)
@@ -290,7 +290,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 013
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. fishing (core gameplay)
 2. hand-drawn (visual style)
@@ -313,7 +313,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 014
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. order fulfillment (secondary mechanic)
 2. puzzle platforming (core gameplay)
@@ -336,7 +336,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 015
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. strategy rpg (genre tag)
 2. tactical rpg (genre tag)
@@ -359,7 +359,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 016
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. gambling (genre tag)
 2. lgbtq+ (genre tag)
@@ -382,7 +382,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 017
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. permadeath (pressure or challenge)
 2. point & click (genre tag)
@@ -405,7 +405,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 018
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. run deck growth (progression)
 2. space sim (genre tag)
@@ -428,7 +428,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 019
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. level creation (secondary mechanic)
 2. mechs (genre tag)
@@ -451,7 +451,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 020
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. trains (genre tag)
 2. trivia (genre tag)
@@ -474,7 +474,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 021
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. real-time with pause (genre tag)
 2. sailing (genre tag)
@@ -497,7 +497,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 022
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. steampunk (setting)
 2. team composition progression (progression)
@@ -520,7 +520,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 023
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. horses (genre tag)
 2. incremental growth (progression)
@@ -543,7 +543,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 024
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. conspiracy (genre tag)
 2. conversation (genre tag)
@@ -566,7 +566,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 025
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. offroad (genre tag)
 2. psychedelic (visual style)
@@ -589,7 +589,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 026
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. 1990s (genre tag)
 2. abandoned factory (setting)
@@ -612,7 +612,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 027
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. countryside (setting)
 2. dialogue interaction (secondary mechanic)
@@ -635,7 +635,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 028
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. generation ship (setting)
 2. gliding (player interaction)
@@ -658,7 +658,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 029
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. monochrome (visual style)
 2. motocross (genre tag)
@@ -681,7 +681,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 030
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. simulation world (setting)
 2. skateboarding (genre tag)
@@ -704,7 +704,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 031
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. villain protagonist (genre tag)
 2. worker assignment (secondary mechanic)
@@ -727,7 +727,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 032
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. absurd comedy (mood and theme)
 2. achievement-based unlocks (progression)
@@ -750,7 +750,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 033
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. ancient (world and era)
 2. ancient egypt (setting)
@@ -773,7 +773,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 034
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. arctic outpost (location)
 2. arena combat (core gameplay)
@@ -796,7 +796,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 035
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. automation programming (core gameplay)
 2. automation scaling (progression)
@@ -819,7 +819,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 036
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. bird-eye strategy view (camera view)
 2. black-and-white (visual style)
@@ -842,7 +842,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 037
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. boss-rush structure (game structure)
 2. bounties (secondary mechanic)
@@ -865,7 +865,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 038
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. bus depot (location)
 2. button/switch panels (player interaction)
@@ -888,7 +888,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 039
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. cargo logistics (secondary mechanic)
 2. cargo ship (location)
@@ -911,7 +911,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 040
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. characters remember choices (design twist)
 2. checkpoints (game structure)
@@ -934,7 +934,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 041
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. cloud city (location)
 2. co-op missions (game structure)
@@ -957,7 +957,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 042
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. comic halftone (visual style)
 2. coming of age (mood and theme)
@@ -980,7 +980,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 043
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. coral reef (natural environment)
 2. corporate absurdity (mood and theme)
@@ -1003,7 +1003,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 044
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. crafting recipes (secondary mechanic)
 2. crane controls (player interaction)
@@ -1026,7 +1026,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 045
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. cyberpunk city (setting)
 2. daily cycle (game structure)
@@ -1049,7 +1049,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 046
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. death advances the story (design twist)
 2. debt (pressure or challenge)
@@ -1072,7 +1072,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 047
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. dense urban (natural environment)
 2. derelict spaceship (location)
@@ -1095,7 +1095,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 048
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. dirty utilitarian (visual style)
 2. disassembly (player interaction)
@@ -1118,7 +1118,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 049
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. dream hotel (location)
 2. dream reality (world and era)
@@ -1141,7 +1141,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 050
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. endless train (setting)
 2. enemies are also useful resources (design twist)
@@ -1164,7 +1164,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 051
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. every tool is also a weapon (design twist)
 2. every upgrade has a price (design twist)
@@ -1187,7 +1187,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 052
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. factory is also the labyrinth (design twist)
 2. factory line design (core gameplay)
@@ -1210,7 +1210,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 053
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. final objective is simply getting home (design twist)
 2. fire propagation (secondary mechanic)
@@ -1233,7 +1233,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 054
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. floor-by-floor descent (game structure)
 2. fluid pumping (player interaction)
@@ -1256,7 +1256,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 055
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. found family (mood and theme)
 2. foundry (location)
@@ -1279,7 +1279,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 056
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. game deliberately breaks its own interface (design twist)
 2. game development (genre tag)
@@ -1302,7 +1302,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 057
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. giant vehicle (location)
 2. giant world (world and era)
@@ -1325,7 +1325,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 058
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. hand-painted world (visual style)
 2. harbor (location)
@@ -1348,7 +1348,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 059
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. highway interchange (location)
 2. highway rest stop (location)
@@ -1371,7 +1371,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 060
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. ice reclaiming city (natural environment)
 2. icebreaker (location)
@@ -1394,7 +1394,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 061
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. interstellar colony (setting)
 2. interstellar empire (world and era)
@@ -1417,7 +1417,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 062
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. journey across map (game structure)
 2. jungle (natural environment)
@@ -1440,7 +1440,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 063
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. library (location)
 2. light grants safety but attracts enemies (design twist)
@@ -1463,7 +1463,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 064
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. lock-on melee (player interaction)
 2. log pushing (player interaction)
@@ -1486,7 +1486,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 065
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. machine operation (core gameplay)
 2. magic academy (location)
@@ -1509,7 +1509,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 066
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. map changes because of player systems (design twist)
 2. map drawing (secondary mechanic)
@@ -1532,7 +1532,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 067
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. meta unlocks (secondary mechanic)
 2. metro tunnels (location)
@@ -1555,7 +1555,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 068
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. momentum traversal (player interaction)
 2. monastery (location)
@@ -1578,7 +1578,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 069
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. mountains (natural environment)
 2. moving caravan (location)
@@ -1601,7 +1601,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 070
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. negotiation (core gameplay)
 2. neon (visual style)
@@ -1624,7 +1624,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 071
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. nomadic world (world and era)
 2. norse afterlife (setting)
@@ -1647,7 +1647,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 072
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. oil rig (location)
 2. old manor (location)
@@ -1670,7 +1670,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 073
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. optional content expansions (business model)
 2. optional cosmetic purchases (business model)
@@ -1693,7 +1693,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 074
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. painting (core gameplay)
 2. painting surfaces (player interaction)
@@ -1716,7 +1716,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 075
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. permadeath mode (secondary mechanic)
 2. permanent night (natural environment)
@@ -1739,7 +1739,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 076
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. pirate age (world and era)
 2. pixelated 3d (visual style)
@@ -1762,7 +1762,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 077
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. player works for an organization they never see (design twist)
 2. players can intentionally cause disasters for profit (design twist)
@@ -1785,7 +1785,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 078
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. post-collapse civilization (setting)
 2. post-disaster landscape (natural environment)
@@ -1808,7 +1808,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 079
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. previous failed runs leave physical traces (design twist)
 2. prison (location)
@@ -1831,7 +1831,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 080
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. pursuer pressure (pressure or challenge)
 2. pursuit (pressure or challenge)
@@ -1854,7 +1854,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 081
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. ranch (location)
 2. random events (secondary mechanic)
@@ -1877,7 +1877,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 082
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. repair minigames (secondary mechanic)
 2. repairing (core gameplay)
@@ -1900,7 +1900,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 083
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. resources are other machines/components (design twist)
 2. restaurant (location)
@@ -1923,7 +1923,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 084
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. rhythm minigames (secondary mechanic)
 2. rhythm play (core gameplay)
@@ -1946,7 +1946,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 085
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. roles are defined only by equipment (design twist)
 2. rooftop district (location)
@@ -1969,7 +1969,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 086
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. sailing controls (player interaction)
 2. salt flats (natural environment)
@@ -1992,7 +1992,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 087
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. school drama (mood and theme)
 2. school life (setting)
@@ -2015,7 +2015,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 088
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. secondary exits can emerge far from the vehicle (design twist)
 2. secret government facility (setting)
@@ -2038,7 +2038,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 089
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. shop remains open during disasters (design twist)
 2. shopkeeping (core gameplay)
@@ -2061,7 +2061,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 090
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. skiing (core gameplay)
 2. skiing/skating (player interaction)
@@ -2084,7 +2084,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 091
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. social-deduction multiplayer (player mode)
 2. soft cozy lighting (visual style)
@@ -2107,7 +2107,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 092
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. spell crafting (core gameplay)
 2. split perspective (camera view)
@@ -2130,7 +2130,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 093
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. storm drains (location)
 2. storm zone (natural environment)
@@ -2153,7 +2153,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 094
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. survival horror (mood and theme)
 2. suspense (mood and theme)
@@ -2176,7 +2176,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 095
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. temperature system (secondary mechanic)
 2. temple (location)
@@ -2199,7 +2199,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 096
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. thieving (core gameplay)
 2. throwing objects (player interaction)
@@ -2222,7 +2222,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 097
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. traditional roguelike (genre tag)
 2. traffic congestion (pressure or challenge)
@@ -2245,7 +2245,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 098
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. tropical coast (natural environment)
 2. tundra (natural environment)
@@ -2268,7 +2268,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 099
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. underwater base (location)
 2. underwater city (location)
@@ -2291,7 +2291,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 100
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. vehicle chase camera (camera view)
 2. vehicle cockpit (camera view)
@@ -2314,7 +2314,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 101
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. visibility/detection pressure (pressure or challenge)
 2. visibility system (secondary mechanic)
@@ -2337,7 +2337,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 102
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. water simulation (secondary mechanic)
 2. water treatment plant (location)
@@ -2360,7 +2360,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 103
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. wetlands (natural environment)
 2. whole campaign happens in one evolving location (design twist)
@@ -2383,7 +2383,7 @@ Each icon is a metaphor for a video game design tag. Icons in reading order (lef
 ## Лист 104
 
 ```
-Square image, a strict 4x4 grid of 16 separate game-UI icons on a plain pure white background. Every icon sits centered in its own equal cell with generous white space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid. Only the first 6 cells contain icons; leave the remaining cells empty white.
+Square image, a strict 4x4 grid of 16 separate game-UI icons on a genuinely transparent background. Every icon sits centered in its own equal cell with generous transparent space between cells; nothing crosses cell borders. Each icon is a rounded-square app-style tile with a soft dark-teal gradient background and one bold, simple, instantly readable symbol in warm light colors (cream, amber, coral) with subtle shading. Same style, size and lighting for all 16 tiles. Keep the rounded-square tiles fully opaque. No text, no letters, no numbers, no captions, no grid lines, no frames around the grid, no white background. Only the first 6 cells contain icons; leave the remaining cells fully transparent.
 Each icon is a metaphor for a video game design tag. Icons in reading order (left to right, top to bottom):
 1. world reacts to noise physically (design twist)
 2. world restoration (progression)

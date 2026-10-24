@@ -7,7 +7,9 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.restor.gamereel.model.*
 import com.restor.gamereel.ui.components.StudioCard
 import com.restor.gamereel.ui.presentation.*
@@ -25,12 +27,14 @@ internal fun GameResult(game: GameReference, onClick: () -> Unit) {
             Modifier.padding(16.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            Text(
-                game.tags.firstOrNull()?.displayIcon ?: "🎮",
-                style = MaterialTheme.typography.headlineSmall,
-                modifier = Modifier.padding(end = 12.dp)
-                    .background(MaterialTheme.colorScheme.surfaceVariant, RoundedCornerShape(12.dp))
-                    .padding(12.dp),
+            TagArt(
+                game.tags.firstOrNull(),
+                "🎮",
+                24.sp,
+                Modifier.padding(end = 12.dp)
+                    .size(56.dp)
+                    .clip(RoundedCornerShape(12.dp))
+                    .background(MaterialTheme.colorScheme.surfaceVariant),
             )
 
             Column(Modifier.weight(1f)) {

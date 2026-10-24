@@ -76,6 +76,15 @@ internal fun artPath(game: GameReference): String? =
         else -> null
     }
 
+private val iconSlug = Regex("[^a-z0-9]+")
+
+// keep in sync with slug in tools/tag_icons.py
+internal fun iconPath(tag: Tag): String? {
+    if (tag.slot != null || tag.icon.isNotBlank()) return null
+    val key = tag.name.lowercase().replace(iconSlug, "_").trim('_')
+    return if (key in drawnTagIcons) "files/tag_icons/$key.webp" else null
+}
+
 private object ArtCache {
     // Cache access stays on the UI coroutine; only reading/decoding runs on the worker.
     private val bitmaps = LinkedHashMap<String, ImageBitmap?>()
@@ -100,7 +109,7 @@ private object ArtCache {
 
         // Also remember missing files, rather than retrying them on every appearance.
         bitmaps[path] = bitmap
-        if (bitmaps.size > 96) bitmaps.remove(bitmaps.keys.first())
+        if (bitmaps.size > 160) bitmaps.remove(bitmaps.keys.first())
         bitmap
     }
 }
@@ -130,7 +139,12 @@ fun TagArt(tag: Tag?, fallback: String, fontSize: TextUnit, modifier: Modifier =
 @Composable
 internal fun rememberTagBitmap(tag: Tag?): ImageBitmap? {
     val art = rememberArt(tag)
-    val path = art?.path
+    val icon = remember(tag) { tag?.let(::iconPath) }
+    return rememberBitmap(art?.path ?: icon)
+}
+
+@Composable
+internal fun rememberBitmap(path: String?): ImageBitmap? {
     val bitmap by
         produceState(path?.let { ArtCache[it] }, path) {
             value = path?.let { ArtCache[it] }
