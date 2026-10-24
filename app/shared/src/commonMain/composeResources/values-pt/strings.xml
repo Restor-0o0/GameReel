@@ -35,6 +35,7 @@
     <string name="checked_option">✓ %1$s</string>
     <string name="add_reel">Adicionar rolo</string>
     <string name="pick_value_title">Escolher: %1$s</string>
+    <string name="pick_value_search">Buscar valor</string>
     <string name="category_core">Núcleo</string>
     <string name="category_secondary_mechanic">Mecânica extra</string>
     <string name="category_structure">Estrutura</string>
@@ -99,7 +100,7 @@
     <string name="unfreeze_action">Descongelar</string>
     <string name="lever_description">Alavanca: girar os rolos</string>
     <string name="reels_spinning">Os rolos estão girando…</string>
-    <string name="freeze_hint">Toque em um rolo para congelar o resultado</string>
+    <string name="freeze_hint">Toque em um rolo para congelar, segure para escolher o valor</string>
     <string name="ideas_label">IDEIAS SALVAS</string>
     <string name="ideas_empty">Salve no gerador uma combinação que você curtiu e ela aparecerá aqui.</string>
     <string name="ideas_go_generator">Abrir gerador</string>

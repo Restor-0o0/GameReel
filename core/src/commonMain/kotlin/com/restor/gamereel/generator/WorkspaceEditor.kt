@@ -539,9 +539,10 @@ class WorkspaceEditor(
         )
 
         val reels = workspace.reels.map {
+            val state = if (it.state == ReelState.RANDOM) ReelState.FROZEN else it.state
             if (it.id != id) it
-            else if (it.slot != null) it.copy(tag = tag)
-            else it.copy(category = tag.category, tag = tag)
+            else if (it.slot != null) it.copy(tag = tag, state = state)
+            else it.copy(category = tag.category, tag = tag, state = state)
         }
         val dependents = engine.dependentsOf(reels, id)
         if (dependents.isEmpty()) return workspace.copy(reels = reels)

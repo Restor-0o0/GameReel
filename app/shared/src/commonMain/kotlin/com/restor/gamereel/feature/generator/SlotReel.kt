@@ -2,7 +2,8 @@ package com.restor.gamereel.feature.generator
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
@@ -22,6 +23,7 @@ import com.restor.gamereel.ui.presentation.*
 import gamereel.app.shared.generated.resources.*
 import org.jetbrains.compose.resources.stringResource
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 internal fun SlotReel(
     reel: Reel,
@@ -29,11 +31,14 @@ internal fun SlotReel(
     slotHeight: Dp,
     large: Boolean,
     onFreeze: (String) -> Unit,
+    onPick: (Reel) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val gold = MaterialTheme.colorScheme.primary
     val freezeLabel = stringResource(Res.string.freeze_action)
     val unfreezeLabel = stringResource(Res.string.unfreeze_action)
+    val pickLabel = stringResource(Res.string.choose_value)
+    val canFreeze = reel.tag != null && reel.state != ReelState.PINNED
 
     Column(
         modifier,
@@ -49,13 +54,15 @@ internal fun SlotReel(
                     if (reel.state == ReelState.RANDOM) MaterialTheme.colorScheme.outline else gold,
                     RoundedCornerShape(15.dp),
                 )
-                .clickable(
-                    enabled = reel.tag != null && reel.state != ReelState.PINNED,
+                .combinedClickable(
+                    enabled = !motion.running,
                     role = Role.Button,
                     onClickLabel =
                         if (reel.state == ReelState.FROZEN) unfreezeLabel else freezeLabel,
+                    onLongClickLabel = pickLabel,
+                    onLongClick = { onPick(reel) },
                 ) {
-                    onFreeze(reel.id)
+                    if (canFreeze) onFreeze(reel.id)
                 }
         ) {
             RollingValue(

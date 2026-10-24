@@ -23,6 +23,7 @@ fun SlotMachine(
     canSpin: Boolean,
     onSpin: () -> Unit,
     onFreeze: (String) -> Unit,
+    onPick: (Reel) -> Unit,
     onAdd: () -> Unit,
     onUnfreezeAll: () -> Unit,
     onReset: () -> Unit,
@@ -48,7 +49,7 @@ fun SlotMachine(
         )
 
         Row(verticalAlignment = Alignment.CenterVertically) {
-            SlotReelGrid(reels, motion, onFreeze, Modifier.weight(1f))
+            SlotReelGrid(reels, motion, onFreeze, onPick, Modifier.weight(1f))
 
             SlotLever(motion, unlocked && canSpin, onSpin)
         }

@@ -35,6 +35,7 @@
     <string name="checked_option">✓ %1$s</string>
     <string name="add_reel">Додати барабан</string>
     <string name="pick_value_title">Вибрати: %1$s</string>
+    <string name="pick_value_search">Пошук значення</string>
     <string name="category_core">Основа</string>
     <string name="category_secondary_mechanic">Додаткова механіка</string>
     <string name="category_structure">Структура</string>
@@ -99,7 +100,7 @@
     <string name="unfreeze_action">Розморозити</string>
     <string name="lever_description">Важіль: крутити барабани</string>
     <string name="reels_spinning">Барабани крутяться…</string>
-    <string name="freeze_hint">Торкніться барабана, щоб заморозити його результат</string>
+    <string name="freeze_hint">Торкніться барабана, щоб заморозити, утримуйте, щоб вибрати значення</string>
     <string name="ideas_label">ЗБЕРЕЖЕНІ ІДЕЇ</string>
     <string name="ideas_empty">Збережіть у генераторі комбінацію, що сподобалася, і вона з’явиться тут.</string>
     <string name="ideas_go_generator">Відкрити генератор</string>

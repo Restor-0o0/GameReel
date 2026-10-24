@@ -334,33 +334,10 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
                     .filter { parentTag == null || it.requires.isEmpty() || parentTag.id in it.requires }
                     .distinctBy { it.name.lowercase() }
             }
-        AlertDialog(
-            onDismissRequest = { selecting = null },
-            title = {
-                Text(
-                    stringResource(Res.string.pick_value_title, reel.title())
-                )
-            },
-            text = {
-                LazyColumn {
-                    items(options, key = { it.id }) { tag ->
-                        TextButton(
-                            onClick = {
-                                model.selectTag(reel.id, tag)
-                                selecting = null
-                            }
-                        ) {
-                            Text(tag.label())
-                        }
-                    }
-                }
-            },
-            confirmButton = {
-                TextButton(onClick = { selecting = null }) {
-                    Text(stringResource(Res.string.close))
-                }
-            },
-        )
+        TagPickerDialog(reel, options, { tag ->
+            model.selectTag(reel.id, tag)
+            selecting = null
+        }) { selecting = null }
     }
 }
 

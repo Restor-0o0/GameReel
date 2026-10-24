@@ -35,6 +35,7 @@
     <string name="checked_option">✓ %1$s</string>
     <string name="add_reel">Ajouter un rouleau</string>
     <string name="pick_value_title">Choisir : %1$s</string>
+    <string name="pick_value_search">Rechercher une valeur</string>
     <string name="category_core">Base</string>
     <string name="category_secondary_mechanic">Mécanique secondaire</string>
     <string name="category_structure">Structure</string>
@@ -99,7 +100,7 @@
     <string name="unfreeze_action">Débloquer</string>
     <string name="lever_description">Levier : lancer les rouleaux</string>
     <string name="reels_spinning">Les rouleaux tournent…</string>
-    <string name="freeze_hint">Touchez un rouleau pour bloquer son résultat</string>
+    <string name="freeze_hint">Touchez un rouleau pour le bloquer, maintenez pour choisir sa valeur</string>
     <string name="ideas_label">IDÉES ENREGISTRÉES</string>
     <string name="ideas_empty">Enregistrez une combinaison qui vous plaît dans le générateur pour la retrouver ici.</string>
     <string name="ideas_go_generator">Ouvrir le générateur</string>

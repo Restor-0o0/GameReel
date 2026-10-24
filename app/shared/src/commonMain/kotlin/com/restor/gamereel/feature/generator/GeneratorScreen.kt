@@ -210,6 +210,7 @@ internal fun GeneratorContent(
                                 canSpin = !filterSourcesUnavailable,
                                 onSpin = spinNow,
                                 onFreeze = actions.freeze,
+                                onPick = onSelect,
                                 onAdd = onAdd,
                                 onUnfreezeAll = actions.unlockFrozen,
                                 onReset = { confirmingReset = true },

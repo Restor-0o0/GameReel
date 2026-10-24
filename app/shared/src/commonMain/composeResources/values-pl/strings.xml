@@ -35,6 +35,7 @@
     <string name="checked_option">✓ %1$s</string>
     <string name="add_reel">Dodaj bęben</string>
     <string name="pick_value_title">Wybierz: %1$s</string>
+    <string name="pick_value_search">Szukaj wartości</string>
     <string name="category_core">Rdzeń</string>
     <string name="category_secondary_mechanic">Dodatkowa mechanika</string>
     <string name="category_structure">Struktura</string>
@@ -99,7 +100,7 @@
     <string name="unfreeze_action">Odmroź</string>
     <string name="lever_description">Dźwignia: zakręć bębnami</string>
     <string name="reels_spinning">Bębny się kręcą…</string>
-    <string name="freeze_hint">Dotknij bębna, aby zamrozić jego wynik</string>
+    <string name="freeze_hint">Dotknij bębna, aby go zamrozić, przytrzymaj, aby wybrać wartość</string>
     <string name="ideas_label">ZAPISANE POMYSŁY</string>
     <string name="ideas_empty">Zapisz w generatorze kombinację, która ci się podoba, a pojawi się tutaj.</string>
     <string name="ideas_go_generator">Otwórz generator</string>

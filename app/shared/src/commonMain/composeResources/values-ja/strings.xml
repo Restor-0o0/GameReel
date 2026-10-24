@@ -35,6 +35,7 @@
     <string name="checked_option">✓ %1$s</string>
     <string name="add_reel">リールを追加</string>
     <string name="pick_value_title">選択: %1$s</string>
+    <string name="pick_value_search">値を検索</string>
     <string name="category_core">コア</string>
     <string name="category_secondary_mechanic">サブメカニクス</string>
     <string name="category_structure">構成</string>
@@ -99,7 +100,7 @@
     <string name="unfreeze_action">解凍</string>
     <string name="lever_description">レバー：リールを回す</string>
     <string name="reels_spinning">リールが回転中…</string>
-    <string name="freeze_hint">リールをタップすると結果を凍結できます</string>
+    <string name="freeze_hint">タップで凍結、長押しで値を選択</string>
     <string name="ideas_label">保存したアイデア</string>
     <string name="ideas_empty">ジェネレーターで気に入った組み合わせを保存すると、ここに表示されます。</string>
     <string name="ideas_go_generator">ジェネレーターを開く</string>

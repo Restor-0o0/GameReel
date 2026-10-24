@@ -15,6 +15,7 @@ internal fun SlotReelGrid(
     reels: List<Reel>,
     motion: SpinMotion,
     onFreeze: (String) -> Unit,
+    onPick: (Reel) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     BoxWithConstraints(modifier) {
@@ -37,6 +38,7 @@ internal fun SlotReelGrid(
                                 slotHeight,
                                 large,
                                 onFreeze,
+                                onPick,
                                 Modifier.weight(1f),
                             )
                         }

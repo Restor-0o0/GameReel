@@ -35,6 +35,7 @@
     <string name="checked_option">✓ %1$s</string>
     <string name="add_reel">Añadir rodillo</string>
     <string name="pick_value_title">Elegir: %1$s</string>
+    <string name="pick_value_search">Buscar valor</string>
     <string name="category_core">Núcleo</string>
     <string name="category_secondary_mechanic">Mecánica adicional</string>
     <string name="category_structure">Estructura</string>
@@ -99,7 +100,7 @@
     <string name="unfreeze_action">Desbloquear</string>
     <string name="lever_description">Palanca: girar los rodillos</string>
     <string name="reels_spinning">Los rodillos están girando…</string>
-    <string name="freeze_hint">Toca un rodillo para bloquear su resultado</string>
+    <string name="freeze_hint">Toca un rodillo para bloquearlo, mantén pulsado para elegir su valor</string>
     <string name="ideas_label">IDEAS GUARDADAS</string>
     <string name="ideas_empty">Guarda una combinación que te guste en el generador y aparecerá aquí.</string>
     <string name="ideas_go_generator">Abrir generador</string>

@@ -45,6 +45,7 @@ class PackSlotsTest {
         val other = heroes.first { it != heroReel.tag }
         val changed = editor.selectTag(installed, heroReel.id, other)
         assertEquals(other.id, changed.reels.single { it.slot == hero }.tag!!.id)
+        assertEquals(ReelState.FROZEN, changed.reels.single { it.slot == hero }.state)
         assertTrue(other.id in changed.reels.single { it.slot == talent }.tag!!.requires)
         assertEquals(start.reels.map { it.category }, editor.undo(installed).reels.map { it.category })
     }
