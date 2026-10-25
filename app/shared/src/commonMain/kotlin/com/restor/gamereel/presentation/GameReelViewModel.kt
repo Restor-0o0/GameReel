@@ -407,6 +407,8 @@ class GameReelViewModel(
 
     fun remove(id: String) = update { editor.remove(it, id) }
 
+    fun moveReel(id: String, offset: Int) = update { editor.moveReel(it, id, offset) }
+
     fun freeze(id: String) = update { editor.freeze(it, id) }
 
     fun pin(id: String) = update { editor.pin(it, id) }

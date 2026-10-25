@@ -92,6 +92,8 @@
     <string name="pin_tag">+ 固定</string>
     <string name="choose_value">选择值</string>
     <string name="remove_reel">移除转轮</string>
+    <string name="move_reel_earlier">前移</string>
+    <string name="move_reel_later">后移</string>
     <string name="saved_library_source">来自已保存的资料库</string>
     <string name="no_result">无结果</string>
     <string name="no_matching_tags">没有匹配的标签</string>
@@ -100,7 +102,7 @@
     <string name="unfreeze_action">解冻</string>
     <string name="lever_description">拉杆：转动转轮</string>
     <string name="reels_spinning">转轮正在转动…</string>
-    <string name="freeze_hint">点按转轮可冻结，长按可选择取值</string>
+    <string name="freeze_hint">点按转轮可冻结，长按可选择、移动或移除</string>
     <string name="ideas_label">已保存的创意</string>
     <string name="ideas_empty">在生成器中保存喜欢的组合，它就会出现在这里。</string>
     <string name="ideas_go_generator">打开生成器</string>

@@ -92,6 +92,8 @@
     <string name="pin_tag">+ Pin</string>
     <string name="choose_value">Выбрать значение</string>
     <string name="remove_reel">Удалить барабан</string>
+    <string name="move_reel_earlier">Переместить раньше</string>
+    <string name="move_reel_later">Переместить позже</string>
     <string name="saved_library_source">из сохранённой библиотеки</string>
     <string name="no_result">нет результата</string>
     <string name="no_matching_tags">Нет подходящих тегов</string>
@@ -100,7 +102,7 @@
     <string name="unfreeze_action">Разморозить</string>
     <string name="lever_description">Рычаг: крутить барабаны</string>
     <string name="reels_spinning">Барабаны вращаются…</string>
-    <string name="freeze_hint">Нажми на барабан, чтобы закрепить, удерживай, чтобы выбрать значение</string>
+    <string name="freeze_hint">Нажми на барабан, чтобы закрепить, удерживай, чтобы выбрать, переставить или удалить</string>
     <string name="ideas_label">СОХРАНЁННЫЕ ИДЕИ</string>
     <string name="ideas_empty">Сохрани понравившееся сочетание в генераторе — оно появится здесь.</string>
     <string name="ideas_go_generator">Открыть генератор</string>

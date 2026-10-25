@@ -8,6 +8,8 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
@@ -21,7 +23,18 @@ import gamereel.app.shared.generated.resources.*
 import org.jetbrains.compose.resources.stringResource
 
 @Composable
-internal fun TagPickerDialog(reel: Reel, options: List<Tag>, onPick: (Tag) -> Unit, onDismiss: () -> Unit) {
+internal fun TagPickerDialog(
+    reel: Reel,
+    options: List<Tag>,
+    onPick: (Tag) -> Unit,
+    onMove: (Int) -> Unit,
+    canMoveEarlier: Boolean,
+    canMoveLater: Boolean,
+    onRemove: () -> Unit,
+    onDismiss: () -> Unit,
+) {
+    val earlierLabel = stringResource(Res.string.move_reel_earlier)
+    val laterLabel = stringResource(Res.string.move_reel_later)
     var query by remember { mutableStateOf("") }
     val labels = options.map { it.label() }
     val visible = remember(options, labels, query) {
@@ -39,6 +52,16 @@ internal fun TagPickerDialog(reel: Reel, options: List<Tag>, onPick: (Tag) -> Un
             Column(Modifier.fillMaxSize()) {
                 ScreenHeader(stringResource(Res.string.pick_value_title, reel.title())) {
                     LinkAction(stringResource(Res.string.close), onDismiss)
+                }
+                Row(
+                    Modifier.fillMaxWidth().padding(start = Space.l, end = Space.l, bottom = Space.m),
+                    horizontalArrangement = Arrangement.spacedBy(Space.s),
+                ) {
+                    TertiaryAction("←", { onMove(-1) },
+                        Modifier.width(56.dp).semantics { contentDescription = earlierLabel }, canMoveEarlier)
+                    TertiaryAction("→", { onMove(1) },
+                        Modifier.width(56.dp).semantics { contentDescription = laterLabel }, canMoveLater)
+                    SecondaryAction(stringResource(Res.string.remove_reel), onRemove, Modifier.weight(1f))
                 }
                 OutlinedTextField(
                     query, { query = it.take(80) },

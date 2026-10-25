@@ -15,6 +15,7 @@ internal data class GeneratorActions(
     val freeze: (String) -> Unit,
     val pin: (String) -> Unit,
     val remove: (String) -> Unit,
+    val move: (String, Int) -> Unit,
     val setGeneratorView: (GeneratorView) -> Unit,
     val setSpinButtonPosition: (SpinButtonPosition) -> Unit,
     val savePreset: (String) -> Unit,

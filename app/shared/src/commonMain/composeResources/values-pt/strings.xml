@@ -92,6 +92,8 @@
     <string name="pin_tag">+ Fixar</string>
     <string name="choose_value">Escolher valor</string>
     <string name="remove_reel">Remover rolo</string>
+    <string name="move_reel_earlier">Mover para antes</string>
+    <string name="move_reel_later">Mover para depois</string>
     <string name="saved_library_source">de uma biblioteca salva</string>
     <string name="no_result">sem resultado</string>
     <string name="no_matching_tags">Nenhuma tag correspondente</string>
@@ -100,7 +102,7 @@
     <string name="unfreeze_action">Descongelar</string>
     <string name="lever_description">Alavanca: girar os rolos</string>
     <string name="reels_spinning">Os rolos estão girando…</string>
-    <string name="freeze_hint">Toque em um rolo para congelar, segure para escolher o valor</string>
+    <string name="freeze_hint">Toque em um rolo para congelar, segure para escolher, mover ou remover</string>
     <string name="ideas_label">IDEIAS SALVAS</string>
     <string name="ideas_empty">Salve no gerador uma combinação que você curtiu e ela aparecerá aqui.</string>
     <string name="ideas_go_generator">Abrir gerador</string>

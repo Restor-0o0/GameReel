@@ -92,6 +92,8 @@
     <string name="pin_tag">+ Sematkan</string>
     <string name="choose_value">Pilih nilai</string>
     <string name="remove_reel">Hapus gulungan</string>
+    <string name="move_reel_earlier">Pindah ke depan</string>
+    <string name="move_reel_later">Pindah ke belakang</string>
     <string name="saved_library_source">dari pustaka tersimpan</string>
     <string name="no_result">tidak ada hasil</string>
     <string name="no_matching_tags">Tidak ada tag yang cocok</string>
@@ -100,7 +102,7 @@
     <string name="unfreeze_action">Cairkan</string>
     <string name="lever_description">Tuas: putar gulungan</string>
     <string name="reels_spinning">Gulungan berputar…</string>
-    <string name="freeze_hint">Ketuk gulungan untuk membekukan, tahan untuk memilih nilainya</string>
+    <string name="freeze_hint">Ketuk gulungan untuk membekukan, tahan untuk memilih, memindah, atau menghapus</string>
     <string name="ideas_label">IDE TERSIMPAN</string>
     <string name="ideas_empty">Simpan kombinasi yang kamu suka di generator, lalu akan muncul di sini.</string>
     <string name="ideas_go_generator">Buka generator</string>

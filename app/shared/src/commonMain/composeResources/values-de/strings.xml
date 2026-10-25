@@ -92,6 +92,8 @@
     <string name="pin_tag">+ Anheften</string>
     <string name="choose_value">Wert auswählen</string>
     <string name="remove_reel">Walze entfernen</string>
+    <string name="move_reel_earlier">Nach vorne</string>
+    <string name="move_reel_later">Nach hinten</string>
     <string name="saved_library_source">aus einer gespeicherten Bibliothek</string>
     <string name="no_result">kein Ergebnis</string>
     <string name="no_matching_tags">Keine passenden Tags</string>
@@ -100,7 +102,7 @@
     <string name="unfreeze_action">Entsperren</string>
     <string name="lever_description">Hebel: Walzen drehen</string>
     <string name="reels_spinning">Walzen drehen sich…</string>
-    <string name="freeze_hint">Tippe auf eine Walze zum Sperren, halte sie gedrückt, um den Wert zu wählen</string>
+    <string name="freeze_hint">Tippe auf eine Walze zum Sperren, halte sie gedrückt zum Wählen, Verschieben oder Entfernen</string>
     <string name="ideas_label">GESPEICHERTE IDEEN</string>
     <string name="ideas_empty">Speichere eine Kombination im Generator, die dir gefällt. Sie erscheint dann hier.</string>
     <string name="ideas_go_generator">Generator öffnen</string>

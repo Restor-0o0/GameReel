@@ -475,6 +475,19 @@ class WorkspaceEditor(
         return workspace.copy(reels = workspace.reels.filterNot { reel -> reel.id == id })
     }
 
+    fun moveReel(workspace: Workspace, id: String, offset: Int): Workspace {
+        val reel = workspace.reels.firstOrNull { it.id == id } ?: return workspace
+        val group = workspace.reels.filter { (it.state == ReelState.PINNED) == (reel.state == ReelState.PINNED) }
+        val other = group.getOrNull(group.indexOf(reel) + offset) ?: return workspace
+        return workspace.copy(reels = workspace.reels.map {
+            when (it.id) {
+                reel.id -> other
+                other.id -> reel
+                else -> it
+            }
+        })
+    }
+
     fun freeze(workspace: Workspace, id: String): Workspace {
         return workspace.copy(
             reels =

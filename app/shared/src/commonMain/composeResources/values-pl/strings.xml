@@ -92,6 +92,8 @@
     <string name="pin_tag">+ Przypnij</string>
     <string name="choose_value">Wybierz wartość</string>
     <string name="remove_reel">Usuń bęben</string>
+    <string name="move_reel_earlier">Przesuń wcześniej</string>
+    <string name="move_reel_later">Przesuń później</string>
     <string name="saved_library_source">z zapisanej biblioteki</string>
     <string name="no_result">brak wyniku</string>
     <string name="no_matching_tags">Brak pasujących tagów</string>
@@ -100,7 +102,7 @@
     <string name="unfreeze_action">Odmroź</string>
     <string name="lever_description">Dźwignia: zakręć bębnami</string>
     <string name="reels_spinning">Bębny się kręcą…</string>
-    <string name="freeze_hint">Dotknij bębna, aby go zamrozić, przytrzymaj, aby wybrać wartość</string>
+    <string name="freeze_hint">Dotknij bębna, aby go zamrozić, przytrzymaj, aby wybrać, przesunąć lub usunąć</string>
     <string name="ideas_label">ZAPISANE POMYSŁY</string>
     <string name="ideas_empty">Zapisz w generatorze kombinację, która ci się podoba, a pojawi się tutaj.</string>
     <string name="ideas_go_generator">Otwórz generator</string>

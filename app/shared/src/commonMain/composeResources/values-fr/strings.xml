@@ -92,6 +92,8 @@
     <string name="pin_tag">+ Épingler</string>
     <string name="choose_value">Choisir une valeur</string>
     <string name="remove_reel">Retirer le rouleau</string>
+    <string name="move_reel_earlier">Déplacer avant</string>
+    <string name="move_reel_later">Déplacer après</string>
     <string name="saved_library_source">d’une bibliothèque enregistrée</string>
     <string name="no_result">aucun résultat</string>
     <string name="no_matching_tags">Aucun tag correspondant</string>
@@ -100,7 +102,7 @@
     <string name="unfreeze_action">Débloquer</string>
     <string name="lever_description">Levier : lancer les rouleaux</string>
     <string name="reels_spinning">Les rouleaux tournent…</string>
-    <string name="freeze_hint">Touchez un rouleau pour le bloquer, maintenez pour choisir sa valeur</string>
+    <string name="freeze_hint">Touchez un rouleau pour le bloquer, maintenez pour choisir, déplacer ou retirer</string>
     <string name="ideas_label">IDÉES ENREGISTRÉES</string>
     <string name="ideas_empty">Enregistrez une combinaison qui vous plaît dans le générateur pour la retrouver ici.</string>
     <string name="ideas_go_generator">Ouvrir le générateur</string>

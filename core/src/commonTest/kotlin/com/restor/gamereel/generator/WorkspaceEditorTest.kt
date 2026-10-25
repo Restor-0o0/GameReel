@@ -13,6 +13,20 @@ class WorkspaceEditorTest {
     private val editor = WorkspaceEditor(GeneratorEngine(BuiltinCatalog.tags, random))
 
     @Test
+    fun moveSwapsReelsWithinTheirGroup() {
+        val workspace = Workspace(listOf(
+            Reel("a", Category.CORE),
+            Reel("p", Category.CORE, state = ReelState.PINNED),
+            Reel("b", Category.CORE),
+            Reel("c", Category.CORE),
+        ))
+        assertEquals(listOf("b", "p", "a", "c"), editor.moveReel(workspace, "a", 1).reels.map { it.id })
+        assertEquals(listOf("a", "p", "c", "b"), editor.moveReel(workspace, "c", -1).reels.map { it.id })
+        assertEquals(workspace, editor.moveReel(workspace, "a", -1))
+        assertEquals(workspace, editor.moveReel(workspace, "p", 1))
+    }
+
+    @Test
     fun resetRestoresDefaultsAndCanBeUndoneWithoutLosingIdeasOrPreferences() {
         val pinned = Reel("custom:1", Category.CORE, BuiltinCatalog.tags.first(), ReelState.PINNED)
         val original =

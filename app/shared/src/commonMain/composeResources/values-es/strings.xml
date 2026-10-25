@@ -92,6 +92,8 @@
     <string name="pin_tag">+ Fijar</string>
     <string name="choose_value">Elegir valor</string>
     <string name="remove_reel">Quitar rodillo</string>
+    <string name="move_reel_earlier">Mover antes</string>
+    <string name="move_reel_later">Mover después</string>
     <string name="saved_library_source">de una biblioteca guardada</string>
     <string name="no_result">sin resultado</string>
     <string name="no_matching_tags">No hay etiquetas coincidentes</string>
@@ -100,7 +102,7 @@
     <string name="unfreeze_action">Desbloquear</string>
     <string name="lever_description">Palanca: girar los rodillos</string>
     <string name="reels_spinning">Los rodillos están girando…</string>
-    <string name="freeze_hint">Toca un rodillo para bloquearlo, mantén pulsado para elegir su valor</string>
+    <string name="freeze_hint">Toca un rodillo para bloquearlo, mantén pulsado para elegir, mover o quitar</string>
     <string name="ideas_label">IDEAS GUARDADAS</string>
     <string name="ideas_empty">Guarda una combinación que te guste en el generador y aparecerá aquí.</string>
     <string name="ideas_go_generator">Abrir generador</string>

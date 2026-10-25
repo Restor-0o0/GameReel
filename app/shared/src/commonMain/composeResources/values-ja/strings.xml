@@ -92,6 +92,8 @@
     <string name="pin_tag">+ ピン留め</string>
     <string name="choose_value">値を選択</string>
     <string name="remove_reel">リールを削除</string>
+    <string name="move_reel_earlier">前へ移動</string>
+    <string name="move_reel_later">後ろへ移動</string>
     <string name="saved_library_source">保存済みライブラリから</string>
     <string name="no_result">結果なし</string>
     <string name="no_matching_tags">一致するタグがありません</string>
@@ -100,7 +102,7 @@
     <string name="unfreeze_action">解凍</string>
     <string name="lever_description">レバー：リールを回す</string>
     <string name="reels_spinning">リールが回転中…</string>
-    <string name="freeze_hint">タップで凍結、長押しで値を選択</string>
+    <string name="freeze_hint">タップで凍結、長押しで値の選択・移動・削除</string>
     <string name="ideas_label">保存したアイデア</string>
     <string name="ideas_empty">ジェネレーターで気に入った組み合わせを保存すると、ここに表示されます。</string>
     <string name="ideas_go_generator">ジェネレーターを開く</string>

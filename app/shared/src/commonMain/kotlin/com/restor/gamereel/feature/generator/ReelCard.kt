@@ -173,6 +173,20 @@ internal fun ReelCard(
                         )
 
                         DropdownMenuItem(
+                            text = { Text(stringResource(Res.string.move_reel_earlier)) },
+                            onClick = {
+                                menu = false
+                                actions.move(reel.id, -1)
+                            },
+                        )
+                        DropdownMenuItem(
+                            text = { Text(stringResource(Res.string.move_reel_later)) },
+                            onClick = {
+                                menu = false
+                                actions.move(reel.id, 1)
+                            },
+                        )
+                        DropdownMenuItem(
                             text = { Text(stringResource(Res.string.remove_reel)) },
                             onClick = {
                                 menu = false

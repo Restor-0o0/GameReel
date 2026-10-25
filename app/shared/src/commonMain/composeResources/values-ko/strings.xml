@@ -92,6 +92,8 @@
     <string name="pin_tag">+ 고정</string>
     <string name="choose_value">값 선택</string>
     <string name="remove_reel">릴 삭제</string>
+    <string name="move_reel_earlier">앞으로 이동</string>
+    <string name="move_reel_later">뒤로 이동</string>
     <string name="saved_library_source">저장된 라이브러리에서</string>
     <string name="no_result">결과 없음</string>
     <string name="no_matching_tags">일치하는 태그가 없습니다</string>
@@ -100,7 +102,7 @@
     <string name="unfreeze_action">동결 해제</string>
     <string name="lever_description">레버: 릴 돌리기</string>
     <string name="reels_spinning">릴이 돌아가는 중…</string>
-    <string name="freeze_hint">탭하면 동결, 길게 누르면 값을 선택합니다</string>
+    <string name="freeze_hint">탭하면 동결, 길게 누르면 선택·이동·삭제</string>
     <string name="ideas_label">저장한 아이디어</string>
     <string name="ideas_empty">생성기에서 마음에 드는 조합을 저장하면 여기에 표시됩니다.</string>
     <string name="ideas_go_generator">생성기 열기</string>

@@ -72,6 +72,7 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
                 freeze = model::freeze,
                 pin = model::pin,
                 remove = model::remove,
+                move = model::moveReel,
                 setGeneratorView = model::setGeneratorView,
                 setSpinButtonPosition = model::setSpinButtonPosition,
                 savePreset = model::savePreset,
@@ -334,10 +335,24 @@ internal fun GameReelScreen(state: GameReelState, model: GameReelViewModel) {
                     .filter { parentTag == null || it.requires.isEmpty() || parentTag.id in it.requires }
                     .distinctBy { it.name.lowercase() }
             }
-        TagPickerDialog(reel, options, { tag ->
-            model.selectTag(reel.id, tag)
-            selecting = null
-        }) { selecting = null }
+        val group = state.workspace?.reels.orEmpty()
+            .filter { (it.state == ReelState.PINNED) == (reel.state == ReelState.PINNED) }
+        val position = group.indexOfFirst { it.id == reel.id }
+        TagPickerDialog(
+            reel, options,
+            onPick = { tag ->
+                model.selectTag(reel.id, tag)
+                selecting = null
+            },
+            onMove = { model.moveReel(reel.id, it) },
+            canMoveEarlier = position > 0,
+            canMoveLater = position in 0 until group.lastIndex,
+            onRemove = {
+                model.remove(reel.id)
+                selecting = null
+            },
+            onDismiss = { selecting = null },
+        )
     }
 }
 

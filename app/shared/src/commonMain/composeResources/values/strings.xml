@@ -92,6 +92,8 @@
     <string name="pin_tag">+ Pin</string>
     <string name="choose_value">Choose value</string>
     <string name="remove_reel">Remove reel</string>
+    <string name="move_reel_earlier">Move earlier</string>
+    <string name="move_reel_later">Move later</string>
     <string name="saved_library_source">from a saved library</string>
     <string name="no_result">no result</string>
     <string name="no_matching_tags">No matching tags</string>
@@ -100,7 +102,7 @@
     <string name="unfreeze_action">Unfreeze</string>
     <string name="lever_description">Lever: spin the reels</string>
     <string name="reels_spinning">Reels are spinning…</string>
-    <string name="freeze_hint">Tap a reel to freeze it, hold to choose its value</string>
+    <string name="freeze_hint">Tap a reel to freeze it, hold to pick, move or remove it</string>
     <string name="ideas_label">SAVED IDEAS</string>
     <string name="ideas_empty">Save a combo you like in the generator and it will show up here.</string>
     <string name="ideas_go_generator">Open generator</string>

@@ -92,6 +92,8 @@
     <string name="pin_tag">+ Sabitle</string>
     <string name="choose_value">Değer seç</string>
     <string name="remove_reel">Makarayı kaldır</string>
+    <string name="move_reel_earlier">Öne taşı</string>
+    <string name="move_reel_later">Arkaya taşı</string>
     <string name="saved_library_source">kayıtlı bir kütüphaneden</string>
     <string name="no_result">sonuç yok</string>
     <string name="no_matching_tags">Eşleşen etiket yok</string>
@@ -100,7 +102,7 @@
     <string name="unfreeze_action">Çöz</string>
     <string name="lever_description">Kol: makaraları çevir</string>
     <string name="reels_spinning">Makaralar dönüyor…</string>
-    <string name="freeze_hint">Dondurmak için makaraya dokun, değer seçmek için basılı tut</string>
+    <string name="freeze_hint">Dondurmak için makaraya dokun, seçmek, taşımak veya kaldırmak için basılı tut</string>
     <string name="ideas_label">KAYITLI FİKİRLER</string>
     <string name="ideas_empty">Üreticide beğendiğin bir kombinasyonu kaydet, burada görünsün.</string>
     <string name="ideas_go_generator">Üreticiyi aç</string>
